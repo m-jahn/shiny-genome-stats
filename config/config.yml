@@ -1,0 +1,21 @@
+default:
+  theme:
+    - lattice grey
+    - lattice blue
+    - ggplot1
+    - ggplot2
+
+data:
+  genomes:
+    Cupriavidus necator H16:
+      - 381666
+    Bacillus subtilis 168:
+      - 224308
+    Salmonella typhimurium LT2:
+      - 99287
+    Escherichia coli BL21:
+      - 866768
+    Pseudomonas putida KT2440:
+      - 160488
+    Streptococcus pyogenes serotype M1 GAS:
+      - 301447

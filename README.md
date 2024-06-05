@@ -1,6 +1,10 @@
 # Shiny Genome Stats
 
-R Shiny app to show basic statistics and features of microbial genomes
+R Shiny app to show basic statistics and features of microbial genomes.
+
+**Available on [Shinyapps.io](https://m-jahn.shinyapps.io/shiny-genome-stats/)!**
+
+<img src="example.png" width="800px" style="display: block; margin: auto;" />
 
 ### Getting started
 
@@ -19,13 +23,22 @@ If you want to *run ShinyLib locally*, you need to have R (optionally also Rstud
 - `shinyTree`
 - `configr`
 - `stringr`
+- `colorspace`
 
 Open `global.R`, `server.R` or `ui.R` in RStudio and push the `Run App` button in Rstudio, done!
 You can also run the app from R console, just call `runApp("path-to-ShinyApp")`.
 
 ### Input data
 
-- to be added
+`shiny-genome-stats` retrieves data dynamically from [uniprot.org](https://www.uniprot.org).
+In order to speed things up, the app comes with currently six microbial proteomes pre-downloaded.
+
+- *Cupriavidus necator H16*, taxonomy ID `381666`
+- *Bacillus subtilis 168*, taxonomy ID `224308`
+- *Salmonella typhimurium LT2*, taxonomy ID `99287`
+- *Escherichia coli BL21*, taxonomy ID `866768`
+- *Pseudomonas putida KT2440*, taxonomy ID `160488`
+- *Streptococcus pyogenes serotype M1 GAS*, taxonomy ID `301447`
 
 ### Structure
 

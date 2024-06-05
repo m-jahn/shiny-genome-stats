@@ -15,7 +15,6 @@ library(shinyTree)
 library(configr)
 library(stringr)
 library(colorspace)
-library(WeightedTreemaps)
 
 
 # LOADING EXTERNAL FUNCTIONS AND DATA

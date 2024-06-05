@@ -1,9 +1,12 @@
-default:
+plot:
   theme:
-    - lattice grey
-    - lattice blue
-    - ggplot1
-    - ggplot2
+    - custom
+    - ggplot default
+    - ggplot dark
+    - ggplot light
+    - ggplot bw
+  grouping:
+    - organism
 
 data:
   genomes:

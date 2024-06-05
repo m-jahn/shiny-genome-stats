@@ -45,9 +45,78 @@ ui <- navbarPage(
         # SELECT PLOT OPTIONS
         # -------------------
         hr(),
-        h4("PLOT OPTIONS")
+        h4("PLOT OPTIONS"),
+        fluidRow(
+          column(
+            width = 4,
+            uiOutput("UserTheme")
+          ),
+          column(
+            width = 4,
+            selectInput(
+              "UserColorPalette",
+              "Palette",
+              choices = c("ggplot", "rainbow", "hawaii", "sunset", "batlow", "terrain",
+                          "dark_mint", "viridis", "plasma", "purple_yellow", "yellow_green",
+                          "yellow_red", "pink_yellow"
+              ),
+              selected = "hawaii"
+            )
+          ),
+          column(
+            width = 4,
+            uiOutput("UserGrouping")
+          )
+        ),
+        fluidRow(
+          column(
+            width = 6,
+            sliderInput(
+              "UserResolution",
+              "Resolution",
+              min = 80,
+              max = 150,
+              value = 90,
+              step = 10
+            )
+          )
+        ),
+
+        # SUMMARY TABLE
+        # -------------------
+        hr(),
+        h4("SUMMARY TABLE"),
+        DTOutput("genomeSummary"),
+        #fluidRow()
       ),
-      mainPanel(DTOutput("genomeSummary"))
+
+      # MAIN PLOT AREA
+      mainPanel(
+        column(
+          width = 12,
+          wellPanel(
+            h4("ANNOTATED PROTEINS"),
+            uiOutput("categories.ui")
+          ),
+          wellPanel(
+            fluidRow(
+              column(
+                width = 6,
+                h4("LOCALIZATION"),
+                uiOutput("localization.ui")
+              ),
+              column(
+                width = 6,
+                h4("LENGTH (AA)"),
+                uiOutput("protein_length.ui")
+              )
+            )
+          ),
+          wellPanel(
+            h4("PATHWAYS")
+          )
+        )
+      )
     )
   ),
 

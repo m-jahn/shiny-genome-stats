@@ -87,6 +87,13 @@ ui <- navbarPage(
         hr(),
         h4("SUMMARY TABLE"),
         DTOutput("genomeSummary"),
+
+        # HELP BOX
+        # -------------------
+        hr(),
+        fluidRow(
+          helpbox(width = 12)
+        )
       ),
 
       # MAIN PLOT AREA
@@ -130,10 +137,12 @@ ui <- navbarPage(
     "About",
 
     # help and info box
-    column(
-      width = 4,
-      #helpbox(width = 12),
-      #fundbox(width = 12),), column(width = 8,
+    fluidRow(
+      helpbox(width = 6),
+      methbox(width = 6)
+    ),
+    fluidRow(
+      fundbox(width = 6)
     )
   )
 )

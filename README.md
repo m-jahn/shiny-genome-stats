@@ -8,7 +8,7 @@ R Shiny app to show basic statistics and features of microbial genomes.
 
 ### Getting started
 
-If you want to *run ShinyLib locally*, you need to have R (optionally also Rstudio) and some of its libraries installed:
+If you want to run this app *locally*, you need to have R > 4.0.0 (optionally also Rstudio) and these libraries installed:
 
 - `shiny`
 - `httr`
@@ -24,6 +24,7 @@ If you want to *run ShinyLib locally*, you need to have R (optionally also Rstud
 - `configr`
 - `stringr`
 - `colorspace`
+- `forcats`
 
 Open `global.R`, `server.R` or `ui.R` in RStudio and push the `Run App` button in Rstudio, done!
 You can also run the app from R console, just call `runApp("path-to-ShinyApp")`.
@@ -36,13 +37,13 @@ In order to speed things up, the app comes with currently six microbial proteome
 - *Cupriavidus necator H16*, taxonomy ID `381666`
 - *Bacillus subtilis 168*, taxonomy ID `224308`
 - *Salmonella typhimurium LT2*, taxonomy ID `99287`
-- *Escherichia coli BL21*, taxonomy ID `866768`
+- *Escherichia coli BL21*, taxonomy ID `469008`
 - *Pseudomonas putida KT2440*, taxonomy ID `160488`
 - *Streptococcus pyogenes serotype M1 GAS*, taxonomy ID `301447`
 
 ### Structure
 
-ShinyLib consists of a set of R scripts that determine the functionality.
+This app consists of a set of R scripts that determine the functionality.
 
 - `global.R` loads packages, data sets, and `.yml` configuration files
 - `server.R` contains the main body of functions. The server obtains input parameters from the GUI and adjusts the graphical output accordingly (changes charts on the fly)

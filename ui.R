@@ -87,7 +87,6 @@ ui <- navbarPage(
         hr(),
         h4("SUMMARY TABLE"),
         DTOutput("genomeSummary"),
-        #fluidRow()
       ),
 
       # MAIN PLOT AREA
@@ -113,7 +112,13 @@ ui <- navbarPage(
             )
           ),
           wellPanel(
-            h4("PATHWAYS")
+            fluidRow(
+              column(
+                width = 12,
+                h4("BIOLOGICAL PROCESSES"),
+                uiOutput("pathways.ui")
+              )
+            )
           )
         )
       )

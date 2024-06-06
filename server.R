@@ -18,8 +18,9 @@ server <- function(input, output, session) {
   observeEvent(input$UserAddGenome, {
     if (!(is.na(input$UserDataGet) | input$UserDataGet == "")) {
       df <- get_uniprot(input$UserDataGet)
+      df <- format_uniprot(df)
       if (nrow(df)) {
-        org_name <- substr(names(table(df$Organism))[1], 1, 50)
+        org_name <- substr(names(table(df$organism))[1], 1, 50)
         file_name <- str_replace_all(org_name, "[[:punct:]]", "_")
         write_tsv(df, paste0("data/", file_name, ".tsv"))
         datalist[[org_name]] <- file_name
@@ -57,7 +58,6 @@ server <- function(input, output, session) {
     list_df <- lapply(input$UserDataChoice, function(id) {
       df_file <- paste0(data_dir, unname(datalist[[id]]), ".tsv")
       df <- read_tsv(df_file, show_col_types = FALSE)
-      df <- format_uniprot(df)
     })
     df <- bind_rows(list_df, .id = "genome")
     return(df)
@@ -122,14 +122,11 @@ server <- function(input, output, session) {
         mutate(organism = substr(organism, 1, 25)) %>%
         group_by(.data[[input$UserGrouping]]) %>%
         summarize(
-          `all` = n(),
-          reviewed = sum(reviewed == "reviewed"),
-          `hypothetical` = sum(str_detect(protein, "[Uu]nknown|[Hh]ypothetical|[Uu]ncharacteri")),
-          `putative` = sum(str_detect(protein, "[Pp]utative")),
-          transport = sum(str_detect(protein, "[TT]ransporter")),
-          .groups = "drop"
-        )
-      datatable(df_summary)
+          all = n(),
+          hypothetical = sum(str_detect(protein, "[Uu]nknown|[Hh]ypothetical|[Uu]ncharacteri"))
+        ) %>%
+        mutate(`%` = round(hypothetical/all*100))
+      datatable(df_summary, options = list(dom = 't'))
     }
   })
 
@@ -192,7 +189,7 @@ server <- function(input, output, session) {
       ) %>%
       ggplot(aes(xmin = 3, xmax = 4, ymin = ymin, ymax = ymax, fill = localization)) +
       geom_rect(color = "white") +
-      coord_polar(theta="y") +
+      coord_polar(theta = "y") +
       lims(x = c(0, 4)) +
       facet_wrap( ~ organism, nrow = 2) +
       labs(x = "", y = "") +
@@ -226,6 +223,48 @@ server <- function(input, output, session) {
       facet_wrap( ~ organism, nrow = 2) +
       labs(x = "", y = "") +
       current_theme()
+    print(plot)
+  })
+
+  # OUTPUT 5: PATHWAYS
+  output$pathways.ui <- renderUI({
+    plotOutput("pathways", height = "450px", width = "100%", )
+  })
+
+  output$pathways <- renderPlot(res = 96, {
+    plot <- df_selected_genomes() %>%
+      select(organism, go_bp) %>%
+      mutate(
+        organism = substr(organism, 1, 25),
+        go_bp = str_remove_all(go_bp, " \\[GO\\:[0-9]+\\]")
+      ) %>%
+      separate_longer_delim(go_bp, "; ") %>%
+      mutate(top10 = go_bp %in% names(sort(table(go_bp), decreasing = TRUE))[1:20]) %>%
+      mutate(go_bp = ifelse(top10, go_bp, "other")) %>%
+      group_by(organism) %>%
+      count(go_bp) %>%
+      filter(!is.na(go_bp), go_bp != "other") %>%
+      mutate(
+        go_bp = fct_inorder(substr(go_bp, 1, 20)),
+        fraction = n/sum(n),
+        ymax = cumsum(fraction),
+        ymin = c(0, head(ymax, n = -1))
+      ) %>%
+      ggplot(aes(xmin = 3, xmax = 4, ymin = ymin, ymax = ymax, fill = go_bp)) +
+      geom_rect(color = "white") +
+      coord_polar(theta = "y") +
+      lims(x = c(0, 4)) +
+      facet_wrap( ~ organism, nrow = 1) +
+      labs(x = "", y = "", subtitle = "Top 20 GO-BP terms by number of proteins") +
+      current_theme() +
+      theme(
+        axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks = element_blank(),
+        legend.position = "bottom",
+        legend.key.size = unit(0.4, "cm")
+      ) +
+      scale_fill_manual(values = colorRampPalette(current_palette())(20))
     print(plot)
   })
 

@@ -15,6 +15,7 @@ library(shinyTree)
 library(configr)
 library(stringr)
 library(colorspace)
+library(forcats)
 
 
 # LOADING EXTERNAL FUNCTIONS AND DATA

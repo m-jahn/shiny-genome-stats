@@ -7,7 +7,8 @@ format_uniprot <- function(df) {
       locus_tag = `gene names (ordered locus)`,
       gene_name_long = `gene names`,
       protein = `protein names`,
-      gene_ontology_ids = `gene ontology ids`,
+      go_ids = `gene ontology ids`,
+      go_bp = `gene ontology (biological process)`,
       localization = `subcellular location [cc]`
     ) %>%
     mutate(organism = str_remove_all(organism, "\\(|\\)|strain ")) %>%

@@ -219,7 +219,7 @@ server <- function(input, output, session) {
         color = "white",
         bins = 25
       ) +
-      lims(x = c(0, 1000)) +
+      lims(x = c(0, input$UserMaxLength)) +
       facet_wrap( ~ organism, nrow = 2) +
       labs(x = "", y = "") +
       current_theme()
@@ -239,8 +239,10 @@ server <- function(input, output, session) {
         go_bp = str_remove_all(go_bp, " \\[GO\\:[0-9]+\\]")
       ) %>%
       separate_longer_delim(go_bp, "; ") %>%
-      mutate(top10 = go_bp %in% names(sort(table(go_bp), decreasing = TRUE))[1:20]) %>%
-      mutate(go_bp = ifelse(top10, go_bp, "other")) %>%
+      mutate(top = go_bp %in% names(
+        sort(table(go_bp), decreasing = TRUE)
+      )[1:input$UserTopBioProcess]) %>%
+      mutate(go_bp = ifelse(top, go_bp, "other")) %>%
       group_by(organism) %>%
       count(go_bp) %>%
       filter(!is.na(go_bp), go_bp != "other") %>%
@@ -264,7 +266,8 @@ server <- function(input, output, session) {
         legend.position = "bottom",
         legend.key.size = unit(0.4, "cm")
       ) +
-      scale_fill_manual(values = colorRampPalette(current_palette())(20))
+      scale_fill_manual(values = colorRampPalette(current_palette())(
+        input$UserTopBioProcess))
     print(plot)
   })
 

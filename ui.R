@@ -72,12 +72,23 @@ ui <- navbarPage(
           column(
             width = 6,
             sliderInput(
-              "UserResolution",
-              "Resolution",
-              min = 80,
-              max = 150,
-              value = 90,
-              step = 10
+              "UserMaxLength",
+              "Max length in aa",
+              min = 0,
+              max = 2000,
+              value = 1000,
+              step = 100
+            )
+          ),
+          column(
+            width = 6,
+            sliderInput(
+              "UserTopBioProcess",
+              "Top GO terms",
+              min = 0,
+              max = 30,
+              value = 20,
+              step = 1
             )
           )
         ),

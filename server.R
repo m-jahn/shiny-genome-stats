@@ -100,8 +100,8 @@ server <- function(input, output, session) {
 
   # display status for newly added data
   output$AddStatus <- renderText(
-    if (input$UserSearchGenome == "" | is.na(input$UserSearchGenome)) {
-      "Search for uniprot tax ID ('224308') or\nstrain name ('Bacillus subtilis 168')"
+    if (input$UserSearchGenome == 0) {
+      ""
     } else {
       list_status[["latest"]]
     }
@@ -171,7 +171,7 @@ server <- function(input, output, session) {
   })
 
   output$categories <- renderPlot(res = 96, {
-    plot <- df_selected_genomes() %>%
+    df <- df_selected_genomes() %>%
       mutate(organism = substr(organism, 1, 25)) %>%
       group_by(organism) %>%
       summarize(
@@ -189,9 +189,14 @@ server <- function(input, output, session) {
         names_to = "proteins",
         values_to = "count"
       ) %>%
-      mutate(proteins = forcats::fct_inorder(proteins)) %>%
+      mutate(proteins = forcats::fct_inorder(proteins))
+    plot <- df %>%
       ggplot(aes(x = proteins, y = count, fill = proteins)) +
       geom_col(color = "white") +
+      geom_text(
+        aes(label = count, color = proteins),
+        size = 2.5, nudge_y = max(df$count) * 0.03
+      ) +
       facet_wrap( ~ organism, nrow = 1) +
       labs(x = "", y = "") +
       current_theme() +

@@ -9,9 +9,11 @@ format_uniprot <- function(df) {
       protein = `protein names`,
       go_ids = `gene ontology ids`,
       go_bp = `gene ontology (biological process)`,
-      localization = `subcellular location [cc]`
+      localization = `subcellular location [cc]`,
+      organism_id = `organism (id)`
     ) %>%
     mutate(organism = str_remove_all(organism, "\\(|\\)|strain ")) %>%
+    filter(organism == names(sort(table(organism), decreasing = TRUE))[1]) %>%
     mutate(localization = str_remove_all(
       localization,
       "SUBCELLULAR LOCATION: | \\{ECO:.*\\}") %>% tolower()

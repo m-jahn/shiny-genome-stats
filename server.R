@@ -6,28 +6,73 @@ server <- function(input, output, session) {
   # DATA SELECTION AND INPUT
   # ---------------------------------------------
   # reactive variable that holds genome list
-  datalist <- reactiveValues()
+  list_data <- reactiveValues()
   for (genome in names(list_genomes)) {
-    datalist[[genome]] <- list_genomes[genome]
+    list_data[[genome]] <- list_genomes[genome]
   }
 
-  # reactive variable that just collects newest status posts
-  status_list <- reactiveValues()
+  list_data_selected <- reactiveValues()
+  for (genome in names(list_genomes)[1:4]) {
+    list_data_selected[[genome]] <- list_genomes[genome]
+  }
 
-  # function that adds new data from input button
-  observeEvent(input$UserAddGenome, {
-    if (!(is.na(input$UserDataGet) | input$UserDataGet == "")) {
-      df <- get_uniprot(input$UserDataGet)
-      df <- format_uniprot(df)
-      if (nrow(df)) {
-        org_name <- substr(names(table(df$organism))[1], 1, 50)
-        file_name <- str_replace_all(org_name, "[[:punct:]]", "_")
-        write_tsv(df, paste0("data/", file_name, ".tsv"))
-        datalist[[org_name]] <- file_name
-        status_list[["latest"]] <- paste0(
-          "Downloaded genome data for organism '", org_name, "' from Uniprot"
-        )
+  # reactive variable that holds genomes to download
+  list_download <- reactiveValues()
+
+  # reactive variable that just collects newest status posts
+  list_status <- reactiveValues()
+
+  # function that searches new genomes from input button
+  observeEvent(input$UserSearchGenome, {
+    for (taxname in names(list_download)) {
+      list_download[[taxname]] <- NULL
+    }
+    if (!(is.na(input$UserDataSearch) | input$UserDataSearch == "")) {
+      taxa <- get_ncbi_taxid(input$UserDataSearch)
+      if (length(taxa) > 100) {
+        max_taxa <- 100
+        list_status[["latest"]] <- paste0("Retrieved >", max_taxa, " taxa from NCBI")
+      } else {
+        max_taxa <- length(taxa)
+        list_status[["latest"]] <- paste0("Retrieved ", length(taxa), " taxa from NCBI")
       }
+      for (taxname in names(taxa)[1:max_taxa]) {
+        list_download[[taxname]] <- taxa[taxname]
+      }
+    }
+  })
+
+  # reactive field for genome search
+  output$DataSearch <- renderUI({
+    textInput(
+      "UserDataSearch",
+      "Find Microbial Genome",
+      value = "Vibrio cholerae O1 biovar El Tor"
+    )
+  })
+
+  # reactive field to display searched genomes
+  output$DataSelection <- renderUI({
+    selectInput(
+      "UserDataSelection",
+      "Add Microbial Genome",
+      choices = names(list_download),
+      selected = names(list_download)[1],
+      multiple = FALSE,
+      selectize = TRUE
+    )
+  })
+
+  # function that add a new genome from uniprot query
+  observeEvent(input$UserAddGenome, {
+    req(input$UserDataSelection)
+    query <- list_download[[input$UserDataSelection]]
+    df <- get_uniprot(query)
+    df <- format_uniprot(df)
+    if (!(is.null(df) | nrow(df) < 1)) {
+      write_tsv(df, paste0("data/", query, ".tsv"))
+      list_data[[names(query)]] <- query
+      list_data_selected[[names(query)]] <- query
     }
   })
 
@@ -36,27 +81,17 @@ server <- function(input, output, session) {
     selectInput(
       "UserDataChoice",
       "Select Microbial Genome",
-      choices = names(datalist),
-      selected = names(datalist)[1:4],
+      choices = names(list_data),
+      selected = names(list_data_selected),
       multiple = TRUE,
       selectize = TRUE
     )
   })
 
-  # reactive field for free text input
-  output$DataGet <- renderUI({
-    textInput(
-      "UserDataGet",
-      "Find Microbial Genome",
-      value = ""
-    )
-  })
-
   # reactive function to import selected data
   df_selected_genomes <- reactive({
-    req(input$UserDataChoice)
     list_df <- lapply(input$UserDataChoice, function(id) {
-      df_file <- paste0(data_dir, unname(datalist[[id]]), ".tsv")
+      df_file <- paste0(data_dir, unname(list_data[[id]]), ".tsv")
       df <- read_tsv(df_file, show_col_types = FALSE)
     })
     df <- bind_rows(list_df, .id = "genome")
@@ -65,10 +100,10 @@ server <- function(input, output, session) {
 
   # display status for newly added data
   output$AddStatus <- renderText(
-    if (input$UserAddGenome == "" | is.na(input$UserAddGenome)) {
+    if (input$UserSearchGenome == "" | is.na(input$UserSearchGenome)) {
       "Search for uniprot tax ID ('224308') or\nstrain name ('Bacillus subtilis 168')"
     } else {
-      status_list[["latest"]]
+      list_status[["latest"]]
     }
   )
 

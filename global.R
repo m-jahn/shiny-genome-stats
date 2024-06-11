@@ -6,6 +6,7 @@ library(httr)
 library(jsonlite)
 library(DT)
 library(shinyWidgets)
+library(tibble)
 library(tidyr)
 library(dplyr)
 library(readr)
@@ -16,6 +17,7 @@ library(configr)
 library(stringr)
 library(colorspace)
 library(forcats)
+library(rentrez)
 
 
 # LOADING EXTERNAL FUNCTIONS AND DATA

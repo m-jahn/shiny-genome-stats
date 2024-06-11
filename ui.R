@@ -27,20 +27,30 @@ ui <- navbarPage(
         # select data file
         h4("DATA OPTIONS"),
 
-        fluidRow(column(
-          width = 6,
-          uiOutput("DataChoice")
-        ), column(
-          width = 6,
-          uiOutput("DataGet"),
-          actionButton(
-            "UserAddGenome",
-            "Add",
-            class = "btn-success"
+        fluidRow(
+          column(
+            width = 6,
+            uiOutput("DataChoice")
           ),
-          br(),
-          uiOutput("AddStatus")
-        )),
+          column(
+            width = 6,
+            uiOutput("DataSearch"),
+            actionButton(
+              "UserSearchGenome",
+              "Search",
+              class = "btn-success"
+            ),
+            br(),
+            br(),
+            uiOutput("DataSelection"),
+            actionButton(
+              "UserAddGenome",
+              " Add ",
+              class = "btn-success"
+            ),
+            uiOutput("AddStatus"),
+          )
+        ),
 
         # SELECT PLOT OPTIONS
         # -------------------

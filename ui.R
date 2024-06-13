@@ -148,6 +148,15 @@ ui <- navbarPage(
                 uiOutput("pathways.ui")
               )
             )
+          ),
+          wellPanel(
+            fluidRow(
+              column(
+                width = 12,
+                h4("GENOMIC FEATURES"),
+                uiOutput("genome_info.ui")
+              )
+            )
           )
         )
       )

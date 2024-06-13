@@ -4,10 +4,11 @@ helpbox <- function(width = 12) {
     wellPanel(
       h4('HOW TO'),
       p('Pre-fetched genome/proteome annotation can be selected with the "Select Microbial Genome" field.'),
-      p('Data was fetched from Uniprot using the REST API. Users can try to fetch data for other organisms using the "Find Microbial Genome" search field.'),
+      p('Data was fetched from Uniprot using the REST API. Users can try to fetch data for other organisms using the "Find Microbial Genome" search field. Select your desired strain and then click "Add".'),
       h4('DATA AND REFERENCES'),
       p('Data is obtained from ',
-        a(href = 'https://www.uniprot.org', target = '_blank', 'Uniprot.org'), '.'
+        a(href = 'https://www.uniprot.org', target = '_blank', 'Uniprot.org'), ' and ',
+        a(href = 'https://www.ncbi.nlm.nih.gov/datasets/genome/', target = '_blank', 'NCBI'), '.'
       ),
       p('Details about how to fetch data using Uniprots REST API can be found at',
         a(href = 'https://www.uniprot.org/help/api_queries', target = '_blank', 'www.uniprot.org/help/api_queries'), '.'

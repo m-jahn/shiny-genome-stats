@@ -6,6 +6,15 @@ R Shiny app to show basic statistics and features of microbial genomes.
 
 <img src="example.png" width="800px" style="display: block; margin: auto;" />
 
+### Features
+
+- shows **number of proteins** broken down by categories such as 'reviewed', 'hypothetical', etc.
+- shows presumed **localization** of proteins
+- shows **length**/size distribution of proteins
+- summarized biological processes: top 20 GO terms by number of proteins annotated for the respective term
+- genomic features: currently number, name and length of the different chromosomes/plasmids per strain
+- if you like to see **more features, please request by posting a [github issue](https://github.com/m-jahn/shiny-genome-stats/issues)**
+
 ### Getting started
 
 If you want to run this app *locally*, you need to have R > 4.0.0 (optionally also Rstudio) and these libraries installed:
@@ -25,13 +34,14 @@ If you want to run this app *locally*, you need to have R > 4.0.0 (optionally al
 - `stringr`
 - `colorspace`
 - `forcats`
+- `rentrez`
 
 Open `global.R`, `server.R` or `ui.R` in RStudio and push the `Run App` button in Rstudio, done!
 You can also run the app from R console, just call `runApp("path-to-ShinyApp")`.
 
 ### Input data
 
-`shiny-genome-stats` retrieves data dynamically from [uniprot.org](https://www.uniprot.org).
+`shiny-genome-stats` retrieves data dynamically from [uniprot.org](https://www.uniprot.org) and [NCBI](https://www.ncbi.nlm.nih.gov/datasets/genome/).
 In order to speed things up, the app comes with currently six microbial proteomes pre-downloaded.
 
 - *Cupriavidus necator H16*, taxonomy ID `381666`
@@ -56,4 +66,3 @@ This app consists of a set of R scripts that determine the functionality.
   - Affiliation: [Max-Planck-Unit for the Science of Pathogens](https://www.mpusp.mpg.de/) (MPUSP), Berlin, Germany
   - ORCID profile: https://orcid.org/0000-0002-3913-153X
   - github page: https://github.com/m-jahn
-

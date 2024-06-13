@@ -63,16 +63,26 @@ server <- function(input, output, session) {
     )
   })
 
-  # function that add a new genome from uniprot query
+  # function to add a new genome from uniprot query
   observeEvent(input$UserAddGenome, {
     req(input$UserDataSelection)
-    query <- list_download[[input$UserDataSelection]]
-    df <- get_uniprot(query)
-    df <- format_uniprot(df)
+    taxid <- list_download[[input$UserDataSelection]]
+    time_fetch <- system.time({
+      df <- get_uniprot(taxid)
+      df <- format_uniprot(df)
+      df_summary <- get_ncbi_genome(taxid)
+    })
     if (!(is.null(df) | nrow(df) < 1)) {
-      write_tsv(df, paste0("data/", query, ".tsv"))
-      list_data[[names(query)]] <- query
-      list_data_selected[[names(query)]] <- query
+      write_tsv(df, paste0("data/", taxid, ".tsv"))
+      list_data[[names(taxid)]] <- taxid
+      list_data_selected[[names(taxid)]] <- taxid
+      list_status[["latest"]] <- paste0(
+        "Downloaded genome in ",
+        round(time_fetch[3]), " sec"
+      )
+    }
+    if (!(is.null(df_summary) | nrow(df_summary) < 1)) {
+      write_tsv(df_summary, paste0("data/", taxid, "_summary.tsv"))
     }
   })
 
@@ -93,6 +103,20 @@ server <- function(input, output, session) {
     list_df <- lapply(input$UserDataChoice, function(id) {
       df_file <- paste0(data_dir, unname(list_data[[id]]), ".tsv")
       df <- read_tsv(df_file, show_col_types = FALSE)
+    })
+    df <- bind_rows(list_df, .id = "genome")
+    return(df)
+  })
+
+  # reactive function to import genome summary
+  df_genome_summary <- reactive({
+    list_df <- lapply(input$UserDataChoice, function(id) {
+      df_file <- paste0(data_dir, unname(list_data[[id]]), "_summary.tsv")
+      if (file.access(df_file) == 0) {
+        df <- read_tsv(df_file, show_col_types = FALSE)
+      } else {
+        df <- NULL
+      }
     })
     df <- bind_rows(list_df, .id = "genome")
     return(df)
@@ -213,7 +237,7 @@ server <- function(input, output, session) {
 
   # OUTPUT 3: BARCHART WITH LOCALIZATION
   output$localization.ui <- renderUI({
-    plotOutput("localization", height = "450px", width = "100%", )
+    plotOutput("localization", height = "450px", width = "100%")
   })
 
   output$localization <- renderPlot(res = 96, {
@@ -268,7 +292,7 @@ server <- function(input, output, session) {
 
   # OUTPUT 5: PATHWAYS
   output$pathways.ui <- renderUI({
-    plotOutput("pathways", height = "450px", width = "100%", )
+    plotOutput("pathways", height = "450px", width = "100%")
   })
 
   output$pathways <- renderPlot(res = 96, {
@@ -308,6 +332,38 @@ server <- function(input, output, session) {
       ) +
       scale_fill_manual(values = colorRampPalette(current_palette())(
         input$UserTopBioProcess))
+    print(plot)
+  })
+
+  # OUTPUT 6: BARCHART WITH GENOME INFO
+  output$genome_info.ui <- renderUI({
+    plotOutput("genome_info", height = "250px", width = "100%")
+  })
+
+  output$genome_info <- renderPlot(res = 96, {
+    plot <- df_genome_summary() %>%
+      mutate(organism = substr(organism, 1, 25)) %>%
+      group_by(organism) %>%
+      arrange(length) %>%
+      mutate(
+        locus = fct_inorder(locus),
+        topology = factor(topology, c("circular", "linear"))
+      ) %>%
+      ggplot(aes(x = length/10^6, y = locus, fill = topology)) +
+      geom_col(color = "white") +
+      geom_text(
+        aes(label = round(length/10^6, 1), color = topology),
+        size = 2.5, nudge_x = max(df_genome_summary()$length)/10^7.2
+      ) +
+      facet_wrap( ~ organism, nrow = 1, scales = "free_y") +
+      labs(x = "", y = "", subtitle = "Chromosomes and plasmids, Mbases") +
+      current_theme() +
+      theme(
+        legend.position = "bottom",
+        legend.key.size = unit(0.4, "cm")
+      ) +
+      scale_fill_manual(values = current_palette()) +
+      scale_color_manual(values = current_palette())
     print(plot)
   })
 

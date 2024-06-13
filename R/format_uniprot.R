@@ -28,5 +28,6 @@ format_uniprot <- function(df) {
         str_detect(localization, "flagellum|fimbr") ~ "flagellum",
         str_detect(localization, "secreted") ~ "secreted"
       )
-    )
+    ) %>%
+    filter(!is.na(locus_tag))
 }

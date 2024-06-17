@@ -1,5 +1,7 @@
-get_ncbi_taxid <- function(search_string) {
-  query <- entrez_search(db = "taxonomy", search_string)
+get_ncbi_taxid <- function(search_string, max_taxa = 100) {
+  messages <- NULL
+  suffix <- "[Strain]"
+  query <- entrez_search(db = "taxonomy", paste0(search_string, suffix))
 
   if (length(query$ids)) {
     query_rank <- entrez_summary(db = "taxonomy", query$ids)$rank
@@ -18,6 +20,13 @@ get_ncbi_taxid <- function(search_string) {
   }
 
   if (length(query_ids)) {
+    if (length(query_ids) > max_taxa) {
+      messages <- c(messages, paste0("Retrieved >", max_taxa, " taxa from NCBI"))
+      query_ids <- sort(as.numeric(query_ids))[1:max_taxa] %>%
+        as.character()
+    } else {
+      messages <- c(messages, paste0("Retrieved ", length(query_ids), " taxa from NCBI"))
+    }
     query_items <- entrez_fetch(
       db = "taxonomy",
       id = query_ids,
@@ -43,7 +52,7 @@ get_ncbi_taxid <- function(search_string) {
   }
 
   if (length(query_table)) {
-    return(query_table)
+    return(list(result = query_table, messages = messages))
   } else {
     return(NULL)
   }

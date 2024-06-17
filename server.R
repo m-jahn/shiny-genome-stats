@@ -29,15 +29,13 @@ server <- function(input, output, session) {
     }
     if (!(is.na(input$UserDataSearch) | input$UserDataSearch == "")) {
       taxa <- get_ncbi_taxid(input$UserDataSearch)
-      if (length(taxa) > 100) {
-        max_taxa <- 100
-        list_status[["latest"]] <- paste0("Retrieved >", max_taxa, " taxa from NCBI")
+      if (is.null(taxa)) {
+        list_status[["latest"]] <- "Found no microbial genomes. Try more specific strain name."
       } else {
-        max_taxa <- length(taxa)
-        list_status[["latest"]] <- paste0("Retrieved ", length(taxa), " taxa from NCBI")
+        list_status[["latest"]] <- taxa$messages
       }
-      for (taxname in names(taxa)[1:max_taxa]) {
-        list_download[[taxname]] <- taxa[taxname]
+      for (taxname in names(taxa$result)) {
+        list_download[[taxname]] <- taxa$result[taxname]
       }
     }
   })
@@ -53,11 +51,14 @@ server <- function(input, output, session) {
 
   # reactive field to display searched genomes
   output$DataSelection <- renderUI({
+    valid_genomes <- reactiveValuesToList(list_download) %>%
+      unname %>%
+      unlist
     selectInput(
       "UserDataSelection",
       "Add Microbial Genome",
-      choices = names(list_download),
-      selected = names(list_download)[1],
+      choices = names(valid_genomes),
+      selected = names(valid_genomes)[1],
       multiple = FALSE,
       selectize = TRUE
     )
@@ -77,8 +78,13 @@ server <- function(input, output, session) {
       list_data[[names(taxid)]] <- taxid
       list_data_selected[[names(taxid)]] <- taxid
       list_status[["latest"]] <- paste0(
-        "Downloaded genome in ",
-        round(time_fetch[3]), " sec"
+        "Downloaded genome for tax ID '", taxid, "' in ",
+        round(time_fetch[3]), " sec."
+      )
+    } else {
+      list_status[["latest"]] <- paste0(
+        "Fetching genome for tax ID '", taxid ,
+        "' from Uniprot failed or result contains no entries."
       )
     }
     if (!(is.null(df_summary) | nrow(df_summary) < 1)) {

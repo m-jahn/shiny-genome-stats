@@ -49,6 +49,8 @@ ui <- navbarPage(
               class = "btn-success"
             ),
             br(),
+            br(),
+            p(strong('Status')),
             uiOutput("AddStatus"),
           )
         ),

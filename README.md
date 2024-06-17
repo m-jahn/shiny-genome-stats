@@ -17,6 +17,8 @@ R Shiny app to show basic statistics and features of microbial genomes.
 
 ### Getting started
 
+**Run the app at https://m-jahn.shinyapps.io/shiny-genome-stats/!**
+
 If you want to run this app *locally*, you need to have R > 4.0.0 (optionally also Rstudio) and these libraries installed:
 
 - `shiny`

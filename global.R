@@ -18,6 +18,7 @@ library(stringr)
 library(colorspace)
 library(forcats)
 library(rentrez)
+library(KEGGREST)
 
 
 # LOADING EXTERNAL FUNCTIONS AND DATA

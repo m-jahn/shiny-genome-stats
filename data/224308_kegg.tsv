@@ -1,0 +1,3957 @@
+locus_tag	kegg_pathway_id	kegg_pathway
+BSU03050	bsu00010	Glycolysis / Gluconeogenesis
+BSU03410	bsu00010	Glycolysis / Gluconeogenesis
+BSU05840	bsu00010	Glycolysis / Gluconeogenesis
+BSU08080	bsu00010	Glycolysis / Gluconeogenesis
+BSU08090	bsu00010	Glycolysis / Gluconeogenesis
+BSU09310	bsu00010	Glycolysis / Gluconeogenesis
+BSU13890	bsu00010	Glycolysis / Gluconeogenesis
+BSU14580	bsu00010	Glycolysis / Gluconeogenesis
+BSU14590	bsu00010	Glycolysis / Gluconeogenesis
+BSU14600	bsu00010	Glycolysis / Gluconeogenesis
+BSU14610	bsu00010	Glycolysis / Gluconeogenesis
+BSU18360	bsu00010	Glycolysis / Gluconeogenesis
+BSU19310	bsu00010	Glycolysis / Gluconeogenesis
+BSU22230	bsu00010	Glycolysis / Gluconeogenesis
+BSU24060	bsu00010	Glycolysis / Gluconeogenesis
+BSU24850	bsu00010	Glycolysis / Gluconeogenesis
+BSU26970	bsu00010	Glycolysis / Gluconeogenesis
+BSU27010	bsu00010	Glycolysis / Gluconeogenesis
+BSU29020	bsu00010	Glycolysis / Gluconeogenesis
+BSU29180	bsu00010	Glycolysis / Gluconeogenesis
+BSU29190	bsu00010	Glycolysis / Gluconeogenesis
+BSU29560	bsu00010	Glycolysis / Gluconeogenesis
+BSU29680	bsu00010	Glycolysis / Gluconeogenesis
+BSU30560	bsu00010	Glycolysis / Gluconeogenesis
+BSU31350	bsu00010	Glycolysis / Gluconeogenesis
+BSU33900	bsu00010	Glycolysis / Gluconeogenesis
+BSU33910	bsu00010	Glycolysis / Gluconeogenesis
+BSU33920	bsu00010	Glycolysis / Gluconeogenesis
+BSU33930	bsu00010	Glycolysis / Gluconeogenesis
+BSU33940	bsu00010	Glycolysis / Gluconeogenesis
+BSU37090	bsu00010	Glycolysis / Gluconeogenesis
+BSU37120	bsu00010	Glycolysis / Gluconeogenesis
+BSU37960	bsu00010	Glycolysis / Gluconeogenesis
+BSU38560	bsu00010	Glycolysis / Gluconeogenesis
+BSU38830	bsu00010	Glycolysis / Gluconeogenesis
+BSU39260	bsu00010	Glycolysis / Gluconeogenesis
+BSU39860	bsu00010	Glycolysis / Gluconeogenesis
+BSU40110	bsu00010	Glycolysis / Gluconeogenesis
+BSU40120	bsu00010	Glycolysis / Gluconeogenesis
+BSU40190	bsu00010	Glycolysis / Gluconeogenesis
+BSU08080	bsu00020	Citrate cycle (TCA cycle)
+BSU08090	bsu00020	Citrate cycle (TCA cycle)
+BSU09440	bsu00020	Citrate cycle (TCA cycle)
+BSU14580	bsu00020	Citrate cycle (TCA cycle)
+BSU14590	bsu00020	Citrate cycle (TCA cycle)
+BSU14600	bsu00020	Citrate cycle (TCA cycle)
+BSU14610	bsu00020	Citrate cycle (TCA cycle)
+BSU14860	bsu00020	Citrate cycle (TCA cycle)
+BSU16090	bsu00020	Citrate cycle (TCA cycle)
+BSU16100	bsu00020	Citrate cycle (TCA cycle)
+BSU18000	bsu00020	Citrate cycle (TCA cycle)
+BSU19360	bsu00020	Citrate cycle (TCA cycle)
+BSU19370	bsu00020	Citrate cycle (TCA cycle)
+BSU24060	bsu00020	Citrate cycle (TCA cycle)
+BSU24140	bsu00020	Citrate cycle (TCA cycle)
+BSU28430	bsu00020	Citrate cycle (TCA cycle)
+BSU28440	bsu00020	Citrate cycle (TCA cycle)
+BSU28450	bsu00020	Citrate cycle (TCA cycle)
+BSU29120	bsu00020	Citrate cycle (TCA cycle)
+BSU29130	bsu00020	Citrate cycle (TCA cycle)
+BSU29140	bsu00020	Citrate cycle (TCA cycle)
+BSU30560	bsu00020	Citrate cycle (TCA cycle)
+BSU33040	bsu00020	Citrate cycle (TCA cycle)
+BSU00510	bsu00030	Pentose phosphate pathway
+BSU02830	bsu00030	Pentose phosphate pathway
+BSU03450	bsu00030	Pentose phosphate pathway
+BSU03460	bsu00030	Pentose phosphate pathway
+BSU03930	bsu00030	Pentose phosphate pathway
+BSU09310	bsu00030	Pentose phosphate pathway
+BSU13010	bsu00030	Pentose phosphate pathway
+BSU15790	bsu00030	Pentose phosphate pathway
+BSU17890	bsu00030	Pentose phosphate pathway
+BSU22100	bsu00030	Pentose phosphate pathway
+BSU22110	bsu00030	Pentose phosphate pathway
+BSU23500	bsu00030	Pentose phosphate pathway
+BSU23850	bsu00030	Pentose phosphate pathway
+BSU23860	bsu00030	Pentose phosphate pathway
+BSU25730	bsu00030	Pentose phosphate pathway
+BSU29190	bsu00030	Pentose phosphate pathway
+BSU31350	bsu00030	Pentose phosphate pathway
+BSU34680	bsu00030	Pentose phosphate pathway
+BSU35920	bsu00030	Pentose phosphate pathway
+BSU36920	bsu00030	Pentose phosphate pathway
+BSU37090	bsu00030	Pentose phosphate pathway
+BSU37110	bsu00030	Pentose phosphate pathway
+BSU37120	bsu00030	Pentose phosphate pathway
+BSU39420	bsu00030	Pentose phosphate pathway
+BSU40060	bsu00030	Pentose phosphate pathway
+BSU40080	bsu00030	Pentose phosphate pathway
+BSU40190	bsu00030	Pentose phosphate pathway
+BSU02470	bsu00040	Pentose and glucuronate interconversions
+BSU04200	bsu00040	Pentose and glucuronate interconversions
+BSU06150	bsu00040	Pentose and glucuronate interconversions
+BSU07130	bsu00040	Pentose and glucuronate interconversions
+BSU07560	bsu00040	Pentose and glucuronate interconversions
+BSU12300	bsu00040	Pentose and glucuronate interconversions
+BSU12340	bsu00040	Pentose and glucuronate interconversions
+BSU12380	bsu00040	Pentose and glucuronate interconversions
+BSU12390	bsu00040	Pentose and glucuronate interconversions
+BSU15790	bsu00040	Pentose and glucuronate interconversions
+BSU17600	bsu00040	Pentose and glucuronate interconversions
+BSU17610	bsu00040	Pentose and glucuronate interconversions
+BSU18180	bsu00040	Pentose and glucuronate interconversions
+BSU22130	bsu00040	Pentose and glucuronate interconversions
+BSU22140	bsu00040	Pentose and glucuronate interconversions
+BSU28780	bsu00040	Pentose and glucuronate interconversions
+BSU28790	bsu00040	Pentose and glucuronate interconversions
+BSU28800	bsu00040	Pentose and glucuronate interconversions
+BSU30850	bsu00040	Pentose and glucuronate interconversions
+BSU30860	bsu00040	Pentose and glucuronate interconversions
+BSU31200	bsu00040	Pentose and glucuronate interconversions
+BSU34950	bsu00040	Pentose and glucuronate interconversions
+BSU35580	bsu00040	Pentose and glucuronate interconversions
+BSU35670	bsu00040	Pentose and glucuronate interconversions
+BSU36230	bsu00040	Pentose and glucuronate interconversions
+BSU03981	bsu00051	Fructose and mannose metabolism
+BSU03982	bsu00051	Fructose and mannose metabolism
+BSU03990	bsu00051	Fructose and mannose metabolism
+BSU05860	bsu00051	Fructose and mannose metabolism
+BSU05870	bsu00051	Fructose and mannose metabolism
+BSU05880	bsu00051	Fructose and mannose metabolism
+BSU06150	bsu00051	Fructose and mannose metabolism
+BSU06170	bsu00051	Fructose and mannose metabolism
+BSU12010	bsu00051	Fructose and mannose metabolism
+BSU12020	bsu00051	Fructose and mannose metabolism
+BSU14390	bsu00051	Fructose and mannose metabolism
+BSU14400	bsu00051	Fructose and mannose metabolism
+BSU17600	bsu00051	Fructose and mannose metabolism
+BSU27030	bsu00051	Fructose and mannose metabolism
+BSU27040	bsu00051	Fructose and mannose metabolism
+BSU27050	bsu00051	Fructose and mannose metabolism
+BSU27060	bsu00051	Fructose and mannose metabolism
+BSU27070	bsu00051	Fructose and mannose metabolism
+BSU29190	bsu00051	Fructose and mannose metabolism
+BSU31180	bsu00051	Fructose and mannose metabolism
+BSU31200	bsu00051	Fructose and mannose metabolism
+BSU33920	bsu00051	Fructose and mannose metabolism
+BSU35790	bsu00051	Fructose and mannose metabolism
+BSU36920	bsu00051	Fructose and mannose metabolism
+BSU37090	bsu00051	Fructose and mannose metabolism
+BSU37120	bsu00051	Fructose and mannose metabolism
+BSU40190	bsu00051	Fructose and mannose metabolism
+BSU02840	bsu00052	Galactose metabolism
+BSU07080	bsu00052	Galactose metabolism
+BSU09310	bsu00052	Galactose metabolism
+BSU18180	bsu00052	Galactose metabolism
+BSU18360	bsu00052	Galactose metabolism
+BSU24850	bsu00052	Galactose metabolism
+BSU29190	bsu00052	Galactose metabolism
+BSU30300	bsu00052	Galactose metabolism
+BSU30850	bsu00052	Galactose metabolism
+BSU31290	bsu00052	Galactose metabolism
+BSU34130	bsu00052	Galactose metabolism
+BSU34560	bsu00052	Galactose metabolism
+BSU35670	bsu00052	Galactose metabolism
+BSU38040	bsu00052	Galactose metabolism
+BSU38190	bsu00052	Galactose metabolism
+BSU38200	bsu00052	Galactose metabolism
+BSU38860	bsu00052	Galactose metabolism
+BSU02460	bsu00053	Ascorbate and aldarate metabolism
+BSU02490	bsu00053	Ascorbate and aldarate metabolism
+BSU02510	bsu00053	Ascorbate and aldarate metabolism
+BSU19310	bsu00053	Ascorbate and aldarate metabolism
+BSU28780	bsu00053	Ascorbate and aldarate metabolism
+BSU30860	bsu00053	Ascorbate and aldarate metabolism
+BSU35580	bsu00053	Ascorbate and aldarate metabolism
+BSU36230	bsu00053	Ascorbate and aldarate metabolism
+BSU37960	bsu00053	Ascorbate and aldarate metabolism
+BSU38830	bsu00053	Ascorbate and aldarate metabolism
+BSU39860	bsu00053	Ascorbate and aldarate metabolism
+BSU08650	bsu00061	Fatty acid biosynthesis
+BSU10170	bsu00061	Fatty acid biosynthesis
+BSU10270	bsu00061	Fatty acid biosynthesis
+BSU11330	bsu00061	Fatty acid biosynthesis
+BSU11340	bsu00061	Fatty acid biosynthesis
+BSU11720	bsu00061	Fatty acid biosynthesis
+BSU15900	bsu00061	Fatty acid biosynthesis
+BSU15910	bsu00061	Fatty acid biosynthesis
+BSU16870	bsu00061	Fatty acid biosynthesis
+BSU18240	bsu00061	Fatty acid biosynthesis
+BSU24340	bsu00061	Fatty acid biosynthesis
+BSU24350	bsu00061	Fatty acid biosynthesis
+BSU28560	bsu00061	Fatty acid biosynthesis
+BSU29200	bsu00061	Fatty acid biosynthesis
+BSU29210	bsu00061	Fatty acid biosynthesis
+BSU29420	bsu00061	Fatty acid biosynthesis
+BSU36370	bsu00061	Fatty acid biosynthesis
+BSU07250	bsu00071	Fatty acid degradation
+BSU10270	bsu00071	Fatty acid degradation
+BSU10350	bsu00071	Fatty acid degradation
+BSU19310	bsu00071	Fatty acid degradation
+BSU24170	bsu00071	Fatty acid degradation
+BSU26970	bsu00071	Fatty acid degradation
+BSU27160	bsu00071	Fatty acid degradation
+BSU28540	bsu00071	Fatty acid degradation
+BSU28560	bsu00071	Fatty acid degradation
+BSU32830	bsu00071	Fatty acid degradation
+BSU32840	bsu00071	Fatty acid degradation
+BSU37170	bsu00071	Fatty acid degradation
+BSU37960	bsu00071	Fatty acid degradation
+BSU38830	bsu00071	Fatty acid degradation
+BSU39860	bsu00071	Fatty acid degradation
+BSU03630	bsu00130	Ubiquinone and other terpenoid-quinone biosynthesis
+BSU09020	bsu00130	Ubiquinone and other terpenoid-quinone biosynthesis
+BSU22750	bsu00130	Ubiquinone and other terpenoid-quinone biosynthesis
+BSU30780	bsu00130	Ubiquinone and other terpenoid-quinone biosynthesis
+BSU30790	bsu00130	Ubiquinone and other terpenoid-quinone biosynthesis
+BSU30800	bsu00130	Ubiquinone and other terpenoid-quinone biosynthesis
+BSU30810	bsu00130	Ubiquinone and other terpenoid-quinone biosynthesis
+BSU30820	bsu00130	Ubiquinone and other terpenoid-quinone biosynthesis
+BSU30830	bsu00130	Ubiquinone and other terpenoid-quinone biosynthesis
+BSU31670	bsu00130	Ubiquinone and other terpenoid-quinone biosynthesis
+BSU31990	bsu00130	Ubiquinone and other terpenoid-quinone biosynthesis
+BSU38490	bsu00130	Ubiquinone and other terpenoid-quinone biosynthesis
+BSU12080	bsu00190	Oxidative phosphorylation
+BSU12290	bsu00190	Oxidative phosphorylation
+BSU14870	bsu00190	Oxidative phosphorylation
+BSU14880	bsu00190	Oxidative phosphorylation
+BSU14890	bsu00190	Oxidative phosphorylation
+BSU14900	bsu00190	Oxidative phosphorylation
+BSU14910	bsu00190	Oxidative phosphorylation
+BSU14920	bsu00190	Oxidative phosphorylation
+BSU22540	bsu00190	Oxidative phosphorylation
+BSU22550	bsu00190	Oxidative phosphorylation
+BSU22560	bsu00190	Oxidative phosphorylation
+BSU28430	bsu00190	Oxidative phosphorylation
+BSU28440	bsu00190	Oxidative phosphorylation
+BSU28450	bsu00190	Oxidative phosphorylation
+BSU30710	bsu00190	Oxidative phosphorylation
+BSU30720	bsu00190	Oxidative phosphorylation
+BSU32100	bsu00190	Oxidative phosphorylation
+BSU32200	bsu00190	Oxidative phosphorylation
+BSU34970	bsu00190	Oxidative phosphorylation
+BSU36800	bsu00190	Oxidative phosphorylation
+BSU36810	bsu00190	Oxidative phosphorylation
+BSU36820	bsu00190	Oxidative phosphorylation
+BSU36830	bsu00190	Oxidative phosphorylation
+BSU36840	bsu00190	Oxidative phosphorylation
+BSU36850	bsu00190	Oxidative phosphorylation
+BSU36860	bsu00190	Oxidative phosphorylation
+BSU36870	bsu00190	Oxidative phosphorylation
+BSU38140	bsu00190	Oxidative phosphorylation
+BSU38150	bsu00190	Oxidative phosphorylation
+BSU38160	bsu00190	Oxidative phosphorylation
+BSU38170	bsu00190	Oxidative phosphorylation
+BSU38750	bsu00190	Oxidative phosphorylation
+BSU38760	bsu00190	Oxidative phosphorylation
+BSU40550	bsu00190	Oxidative phosphorylation
+BSU02430	bsu00220	Arginine biosynthesis
+BSU06470	bsu00220	Arginine biosynthesis
+BSU07630	bsu00220	Arginine biosynthesis
+BSU09570	bsu00220	Arginine biosynthesis
+BSU11190	bsu00220	Arginine biosynthesis
+BSU11200	bsu00220	Arginine biosynthesis
+BSU11210	bsu00220	Arginine biosynthesis
+BSU11220	bsu00220	Arginine biosynthesis
+BSU11230	bsu00220	Arginine biosynthesis
+BSU11240	bsu00220	Arginine biosynthesis
+BSU11250	bsu00220	Arginine biosynthesis
+BSU14830	bsu00220	Arginine biosynthesis
+BSU15510	bsu00220	Arginine biosynthesis
+BSU15520	bsu00220	Arginine biosynthesis
+BSU17460	bsu00220	Arginine biosynthesis
+BSU19710	bsu00220	Arginine biosynthesis
+BSU22370	bsu00220	Arginine biosynthesis
+BSU22960	bsu00220	Arginine biosynthesis
+BSU29440	bsu00220	Arginine biosynthesis
+BSU29450	bsu00220	Arginine biosynthesis
+BSU36640	bsu00220	Arginine biosynthesis
+BSU36650	bsu00220	Arginine biosynthesis
+BSU36660	bsu00220	Arginine biosynthesis
+BSU37790	bsu00220	Arginine biosynthesis
+BSU40320	bsu00220	Arginine biosynthesis
+BSU00090	bsu00230	Purine metabolism
+BSU00140	bsu00230	Purine metabolism
+BSU00150	bsu00230	Purine metabolism
+BSU00510	bsu00230	Purine metabolism
+BSU00680	bsu00230	Purine metabolism
+BSU01370	bsu00230	Purine metabolism
+BSU02230	bsu00230	Purine metabolism
+BSU06360	bsu00230	Purine metabolism
+BSU06420	bsu00230	Purine metabolism
+BSU06430	bsu00230	Purine metabolism
+BSU06440	bsu00230	Purine metabolism
+BSU06450	bsu00230	Purine metabolism
+BSU06460	bsu00230	Purine metabolism
+BSU06470	bsu00230	Purine metabolism
+BSU06480	bsu00230	Purine metabolism
+BSU06490	bsu00230	Purine metabolism
+BSU06500	bsu00230	Purine metabolism
+BSU06510	bsu00230	Purine metabolism
+BSU06520	bsu00230	Purine metabolism
+BSU06530	bsu00230	Purine metabolism
+BSU06560	bsu00230	Purine metabolism
+BSU07840	bsu00230	Purine metabolism
+BSU09310	bsu00230	Purine metabolism
+BSU10910	bsu00230	Purine metabolism
+BSU10920	bsu00230	Purine metabolism
+BSU11600	bsu00230	Purine metabolism
+BSU13170	bsu00230	Purine metabolism
+BSU14520	bsu00230	Purine metabolism
+BSU15370	bsu00230	Purine metabolism
+BSU15590	bsu00230	Purine metabolism
+BSU15600	bsu00230	Purine metabolism
+BSU15680	bsu00230	Purine metabolism
+BSU16970	bsu00230	Purine metabolism
+BSU17380	bsu00230	Purine metabolism
+BSU17390	bsu00230	Purine metabolism
+BSU19630	bsu00230	Purine metabolism
+BSU20040	bsu00230	Purine metabolism
+BSU20060	bsu00230	Purine metabolism
+BSU22070	bsu00230	Purine metabolism
+BSU22730	bsu00230	Purine metabolism
+BSU23490	bsu00230	Purine metabolism
+BSU23500	bsu00230	Purine metabolism
+BSU23610	bsu00230	Purine metabolism
+BSU27600	bsu00230	Purine metabolism
+BSU27610	bsu00230	Purine metabolism
+BSU28360	bsu00230	Purine metabolism
+BSU32130	bsu00230	Purine metabolism
+BSU32410	bsu00230	Purine metabolism
+BSU32450	bsu00230	Purine metabolism
+BSU32460	bsu00230	Purine metabolism
+BSU32470	bsu00230	Purine metabolism
+BSU32480	bsu00230	Purine metabolism
+BSU32490	bsu00230	Purine metabolism
+BSU32510	bsu00230	Purine metabolism
+BSU32520	bsu00230	Purine metabolism
+BSU32530	bsu00230	Purine metabolism
+BSU36640	bsu00230	Purine metabolism
+BSU36650	bsu00230	Purine metabolism
+BSU36660	bsu00230	Purine metabolism
+BSU38480	bsu00230	Purine metabolism
+BSU40420	bsu00230	Purine metabolism
+BSU00140	bsu00240	Pyrimidine metabolism
+BSU00280	bsu00240	Pyrimidine metabolism
+BSU07840	bsu00240	Pyrimidine metabolism
+BSU11230	bsu00240	Pyrimidine metabolism
+BSU11240	bsu00240	Pyrimidine metabolism
+BSU15470	bsu00240	Pyrimidine metabolism
+BSU15490	bsu00240	Pyrimidine metabolism
+BSU15500	bsu00240	Pyrimidine metabolism
+BSU15510	bsu00240	Pyrimidine metabolism
+BSU15520	bsu00240	Pyrimidine metabolism
+BSU15530	bsu00240	Pyrimidine metabolism
+BSU15540	bsu00240	Pyrimidine metabolism
+BSU15550	bsu00240	Pyrimidine metabolism
+BSU15560	bsu00240	Pyrimidine metabolism
+BSU16510	bsu00240	Pyrimidine metabolism
+BSU16970	bsu00240	Pyrimidine metabolism
+BSU17380	bsu00240	Pyrimidine metabolism
+BSU17390	bsu00240	Pyrimidine metabolism
+BSU17660	bsu00240	Pyrimidine metabolism
+BSU17680	bsu00240	Pyrimidine metabolism
+BSU20020	bsu00240	Pyrimidine metabolism
+BSU20040	bsu00240	Pyrimidine metabolism
+BSU20060	bsu00240	Pyrimidine metabolism
+BSU21820	bsu00240	Pyrimidine metabolism
+BSU22730	bsu00240	Pyrimidine metabolism
+BSU22890	bsu00240	Pyrimidine metabolism
+BSU25300	bsu00240	Pyrimidine metabolism
+BSU25580	bsu00240	Pyrimidine metabolism
+BSU27330	bsu00240	Pyrimidine metabolism
+BSU28050	bsu00240	Pyrimidine metabolism
+BSU36890	bsu00240	Pyrimidine metabolism
+BSU37060	bsu00240	Pyrimidine metabolism
+BSU37150	bsu00240	Pyrimidine metabolism
+BSU39400	bsu00240	Pyrimidine metabolism
+BSU01780	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU01900	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU02430	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU02690	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU03210	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU03900	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU03910	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU06440	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU06470	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU06490	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU09570	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU10790	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU11230	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU11240	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU13570	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU14830	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU15490	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU15510	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU15520	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU17460	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU18440	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU18450	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU22370	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU22960	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU23570	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU23580	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU27870	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU29440	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU29450	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU30540	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU31930	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU37780	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU37790	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU39920	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU40420	bsu00250	Alanine, aspartate and glutamate metabolism
+BSU02270	bsu00260	Glycine, serine and threonine metabolism
+BSU03790	bsu00260	Glycine, serine and threonine metabolism
+BSU08090	bsu00260	Glycine, serine and threonine metabolism
+BSU10020	bsu00260	Glycine, serine and threonine metabolism
+BSU14610	bsu00260	Glycine, serine and threonine metabolism
+BSU15850	bsu00260	Glycine, serine and threonine metabolism
+BSU15860	bsu00260	Glycine, serine and threonine metabolism
+BSU16750	bsu00260	Glycine, serine and threonine metabolism
+BSU16760	bsu00260	Glycine, serine and threonine metabolism
+BSU16990	bsu00260	Glycine, serine and threonine metabolism
+BSU17000	bsu00260	Glycine, serine and threonine metabolism
+BSU18560	bsu00260	Glycine, serine and threonine metabolism
+BSU21770	bsu00260	Glycine, serine and threonine metabolism
+BSU22630	bsu00260	Glycine, serine and threonine metabolism
+BSU22640	bsu00260	Glycine, serine and threonine metabolism
+BSU23070	bsu00260	Glycine, serine and threonine metabolism
+BSU23770	bsu00260	Glycine, serine and threonine metabolism
+BSU24060	bsu00260	Glycine, serine and threonine metabolism
+BSU24550	bsu00260	Glycine, serine and threonine metabolism
+BSU24560	bsu00260	Glycine, serine and threonine metabolism
+BSU24570	bsu00260	Glycine, serine and threonine metabolism
+BSU27250	bsu00260	Glycine, serine and threonine metabolism
+BSU28470	bsu00260	Glycine, serine and threonine metabolism
+BSU28940	bsu00260	Glycine, serine and threonine metabolism
+BSU31050	bsu00260	Glycine, serine and threonine metabolism
+BSU31060	bsu00260	Glycine, serine and threonine metabolism
+BSU32240	bsu00260	Glycine, serine and threonine metabolism
+BSU32250	bsu00260	Glycine, serine and threonine metabolism
+BSU32260	bsu00260	Glycine, serine and threonine metabolism
+BSU32800	bsu00260	Glycine, serine and threonine metabolism
+BSU33910	bsu00260	Glycine, serine and threonine metabolism
+BSU34430	bsu00260	Glycine, serine and threonine metabolism
+BSU34680	bsu00260	Glycine, serine and threonine metabolism
+BSU36900	bsu00260	Glycine, serine and threonine metabolism
+BSU40040	bsu00260	Glycine, serine and threonine metabolism
+BSU03790	bsu00261	Monobactam biosynthesis
+BSU10920	bsu00261	Monobactam biosynthesis
+BSU15590	bsu00261	Monobactam biosynthesis
+BSU16750	bsu00261	Monobactam biosynthesis
+BSU16760	bsu00261	Monobactam biosynthesis
+BSU16770	bsu00261	Monobactam biosynthesis
+BSU22490	bsu00261	Monobactam biosynthesis
+BSU28470	bsu00261	Monobactam biosynthesis
+BSU00730	bsu00270	Cysteine and methionine metabolism
+BSU00930	bsu00270	Cysteine and methionine metabolism
+BSU02390	bsu00270	Cysteine and methionine metabolism
+BSU02410	bsu00270	Cysteine and methionine metabolism
+BSU03050	bsu00270	Cysteine and methionine metabolism
+BSU03790	bsu00270	Cysteine and methionine metabolism
+BSU06060	bsu00270	Cysteine and methionine metabolism
+BSU06070	bsu00270	Cysteine and methionine metabolism
+BSU09570	bsu00270	Cysteine and methionine metabolism
+BSU10020	bsu00270	Cysteine and methionine metabolism
+BSU11010	bsu00270	Cysteine and methionine metabolism
+BSU11870	bsu00270	Cysteine and methionine metabolism
+BSU11880	bsu00270	Cysteine and methionine metabolism
+BSU13180	bsu00270	Cysteine and methionine metabolism
+BSU13550	bsu00270	Cysteine and methionine metabolism
+BSU13560	bsu00270	Cysteine and methionine metabolism
+BSU13580	bsu00270	Cysteine and methionine metabolism
+BSU13590	bsu00270	Cysteine and methionine metabolism
+BSU13600	bsu00270	Cysteine and methionine metabolism
+BSU13610	bsu00270	Cysteine and methionine metabolism
+BSU13620	bsu00270	Cysteine and methionine metabolism
+BSU15370	bsu00270	Cysteine and methionine metabolism
+BSU15850	bsu00270	Cysteine and methionine metabolism
+BSU15860	bsu00270	Cysteine and methionine metabolism
+BSU16750	bsu00270	Cysteine and methionine metabolism
+BSU16760	bsu00270	Cysteine and methionine metabolism
+BSU18560	bsu00270	Cysteine and methionine metabolism
+BSU20250	bsu00270	Cysteine and methionine metabolism
+BSU21910	bsu00270	Cysteine and methionine metabolism
+BSU22370	bsu00270	Cysteine and methionine metabolism
+BSU23070	bsu00270	Cysteine and methionine metabolism
+BSU27250	bsu00270	Cysteine and methionine metabolism
+BSU27260	bsu00270	Cysteine and methionine metabolism
+BSU27270	bsu00270	Cysteine and methionine metabolism
+BSU27280	bsu00270	Cysteine and methionine metabolism
+BSU28470	bsu00270	Cysteine and methionine metabolism
+BSU29010	bsu00270	Cysteine and methionine metabolism
+BSU29120	bsu00270	Cysteine and methionine metabolism
+BSU29640	bsu00270	Cysteine and methionine metabolism
+BSU29970	bsu00270	Cysteine and methionine metabolism
+BSU30550	bsu00270	Cysteine and methionine metabolism
+BSU30670	bsu00270	Cysteine and methionine metabolism
+BSU31140	bsu00270	Cysteine and methionine metabolism
+BSU31440	bsu00270	Cysteine and methionine metabolism
+BSU32260	bsu00270	Cysteine and methionine metabolism
+BSU34430	bsu00270	Cysteine and methionine metabolism
+BSU37500	bsu00270	Cysteine and methionine metabolism
+BSU38550	bsu00270	Cysteine and methionine metabolism
+BSU02390	bsu00280	Valine, leucine and isoleucine degradation
+BSU03900	bsu00280	Valine, leucine and isoleucine degradation
+BSU08090	bsu00280	Valine, leucine and isoleucine degradation
+BSU10350	bsu00280	Valine, leucine and isoleucine degradation
+BSU14610	bsu00280	Valine, leucine and isoleucine degradation
+BSU18230	bsu00280	Valine, leucine and isoleucine degradation
+BSU19310	bsu00280	Valine, leucine and isoleucine degradation
+BSU23920	bsu00280	Valine, leucine and isoleucine degradation
+BSU23930	bsu00280	Valine, leucine and isoleucine degradation
+BSU24030	bsu00280	Valine, leucine and isoleucine degradation
+BSU24040	bsu00280	Valine, leucine and isoleucine degradation
+BSU24050	bsu00280	Valine, leucine and isoleucine degradation
+BSU24060	bsu00280	Valine, leucine and isoleucine degradation
+BSU24080	bsu00280	Valine, leucine and isoleucine degradation
+BSU24170	bsu00280	Valine, leucine and isoleucine degradation
+BSU32830	bsu00280	Valine, leucine and isoleucine degradation
+BSU37170	bsu00280	Valine, leucine and isoleucine degradation
+BSU37960	bsu00280	Valine, leucine and isoleucine degradation
+BSU38550	bsu00280	Valine, leucine and isoleucine degradation
+BSU38830	bsu00280	Valine, leucine and isoleucine degradation
+BSU38980	bsu00280	Valine, leucine and isoleucine degradation
+BSU38990	bsu00280	Valine, leucine and isoleucine degradation
+BSU39760	bsu00280	Valine, leucine and isoleucine degradation
+BSU39860	bsu00280	Valine, leucine and isoleucine degradation
+BSU02390	bsu00290	Valine, leucine and isoleucine biosynthesis
+BSU21770	bsu00290	Valine, leucine and isoleucine biosynthesis
+BSU21870	bsu00290	Valine, leucine and isoleucine biosynthesis
+BSU24080	bsu00290	Valine, leucine and isoleucine biosynthesis
+BSU28250	bsu00290	Valine, leucine and isoleucine biosynthesis
+BSU28260	bsu00290	Valine, leucine and isoleucine biosynthesis
+BSU28270	bsu00290	Valine, leucine and isoleucine biosynthesis
+BSU28280	bsu00290	Valine, leucine and isoleucine biosynthesis
+BSU28290	bsu00290	Valine, leucine and isoleucine biosynthesis
+BSU28300	bsu00290	Valine, leucine and isoleucine biosynthesis
+BSU28310	bsu00290	Valine, leucine and isoleucine biosynthesis
+BSU36010	bsu00290	Valine, leucine and isoleucine biosynthesis
+BSU38550	bsu00290	Valine, leucine and isoleucine biosynthesis
+BSU03790	bsu00300	Lysine biosynthesis
+BSU04570	bsu00300	Lysine biosynthesis
+BSU11220	bsu00300	Lysine biosynthesis
+BSU14000	bsu00300	Lysine biosynthesis
+BSU14180	bsu00300	Lysine biosynthesis
+BSU14190	bsu00300	Lysine biosynthesis
+BSU15180	bsu00300	Lysine biosynthesis
+BSU16750	bsu00300	Lysine biosynthesis
+BSU16760	bsu00300	Lysine biosynthesis
+BSU16770	bsu00300	Lysine biosynthesis
+BSU22490	bsu00300	Lysine biosynthesis
+BSU23380	bsu00300	Lysine biosynthesis
+BSU28470	bsu00300	Lysine biosynthesis
+BSU29980	bsu00300	Lysine biosynthesis
+BSU32170	bsu00300	Lysine biosynthesis
+BSU32260	bsu00300	Lysine biosynthesis
+BSU03900	bsu00310	Lysine degradation
+BSU03910	bsu00310	Lysine degradation
+BSU08090	bsu00310	Lysine degradation
+BSU09670	bsu00310	Lysine degradation
+BSU10350	bsu00310	Lysine degradation
+BSU14610	bsu00310	Lysine degradation
+BSU19310	bsu00310	Lysine degradation
+BSU19360	bsu00310	Lysine degradation
+BSU19690	bsu00310	Lysine degradation
+BSU24060	bsu00310	Lysine degradation
+BSU24170	bsu00310	Lysine degradation
+BSU34430	bsu00310	Lysine degradation
+BSU37960	bsu00310	Lysine degradation
+BSU38830	bsu00310	Lysine degradation
+BSU39860	bsu00310	Lysine degradation
+BSU03180	bsu00311	Penicillin and cephalosporin biosynthesis
+BSU18800	bsu00311	Penicillin and cephalosporin biosynthesis
+BSU39540	bsu00311	Penicillin and cephalosporin biosynthesis
+BSU03200	bsu00330	Arginine and proline metabolism
+BSU03210	bsu00330	Arginine and proline metabolism
+BSU07630	bsu00330	Arginine and proline metabolism
+BSU09570	bsu00330	Arginine and proline metabolism
+BSU09670	bsu00330	Arginine and proline metabolism
+BSU12910	bsu00330	Arginine and proline metabolism
+BSU13120	bsu00330	Arginine and proline metabolism
+BSU13130	bsu00330	Arginine and proline metabolism
+BSU14630	bsu00330	Arginine and proline metabolism
+BSU18470	bsu00330	Arginine and proline metabolism
+BSU18480	bsu00330	Arginine and proline metabolism
+BSU19310	bsu00330	Arginine and proline metabolism
+BSU22370	bsu00330	Arginine and proline metabolism
+BSU23800	bsu00330	Arginine and proline metabolism
+BSU26600	bsu00330	Arginine and proline metabolism
+BSU29010	bsu00330	Arginine and proline metabolism
+BSU32850	bsu00330	Arginine and proline metabolism
+BSU37490	bsu00330	Arginine and proline metabolism
+BSU37500	bsu00330	Arginine and proline metabolism
+BSU37780	bsu00330	Arginine and proline metabolism
+BSU37960	bsu00330	Arginine and proline metabolism
+BSU38830	bsu00330	Arginine and proline metabolism
+BSU39860	bsu00330	Arginine and proline metabolism
+BSU40320	bsu00330	Arginine and proline metabolism
+BSU40340	bsu00330	Arginine and proline metabolism
+BSU13120	bsu00332	Carbapenem biosynthesis
+BSU13130	bsu00332	Carbapenem biosynthesis
+BSU18470	bsu00332	Carbapenem biosynthesis
+BSU19310	bsu00340	Histidine metabolism
+BSU22620	bsu00340	Histidine metabolism
+BSU29620	bsu00340	Histidine metabolism
+BSU34860	bsu00340	Histidine metabolism
+BSU34870	bsu00340	Histidine metabolism
+BSU34880	bsu00340	Histidine metabolism
+BSU34890	bsu00340	Histidine metabolism
+BSU34900	bsu00340	Histidine metabolism
+BSU34910	bsu00340	Histidine metabolism
+BSU34920	bsu00340	Histidine metabolism
+BSU34930	bsu00340	Histidine metabolism
+BSU37960	bsu00340	Histidine metabolism
+BSU38830	bsu00340	Histidine metabolism
+BSU39350	bsu00340	Histidine metabolism
+BSU39360	bsu00340	Histidine metabolism
+BSU39370	bsu00340	Histidine metabolism
+BSU39380	bsu00340	Histidine metabolism
+BSU39860	bsu00340	Histidine metabolism
+BSU03910	bsu00350	Tyrosine metabolism
+BSU09570	bsu00350	Tyrosine metabolism
+BSU18620	bsu00350	Tyrosine metabolism
+BSU22370	bsu00350	Tyrosine metabolism
+BSU22620	bsu00350	Tyrosine metabolism
+BSU26970	bsu00350	Tyrosine metabolism
+BSU09570	bsu00360	Phenylalanine metabolism
+BSU09670	bsu00360	Phenylalanine metabolism
+BSU22370	bsu00360	Phenylalanine metabolism
+BSU22620	bsu00360	Phenylalanine metabolism
+BSU24160	bsu00360	Phenylalanine metabolism
+BSU07330	bsu00361	Chlorocyclohexane and chlorobenzene degradation
+BSU08240	bsu00361	Chlorocyclohexane and chlorobenzene degradation
+BSU08240	bsu00362	Benzoate degradation
+BSU10350	bsu00362	Benzoate degradation
+BSU24160	bsu00362	Benzoate degradation
+BSU24170	bsu00362	Benzoate degradation
+BSU28540	bsu00362	Benzoate degradation
+BSU32830	bsu00362	Benzoate degradation
+BSU32840	bsu00362	Benzoate degradation
+BSU37540	bsu00362	Benzoate degradation
+BSU07250	bsu00380	Tryptophan metabolism
+BSU08090	bsu00380	Tryptophan metabolism
+BSU08820	bsu00380	Tryptophan metabolism
+BSU10350	bsu00380	Tryptophan metabolism
+BSU14610	bsu00380	Tryptophan metabolism
+BSU19310	bsu00380	Tryptophan metabolism
+BSU19360	bsu00380	Tryptophan metabolism
+BSU24060	bsu00380	Tryptophan metabolism
+BSU24170	bsu00380	Tryptophan metabolism
+BSU27160	bsu00380	Tryptophan metabolism
+BSU37960	bsu00380	Tryptophan metabolism
+BSU38630	bsu00380	Tryptophan metabolism
+BSU38830	bsu00380	Tryptophan metabolism
+BSU39050	bsu00380	Tryptophan metabolism
+BSU39860	bsu00380	Tryptophan metabolism
+BSU03150	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU09570	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU22370	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU22600	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU22610	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU22620	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU22630	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU22640	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU22650	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU22660	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU22670	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU22680	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU22690	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU22700	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU22710	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU23080	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU24470	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU25660	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU27900	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU27910	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU29750	bsu00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+BSU09570	bsu00401	Novobiocin biosynthesis
+BSU22370	bsu00401	Novobiocin biosynthesis
+BSU22610	bsu00401	Novobiocin biosynthesis
+BSU22620	bsu00401	Novobiocin biosynthesis
+BSU03900	bsu00410	beta-Alanine metabolism
+BSU19310	bsu00410	beta-Alanine metabolism
+BSU22410	bsu00410	beta-Alanine metabolism
+BSU22420	bsu00410	beta-Alanine metabolism
+BSU37170	bsu00410	beta-Alanine metabolism
+BSU37960	bsu00410	beta-Alanine metabolism
+BSU38830	bsu00410	beta-Alanine metabolism
+BSU39760	bsu00410	beta-Alanine metabolism
+BSU39860	bsu00410	beta-Alanine metabolism
+BSU09260	bsu00430	Taurine and hypotaurine metabolism
+BSU18410	bsu00430	Taurine and hypotaurine metabolism
+BSU22960	bsu00430	Taurine and hypotaurine metabolism
+BSU29470	bsu00430	Taurine and hypotaurine metabolism
+BSU31140	bsu00430	Taurine and hypotaurine metabolism
+BSU31930	bsu00430	Taurine and hypotaurine metabolism
+BSU36100	bsu00430	Taurine and hypotaurine metabolism
+BSU37660	bsu00430	Taurine and hypotaurine metabolism
+BSU37790	bsu00430	Taurine and hypotaurine metabolism
+BSU00380	bsu00450	Selenocompound metabolism
+BSU10920	bsu00450	Selenocompound metabolism
+BSU11010	bsu00450	Selenocompound metabolism
+BSU11870	bsu00450	Selenocompound metabolism
+BSU11880	bsu00450	Selenocompound metabolism
+BSU13180	bsu00450	Selenocompound metabolism
+BSU15590	bsu00450	Selenocompound metabolism
+BSU31440	bsu00450	Selenocompound metabolism
+BSU32690	bsu00450	Selenocompound metabolism
+BSU34790	bsu00450	Selenocompound metabolism
+BSU02690	bsu00460	Cyanoamino acid metabolism
+BSU18410	bsu00460	Cyanoamino acid metabolism
+BSU23580	bsu00460	Cyanoamino acid metabolism
+BSU36100	bsu00460	Cyanoamino acid metabolism
+BSU36900	bsu00460	Cyanoamino acid metabolism
+BSU02430	bsu00470	D-Amino acid metabolism
+BSU04560	bsu00470	D-Amino acid metabolism
+BSU04640	bsu00470	D-Amino acid metabolism
+BSU06470	bsu00470	D-Amino acid metabolism
+BSU09670	bsu00470	D-Amino acid metabolism
+BSU12980	bsu00470	D-Amino acid metabolism
+BSU14830	bsu00470	D-Amino acid metabolism
+BSU15200	bsu00470	D-Amino acid metabolism
+BSU17640	bsu00470	D-Amino acid metabolism
+BSU23380	bsu00470	D-Amino acid metabolism
+BSU23770	bsu00470	D-Amino acid metabolism
+BSU26810	bsu00470	D-Amino acid metabolism
+BSU28390	bsu00470	D-Amino acid metabolism
+BSU32170	bsu00470	D-Amino acid metabolism
+BSU34430	bsu00470	D-Amino acid metabolism
+BSU38500	bsu00470	D-Amino acid metabolism
+BSU38520	bsu00470	D-Amino acid metabolism
+BSU04050	bsu00480	Glutathione metabolism
+BSU18410	bsu00480	Glutathione metabolism
+BSU21900	bsu00480	Glutathione metabolism
+BSU23850	bsu00480	Glutathione metabolism
+BSU23860	bsu00480	Glutathione metabolism
+BSU25730	bsu00480	Glutathione metabolism
+BSU29130	bsu00480	Glutathione metabolism
+BSU32050	bsu00480	Glutathione metabolism
+BSU36100	bsu00480	Glutathione metabolism
+BSU37500	bsu00480	Glutathione metabolism
+BSU40080	bsu00480	Glutathione metabolism
+BSU01680	bsu00500	Starch and sucrose metabolism
+BSU02840	bsu00500	Starch and sucrose metabolism
+BSU03040	bsu00500	Starch and sucrose metabolism
+BSU03410	bsu00500	Starch and sucrose metabolism
+BSU05810	bsu00500	Starch and sucrose metabolism
+BSU05820	bsu00500	Starch and sucrose metabolism
+BSU05830	bsu00500	Starch and sucrose metabolism
+BSU05840	bsu00500	Starch and sucrose metabolism
+BSU05860	bsu00500	Starch and sucrose metabolism
+BSU06170	bsu00500	Starch and sucrose metabolism
+BSU07270	bsu00500	Starch and sucrose metabolism
+BSU07800	bsu00500	Starch and sucrose metabolism
+BSU07810	bsu00500	Starch and sucrose metabolism
+BSU08180	bsu00500	Starch and sucrose metabolism
+BSU08200	bsu00500	Starch and sucrose metabolism
+BSU09310	bsu00500	Starch and sucrose metabolism
+BSU18130	bsu00500	Starch and sucrose metabolism
+BSU18180	bsu00500	Starch and sucrose metabolism
+BSU22230	bsu00500	Starch and sucrose metabolism
+BSU24850	bsu00500	Starch and sucrose metabolism
+BSU29930	bsu00500	Starch and sucrose metabolism
+BSU30850	bsu00500	Starch and sucrose metabolism
+BSU30940	bsu00500	Starch and sucrose metabolism
+BSU30950	bsu00500	Starch and sucrose metabolism
+BSU30960	bsu00500	Starch and sucrose metabolism
+BSU30970	bsu00500	Starch and sucrose metabolism
+BSU30980	bsu00500	Starch and sucrose metabolism
+BSU31290	bsu00500	Starch and sucrose metabolism
+BSU31350	bsu00500	Starch and sucrose metabolism
+BSU34450	bsu00500	Starch and sucrose metabolism
+BSU34460	bsu00500	Starch and sucrose metabolism
+BSU34550	bsu00500	Starch and sucrose metabolism
+BSU34560	bsu00500	Starch and sucrose metabolism
+BSU34570	bsu00500	Starch and sucrose metabolism
+BSU34620	bsu00500	Starch and sucrose metabolism
+BSU35670	bsu00500	Starch and sucrose metabolism
+BSU38040	bsu00500	Starch and sucrose metabolism
+BSU38050	bsu00500	Starch and sucrose metabolism
+BSU38390	bsu00500	Starch and sucrose metabolism
+BSU38410	bsu00500	Starch and sucrose metabolism
+BSU38560	bsu00500	Starch and sucrose metabolism
+BSU38570	bsu00500	Starch and sucrose metabolism
+BSU38580	bsu00500	Starch and sucrose metabolism
+BSU38590	bsu00500	Starch and sucrose metabolism
+BSU39260	bsu00500	Starch and sucrose metabolism
+BSU40110	bsu00500	Starch and sucrose metabolism
+BSU40120	bsu00500	Starch and sucrose metabolism
+BSU07080	bsu00511	Other glycan degradation
+BSU35780	bsu00511	Other glycan degradation
+BSU00500	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU01660	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU01700	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU01770	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU01780	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU01900	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU02350	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU02360	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU05860	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU05870	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU06170	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU07270	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU07700	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU09310	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU12020	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU13890	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU15230	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU17580	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU18160	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU18180	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU22230	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU24850	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU26890	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU28510	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU28720	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU30850	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU30860	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU30960	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU30970	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU31350	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU35010	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU35020	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU35580	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU35660	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU35670	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU35790	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU36230	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU36760	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU37100	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU38190	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU38200	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU38860	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU40120	bsu00520	Amino sugar and nucleotide sugar metabolism
+BSU09310	bsu00521	Streptomycin biosynthesis
+BSU14670	bsu00521	Streptomycin biosynthesis
+BSU24850	bsu00521	Streptomycin biosynthesis
+BSU27770	bsu00521	Streptomycin biosynthesis
+BSU37810	bsu00521	Streptomycin biosynthesis
+BSU37820	bsu00521	Streptomycin biosynthesis
+BSU37830	bsu00521	Streptomycin biosynthesis
+BSU37840	bsu00521	Streptomycin biosynthesis
+BSU39700	bsu00521	Streptomycin biosynthesis
+BSU37810	bsu00523	Polyketide sugar unit biosynthesis
+BSU37820	bsu00523	Polyketide sugar unit biosynthesis
+BSU37830	bsu00523	Polyketide sugar unit biosynthesis
+BSU37840	bsu00523	Polyketide sugar unit biosynthesis
+BSU37830	bsu00525	Acarbose and validamycin biosynthesis
+BSU37840	bsu00525	Acarbose and validamycin biosynthesis
+BSU00500	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU05870	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU07270	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU12020	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU18180	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU30850	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU30860	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU35580	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU35660	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU35670	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU35790	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU36230	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU37810	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU37820	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU37830	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU37840	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU38860	bsu00541	O-Antigen nucleotide sugar biosynthesis
+BSU35530	bsu00542	O-Antigen repeat unit biosynthesis
+BSU00930	bsu00543	Exopolysaccharide biosynthesis
+BSU35530	bsu00543	Exopolysaccharide biosynthesis
+BSU00100	bsu00550	Peptidoglycan biosynthesis
+BSU01670	bsu00550	Peptidoglycan biosynthesis
+BSU04560	bsu00550	Peptidoglycan biosynthesis
+BSU04570	bsu00550	Peptidoglycan biosynthesis
+BSU10110	bsu00550	Peptidoglycan biosynthesis
+BSU13980	bsu00550	Peptidoglycan biosynthesis
+BSU15160	bsu00550	Peptidoglycan biosynthesis
+BSU15170	bsu00550	Peptidoglycan biosynthesis
+BSU15180	bsu00550	Peptidoglycan biosynthesis
+BSU15190	bsu00550	Peptidoglycan biosynthesis
+BSU15200	bsu00550	Peptidoglycan biosynthesis
+BSU15220	bsu00550	Peptidoglycan biosynthesis
+BSU15230	bsu00550	Peptidoglycan biosynthesis
+BSU16530	bsu00550	Peptidoglycan biosynthesis
+BSU18350	bsu00550	Peptidoglycan biosynthesis
+BSU19620	bsu00550	Peptidoglycan biosynthesis
+BSU22320	bsu00550	Peptidoglycan biosynthesis
+BSU23190	bsu00550	Peptidoglycan biosynthesis
+BSU23480	bsu00550	Peptidoglycan biosynthesis
+BSU25000	bsu00550	Peptidoglycan biosynthesis
+BSU25310	bsu00550	Peptidoglycan biosynthesis
+BSU29790	bsu00550	Peptidoglycan biosynthesis
+BSU31150	bsu00550	Peptidoglycan biosynthesis
+BSU31490	bsu00550	Peptidoglycan biosynthesis
+BSU36530	bsu00550	Peptidoglycan biosynthesis
+BSU36760	bsu00550	Peptidoglycan biosynthesis
+BSU37100	bsu00550	Peptidoglycan biosynthesis
+BSU37510	bsu00550	Peptidoglycan biosynthesis
+BSU07260	bsu00552	Teichoic acid biosynthesis
+BSU07710	bsu00552	Teichoic acid biosynthesis
+BSU08600	bsu00552	Teichoic acid biosynthesis
+BSU08610	bsu00552	Teichoic acid biosynthesis
+BSU21920	bsu00552	Teichoic acid biosynthesis
+BSU24840	bsu00552	Teichoic acid biosynthesis
+BSU31150	bsu00552	Teichoic acid biosynthesis
+BSU33360	bsu00552	Teichoic acid biosynthesis
+BSU35520	bsu00552	Teichoic acid biosynthesis
+BSU35530	bsu00552	Teichoic acid biosynthesis
+BSU35650	bsu00552	Teichoic acid biosynthesis
+BSU35720	bsu00552	Teichoic acid biosynthesis
+BSU35730	bsu00552	Teichoic acid biosynthesis
+BSU35750	bsu00552	Teichoic acid biosynthesis
+BSU35760	bsu00552	Teichoic acid biosynthesis
+BSU35840	bsu00552	Teichoic acid biosynthesis
+BSU36530	bsu00552	Teichoic acid biosynthesis
+BSU38500	bsu00552	Teichoic acid biosynthesis
+BSU38510	bsu00552	Teichoic acid biosynthesis
+BSU38520	bsu00552	Teichoic acid biosynthesis
+BSU38530	bsu00552	Teichoic acid biosynthesis
+BSU02700	bsu00561	Glycerolipid metabolism
+BSU06720	bsu00561	Glycerolipid metabolism
+BSU07260	bsu00561	Glycerolipid metabolism
+BSU07710	bsu00561	Glycerolipid metabolism
+BSU08350	bsu00561	Glycerolipid metabolism
+BSU09290	bsu00561	Glycerolipid metabolism
+BSU09540	bsu00561	Glycerolipid metabolism
+BSU15890	bsu00561	Glycerolipid metabolism
+BSU18070	bsu00561	Glycerolipid metabolism
+BSU19310	bsu00561	Glycerolipid metabolism
+BSU21920	bsu00561	Glycerolipid metabolism
+BSU24840	bsu00561	Glycerolipid metabolism
+BSU27010	bsu00561	Glycerolipid metabolism
+BSU30300	bsu00561	Glycerolipid metabolism
+BSU33360	bsu00561	Glycerolipid metabolism
+BSU37960	bsu00561	Glycerolipid metabolism
+BSU38830	bsu00561	Glycerolipid metabolism
+BSU39860	bsu00561	Glycerolipid metabolism
+BSU40040	bsu00561	Glycerolipid metabolism
+BSU10850	bsu00562	Inositol phosphate metabolism
+BSU14670	bsu00562	Inositol phosphate metabolism
+BSU19800	bsu00562	Inositol phosphate metabolism
+BSU27770	bsu00562	Inositol phosphate metabolism
+BSU31170	bsu00562	Inositol phosphate metabolism
+BSU33530	bsu00562	Inositol phosphate metabolism
+BSU33920	bsu00562	Inositol phosphate metabolism
+BSU39670	bsu00562	Inositol phosphate metabolism
+BSU39680	bsu00562	Inositol phosphate metabolism
+BSU39700	bsu00562	Inositol phosphate metabolism
+BSU39720	bsu00562	Inositol phosphate metabolism
+BSU39730	bsu00562	Inositol phosphate metabolism
+BSU39740	bsu00562	Inositol phosphate metabolism
+BSU39750	bsu00562	Inositol phosphate metabolism
+BSU39760	bsu00562	Inositol phosphate metabolism
+BSU02130	bsu00564	Glycerophospholipid metabolism
+BSU02270	bsu00564	Glycerophospholipid metabolism
+BSU02290	bsu00564	Glycerophospholipid metabolism
+BSU06600	bsu00564	Glycerophospholipid metabolism
+BSU06720	bsu00564	Glycerophospholipid metabolism
+BSU09300	bsu00564	Glycerophospholipid metabolism
+BSU09540	bsu00564	Glycerophospholipid metabolism
+BSU09620	bsu00564	Glycerophospholipid metabolism
+BSU16540	bsu00564	Glycerophospholipid metabolism
+BSU16920	bsu00564	Glycerophospholipid metabolism
+BSU18070	bsu00564	Glycerophospholipid metabolism
+BSU22830	bsu00564	Glycerophospholipid metabolism
+BSU24180	bsu00564	Glycerophospholipid metabolism
+BSU28760	bsu00564	Glycerophospholipid metabolism
+BSU30510	bsu00564	Glycerophospholipid metabolism
+BSU34960	bsu00564	Glycerophospholipid metabolism
+BSU35740	bsu00564	Glycerophospholipid metabolism
+BSU36590	bsu00564	Glycerophospholipid metabolism
+BSU37190	bsu00564	Glycerophospholipid metabolism
+BSU37240	bsu00564	Glycerophospholipid metabolism
+BSU32830	bsu00592	alpha-Linolenic acid metabolism
+BSU07080	bsu00600	Sphingolipid metabolism
+BSU30300	bsu00600	Sphingolipid metabolism
+BSU03050	bsu00620	Pyruvate metabolism
+BSU04340	bsu00620	Pyruvate metabolism
+BSU07640	bsu00620	Pyruvate metabolism
+BSU08080	bsu00620	Pyruvate metabolism
+BSU08090	bsu00620	Pyruvate metabolism
+BSU10350	bsu00620	Pyruvate metabolism
+BSU14580	bsu00620	Pyruvate metabolism
+BSU14590	bsu00620	Pyruvate metabolism
+BSU14600	bsu00620	Pyruvate metabolism
+BSU14610	bsu00620	Pyruvate metabolism
+BSU14860	bsu00620	Pyruvate metabolism
+BSU18240	bsu00620	Pyruvate metabolism
+BSU19310	bsu00620	Pyruvate metabolism
+BSU23550	bsu00620	Pyruvate metabolism
+BSU24060	bsu00620	Pyruvate metabolism
+BSU24170	bsu00620	Pyruvate metabolism
+BSU24340	bsu00620	Pyruvate metabolism
+BSU24350	bsu00620	Pyruvate metabolism
+BSU24790	bsu00620	Pyruvate metabolism
+BSU26970	bsu00620	Pyruvate metabolism
+BSU27010	bsu00620	Pyruvate metabolism
+BSU28280	bsu00620	Pyruvate metabolism
+BSU28700	bsu00620	Pyruvate metabolism
+BSU29050	bsu00620	Pyruvate metabolism
+BSU29120	bsu00620	Pyruvate metabolism
+BSU29180	bsu00620	Pyruvate metabolism
+BSU29200	bsu00620	Pyruvate metabolism
+BSU29210	bsu00620	Pyruvate metabolism
+BSU29220	bsu00620	Pyruvate metabolism
+BSU29470	bsu00620	Pyruvate metabolism
+BSU29560	bsu00620	Pyruvate metabolism
+BSU29680	bsu00620	Pyruvate metabolism
+BSU29880	bsu00620	Pyruvate metabolism
+BSU30560	bsu00620	Pyruvate metabolism
+BSU33040	bsu00620	Pyruvate metabolism
+BSU33400	bsu00620	Pyruvate metabolism
+BSU34680	bsu00620	Pyruvate metabolism
+BSU37050	bsu00620	Pyruvate metabolism
+BSU37660	bsu00620	Pyruvate metabolism
+BSU37960	bsu00620	Pyruvate metabolism
+BSU38370	bsu00620	Pyruvate metabolism
+BSU38830	bsu00620	Pyruvate metabolism
+BSU39860	bsu00620	Pyruvate metabolism
+BSU40860	bsu00620	Pyruvate metabolism
+BSU08240	bsu00622	Xylene degradation
+BSU37540	bsu00622	Xylene degradation
+BSU07330	bsu00625	Chloroalkane and chloroalkene degradation
+BSU19310	bsu00625	Chloroalkane and chloroalkene degradation
+BSU26970	bsu00625	Chloroalkane and chloroalkene degradation
+BSU37960	bsu00625	Chloroalkane and chloroalkene degradation
+BSU38830	bsu00625	Chloroalkane and chloroalkene degradation
+BSU39860	bsu00625	Chloroalkane and chloroalkene degradation
+BSU40250	bsu00625	Chloroalkane and chloroalkene degradation
+BSU26970	bsu00626	Naphthalene degradation
+BSU03630	bsu00627	Aminobenzoate degradation
+BSU03640	bsu00627	Aminobenzoate degradation
+BSU03651	bsu00627	Aminobenzoate degradation
+BSU07250	bsu00627	Aminobenzoate degradation
+BSU07350	bsu00627	Aminobenzoate degradation
+BSU07640	bsu00627	Aminobenzoate degradation
+BSU27160	bsu00627	Aminobenzoate degradation
+BSU04000	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU08090	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU08820	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU09440	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU10350	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU12160	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU13110	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU14610	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU17460	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU18000	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU18670	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU22100	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU23920	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU23930	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU24060	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU24140	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU24170	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU24550	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU24560	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU24570	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU27220	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU28680	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU28690	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU29120	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU29140	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU29560	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU29680	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU32800	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU33240	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU34680	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU36900	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU38630	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU39050	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU40040	bsu00630	Glyoxylate and dicarboxylate metabolism
+BSU03050	bsu00640	Propanoate metabolism
+BSU03900	bsu00640	Propanoate metabolism
+BSU08090	bsu00640	Propanoate metabolism
+BSU10320	bsu00640	Propanoate metabolism
+BSU14610	bsu00640	Propanoate metabolism
+BSU16090	bsu00640	Propanoate metabolism
+BSU16100	bsu00640	Propanoate metabolism
+BSU18240	bsu00640	Propanoate metabolism
+BSU22480	bsu00640	Propanoate metabolism
+BSU23920	bsu00640	Propanoate metabolism
+BSU23930	bsu00640	Propanoate metabolism
+BSU24030	bsu00640	Propanoate metabolism
+BSU24040	bsu00640	Propanoate metabolism
+BSU24050	bsu00640	Propanoate metabolism
+BSU24060	bsu00640	Propanoate metabolism
+BSU24120	bsu00640	Propanoate metabolism
+BSU24130	bsu00640	Propanoate metabolism
+BSU24340	bsu00640	Propanoate metabolism
+BSU24350	bsu00640	Propanoate metabolism
+BSU29050	bsu00640	Propanoate metabolism
+BSU29200	bsu00640	Propanoate metabolism
+BSU29210	bsu00640	Propanoate metabolism
+BSU29470	bsu00640	Propanoate metabolism
+BSU29560	bsu00640	Propanoate metabolism
+BSU29680	bsu00640	Propanoate metabolism
+BSU33400	bsu00640	Propanoate metabolism
+BSU37170	bsu00640	Propanoate metabolism
+BSU37660	bsu00640	Propanoate metabolism
+BSU39760	bsu00640	Propanoate metabolism
+BSU03900	bsu00650	Butanoate metabolism
+BSU03910	bsu00650	Butanoate metabolism
+BSU04000	bsu00650	Butanoate metabolism
+BSU06240	bsu00650	Butanoate metabolism
+BSU10350	bsu00650	Butanoate metabolism
+BSU18220	bsu00650	Butanoate metabolism
+BSU18230	bsu00650	Butanoate metabolism
+BSU24070	bsu00650	Butanoate metabolism
+BSU24090	bsu00650	Butanoate metabolism
+BSU24160	bsu00650	Butanoate metabolism
+BSU24170	bsu00650	Butanoate metabolism
+BSU28300	bsu00650	Butanoate metabolism
+BSU28310	bsu00650	Butanoate metabolism
+BSU28430	bsu00650	Butanoate metabolism
+BSU28440	bsu00650	Butanoate metabolism
+BSU28450	bsu00650	Butanoate metabolism
+BSU32840	bsu00650	Butanoate metabolism
+BSU36000	bsu00650	Butanoate metabolism
+BSU36010	bsu00650	Butanoate metabolism
+BSU37170	bsu00650	Butanoate metabolism
+BSU38970	bsu00650	Butanoate metabolism
+BSU38980	bsu00650	Butanoate metabolism
+BSU38990	bsu00650	Butanoate metabolism
+BSU16090	bsu00660	C5-Branched dibasic acid metabolism
+BSU16100	bsu00660	C5-Branched dibasic acid metabolism
+BSU28250	bsu00660	C5-Branched dibasic acid metabolism
+BSU28260	bsu00660	C5-Branched dibasic acid metabolism
+BSU28270	bsu00660	C5-Branched dibasic acid metabolism
+BSU28300	bsu00660	C5-Branched dibasic acid metabolism
+BSU28310	bsu00660	C5-Branched dibasic acid metabolism
+BSU36000	bsu00660	C5-Branched dibasic acid metabolism
+BSU36010	bsu00660	C5-Branched dibasic acid metabolism
+BSU06510	bsu00670	One carbon pool by folate
+BSU06520	bsu00670	One carbon pool by folate
+BSU11010	bsu00670	One carbon pool by folate
+BSU13110	bsu00670	One carbon pool by folate
+BSU15730	bsu00670	One carbon pool by folate
+BSU17680	bsu00670	One carbon pool by folate
+BSU21810	bsu00670	One carbon pool by folate
+BSU21820	bsu00670	One carbon pool by folate
+BSU24310	bsu00670	One carbon pool by folate
+BSU24570	bsu00670	One carbon pool by folate
+BSU24890	bsu00670	One carbon pool by folate
+BSU36900	bsu00670	One carbon pool by folate
+BSU03450	bsu00680	Methane metabolism
+BSU03460	bsu00680	Methane metabolism
+BSU10020	bsu00680	Methane metabolism
+BSU10940	bsu00680	Methane metabolism
+BSU10950	bsu00680	Methane metabolism
+BSU12160	bsu00680	Methane metabolism
+BSU18560	bsu00680	Methane metabolism
+BSU23070	bsu00680	Methane metabolism
+BSU26970	bsu00680	Methane metabolism
+BSU27220	bsu00680	Methane metabolism
+BSU28940	bsu00680	Methane metabolism
+BSU29120	bsu00680	Methane metabolism
+BSU29190	bsu00680	Methane metabolism
+BSU29470	bsu00680	Methane metabolism
+BSU29560	bsu00680	Methane metabolism
+BSU29680	bsu00680	Methane metabolism
+BSU33900	bsu00680	Methane metabolism
+BSU33910	bsu00680	Methane metabolism
+BSU36900	bsu00680	Methane metabolism
+BSU37090	bsu00680	Methane metabolism
+BSU37120	bsu00680	Methane metabolism
+BSU37660	bsu00680	Methane metabolism
+BSU40190	bsu00680	Methane metabolism
+BSU40250	bsu00680	Methane metabolism
+BSU15790	bsu00710	Carbon fixation by Calvin cycle
+BSU17890	bsu00710	Carbon fixation by Calvin cycle
+BSU29020	bsu00710	Carbon fixation by Calvin cycle
+BSU29120	bsu00710	Carbon fixation by Calvin cycle
+BSU30560	bsu00710	Carbon fixation by Calvin cycle
+BSU33920	bsu00710	Carbon fixation by Calvin cycle
+BSU33930	bsu00710	Carbon fixation by Calvin cycle
+BSU33940	bsu00710	Carbon fixation by Calvin cycle
+BSU36920	bsu00710	Carbon fixation by Calvin cycle
+BSU37090	bsu00710	Carbon fixation by Calvin cycle
+BSU37110	bsu00710	Carbon fixation by Calvin cycle
+BSU37120	bsu00710	Carbon fixation by Calvin cycle
+BSU40190	bsu00710	Carbon fixation by Calvin cycle
+BSU10350	bsu00720	Other carbon fixation pathways
+BSU14860	bsu00720	Other carbon fixation pathways
+BSU16090	bsu00720	Other carbon fixation pathways
+BSU16100	bsu00720	Other carbon fixation pathways
+BSU18000	bsu00720	Other carbon fixation pathways
+BSU18240	bsu00720	Other carbon fixation pathways
+BSU23930	bsu00720	Other carbon fixation pathways
+BSU24170	bsu00720	Other carbon fixation pathways
+BSU24310	bsu00720	Other carbon fixation pathways
+BSU24340	bsu00720	Other carbon fixation pathways
+BSU24350	bsu00720	Other carbon fixation pathways
+BSU28430	bsu00720	Other carbon fixation pathways
+BSU28440	bsu00720	Other carbon fixation pathways
+BSU28450	bsu00720	Other carbon fixation pathways
+BSU29120	bsu00720	Other carbon fixation pathways
+BSU29130	bsu00720	Other carbon fixation pathways
+BSU29200	bsu00720	Other carbon fixation pathways
+BSU29210	bsu00720	Other carbon fixation pathways
+BSU29470	bsu00720	Other carbon fixation pathways
+BSU29560	bsu00720	Other carbon fixation pathways
+BSU29680	bsu00720	Other carbon fixation pathways
+BSU33040	bsu00720	Other carbon fixation pathways
+BSU37660	bsu00720	Other carbon fixation pathways
+BSU01370	bsu00730	Thiamine metabolism
+BSU05740	bsu00730	Thiamine metabolism
+BSU05900	bsu00730	Thiamine metabolism
+BSU08790	bsu00730	Thiamine metabolism
+BSU09410	bsu00730	Thiamine metabolism
+BSU11650	bsu00730	Thiamine metabolism
+BSU11660	bsu00730	Thiamine metabolism
+BSU11670	bsu00730	Thiamine metabolism
+BSU11690	bsu00730	Thiamine metabolism
+BSU11700	bsu00730	Thiamine metabolism
+BSU11710	bsu00730	Thiamine metabolism
+BSU15350	bsu00730	Thiamine metabolism
+BSU15780	bsu00730	Thiamine metabolism
+BSU15800	bsu00730	Thiamine metabolism
+BSU24270	bsu00730	Thiamine metabolism
+BSU27510	bsu00730	Thiamine metabolism
+BSU27880	bsu00730	Thiamine metabolism
+BSU29580	bsu00730	Thiamine metabolism
+BSU29590	bsu00730	Thiamine metabolism
+BSU38290	bsu00730	Thiamine metabolism
+BSU38300	bsu00730	Thiamine metabolism
+BSU03630	bsu00740	Riboflavin metabolism
+BSU03860	bsu00740	Riboflavin metabolism
+BSU04040	bsu00740	Riboflavin metabolism
+BSU11140	bsu00740	Riboflavin metabolism
+BSU16670	bsu00740	Riboflavin metabolism
+BSU23250	bsu00740	Riboflavin metabolism
+BSU23260	bsu00740	Riboflavin metabolism
+BSU23270	bsu00740	Riboflavin metabolism
+BSU23280	bsu00740	Riboflavin metabolism
+BSU23610	bsu00740	Riboflavin metabolism
+BSU29300	bsu00740	Riboflavin metabolism
+BSU35850	bsu00740	Riboflavin metabolism
+BSU38110	bsu00740	Riboflavin metabolism
+BSU38300	bsu00740	Riboflavin metabolism
+BSU00110	bsu00750	Vitamin B6 metabolism
+BSU00120	bsu00750	Vitamin B6 metabolism
+BSU10020	bsu00750	Vitamin B6 metabolism
+BSU32250	bsu00750	Vitamin B6 metabolism
+BSU38020	bsu00750	Vitamin B6 metabolism
+BSU03130	bsu00760	Nicotinate and nicotinamide metabolism
+BSU03910	bsu00760	Nicotinate and nicotinamide metabolism
+BSU07840	bsu00760	Nicotinate and nicotinamide metabolism
+BSU09650	bsu00760	Nicotinate and nicotinamide metabolism
+BSU11610	bsu00760	Nicotinate and nicotinamide metabolism
+BSU19630	bsu00760	Nicotinate and nicotinamide metabolism
+BSU23490	bsu00760	Nicotinate and nicotinamide metabolism
+BSU25640	bsu00760	Nicotinate and nicotinamide metabolism
+BSU27850	bsu00760	Nicotinate and nicotinamide metabolism
+BSU27860	bsu00760	Nicotinate and nicotinamide metabolism
+BSU27870	bsu00760	Nicotinate and nicotinamide metabolism
+BSU29540	bsu00760	Nicotinate and nicotinamide metabolism
+BSU31750	bsu00760	Nicotinate and nicotinamide metabolism
+BSU00700	bsu00770	Pantothenate and CoA biosynthesis
+BSU02390	bsu00770	Pantothenate and CoA biosynthesis
+BSU04620	bsu00770	Pantothenate and CoA biosynthesis
+BSU14440	bsu00770	Pantothenate and CoA biosynthesis
+BSU15020	bsu00770	Pantothenate and CoA biosynthesis
+BSU15110	bsu00770	Pantothenate and CoA biosynthesis
+BSU15700	bsu00770	Pantothenate and CoA biosynthesis
+BSU19310	bsu00770	Pantothenate and CoA biosynthesis
+BSU21870	bsu00770	Pantothenate and CoA biosynthesis
+BSU22410	bsu00770	Pantothenate and CoA biosynthesis
+BSU22420	bsu00770	Pantothenate and CoA biosynthesis
+BSU22430	bsu00770	Pantothenate and CoA biosynthesis
+BSU23760	bsu00770	Pantothenate and CoA biosynthesis
+BSU28290	bsu00770	Pantothenate and CoA biosynthesis
+BSU28300	bsu00770	Pantothenate and CoA biosynthesis
+BSU28310	bsu00770	Pantothenate and CoA biosynthesis
+BSU29060	bsu00770	Pantothenate and CoA biosynthesis
+BSU36010	bsu00770	Pantothenate and CoA biosynthesis
+BSU37960	bsu00770	Pantothenate and CoA biosynthesis
+BSU38550	bsu00770	Pantothenate and CoA biosynthesis
+BSU38830	bsu00770	Pantothenate and CoA biosynthesis
+BSU39860	bsu00770	Pantothenate and CoA biosynthesis
+BSU11340	bsu00780	Biotin metabolism
+BSU11720	bsu00780	Biotin metabolism
+BSU15910	bsu00780	Biotin metabolism
+BSU16870	bsu00780	Biotin metabolism
+BSU22440	bsu00780	Biotin metabolism
+BSU29420	bsu00780	Biotin metabolism
+BSU30190	bsu00780	Biotin metabolism
+BSU30200	bsu00780	Biotin metabolism
+BSU30210	bsu00780	Biotin metabolism
+BSU30220	bsu00780	Biotin metabolism
+BSU30230	bsu00780	Biotin metabolism
+BSU30240	bsu00780	Biotin metabolism
+BSU36370	bsu00780	Biotin metabolism
+BSU08080	bsu00785	Lipoic acid metabolism
+BSU08090	bsu00785	Lipoic acid metabolism
+BSU10250	bsu00785	Lipoic acid metabolism
+BSU14580	bsu00785	Lipoic acid metabolism
+BSU14590	bsu00785	Lipoic acid metabolism
+BSU14600	bsu00785	Lipoic acid metabolism
+BSU14610	bsu00785	Lipoic acid metabolism
+BSU19360	bsu00785	Lipoic acid metabolism
+BSU19370	bsu00785	Lipoic acid metabolism
+BSU24030	bsu00785	Lipoic acid metabolism
+BSU24040	bsu00785	Lipoic acid metabolism
+BSU24050	bsu00785	Lipoic acid metabolism
+BSU24060	bsu00785	Lipoic acid metabolism
+BSU24530	bsu00785	Lipoic acid metabolism
+BSU24550	bsu00785	Lipoic acid metabolism
+BSU24560	bsu00785	Lipoic acid metabolism
+BSU24570	bsu00785	Lipoic acid metabolism
+BSU32330	bsu00785	Lipoic acid metabolism
+BSU32800	bsu00785	Lipoic acid metabolism
+BSU37640	bsu00785	Lipoic acid metabolism
+BSU00740	bsu00790	Folate biosynthesis
+BSU00750	bsu00790	Folate biosynthesis
+BSU00760	bsu00790	Folate biosynthesis
+BSU00770	bsu00790	Folate biosynthesis
+BSU00780	bsu00790	Folate biosynthesis
+BSU00790	bsu00790	Folate biosynthesis
+BSU02620	bsu00790	Folate biosynthesis
+BSU03340	bsu00790	Folate biosynthesis
+BSU05740	bsu00790	Folate biosynthesis
+BSU05960	bsu00790	Folate biosynthesis
+BSU09410	bsu00790	Folate biosynthesis
+BSU13720	bsu00790	Folate biosynthesis
+BSU13730	bsu00790	Folate biosynthesis
+BSU13740	bsu00790	Folate biosynthesis
+BSU13750	bsu00790	Folate biosynthesis
+BSU14260	bsu00790	Folate biosynthesis
+BSU14280	bsu00790	Folate biosynthesis
+BSU14300	bsu00790	Folate biosynthesis
+BSU21810	bsu00790	Folate biosynthesis
+BSU22780	bsu00790	Folate biosynthesis
+BSU23260	bsu00790	Folate biosynthesis
+BSU28080	bsu00790	Folate biosynthesis
+BSU29460	bsu00790	Folate biosynthesis
+BSU36700	bsu00790	Folate biosynthesis
+BSU03280	bsu00860	Porphyrin metabolism
+BSU07150	bsu00860	Porphyrin metabolism
+BSU08710	bsu00860	Porphyrin metabolism
+BSU09840	bsu00860	Porphyrin metabolism
+BSU10120	bsu00860	Porphyrin metabolism
+BSU10130	bsu00860	Porphyrin metabolism
+BSU10140	bsu00860	Porphyrin metabolism
+BSU12080	bsu00860	Porphyrin metabolism
+BSU12230	bsu00860	Porphyrin metabolism
+BSU14870	bsu00860	Porphyrin metabolism
+BSU14880	bsu00860	Porphyrin metabolism
+BSU15610	bsu00860	Porphyrin metabolism
+BSU15620	bsu00860	Porphyrin metabolism
+BSU15630	bsu00860	Porphyrin metabolism
+BSU25500	bsu00860	Porphyrin metabolism
+BSU28120	bsu00860	Porphyrin metabolism
+BSU28130	bsu00860	Porphyrin metabolism
+BSU28140	bsu00860	Porphyrin metabolism
+BSU28150	bsu00860	Porphyrin metabolism
+BSU28170	bsu00860	Porphyrin metabolism
+BSU33150	bsu00860	Porphyrin metabolism
+BSU37670	bsu00860	Porphyrin metabolism
+BSU00460	bsu00900	Terpenoid backbone biosynthesis
+BSU00900	bsu00900	Terpenoid backbone biosynthesis
+BSU00910	bsu00900	Terpenoid backbone biosynthesis
+BSU03630	bsu00900	Terpenoid backbone biosynthesis
+BSU10350	bsu00900	Terpenoid backbone biosynthesis
+BSU16530	bsu00900	Terpenoid backbone biosynthesis
+BSU16550	bsu00900	Terpenoid backbone biosynthesis
+BSU22740	bsu00900	Terpenoid backbone biosynthesis
+BSU22760	bsu00900	Terpenoid backbone biosynthesis
+BSU22870	bsu00900	Terpenoid backbone biosynthesis
+BSU24170	bsu00900	Terpenoid backbone biosynthesis
+BSU24270	bsu00900	Terpenoid backbone biosynthesis
+BSU24280	bsu00900	Terpenoid backbone biosynthesis
+BSU25070	bsu00900	Terpenoid backbone biosynthesis
+BSU25160	bsu00900	Terpenoid backbone biosynthesis
+BSU10810	bsu00906	Carotenoid biosynthesis
+BSU18230	bsu00907	Pinene, camphor and geraniol degradation
+BSU32830	bsu00907	Pinene, camphor and geraniol degradation
+BSU03290	bsu00910	Nitrogen metabolism
+BSU03300	bsu00910	Nitrogen metabolism
+BSU03310	bsu00910	Nitrogen metabolism
+BSU03320	bsu00910	Nitrogen metabolism
+BSU03330	bsu00910	Nitrogen metabolism
+BSU17460	bsu00910	Nitrogen metabolism
+BSU18440	bsu00910	Nitrogen metabolism
+BSU18450	bsu00910	Nitrogen metabolism
+BSU22960	bsu00910	Nitrogen metabolism
+BSU26800	bsu00910	Nitrogen metabolism
+BSU30690	bsu00910	Nitrogen metabolism
+BSU34670	bsu00910	Nitrogen metabolism
+BSU37250	bsu00910	Nitrogen metabolism
+BSU37270	bsu00910	Nitrogen metabolism
+BSU37280	bsu00910	Nitrogen metabolism
+BSU37320	bsu00910	Nitrogen metabolism
+BSU37790	bsu00910	Nitrogen metabolism
+BSU00730	bsu00920	Sulfur metabolism
+BSU00930	bsu00920	Sulfur metabolism
+BSU08830	bsu00920	Sulfur metabolism
+BSU08840	bsu00920	Sulfur metabolism
+BSU08850	bsu00920	Sulfur metabolism
+BSU08860	bsu00920	Sulfur metabolism
+BSU10910	bsu00920	Sulfur metabolism
+BSU10920	bsu00920	Sulfur metabolism
+BSU10930	bsu00920	Sulfur metabolism
+BSU11870	bsu00920	Sulfur metabolism
+BSU15570	bsu00920	Sulfur metabolism
+BSU15590	bsu00920	Sulfur metabolism
+BSU15600	bsu00920	Sulfur metabolism
+BSU21910	bsu00920	Sulfur metabolism
+BSU27250	bsu00920	Sulfur metabolism
+BSU29250	bsu00920	Sulfur metabolism
+BSU29970	bsu00920	Sulfur metabolism
+BSU33430	bsu00920	Sulfur metabolism
+BSU33440	bsu00920	Sulfur metabolism
+BSU00130	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU00380	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU00820	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU00920	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU00940	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU06670	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU06680	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU06690	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU11420	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU15430	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU15730	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU16570	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU22360	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU25260	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU25270	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU27410	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU27550	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU27560	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU28090	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU28630	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU28640	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU28950	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU29670	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU30320	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU37330	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU37560	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU38460	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_1	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_10	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_11	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_12	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_13	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_14	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_15	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_16	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_17	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_18	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_19	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_2	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_20	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_21	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_22	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_23	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_24	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_25	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_26	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_27	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_28	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_29	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_3	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_30	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_31	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_32	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_33	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_34	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_35	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_36	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_37	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_38	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_39	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_4	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_40	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_41	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_42	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_43	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_44	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_45	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_46	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_47	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_48	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_49	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_5	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_50	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_51	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_52	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_53	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_54	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_55	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_56	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_57	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_58	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_59	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_6	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_60	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_61	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_62	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_63	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_64	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_65	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_66	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_67	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_68	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_69	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_7	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_70	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_71	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_72	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_73	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_74	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_75	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_76	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_77	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_78	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_79	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_8	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_80	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_81	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_82	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_83	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_84	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_85	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_86	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU_tRNA_9	bsu00970	Aminoacyl-tRNA biosynthesis
+BSU10530	bsu00998	Biosynthesis of various antibiotics
+BSU10540	bsu00998	Biosynthesis of various antibiotics
+BSU10550	bsu00998	Biosynthesis of various antibiotics
+BSU15920	bsu00998	Biosynthesis of various antibiotics
+BSU37680	bsu00998	Biosynthesis of various antibiotics
+BSU37690	bsu00998	Biosynthesis of various antibiotics
+BSU37710	bsu00998	Biosynthesis of various antibiotics
+BSU37720	bsu00998	Biosynthesis of various antibiotics
+BSU37730	bsu00998	Biosynthesis of various antibiotics
+BSU37740	bsu00998	Biosynthesis of various antibiotics
+BSU25660	bsu00999	Biosynthesis of various plant secondary metabolites
+BSU30550	bsu00999	Biosynthesis of various plant secondary metabolites
+BSU30830	bsu01053	Biosynthesis of siderophore group nonribosomal peptides
+BSU31960	bsu01053	Biosynthesis of siderophore group nonribosomal peptides
+BSU31970	bsu01053	Biosynthesis of siderophore group nonribosomal peptides
+BSU31980	bsu01053	Biosynthesis of siderophore group nonribosomal peptides
+BSU31990	bsu01053	Biosynthesis of siderophore group nonribosomal peptides
+BSU32000	bsu01053	Biosynthesis of siderophore group nonribosomal peptides
+BSU03480	bsu01054	Nonribosomal peptide structures
+BSU03490	bsu01054	Nonribosomal peptide structures
+BSU03510	bsu01054	Nonribosomal peptide structures
+BSU18300	bsu01054	Nonribosomal peptide structures
+BSU18310	bsu01054	Nonribosomal peptide structures
+BSU18320	bsu01054	Nonribosomal peptide structures
+BSU18330	bsu01054	Nonribosomal peptide structures
+BSU18340	bsu01054	Nonribosomal peptide structures
+BSU00090	bsu01100	Metabolic pathways
+BSU00100	bsu01100	Metabolic pathways
+BSU00110	bsu01100	Metabolic pathways
+BSU00120	bsu01100	Metabolic pathways
+BSU00140	bsu01100	Metabolic pathways
+BSU00150	bsu01100	Metabolic pathways
+BSU00280	bsu01100	Metabolic pathways
+BSU00380	bsu01100	Metabolic pathways
+BSU00460	bsu01100	Metabolic pathways
+BSU00500	bsu01100	Metabolic pathways
+BSU00510	bsu01100	Metabolic pathways
+BSU00680	bsu01100	Metabolic pathways
+BSU00700	bsu01100	Metabolic pathways
+BSU00730	bsu01100	Metabolic pathways
+BSU00770	bsu01100	Metabolic pathways
+BSU00780	bsu01100	Metabolic pathways
+BSU00790	bsu01100	Metabolic pathways
+BSU00900	bsu01100	Metabolic pathways
+BSU00910	bsu01100	Metabolic pathways
+BSU00920	bsu01100	Metabolic pathways
+BSU00930	bsu01100	Metabolic pathways
+BSU01370	bsu01100	Metabolic pathways
+BSU01660	bsu01100	Metabolic pathways
+BSU01670	bsu01100	Metabolic pathways
+BSU01700	bsu01100	Metabolic pathways
+BSU01770	bsu01100	Metabolic pathways
+BSU01780	bsu01100	Metabolic pathways
+BSU01900	bsu01100	Metabolic pathways
+BSU02230	bsu01100	Metabolic pathways
+BSU02270	bsu01100	Metabolic pathways
+BSU02290	bsu01100	Metabolic pathways
+BSU02360	bsu01100	Metabolic pathways
+BSU02390	bsu01100	Metabolic pathways
+BSU02410	bsu01100	Metabolic pathways
+BSU02430	bsu01100	Metabolic pathways
+BSU02460	bsu01100	Metabolic pathways
+BSU02470	bsu01100	Metabolic pathways
+BSU02490	bsu01100	Metabolic pathways
+BSU02510	bsu01100	Metabolic pathways
+BSU02620	bsu01100	Metabolic pathways
+BSU02690	bsu01100	Metabolic pathways
+BSU02700	bsu01100	Metabolic pathways
+BSU02830	bsu01100	Metabolic pathways
+BSU02840	bsu01100	Metabolic pathways
+BSU03040	bsu01100	Metabolic pathways
+BSU03050	bsu01100	Metabolic pathways
+BSU03130	bsu01100	Metabolic pathways
+BSU03150	bsu01100	Metabolic pathways
+BSU03200	bsu01100	Metabolic pathways
+BSU03210	bsu01100	Metabolic pathways
+BSU03280	bsu01100	Metabolic pathways
+BSU03290	bsu01100	Metabolic pathways
+BSU03300	bsu01100	Metabolic pathways
+BSU03310	bsu01100	Metabolic pathways
+BSU03320	bsu01100	Metabolic pathways
+BSU03340	bsu01100	Metabolic pathways
+BSU03450	bsu01100	Metabolic pathways
+BSU03460	bsu01100	Metabolic pathways
+BSU03630	bsu01100	Metabolic pathways
+BSU03790	bsu01100	Metabolic pathways
+BSU03860	bsu01100	Metabolic pathways
+BSU03900	bsu01100	Metabolic pathways
+BSU03910	bsu01100	Metabolic pathways
+BSU03930	bsu01100	Metabolic pathways
+BSU03981	bsu01100	Metabolic pathways
+BSU03982	bsu01100	Metabolic pathways
+BSU03990	bsu01100	Metabolic pathways
+BSU04000	bsu01100	Metabolic pathways
+BSU04040	bsu01100	Metabolic pathways
+BSU04050	bsu01100	Metabolic pathways
+BSU04340	bsu01100	Metabolic pathways
+BSU04560	bsu01100	Metabolic pathways
+BSU04570	bsu01100	Metabolic pathways
+BSU04620	bsu01100	Metabolic pathways
+BSU04640	bsu01100	Metabolic pathways
+BSU05740	bsu01100	Metabolic pathways
+BSU05860	bsu01100	Metabolic pathways
+BSU05870	bsu01100	Metabolic pathways
+BSU05880	bsu01100	Metabolic pathways
+BSU05900	bsu01100	Metabolic pathways
+BSU05960	bsu01100	Metabolic pathways
+BSU06060	bsu01100	Metabolic pathways
+BSU06070	bsu01100	Metabolic pathways
+BSU06150	bsu01100	Metabolic pathways
+BSU06170	bsu01100	Metabolic pathways
+BSU06360	bsu01100	Metabolic pathways
+BSU06420	bsu01100	Metabolic pathways
+BSU06430	bsu01100	Metabolic pathways
+BSU06440	bsu01100	Metabolic pathways
+BSU06450	bsu01100	Metabolic pathways
+BSU06460	bsu01100	Metabolic pathways
+BSU06470	bsu01100	Metabolic pathways
+BSU06480	bsu01100	Metabolic pathways
+BSU06490	bsu01100	Metabolic pathways
+BSU06500	bsu01100	Metabolic pathways
+BSU06510	bsu01100	Metabolic pathways
+BSU06520	bsu01100	Metabolic pathways
+BSU06530	bsu01100	Metabolic pathways
+BSU06560	bsu01100	Metabolic pathways
+BSU06670	bsu01100	Metabolic pathways
+BSU06680	bsu01100	Metabolic pathways
+BSU06690	bsu01100	Metabolic pathways
+BSU06720	bsu01100	Metabolic pathways
+BSU07080	bsu01100	Metabolic pathways
+BSU07130	bsu01100	Metabolic pathways
+BSU07260	bsu01100	Metabolic pathways
+BSU07270	bsu01100	Metabolic pathways
+BSU07330	bsu01100	Metabolic pathways
+BSU07560	bsu01100	Metabolic pathways
+BSU07630	bsu01100	Metabolic pathways
+BSU07640	bsu01100	Metabolic pathways
+BSU07710	bsu01100	Metabolic pathways
+BSU07810	bsu01100	Metabolic pathways
+BSU07840	bsu01100	Metabolic pathways
+BSU08080	bsu01100	Metabolic pathways
+BSU08090	bsu01100	Metabolic pathways
+BSU08180	bsu01100	Metabolic pathways
+BSU08240	bsu01100	Metabolic pathways
+BSU08350	bsu01100	Metabolic pathways
+BSU08650	bsu01100	Metabolic pathways
+BSU08710	bsu01100	Metabolic pathways
+BSU08790	bsu01100	Metabolic pathways
+BSU08820	bsu01100	Metabolic pathways
+BSU08860	bsu01100	Metabolic pathways
+BSU09020	bsu01100	Metabolic pathways
+BSU09260	bsu01100	Metabolic pathways
+BSU09290	bsu01100	Metabolic pathways
+BSU09310	bsu01100	Metabolic pathways
+BSU09410	bsu01100	Metabolic pathways
+BSU09440	bsu01100	Metabolic pathways
+BSU09540	bsu01100	Metabolic pathways
+BSU09570	bsu01100	Metabolic pathways
+BSU09650	bsu01100	Metabolic pathways
+BSU09670	bsu01100	Metabolic pathways
+BSU09840	bsu01100	Metabolic pathways
+BSU10020	bsu01100	Metabolic pathways
+BSU10110	bsu01100	Metabolic pathways
+BSU10120	bsu01100	Metabolic pathways
+BSU10130	bsu01100	Metabolic pathways
+BSU10140	bsu01100	Metabolic pathways
+BSU10170	bsu01100	Metabolic pathways
+BSU10250	bsu01100	Metabolic pathways
+BSU10270	bsu01100	Metabolic pathways
+BSU10320	bsu01100	Metabolic pathways
+BSU10350	bsu01100	Metabolic pathways
+BSU10530	bsu01100	Metabolic pathways
+BSU10540	bsu01100	Metabolic pathways
+BSU10550	bsu01100	Metabolic pathways
+BSU10790	bsu01100	Metabolic pathways
+BSU10810	bsu01100	Metabolic pathways
+BSU10850	bsu01100	Metabolic pathways
+BSU10910	bsu01100	Metabolic pathways
+BSU10920	bsu01100	Metabolic pathways
+BSU10930	bsu01100	Metabolic pathways
+BSU10940	bsu01100	Metabolic pathways
+BSU10950	bsu01100	Metabolic pathways
+BSU11010	bsu01100	Metabolic pathways
+BSU11140	bsu01100	Metabolic pathways
+BSU11190	bsu01100	Metabolic pathways
+BSU11200	bsu01100	Metabolic pathways
+BSU11210	bsu01100	Metabolic pathways
+BSU11220	bsu01100	Metabolic pathways
+BSU11230	bsu01100	Metabolic pathways
+BSU11240	bsu01100	Metabolic pathways
+BSU11250	bsu01100	Metabolic pathways
+BSU11330	bsu01100	Metabolic pathways
+BSU11340	bsu01100	Metabolic pathways
+BSU11600	bsu01100	Metabolic pathways
+BSU11610	bsu01100	Metabolic pathways
+BSU11650	bsu01100	Metabolic pathways
+BSU11660	bsu01100	Metabolic pathways
+BSU11670	bsu01100	Metabolic pathways
+BSU11690	bsu01100	Metabolic pathways
+BSU11700	bsu01100	Metabolic pathways
+BSU11710	bsu01100	Metabolic pathways
+BSU11720	bsu01100	Metabolic pathways
+BSU11870	bsu01100	Metabolic pathways
+BSU11880	bsu01100	Metabolic pathways
+BSU12010	bsu01100	Metabolic pathways
+BSU12020	bsu01100	Metabolic pathways
+BSU12080	bsu01100	Metabolic pathways
+BSU12160	bsu01100	Metabolic pathways
+BSU12230	bsu01100	Metabolic pathways
+BSU12290	bsu01100	Metabolic pathways
+BSU12300	bsu01100	Metabolic pathways
+BSU12340	bsu01100	Metabolic pathways
+BSU12380	bsu01100	Metabolic pathways
+BSU12390	bsu01100	Metabolic pathways
+BSU12910	bsu01100	Metabolic pathways
+BSU13010	bsu01100	Metabolic pathways
+BSU13110	bsu01100	Metabolic pathways
+BSU13120	bsu01100	Metabolic pathways
+BSU13130	bsu01100	Metabolic pathways
+BSU13170	bsu01100	Metabolic pathways
+BSU13180	bsu01100	Metabolic pathways
+BSU13550	bsu01100	Metabolic pathways
+BSU13560	bsu01100	Metabolic pathways
+BSU13570	bsu01100	Metabolic pathways
+BSU13580	bsu01100	Metabolic pathways
+BSU13590	bsu01100	Metabolic pathways
+BSU13600	bsu01100	Metabolic pathways
+BSU13610	bsu01100	Metabolic pathways
+BSU13620	bsu01100	Metabolic pathways
+BSU13720	bsu01100	Metabolic pathways
+BSU13730	bsu01100	Metabolic pathways
+BSU13740	bsu01100	Metabolic pathways
+BSU13750	bsu01100	Metabolic pathways
+BSU13890	bsu01100	Metabolic pathways
+BSU13980	bsu01100	Metabolic pathways
+BSU14000	bsu01100	Metabolic pathways
+BSU14180	bsu01100	Metabolic pathways
+BSU14190	bsu01100	Metabolic pathways
+BSU14260	bsu01100	Metabolic pathways
+BSU14280	bsu01100	Metabolic pathways
+BSU14300	bsu01100	Metabolic pathways
+BSU14390	bsu01100	Metabolic pathways
+BSU14400	bsu01100	Metabolic pathways
+BSU14440	bsu01100	Metabolic pathways
+BSU14520	bsu01100	Metabolic pathways
+BSU14580	bsu01100	Metabolic pathways
+BSU14590	bsu01100	Metabolic pathways
+BSU14600	bsu01100	Metabolic pathways
+BSU14610	bsu01100	Metabolic pathways
+BSU14630	bsu01100	Metabolic pathways
+BSU14670	bsu01100	Metabolic pathways
+BSU14830	bsu01100	Metabolic pathways
+BSU14860	bsu01100	Metabolic pathways
+BSU14870	bsu01100	Metabolic pathways
+BSU14880	bsu01100	Metabolic pathways
+BSU14890	bsu01100	Metabolic pathways
+BSU14900	bsu01100	Metabolic pathways
+BSU14910	bsu01100	Metabolic pathways
+BSU14920	bsu01100	Metabolic pathways
+BSU15020	bsu01100	Metabolic pathways
+BSU15110	bsu01100	Metabolic pathways
+BSU15160	bsu01100	Metabolic pathways
+BSU15170	bsu01100	Metabolic pathways
+BSU15180	bsu01100	Metabolic pathways
+BSU15190	bsu01100	Metabolic pathways
+BSU15200	bsu01100	Metabolic pathways
+BSU15220	bsu01100	Metabolic pathways
+BSU15230	bsu01100	Metabolic pathways
+BSU15350	bsu01100	Metabolic pathways
+BSU15370	bsu01100	Metabolic pathways
+BSU15470	bsu01100	Metabolic pathways
+BSU15490	bsu01100	Metabolic pathways
+BSU15500	bsu01100	Metabolic pathways
+BSU15510	bsu01100	Metabolic pathways
+BSU15520	bsu01100	Metabolic pathways
+BSU15530	bsu01100	Metabolic pathways
+BSU15540	bsu01100	Metabolic pathways
+BSU15550	bsu01100	Metabolic pathways
+BSU15560	bsu01100	Metabolic pathways
+BSU15570	bsu01100	Metabolic pathways
+BSU15590	bsu01100	Metabolic pathways
+BSU15600	bsu01100	Metabolic pathways
+BSU15610	bsu01100	Metabolic pathways
+BSU15620	bsu01100	Metabolic pathways
+BSU15630	bsu01100	Metabolic pathways
+BSU15680	bsu01100	Metabolic pathways
+BSU15700	bsu01100	Metabolic pathways
+BSU15730	bsu01100	Metabolic pathways
+BSU15780	bsu01100	Metabolic pathways
+BSU15790	bsu01100	Metabolic pathways
+BSU15800	bsu01100	Metabolic pathways
+BSU15850	bsu01100	Metabolic pathways
+BSU15860	bsu01100	Metabolic pathways
+BSU15890	bsu01100	Metabolic pathways
+BSU15900	bsu01100	Metabolic pathways
+BSU15910	bsu01100	Metabolic pathways
+BSU15920	bsu01100	Metabolic pathways
+BSU16090	bsu01100	Metabolic pathways
+BSU16100	bsu01100	Metabolic pathways
+BSU16510	bsu01100	Metabolic pathways
+BSU16540	bsu01100	Metabolic pathways
+BSU16550	bsu01100	Metabolic pathways
+BSU16670	bsu01100	Metabolic pathways
+BSU16750	bsu01100	Metabolic pathways
+BSU16760	bsu01100	Metabolic pathways
+BSU16770	bsu01100	Metabolic pathways
+BSU16870	bsu01100	Metabolic pathways
+BSU16920	bsu01100	Metabolic pathways
+BSU16970	bsu01100	Metabolic pathways
+BSU16990	bsu01100	Metabolic pathways
+BSU17000	bsu01100	Metabolic pathways
+BSU17330	bsu01100	Metabolic pathways
+BSU17380	bsu01100	Metabolic pathways
+BSU17390	bsu01100	Metabolic pathways
+BSU17460	bsu01100	Metabolic pathways
+BSU17580	bsu01100	Metabolic pathways
+BSU17600	bsu01100	Metabolic pathways
+BSU17610	bsu01100	Metabolic pathways
+BSU17640	bsu01100	Metabolic pathways
+BSU17660	bsu01100	Metabolic pathways
+BSU17680	bsu01100	Metabolic pathways
+BSU17890	bsu01100	Metabolic pathways
+BSU18000	bsu01100	Metabolic pathways
+BSU18070	bsu01100	Metabolic pathways
+BSU18130	bsu01100	Metabolic pathways
+BSU18160	bsu01100	Metabolic pathways
+BSU18180	bsu01100	Metabolic pathways
+BSU18230	bsu01100	Metabolic pathways
+BSU18240	bsu01100	Metabolic pathways
+BSU18350	bsu01100	Metabolic pathways
+BSU18360	bsu01100	Metabolic pathways
+BSU18410	bsu01100	Metabolic pathways
+BSU18440	bsu01100	Metabolic pathways
+BSU18450	bsu01100	Metabolic pathways
+BSU18470	bsu01100	Metabolic pathways
+BSU18480	bsu01100	Metabolic pathways
+BSU18560	bsu01100	Metabolic pathways
+BSU18620	bsu01100	Metabolic pathways
+BSU18670	bsu01100	Metabolic pathways
+BSU19310	bsu01100	Metabolic pathways
+BSU19360	bsu01100	Metabolic pathways
+BSU19370	bsu01100	Metabolic pathways
+BSU19620	bsu01100	Metabolic pathways
+BSU19630	bsu01100	Metabolic pathways
+BSU19690	bsu01100	Metabolic pathways
+BSU19710	bsu01100	Metabolic pathways
+BSU19800	bsu01100	Metabolic pathways
+BSU20020	bsu01100	Metabolic pathways
+BSU20040	bsu01100	Metabolic pathways
+BSU20060	bsu01100	Metabolic pathways
+BSU20250	bsu01100	Metabolic pathways
+BSU21770	bsu01100	Metabolic pathways
+BSU21810	bsu01100	Metabolic pathways
+BSU21820	bsu01100	Metabolic pathways
+BSU21870	bsu01100	Metabolic pathways
+BSU21900	bsu01100	Metabolic pathways
+BSU21910	bsu01100	Metabolic pathways
+BSU21920	bsu01100	Metabolic pathways
+BSU22070	bsu01100	Metabolic pathways
+BSU22100	bsu01100	Metabolic pathways
+BSU22110	bsu01100	Metabolic pathways
+BSU22130	bsu01100	Metabolic pathways
+BSU22140	bsu01100	Metabolic pathways
+BSU22230	bsu01100	Metabolic pathways
+BSU22320	bsu01100	Metabolic pathways
+BSU22370	bsu01100	Metabolic pathways
+BSU22410	bsu01100	Metabolic pathways
+BSU22420	bsu01100	Metabolic pathways
+BSU22430	bsu01100	Metabolic pathways
+BSU22440	bsu01100	Metabolic pathways
+BSU22480	bsu01100	Metabolic pathways
+BSU22490	bsu01100	Metabolic pathways
+BSU22540	bsu01100	Metabolic pathways
+BSU22550	bsu01100	Metabolic pathways
+BSU22560	bsu01100	Metabolic pathways
+BSU22600	bsu01100	Metabolic pathways
+BSU22610	bsu01100	Metabolic pathways
+BSU22620	bsu01100	Metabolic pathways
+BSU22630	bsu01100	Metabolic pathways
+BSU22640	bsu01100	Metabolic pathways
+BSU22650	bsu01100	Metabolic pathways
+BSU22660	bsu01100	Metabolic pathways
+BSU22670	bsu01100	Metabolic pathways
+BSU22680	bsu01100	Metabolic pathways
+BSU22690	bsu01100	Metabolic pathways
+BSU22700	bsu01100	Metabolic pathways
+BSU22710	bsu01100	Metabolic pathways
+BSU22730	bsu01100	Metabolic pathways
+BSU22750	bsu01100	Metabolic pathways
+BSU22780	bsu01100	Metabolic pathways
+BSU22870	bsu01100	Metabolic pathways
+BSU22890	bsu01100	Metabolic pathways
+BSU22960	bsu01100	Metabolic pathways
+BSU23070	bsu01100	Metabolic pathways
+BSU23080	bsu01100	Metabolic pathways
+BSU23190	bsu01100	Metabolic pathways
+BSU23250	bsu01100	Metabolic pathways
+BSU23260	bsu01100	Metabolic pathways
+BSU23270	bsu01100	Metabolic pathways
+BSU23280	bsu01100	Metabolic pathways
+BSU23380	bsu01100	Metabolic pathways
+BSU23480	bsu01100	Metabolic pathways
+BSU23490	bsu01100	Metabolic pathways
+BSU23500	bsu01100	Metabolic pathways
+BSU23570	bsu01100	Metabolic pathways
+BSU23580	bsu01100	Metabolic pathways
+BSU23610	bsu01100	Metabolic pathways
+BSU23760	bsu01100	Metabolic pathways
+BSU23770	bsu01100	Metabolic pathways
+BSU23800	bsu01100	Metabolic pathways
+BSU23850	bsu01100	Metabolic pathways
+BSU23860	bsu01100	Metabolic pathways
+BSU23920	bsu01100	Metabolic pathways
+BSU23930	bsu01100	Metabolic pathways
+BSU24030	bsu01100	Metabolic pathways
+BSU24040	bsu01100	Metabolic pathways
+BSU24050	bsu01100	Metabolic pathways
+BSU24060	bsu01100	Metabolic pathways
+BSU24070	bsu01100	Metabolic pathways
+BSU24080	bsu01100	Metabolic pathways
+BSU24090	bsu01100	Metabolic pathways
+BSU24120	bsu01100	Metabolic pathways
+BSU24130	bsu01100	Metabolic pathways
+BSU24140	bsu01100	Metabolic pathways
+BSU24160	bsu01100	Metabolic pathways
+BSU24170	bsu01100	Metabolic pathways
+BSU24270	bsu01100	Metabolic pathways
+BSU24280	bsu01100	Metabolic pathways
+BSU24310	bsu01100	Metabolic pathways
+BSU24340	bsu01100	Metabolic pathways
+BSU24350	bsu01100	Metabolic pathways
+BSU24470	bsu01100	Metabolic pathways
+BSU24530	bsu01100	Metabolic pathways
+BSU24550	bsu01100	Metabolic pathways
+BSU24560	bsu01100	Metabolic pathways
+BSU24570	bsu01100	Metabolic pathways
+BSU24790	bsu01100	Metabolic pathways
+BSU24840	bsu01100	Metabolic pathways
+BSU24850	bsu01100	Metabolic pathways
+BSU24890	bsu01100	Metabolic pathways
+BSU25000	bsu01100	Metabolic pathways
+BSU25070	bsu01100	Metabolic pathways
+BSU25160	bsu01100	Metabolic pathways
+BSU25300	bsu01100	Metabolic pathways
+BSU25500	bsu01100	Metabolic pathways
+BSU25580	bsu01100	Metabolic pathways
+BSU25640	bsu01100	Metabolic pathways
+BSU25660	bsu01100	Metabolic pathways
+BSU25730	bsu01100	Metabolic pathways
+BSU26600	bsu01100	Metabolic pathways
+BSU26800	bsu01100	Metabolic pathways
+BSU26810	bsu01100	Metabolic pathways
+BSU26890	bsu01100	Metabolic pathways
+BSU26970	bsu01100	Metabolic pathways
+BSU27010	bsu01100	Metabolic pathways
+BSU27220	bsu01100	Metabolic pathways
+BSU27250	bsu01100	Metabolic pathways
+BSU27260	bsu01100	Metabolic pathways
+BSU27270	bsu01100	Metabolic pathways
+BSU27280	bsu01100	Metabolic pathways
+BSU27330	bsu01100	Metabolic pathways
+BSU27510	bsu01100	Metabolic pathways
+BSU27600	bsu01100	Metabolic pathways
+BSU27610	bsu01100	Metabolic pathways
+BSU27770	bsu01100	Metabolic pathways
+BSU27850	bsu01100	Metabolic pathways
+BSU27860	bsu01100	Metabolic pathways
+BSU27870	bsu01100	Metabolic pathways
+BSU27880	bsu01100	Metabolic pathways
+BSU27900	bsu01100	Metabolic pathways
+BSU27910	bsu01100	Metabolic pathways
+BSU28050	bsu01100	Metabolic pathways
+BSU28080	bsu01100	Metabolic pathways
+BSU28120	bsu01100	Metabolic pathways
+BSU28130	bsu01100	Metabolic pathways
+BSU28140	bsu01100	Metabolic pathways
+BSU28150	bsu01100	Metabolic pathways
+BSU28170	bsu01100	Metabolic pathways
+BSU28250	bsu01100	Metabolic pathways
+BSU28260	bsu01100	Metabolic pathways
+BSU28270	bsu01100	Metabolic pathways
+BSU28280	bsu01100	Metabolic pathways
+BSU28290	bsu01100	Metabolic pathways
+BSU28300	bsu01100	Metabolic pathways
+BSU28310	bsu01100	Metabolic pathways
+BSU28360	bsu01100	Metabolic pathways
+BSU28390	bsu01100	Metabolic pathways
+BSU28430	bsu01100	Metabolic pathways
+BSU28440	bsu01100	Metabolic pathways
+BSU28450	bsu01100	Metabolic pathways
+BSU28470	bsu01100	Metabolic pathways
+BSU28510	bsu01100	Metabolic pathways
+BSU28540	bsu01100	Metabolic pathways
+BSU28560	bsu01100	Metabolic pathways
+BSU28680	bsu01100	Metabolic pathways
+BSU28690	bsu01100	Metabolic pathways
+BSU28700	bsu01100	Metabolic pathways
+BSU28720	bsu01100	Metabolic pathways
+BSU28780	bsu01100	Metabolic pathways
+BSU28790	bsu01100	Metabolic pathways
+BSU28800	bsu01100	Metabolic pathways
+BSU28940	bsu01100	Metabolic pathways
+BSU29010	bsu01100	Metabolic pathways
+BSU29020	bsu01100	Metabolic pathways
+BSU29050	bsu01100	Metabolic pathways
+BSU29060	bsu01100	Metabolic pathways
+BSU29120	bsu01100	Metabolic pathways
+BSU29130	bsu01100	Metabolic pathways
+BSU29140	bsu01100	Metabolic pathways
+BSU29180	bsu01100	Metabolic pathways
+BSU29190	bsu01100	Metabolic pathways
+BSU29200	bsu01100	Metabolic pathways
+BSU29210	bsu01100	Metabolic pathways
+BSU29250	bsu01100	Metabolic pathways
+BSU29300	bsu01100	Metabolic pathways
+BSU29420	bsu01100	Metabolic pathways
+BSU29440	bsu01100	Metabolic pathways
+BSU29450	bsu01100	Metabolic pathways
+BSU29460	bsu01100	Metabolic pathways
+BSU29470	bsu01100	Metabolic pathways
+BSU29540	bsu01100	Metabolic pathways
+BSU29560	bsu01100	Metabolic pathways
+BSU29580	bsu01100	Metabolic pathways
+BSU29590	bsu01100	Metabolic pathways
+BSU29620	bsu01100	Metabolic pathways
+BSU29640	bsu01100	Metabolic pathways
+BSU29680	bsu01100	Metabolic pathways
+BSU29750	bsu01100	Metabolic pathways
+BSU29790	bsu01100	Metabolic pathways
+BSU29930	bsu01100	Metabolic pathways
+BSU29970	bsu01100	Metabolic pathways
+BSU29980	bsu01100	Metabolic pathways
+BSU30190	bsu01100	Metabolic pathways
+BSU30200	bsu01100	Metabolic pathways
+BSU30210	bsu01100	Metabolic pathways
+BSU30220	bsu01100	Metabolic pathways
+BSU30230	bsu01100	Metabolic pathways
+BSU30240	bsu01100	Metabolic pathways
+BSU30300	bsu01100	Metabolic pathways
+BSU30540	bsu01100	Metabolic pathways
+BSU30550	bsu01100	Metabolic pathways
+BSU30560	bsu01100	Metabolic pathways
+BSU30670	bsu01100	Metabolic pathways
+BSU30690	bsu01100	Metabolic pathways
+BSU30710	bsu01100	Metabolic pathways
+BSU30720	bsu01100	Metabolic pathways
+BSU30780	bsu01100	Metabolic pathways
+BSU30790	bsu01100	Metabolic pathways
+BSU30800	bsu01100	Metabolic pathways
+BSU30810	bsu01100	Metabolic pathways
+BSU30820	bsu01100	Metabolic pathways
+BSU30830	bsu01100	Metabolic pathways
+BSU30850	bsu01100	Metabolic pathways
+BSU30860	bsu01100	Metabolic pathways
+BSU30940	bsu01100	Metabolic pathways
+BSU30950	bsu01100	Metabolic pathways
+BSU30960	bsu01100	Metabolic pathways
+BSU30970	bsu01100	Metabolic pathways
+BSU30980	bsu01100	Metabolic pathways
+BSU31050	bsu01100	Metabolic pathways
+BSU31060	bsu01100	Metabolic pathways
+BSU31140	bsu01100	Metabolic pathways
+BSU31170	bsu01100	Metabolic pathways
+BSU31180	bsu01100	Metabolic pathways
+BSU31200	bsu01100	Metabolic pathways
+BSU31290	bsu01100	Metabolic pathways
+BSU31350	bsu01100	Metabolic pathways
+BSU31440	bsu01100	Metabolic pathways
+BSU31490	bsu01100	Metabolic pathways
+BSU31670	bsu01100	Metabolic pathways
+BSU31750	bsu01100	Metabolic pathways
+BSU31930	bsu01100	Metabolic pathways
+BSU31990	bsu01100	Metabolic pathways
+BSU32050	bsu01100	Metabolic pathways
+BSU32100	bsu01100	Metabolic pathways
+BSU32130	bsu01100	Metabolic pathways
+BSU32170	bsu01100	Metabolic pathways
+BSU32200	bsu01100	Metabolic pathways
+BSU32240	bsu01100	Metabolic pathways
+BSU32250	bsu01100	Metabolic pathways
+BSU32260	bsu01100	Metabolic pathways
+BSU32330	bsu01100	Metabolic pathways
+BSU32410	bsu01100	Metabolic pathways
+BSU32450	bsu01100	Metabolic pathways
+BSU32460	bsu01100	Metabolic pathways
+BSU32470	bsu01100	Metabolic pathways
+BSU32480	bsu01100	Metabolic pathways
+BSU32490	bsu01100	Metabolic pathways
+BSU32510	bsu01100	Metabolic pathways
+BSU32520	bsu01100	Metabolic pathways
+BSU32530	bsu01100	Metabolic pathways
+BSU32690	bsu01100	Metabolic pathways
+BSU32800	bsu01100	Metabolic pathways
+BSU32830	bsu01100	Metabolic pathways
+BSU32840	bsu01100	Metabolic pathways
+BSU32850	bsu01100	Metabolic pathways
+BSU33040	bsu01100	Metabolic pathways
+BSU33150	bsu01100	Metabolic pathways
+BSU33240	bsu01100	Metabolic pathways
+BSU33360	bsu01100	Metabolic pathways
+BSU33400	bsu01100	Metabolic pathways
+BSU33430	bsu01100	Metabolic pathways
+BSU33440	bsu01100	Metabolic pathways
+BSU33530	bsu01100	Metabolic pathways
+BSU33900	bsu01100	Metabolic pathways
+BSU33910	bsu01100	Metabolic pathways
+BSU33920	bsu01100	Metabolic pathways
+BSU33930	bsu01100	Metabolic pathways
+BSU33940	bsu01100	Metabolic pathways
+BSU34430	bsu01100	Metabolic pathways
+BSU34450	bsu01100	Metabolic pathways
+BSU34560	bsu01100	Metabolic pathways
+BSU34570	bsu01100	Metabolic pathways
+BSU34620	bsu01100	Metabolic pathways
+BSU34670	bsu01100	Metabolic pathways
+BSU34680	bsu01100	Metabolic pathways
+BSU34860	bsu01100	Metabolic pathways
+BSU34870	bsu01100	Metabolic pathways
+BSU34880	bsu01100	Metabolic pathways
+BSU34890	bsu01100	Metabolic pathways
+BSU34900	bsu01100	Metabolic pathways
+BSU34910	bsu01100	Metabolic pathways
+BSU34920	bsu01100	Metabolic pathways
+BSU34930	bsu01100	Metabolic pathways
+BSU34950	bsu01100	Metabolic pathways
+BSU35010	bsu01100	Metabolic pathways
+BSU35020	bsu01100	Metabolic pathways
+BSU35530	bsu01100	Metabolic pathways
+BSU35580	bsu01100	Metabolic pathways
+BSU35660	bsu01100	Metabolic pathways
+BSU35670	bsu01100	Metabolic pathways
+BSU35790	bsu01100	Metabolic pathways
+BSU35850	bsu01100	Metabolic pathways
+BSU35920	bsu01100	Metabolic pathways
+BSU36010	bsu01100	Metabolic pathways
+BSU36100	bsu01100	Metabolic pathways
+BSU36230	bsu01100	Metabolic pathways
+BSU36370	bsu01100	Metabolic pathways
+BSU36590	bsu01100	Metabolic pathways
+BSU36640	bsu01100	Metabolic pathways
+BSU36650	bsu01100	Metabolic pathways
+BSU36660	bsu01100	Metabolic pathways
+BSU36700	bsu01100	Metabolic pathways
+BSU36760	bsu01100	Metabolic pathways
+BSU36800	bsu01100	Metabolic pathways
+BSU36810	bsu01100	Metabolic pathways
+BSU36820	bsu01100	Metabolic pathways
+BSU36830	bsu01100	Metabolic pathways
+BSU36840	bsu01100	Metabolic pathways
+BSU36850	bsu01100	Metabolic pathways
+BSU36860	bsu01100	Metabolic pathways
+BSU36870	bsu01100	Metabolic pathways
+BSU36890	bsu01100	Metabolic pathways
+BSU36900	bsu01100	Metabolic pathways
+BSU36920	bsu01100	Metabolic pathways
+BSU37060	bsu01100	Metabolic pathways
+BSU37090	bsu01100	Metabolic pathways
+BSU37100	bsu01100	Metabolic pathways
+BSU37110	bsu01100	Metabolic pathways
+BSU37120	bsu01100	Metabolic pathways
+BSU37150	bsu01100	Metabolic pathways
+BSU37170	bsu01100	Metabolic pathways
+BSU37190	bsu01100	Metabolic pathways
+BSU37240	bsu01100	Metabolic pathways
+BSU37250	bsu01100	Metabolic pathways
+BSU37270	bsu01100	Metabolic pathways
+BSU37280	bsu01100	Metabolic pathways
+BSU37490	bsu01100	Metabolic pathways
+BSU37500	bsu01100	Metabolic pathways
+BSU37510	bsu01100	Metabolic pathways
+BSU37540	bsu01100	Metabolic pathways
+BSU37640	bsu01100	Metabolic pathways
+BSU37660	bsu01100	Metabolic pathways
+BSU37670	bsu01100	Metabolic pathways
+BSU37680	bsu01100	Metabolic pathways
+BSU37690	bsu01100	Metabolic pathways
+BSU37710	bsu01100	Metabolic pathways
+BSU37720	bsu01100	Metabolic pathways
+BSU37730	bsu01100	Metabolic pathways
+BSU37740	bsu01100	Metabolic pathways
+BSU37780	bsu01100	Metabolic pathways
+BSU37790	bsu01100	Metabolic pathways
+BSU37810	bsu01100	Metabolic pathways
+BSU37820	bsu01100	Metabolic pathways
+BSU37830	bsu01100	Metabolic pathways
+BSU37840	bsu01100	Metabolic pathways
+BSU37960	bsu01100	Metabolic pathways
+BSU38020	bsu01100	Metabolic pathways
+BSU38040	bsu01100	Metabolic pathways
+BSU38110	bsu01100	Metabolic pathways
+BSU38140	bsu01100	Metabolic pathways
+BSU38150	bsu01100	Metabolic pathways
+BSU38160	bsu01100	Metabolic pathways
+BSU38170	bsu01100	Metabolic pathways
+BSU38190	bsu01100	Metabolic pathways
+BSU38200	bsu01100	Metabolic pathways
+BSU38290	bsu01100	Metabolic pathways
+BSU38300	bsu01100	Metabolic pathways
+BSU38370	bsu01100	Metabolic pathways
+BSU38480	bsu01100	Metabolic pathways
+BSU38490	bsu01100	Metabolic pathways
+BSU38500	bsu01100	Metabolic pathways
+BSU38520	bsu01100	Metabolic pathways
+BSU38550	bsu01100	Metabolic pathways
+BSU38630	bsu01100	Metabolic pathways
+BSU38750	bsu01100	Metabolic pathways
+BSU38760	bsu01100	Metabolic pathways
+BSU38830	bsu01100	Metabolic pathways
+BSU38860	bsu01100	Metabolic pathways
+BSU38970	bsu01100	Metabolic pathways
+BSU38980	bsu01100	Metabolic pathways
+BSU38990	bsu01100	Metabolic pathways
+BSU39050	bsu01100	Metabolic pathways
+BSU39350	bsu01100	Metabolic pathways
+BSU39360	bsu01100	Metabolic pathways
+BSU39370	bsu01100	Metabolic pathways
+BSU39380	bsu01100	Metabolic pathways
+BSU39400	bsu01100	Metabolic pathways
+BSU39420	bsu01100	Metabolic pathways
+BSU39670	bsu01100	Metabolic pathways
+BSU39680	bsu01100	Metabolic pathways
+BSU39700	bsu01100	Metabolic pathways
+BSU39720	bsu01100	Metabolic pathways
+BSU39730	bsu01100	Metabolic pathways
+BSU39740	bsu01100	Metabolic pathways
+BSU39750	bsu01100	Metabolic pathways
+BSU39760	bsu01100	Metabolic pathways
+BSU39860	bsu01100	Metabolic pathways
+BSU39920	bsu01100	Metabolic pathways
+BSU40040	bsu01100	Metabolic pathways
+BSU40060	bsu01100	Metabolic pathways
+BSU40080	bsu01100	Metabolic pathways
+BSU40120	bsu01100	Metabolic pathways
+BSU40190	bsu01100	Metabolic pathways
+BSU40250	bsu01100	Metabolic pathways
+BSU40320	bsu01100	Metabolic pathways
+BSU40340	bsu01100	Metabolic pathways
+BSU40420	bsu01100	Metabolic pathways
+BSU40860	bsu01100	Metabolic pathways
+BSU00090	bsu01110	Biosynthesis of secondary metabolites
+BSU00460	bsu01110	Biosynthesis of secondary metabolites
+BSU00510	bsu01110	Biosynthesis of secondary metabolites
+BSU00680	bsu01110	Biosynthesis of secondary metabolites
+BSU00730	bsu01110	Biosynthesis of secondary metabolites
+BSU00900	bsu01110	Biosynthesis of secondary metabolites
+BSU00910	bsu01110	Biosynthesis of secondary metabolites
+BSU00930	bsu01110	Biosynthesis of secondary metabolites
+BSU01370	bsu01110	Biosynthesis of secondary metabolites
+BSU02230	bsu01110	Biosynthesis of secondary metabolites
+BSU02270	bsu01110	Biosynthesis of secondary metabolites
+BSU02290	bsu01110	Biosynthesis of secondary metabolites
+BSU02390	bsu01110	Biosynthesis of secondary metabolites
+BSU02410	bsu01110	Biosynthesis of secondary metabolites
+BSU02690	bsu01110	Biosynthesis of secondary metabolites
+BSU03040	bsu01110	Biosynthesis of secondary metabolites
+BSU03050	bsu01110	Biosynthesis of secondary metabolites
+BSU03150	bsu01110	Biosynthesis of secondary metabolites
+BSU03180	bsu01110	Biosynthesis of secondary metabolites
+BSU03200	bsu01110	Biosynthesis of secondary metabolites
+BSU03280	bsu01110	Biosynthesis of secondary metabolites
+BSU03630	bsu01110	Biosynthesis of secondary metabolites
+BSU03790	bsu01110	Biosynthesis of secondary metabolites
+BSU04040	bsu01110	Biosynthesis of secondary metabolites
+BSU05860	bsu01110	Biosynthesis of secondary metabolites
+BSU05870	bsu01110	Biosynthesis of secondary metabolites
+BSU06170	bsu01110	Biosynthesis of secondary metabolites
+BSU06240	bsu01110	Biosynthesis of secondary metabolites
+BSU06420	bsu01110	Biosynthesis of secondary metabolites
+BSU06430	bsu01110	Biosynthesis of secondary metabolites
+BSU06440	bsu01110	Biosynthesis of secondary metabolites
+BSU06450	bsu01110	Biosynthesis of secondary metabolites
+BSU06460	bsu01110	Biosynthesis of secondary metabolites
+BSU06470	bsu01110	Biosynthesis of secondary metabolites
+BSU06480	bsu01110	Biosynthesis of secondary metabolites
+BSU06490	bsu01110	Biosynthesis of secondary metabolites
+BSU06500	bsu01110	Biosynthesis of secondary metabolites
+BSU06510	bsu01110	Biosynthesis of secondary metabolites
+BSU06520	bsu01110	Biosynthesis of secondary metabolites
+BSU06530	bsu01110	Biosynthesis of secondary metabolites
+BSU06600	bsu01110	Biosynthesis of secondary metabolites
+BSU06720	bsu01110	Biosynthesis of secondary metabolites
+BSU07150	bsu01110	Biosynthesis of secondary metabolites
+BSU07630	bsu01110	Biosynthesis of secondary metabolites
+BSU07840	bsu01110	Biosynthesis of secondary metabolites
+BSU08080	bsu01110	Biosynthesis of secondary metabolites
+BSU08090	bsu01110	Biosynthesis of secondary metabolites
+BSU08710	bsu01110	Biosynthesis of secondary metabolites
+BSU08820	bsu01110	Biosynthesis of secondary metabolites
+BSU09020	bsu01110	Biosynthesis of secondary metabolites
+BSU09300	bsu01110	Biosynthesis of secondary metabolites
+BSU09310	bsu01110	Biosynthesis of secondary metabolites
+BSU09440	bsu01110	Biosynthesis of secondary metabolites
+BSU09540	bsu01110	Biosynthesis of secondary metabolites
+BSU09570	bsu01110	Biosynthesis of secondary metabolites
+BSU09840	bsu01110	Biosynthesis of secondary metabolites
+BSU10020	bsu01110	Biosynthesis of secondary metabolites
+BSU10120	bsu01110	Biosynthesis of secondary metabolites
+BSU10130	bsu01110	Biosynthesis of secondary metabolites
+BSU10140	bsu01110	Biosynthesis of secondary metabolites
+BSU10350	bsu01110	Biosynthesis of secondary metabolites
+BSU10530	bsu01110	Biosynthesis of secondary metabolites
+BSU10540	bsu01110	Biosynthesis of secondary metabolites
+BSU10550	bsu01110	Biosynthesis of secondary metabolites
+BSU10790	bsu01110	Biosynthesis of secondary metabolites
+BSU10810	bsu01110	Biosynthesis of secondary metabolites
+BSU10920	bsu01110	Biosynthesis of secondary metabolites
+BSU11010	bsu01110	Biosynthesis of secondary metabolites
+BSU11140	bsu01110	Biosynthesis of secondary metabolites
+BSU11190	bsu01110	Biosynthesis of secondary metabolites
+BSU11200	bsu01110	Biosynthesis of secondary metabolites
+BSU11210	bsu01110	Biosynthesis of secondary metabolites
+BSU11220	bsu01110	Biosynthesis of secondary metabolites
+BSU11250	bsu01110	Biosynthesis of secondary metabolites
+BSU11720	bsu01110	Biosynthesis of secondary metabolites
+BSU11870	bsu01110	Biosynthesis of secondary metabolites
+BSU11880	bsu01110	Biosynthesis of secondary metabolites
+BSU12020	bsu01110	Biosynthesis of secondary metabolites
+BSU12080	bsu01110	Biosynthesis of secondary metabolites
+BSU12230	bsu01110	Biosynthesis of secondary metabolites
+BSU12910	bsu01110	Biosynthesis of secondary metabolites
+BSU13010	bsu01110	Biosynthesis of secondary metabolites
+BSU13120	bsu01110	Biosynthesis of secondary metabolites
+BSU13130	bsu01110	Biosynthesis of secondary metabolites
+BSU13180	bsu01110	Biosynthesis of secondary metabolites
+BSU14000	bsu01110	Biosynthesis of secondary metabolites
+BSU14180	bsu01110	Biosynthesis of secondary metabolites
+BSU14190	bsu01110	Biosynthesis of secondary metabolites
+BSU14440	bsu01110	Biosynthesis of secondary metabolites
+BSU14580	bsu01110	Biosynthesis of secondary metabolites
+BSU14590	bsu01110	Biosynthesis of secondary metabolites
+BSU14600	bsu01110	Biosynthesis of secondary metabolites
+BSU14610	bsu01110	Biosynthesis of secondary metabolites
+BSU14630	bsu01110	Biosynthesis of secondary metabolites
+BSU14670	bsu01110	Biosynthesis of secondary metabolites
+BSU14870	bsu01110	Biosynthesis of secondary metabolites
+BSU14880	bsu01110	Biosynthesis of secondary metabolites
+BSU15110	bsu01110	Biosynthesis of secondary metabolites
+BSU15590	bsu01110	Biosynthesis of secondary metabolites
+BSU15610	bsu01110	Biosynthesis of secondary metabolites
+BSU15620	bsu01110	Biosynthesis of secondary metabolites
+BSU15630	bsu01110	Biosynthesis of secondary metabolites
+BSU15790	bsu01110	Biosynthesis of secondary metabolites
+BSU15850	bsu01110	Biosynthesis of secondary metabolites
+BSU15860	bsu01110	Biosynthesis of secondary metabolites
+BSU15890	bsu01110	Biosynthesis of secondary metabolites
+BSU15900	bsu01110	Biosynthesis of secondary metabolites
+BSU15910	bsu01110	Biosynthesis of secondary metabolites
+BSU15920	bsu01110	Biosynthesis of secondary metabolites
+BSU16090	bsu01110	Biosynthesis of secondary metabolites
+BSU16100	bsu01110	Biosynthesis of secondary metabolites
+BSU16530	bsu01110	Biosynthesis of secondary metabolites
+BSU16540	bsu01110	Biosynthesis of secondary metabolites
+BSU16550	bsu01110	Biosynthesis of secondary metabolites
+BSU16670	bsu01110	Biosynthesis of secondary metabolites
+BSU16750	bsu01110	Biosynthesis of secondary metabolites
+BSU16760	bsu01110	Biosynthesis of secondary metabolites
+BSU16770	bsu01110	Biosynthesis of secondary metabolites
+BSU16870	bsu01110	Biosynthesis of secondary metabolites
+BSU17330	bsu01110	Biosynthesis of secondary metabolites
+BSU17890	bsu01110	Biosynthesis of secondary metabolites
+BSU18000	bsu01110	Biosynthesis of secondary metabolites
+BSU18070	bsu01110	Biosynthesis of secondary metabolites
+BSU18180	bsu01110	Biosynthesis of secondary metabolites
+BSU18240	bsu01110	Biosynthesis of secondary metabolites
+BSU18360	bsu01110	Biosynthesis of secondary metabolites
+BSU18440	bsu01110	Biosynthesis of secondary metabolites
+BSU18450	bsu01110	Biosynthesis of secondary metabolites
+BSU18470	bsu01110	Biosynthesis of secondary metabolites
+BSU18480	bsu01110	Biosynthesis of secondary metabolites
+BSU18560	bsu01110	Biosynthesis of secondary metabolites
+BSU18800	bsu01110	Biosynthesis of secondary metabolites
+BSU19310	bsu01110	Biosynthesis of secondary metabolites
+BSU19360	bsu01110	Biosynthesis of secondary metabolites
+BSU19370	bsu01110	Biosynthesis of secondary metabolites
+BSU19630	bsu01110	Biosynthesis of secondary metabolites
+BSU19710	bsu01110	Biosynthesis of secondary metabolites
+BSU21770	bsu01110	Biosynthesis of secondary metabolites
+BSU21870	bsu01110	Biosynthesis of secondary metabolites
+BSU21910	bsu01110	Biosynthesis of secondary metabolites
+BSU22070	bsu01110	Biosynthesis of secondary metabolites
+BSU22370	bsu01110	Biosynthesis of secondary metabolites
+BSU22410	bsu01110	Biosynthesis of secondary metabolites
+BSU22420	bsu01110	Biosynthesis of secondary metabolites
+BSU22430	bsu01110	Biosynthesis of secondary metabolites
+BSU22490	bsu01110	Biosynthesis of secondary metabolites
+BSU22600	bsu01110	Biosynthesis of secondary metabolites
+BSU22610	bsu01110	Biosynthesis of secondary metabolites
+BSU22620	bsu01110	Biosynthesis of secondary metabolites
+BSU22630	bsu01110	Biosynthesis of secondary metabolites
+BSU22640	bsu01110	Biosynthesis of secondary metabolites
+BSU22650	bsu01110	Biosynthesis of secondary metabolites
+BSU22660	bsu01110	Biosynthesis of secondary metabolites
+BSU22670	bsu01110	Biosynthesis of secondary metabolites
+BSU22680	bsu01110	Biosynthesis of secondary metabolites
+BSU22690	bsu01110	Biosynthesis of secondary metabolites
+BSU22700	bsu01110	Biosynthesis of secondary metabolites
+BSU22710	bsu01110	Biosynthesis of secondary metabolites
+BSU22730	bsu01110	Biosynthesis of secondary metabolites
+BSU22740	bsu01110	Biosynthesis of secondary metabolites
+BSU22750	bsu01110	Biosynthesis of secondary metabolites
+BSU22760	bsu01110	Biosynthesis of secondary metabolites
+BSU22830	bsu01110	Biosynthesis of secondary metabolites
+BSU22870	bsu01110	Biosynthesis of secondary metabolites
+BSU23070	bsu01110	Biosynthesis of secondary metabolites
+BSU23080	bsu01110	Biosynthesis of secondary metabolites
+BSU23250	bsu01110	Biosynthesis of secondary metabolites
+BSU23260	bsu01110	Biosynthesis of secondary metabolites
+BSU23270	bsu01110	Biosynthesis of secondary metabolites
+BSU23280	bsu01110	Biosynthesis of secondary metabolites
+BSU23380	bsu01110	Biosynthesis of secondary metabolites
+BSU23490	bsu01110	Biosynthesis of secondary metabolites
+BSU23580	bsu01110	Biosynthesis of secondary metabolites
+BSU23800	bsu01110	Biosynthesis of secondary metabolites
+BSU23850	bsu01110	Biosynthesis of secondary metabolites
+BSU23860	bsu01110	Biosynthesis of secondary metabolites
+BSU23920	bsu01110	Biosynthesis of secondary metabolites
+BSU24030	bsu01110	Biosynthesis of secondary metabolites
+BSU24040	bsu01110	Biosynthesis of secondary metabolites
+BSU24050	bsu01110	Biosynthesis of secondary metabolites
+BSU24060	bsu01110	Biosynthesis of secondary metabolites
+BSU24080	bsu01110	Biosynthesis of secondary metabolites
+BSU24140	bsu01110	Biosynthesis of secondary metabolites
+BSU24170	bsu01110	Biosynthesis of secondary metabolites
+BSU24270	bsu01110	Biosynthesis of secondary metabolites
+BSU24280	bsu01110	Biosynthesis of secondary metabolites
+BSU24340	bsu01110	Biosynthesis of secondary metabolites
+BSU24350	bsu01110	Biosynthesis of secondary metabolites
+BSU24470	bsu01110	Biosynthesis of secondary metabolites
+BSU24550	bsu01110	Biosynthesis of secondary metabolites
+BSU24560	bsu01110	Biosynthesis of secondary metabolites
+BSU24570	bsu01110	Biosynthesis of secondary metabolites
+BSU24850	bsu01110	Biosynthesis of secondary metabolites
+BSU25070	bsu01110	Biosynthesis of secondary metabolites
+BSU25160	bsu01110	Biosynthesis of secondary metabolites
+BSU25500	bsu01110	Biosynthesis of secondary metabolites
+BSU25660	bsu01110	Biosynthesis of secondary metabolites
+BSU25730	bsu01110	Biosynthesis of secondary metabolites
+BSU26970	bsu01110	Biosynthesis of secondary metabolites
+BSU27010	bsu01110	Biosynthesis of secondary metabolites
+BSU27250	bsu01110	Biosynthesis of secondary metabolites
+BSU27770	bsu01110	Biosynthesis of secondary metabolites
+BSU27900	bsu01110	Biosynthesis of secondary metabolites
+BSU27910	bsu01110	Biosynthesis of secondary metabolites
+BSU28120	bsu01110	Biosynthesis of secondary metabolites
+BSU28130	bsu01110	Biosynthesis of secondary metabolites
+BSU28140	bsu01110	Biosynthesis of secondary metabolites
+BSU28150	bsu01110	Biosynthesis of secondary metabolites
+BSU28170	bsu01110	Biosynthesis of secondary metabolites
+BSU28250	bsu01110	Biosynthesis of secondary metabolites
+BSU28260	bsu01110	Biosynthesis of secondary metabolites
+BSU28270	bsu01110	Biosynthesis of secondary metabolites
+BSU28280	bsu01110	Biosynthesis of secondary metabolites
+BSU28290	bsu01110	Biosynthesis of secondary metabolites
+BSU28300	bsu01110	Biosynthesis of secondary metabolites
+BSU28310	bsu01110	Biosynthesis of secondary metabolites
+BSU28430	bsu01110	Biosynthesis of secondary metabolites
+BSU28440	bsu01110	Biosynthesis of secondary metabolites
+BSU28450	bsu01110	Biosynthesis of secondary metabolites
+BSU28470	bsu01110	Biosynthesis of secondary metabolites
+BSU28680	bsu01110	Biosynthesis of secondary metabolites
+BSU28690	bsu01110	Biosynthesis of secondary metabolites
+BSU28760	bsu01110	Biosynthesis of secondary metabolites
+BSU28940	bsu01110	Biosynthesis of secondary metabolites
+BSU29020	bsu01110	Biosynthesis of secondary metabolites
+BSU29120	bsu01110	Biosynthesis of secondary metabolites
+BSU29130	bsu01110	Biosynthesis of secondary metabolites
+BSU29140	bsu01110	Biosynthesis of secondary metabolites
+BSU29180	bsu01110	Biosynthesis of secondary metabolites
+BSU29190	bsu01110	Biosynthesis of secondary metabolites
+BSU29200	bsu01110	Biosynthesis of secondary metabolites
+BSU29210	bsu01110	Biosynthesis of secondary metabolites
+BSU29300	bsu01110	Biosynthesis of secondary metabolites
+BSU29420	bsu01110	Biosynthesis of secondary metabolites
+BSU29440	bsu01110	Biosynthesis of secondary metabolites
+BSU29450	bsu01110	Biosynthesis of secondary metabolites
+BSU29560	bsu01110	Biosynthesis of secondary metabolites
+BSU29620	bsu01110	Biosynthesis of secondary metabolites
+BSU29680	bsu01110	Biosynthesis of secondary metabolites
+BSU29750	bsu01110	Biosynthesis of secondary metabolites
+BSU29930	bsu01110	Biosynthesis of secondary metabolites
+BSU29970	bsu01110	Biosynthesis of secondary metabolites
+BSU30540	bsu01110	Biosynthesis of secondary metabolites
+BSU30550	bsu01110	Biosynthesis of secondary metabolites
+BSU30560	bsu01110	Biosynthesis of secondary metabolites
+BSU30780	bsu01110	Biosynthesis of secondary metabolites
+BSU30790	bsu01110	Biosynthesis of secondary metabolites
+BSU30800	bsu01110	Biosynthesis of secondary metabolites
+BSU30810	bsu01110	Biosynthesis of secondary metabolites
+BSU30820	bsu01110	Biosynthesis of secondary metabolites
+BSU30830	bsu01110	Biosynthesis of secondary metabolites
+BSU30850	bsu01110	Biosynthesis of secondary metabolites
+BSU30940	bsu01110	Biosynthesis of secondary metabolites
+BSU30950	bsu01110	Biosynthesis of secondary metabolites
+BSU30960	bsu01110	Biosynthesis of secondary metabolites
+BSU30970	bsu01110	Biosynthesis of secondary metabolites
+BSU30980	bsu01110	Biosynthesis of secondary metabolites
+BSU31290	bsu01110	Biosynthesis of secondary metabolites
+BSU31350	bsu01110	Biosynthesis of secondary metabolites
+BSU31440	bsu01110	Biosynthesis of secondary metabolites
+BSU31670	bsu01110	Biosynthesis of secondary metabolites
+BSU31970	bsu01110	Biosynthesis of secondary metabolites
+BSU31980	bsu01110	Biosynthesis of secondary metabolites
+BSU31990	bsu01110	Biosynthesis of secondary metabolites
+BSU32000	bsu01110	Biosynthesis of secondary metabolites
+BSU32170	bsu01110	Biosynthesis of secondary metabolites
+BSU32240	bsu01110	Biosynthesis of secondary metabolites
+BSU32250	bsu01110	Biosynthesis of secondary metabolites
+BSU32260	bsu01110	Biosynthesis of secondary metabolites
+BSU32800	bsu01110	Biosynthesis of secondary metabolites
+BSU32830	bsu01110	Biosynthesis of secondary metabolites
+BSU32850	bsu01110	Biosynthesis of secondary metabolites
+BSU33040	bsu01110	Biosynthesis of secondary metabolites
+BSU33900	bsu01110	Biosynthesis of secondary metabolites
+BSU33910	bsu01110	Biosynthesis of secondary metabolites
+BSU33920	bsu01110	Biosynthesis of secondary metabolites
+BSU33930	bsu01110	Biosynthesis of secondary metabolites
+BSU33940	bsu01110	Biosynthesis of secondary metabolites
+BSU34620	bsu01110	Biosynthesis of secondary metabolites
+BSU34680	bsu01110	Biosynthesis of secondary metabolites
+BSU34860	bsu01110	Biosynthesis of secondary metabolites
+BSU34870	bsu01110	Biosynthesis of secondary metabolites
+BSU34880	bsu01110	Biosynthesis of secondary metabolites
+BSU34890	bsu01110	Biosynthesis of secondary metabolites
+BSU34900	bsu01110	Biosynthesis of secondary metabolites
+BSU34910	bsu01110	Biosynthesis of secondary metabolites
+BSU34920	bsu01110	Biosynthesis of secondary metabolites
+BSU34930	bsu01110	Biosynthesis of secondary metabolites
+BSU34960	bsu01110	Biosynthesis of secondary metabolites
+BSU35670	bsu01110	Biosynthesis of secondary metabolites
+BSU35780	bsu01110	Biosynthesis of secondary metabolites
+BSU35790	bsu01110	Biosynthesis of secondary metabolites
+BSU35850	bsu01110	Biosynthesis of secondary metabolites
+BSU36000	bsu01110	Biosynthesis of secondary metabolites
+BSU36010	bsu01110	Biosynthesis of secondary metabolites
+BSU36900	bsu01110	Biosynthesis of secondary metabolites
+BSU36920	bsu01110	Biosynthesis of secondary metabolites
+BSU37090	bsu01110	Biosynthesis of secondary metabolites
+BSU37110	bsu01110	Biosynthesis of secondary metabolites
+BSU37120	bsu01110	Biosynthesis of secondary metabolites
+BSU37170	bsu01110	Biosynthesis of secondary metabolites
+BSU37670	bsu01110	Biosynthesis of secondary metabolites
+BSU37680	bsu01110	Biosynthesis of secondary metabolites
+BSU37690	bsu01110	Biosynthesis of secondary metabolites
+BSU37710	bsu01110	Biosynthesis of secondary metabolites
+BSU37720	bsu01110	Biosynthesis of secondary metabolites
+BSU37730	bsu01110	Biosynthesis of secondary metabolites
+BSU37740	bsu01110	Biosynthesis of secondary metabolites
+BSU37810	bsu01110	Biosynthesis of secondary metabolites
+BSU37820	bsu01110	Biosynthesis of secondary metabolites
+BSU37830	bsu01110	Biosynthesis of secondary metabolites
+BSU37840	bsu01110	Biosynthesis of secondary metabolites
+BSU37960	bsu01110	Biosynthesis of secondary metabolites
+BSU38040	bsu01110	Biosynthesis of secondary metabolites
+BSU38490	bsu01110	Biosynthesis of secondary metabolites
+BSU38550	bsu01110	Biosynthesis of secondary metabolites
+BSU38630	bsu01110	Biosynthesis of secondary metabolites
+BSU38830	bsu01110	Biosynthesis of secondary metabolites
+BSU39050	bsu01110	Biosynthesis of secondary metabolites
+BSU39540	bsu01110	Biosynthesis of secondary metabolites
+BSU39700	bsu01110	Biosynthesis of secondary metabolites
+BSU39860	bsu01110	Biosynthesis of secondary metabolites
+BSU39920	bsu01110	Biosynthesis of secondary metabolites
+BSU40040	bsu01110	Biosynthesis of secondary metabolites
+BSU40060	bsu01110	Biosynthesis of secondary metabolites
+BSU40080	bsu01110	Biosynthesis of secondary metabolites
+BSU40190	bsu01110	Biosynthesis of secondary metabolites
+BSU40320	bsu01110	Biosynthesis of secondary metabolites
+BSU40340	bsu01110	Biosynthesis of secondary metabolites
+BSU00510	bsu01120	Microbial metabolism in diverse environments
+BSU00730	bsu01120	Microbial metabolism in diverse environments
+BSU00930	bsu01120	Microbial metabolism in diverse environments
+BSU02830	bsu01120	Microbial metabolism in diverse environments
+BSU03050	bsu01120	Microbial metabolism in diverse environments
+BSU03280	bsu01120	Microbial metabolism in diverse environments
+BSU03290	bsu01120	Microbial metabolism in diverse environments
+BSU03300	bsu01120	Microbial metabolism in diverse environments
+BSU03310	bsu01120	Microbial metabolism in diverse environments
+BSU03320	bsu01120	Microbial metabolism in diverse environments
+BSU03450	bsu01120	Microbial metabolism in diverse environments
+BSU03460	bsu01120	Microbial metabolism in diverse environments
+BSU03630	bsu01120	Microbial metabolism in diverse environments
+BSU03640	bsu01120	Microbial metabolism in diverse environments
+BSU03651	bsu01120	Microbial metabolism in diverse environments
+BSU03790	bsu01120	Microbial metabolism in diverse environments
+BSU03900	bsu01120	Microbial metabolism in diverse environments
+BSU03910	bsu01120	Microbial metabolism in diverse environments
+BSU03930	bsu01120	Microbial metabolism in diverse environments
+BSU07250	bsu01120	Microbial metabolism in diverse environments
+BSU07330	bsu01120	Microbial metabolism in diverse environments
+BSU07350	bsu01120	Microbial metabolism in diverse environments
+BSU07640	bsu01120	Microbial metabolism in diverse environments
+BSU08080	bsu01120	Microbial metabolism in diverse environments
+BSU08090	bsu01120	Microbial metabolism in diverse environments
+BSU08240	bsu01120	Microbial metabolism in diverse environments
+BSU08710	bsu01120	Microbial metabolism in diverse environments
+BSU09310	bsu01120	Microbial metabolism in diverse environments
+BSU09440	bsu01120	Microbial metabolism in diverse environments
+BSU09670	bsu01120	Microbial metabolism in diverse environments
+BSU10020	bsu01120	Microbial metabolism in diverse environments
+BSU10350	bsu01120	Microbial metabolism in diverse environments
+BSU10850	bsu01120	Microbial metabolism in diverse environments
+BSU10910	bsu01120	Microbial metabolism in diverse environments
+BSU10920	bsu01120	Microbial metabolism in diverse environments
+BSU10930	bsu01120	Microbial metabolism in diverse environments
+BSU10940	bsu01120	Microbial metabolism in diverse environments
+BSU10950	bsu01120	Microbial metabolism in diverse environments
+BSU11010	bsu01120	Microbial metabolism in diverse environments
+BSU11220	bsu01120	Microbial metabolism in diverse environments
+BSU12160	bsu01120	Microbial metabolism in diverse environments
+BSU12230	bsu01120	Microbial metabolism in diverse environments
+BSU13010	bsu01120	Microbial metabolism in diverse environments
+BSU14400	bsu01120	Microbial metabolism in diverse environments
+BSU14580	bsu01120	Microbial metabolism in diverse environments
+BSU14590	bsu01120	Microbial metabolism in diverse environments
+BSU14600	bsu01120	Microbial metabolism in diverse environments
+BSU14610	bsu01120	Microbial metabolism in diverse environments
+BSU14860	bsu01120	Microbial metabolism in diverse environments
+BSU15570	bsu01120	Microbial metabolism in diverse environments
+BSU15590	bsu01120	Microbial metabolism in diverse environments
+BSU15600	bsu01120	Microbial metabolism in diverse environments
+BSU15610	bsu01120	Microbial metabolism in diverse environments
+BSU15790	bsu01120	Microbial metabolism in diverse environments
+BSU16090	bsu01120	Microbial metabolism in diverse environments
+BSU16100	bsu01120	Microbial metabolism in diverse environments
+BSU16750	bsu01120	Microbial metabolism in diverse environments
+BSU16760	bsu01120	Microbial metabolism in diverse environments
+BSU16770	bsu01120	Microbial metabolism in diverse environments
+BSU17460	bsu01120	Microbial metabolism in diverse environments
+BSU17890	bsu01120	Microbial metabolism in diverse environments
+BSU18000	bsu01120	Microbial metabolism in diverse environments
+BSU18220	bsu01120	Microbial metabolism in diverse environments
+BSU18230	bsu01120	Microbial metabolism in diverse environments
+BSU18240	bsu01120	Microbial metabolism in diverse environments
+BSU18360	bsu01120	Microbial metabolism in diverse environments
+BSU18440	bsu01120	Microbial metabolism in diverse environments
+BSU18450	bsu01120	Microbial metabolism in diverse environments
+BSU18560	bsu01120	Microbial metabolism in diverse environments
+BSU18620	bsu01120	Microbial metabolism in diverse environments
+BSU19310	bsu01120	Microbial metabolism in diverse environments
+BSU19360	bsu01120	Microbial metabolism in diverse environments
+BSU19370	bsu01120	Microbial metabolism in diverse environments
+BSU22100	bsu01120	Microbial metabolism in diverse environments
+BSU22110	bsu01120	Microbial metabolism in diverse environments
+BSU22480	bsu01120	Microbial metabolism in diverse environments
+BSU22490	bsu01120	Microbial metabolism in diverse environments
+BSU22960	bsu01120	Microbial metabolism in diverse environments
+BSU23070	bsu01120	Microbial metabolism in diverse environments
+BSU23380	bsu01120	Microbial metabolism in diverse environments
+BSU23850	bsu01120	Microbial metabolism in diverse environments
+BSU23860	bsu01120	Microbial metabolism in diverse environments
+BSU23920	bsu01120	Microbial metabolism in diverse environments
+BSU23930	bsu01120	Microbial metabolism in diverse environments
+BSU24060	bsu01120	Microbial metabolism in diverse environments
+BSU24140	bsu01120	Microbial metabolism in diverse environments
+BSU24160	bsu01120	Microbial metabolism in diverse environments
+BSU24170	bsu01120	Microbial metabolism in diverse environments
+BSU24310	bsu01120	Microbial metabolism in diverse environments
+BSU24340	bsu01120	Microbial metabolism in diverse environments
+BSU24350	bsu01120	Microbial metabolism in diverse environments
+BSU24850	bsu01120	Microbial metabolism in diverse environments
+BSU25730	bsu01120	Microbial metabolism in diverse environments
+BSU26970	bsu01120	Microbial metabolism in diverse environments
+BSU27010	bsu01120	Microbial metabolism in diverse environments
+BSU27160	bsu01120	Microbial metabolism in diverse environments
+BSU27220	bsu01120	Microbial metabolism in diverse environments
+BSU27770	bsu01120	Microbial metabolism in diverse environments
+BSU28120	bsu01120	Microbial metabolism in diverse environments
+BSU28130	bsu01120	Microbial metabolism in diverse environments
+BSU28140	bsu01120	Microbial metabolism in diverse environments
+BSU28150	bsu01120	Microbial metabolism in diverse environments
+BSU28170	bsu01120	Microbial metabolism in diverse environments
+BSU28430	bsu01120	Microbial metabolism in diverse environments
+BSU28440	bsu01120	Microbial metabolism in diverse environments
+BSU28450	bsu01120	Microbial metabolism in diverse environments
+BSU28470	bsu01120	Microbial metabolism in diverse environments
+BSU28540	bsu01120	Microbial metabolism in diverse environments
+BSU28680	bsu01120	Microbial metabolism in diverse environments
+BSU28690	bsu01120	Microbial metabolism in diverse environments
+BSU28780	bsu01120	Microbial metabolism in diverse environments
+BSU29020	bsu01120	Microbial metabolism in diverse environments
+BSU29120	bsu01120	Microbial metabolism in diverse environments
+BSU29130	bsu01120	Microbial metabolism in diverse environments
+BSU29140	bsu01120	Microbial metabolism in diverse environments
+BSU29180	bsu01120	Microbial metabolism in diverse environments
+BSU29190	bsu01120	Microbial metabolism in diverse environments
+BSU29200	bsu01120	Microbial metabolism in diverse environments
+BSU29210	bsu01120	Microbial metabolism in diverse environments
+BSU29250	bsu01120	Microbial metabolism in diverse environments
+BSU29470	bsu01120	Microbial metabolism in diverse environments
+BSU29560	bsu01120	Microbial metabolism in diverse environments
+BSU29680	bsu01120	Microbial metabolism in diverse environments
+BSU29970	bsu01120	Microbial metabolism in diverse environments
+BSU29980	bsu01120	Microbial metabolism in diverse environments
+BSU30560	bsu01120	Microbial metabolism in diverse environments
+BSU31170	bsu01120	Microbial metabolism in diverse environments
+BSU31180	bsu01120	Microbial metabolism in diverse environments
+BSU31200	bsu01120	Microbial metabolism in diverse environments
+BSU31350	bsu01120	Microbial metabolism in diverse environments
+BSU32170	bsu01120	Microbial metabolism in diverse environments
+BSU32240	bsu01120	Microbial metabolism in diverse environments
+BSU32250	bsu01120	Microbial metabolism in diverse environments
+BSU32260	bsu01120	Microbial metabolism in diverse environments
+BSU32410	bsu01120	Microbial metabolism in diverse environments
+BSU32450	bsu01120	Microbial metabolism in diverse environments
+BSU32460	bsu01120	Microbial metabolism in diverse environments
+BSU32470	bsu01120	Microbial metabolism in diverse environments
+BSU32480	bsu01120	Microbial metabolism in diverse environments
+BSU32490	bsu01120	Microbial metabolism in diverse environments
+BSU32510	bsu01120	Microbial metabolism in diverse environments
+BSU32530	bsu01120	Microbial metabolism in diverse environments
+BSU32830	bsu01120	Microbial metabolism in diverse environments
+BSU32840	bsu01120	Microbial metabolism in diverse environments
+BSU33040	bsu01120	Microbial metabolism in diverse environments
+BSU33430	bsu01120	Microbial metabolism in diverse environments
+BSU33440	bsu01120	Microbial metabolism in diverse environments
+BSU33530	bsu01120	Microbial metabolism in diverse environments
+BSU33900	bsu01120	Microbial metabolism in diverse environments
+BSU33910	bsu01120	Microbial metabolism in diverse environments
+BSU33920	bsu01120	Microbial metabolism in diverse environments
+BSU33930	bsu01120	Microbial metabolism in diverse environments
+BSU33940	bsu01120	Microbial metabolism in diverse environments
+BSU34430	bsu01120	Microbial metabolism in diverse environments
+BSU34680	bsu01120	Microbial metabolism in diverse environments
+BSU36640	bsu01120	Microbial metabolism in diverse environments
+BSU36650	bsu01120	Microbial metabolism in diverse environments
+BSU36660	bsu01120	Microbial metabolism in diverse environments
+BSU36900	bsu01120	Microbial metabolism in diverse environments
+BSU36920	bsu01120	Microbial metabolism in diverse environments
+BSU37090	bsu01120	Microbial metabolism in diverse environments
+BSU37110	bsu01120	Microbial metabolism in diverse environments
+BSU37120	bsu01120	Microbial metabolism in diverse environments
+BSU37170	bsu01120	Microbial metabolism in diverse environments
+BSU37250	bsu01120	Microbial metabolism in diverse environments
+BSU37270	bsu01120	Microbial metabolism in diverse environments
+BSU37280	bsu01120	Microbial metabolism in diverse environments
+BSU37540	bsu01120	Microbial metabolism in diverse environments
+BSU37660	bsu01120	Microbial metabolism in diverse environments
+BSU37790	bsu01120	Microbial metabolism in diverse environments
+BSU37960	bsu01120	Microbial metabolism in diverse environments
+BSU38830	bsu01120	Microbial metabolism in diverse environments
+BSU39670	bsu01120	Microbial metabolism in diverse environments
+BSU39680	bsu01120	Microbial metabolism in diverse environments
+BSU39700	bsu01120	Microbial metabolism in diverse environments
+BSU39720	bsu01120	Microbial metabolism in diverse environments
+BSU39730	bsu01120	Microbial metabolism in diverse environments
+BSU39740	bsu01120	Microbial metabolism in diverse environments
+BSU39750	bsu01120	Microbial metabolism in diverse environments
+BSU39860	bsu01120	Microbial metabolism in diverse environments
+BSU40040	bsu01120	Microbial metabolism in diverse environments
+BSU40060	bsu01120	Microbial metabolism in diverse environments
+BSU40080	bsu01120	Microbial metabolism in diverse environments
+BSU40190	bsu01120	Microbial metabolism in diverse environments
+BSU40250	bsu01120	Microbial metabolism in diverse environments
+BSU00510	bsu01200	Carbon metabolism
+BSU00730	bsu01200	Carbon metabolism
+BSU00930	bsu01200	Carbon metabolism
+BSU02830	bsu01200	Carbon metabolism
+BSU03450	bsu01200	Carbon metabolism
+BSU03460	bsu01200	Carbon metabolism
+BSU03930	bsu01200	Carbon metabolism
+BSU08080	bsu01200	Carbon metabolism
+BSU08090	bsu01200	Carbon metabolism
+BSU08820	bsu01200	Carbon metabolism
+BSU09440	bsu01200	Carbon metabolism
+BSU10020	bsu01200	Carbon metabolism
+BSU10350	bsu01200	Carbon metabolism
+BSU12160	bsu01200	Carbon metabolism
+BSU13010	bsu01200	Carbon metabolism
+BSU14580	bsu01200	Carbon metabolism
+BSU14590	bsu01200	Carbon metabolism
+BSU14600	bsu01200	Carbon metabolism
+BSU14610	bsu01200	Carbon metabolism
+BSU14860	bsu01200	Carbon metabolism
+BSU15790	bsu01200	Carbon metabolism
+BSU15850	bsu01200	Carbon metabolism
+BSU15860	bsu01200	Carbon metabolism
+BSU16090	bsu01200	Carbon metabolism
+BSU16100	bsu01200	Carbon metabolism
+BSU17890	bsu01200	Carbon metabolism
+BSU18000	bsu01200	Carbon metabolism
+BSU18220	bsu01200	Carbon metabolism
+BSU18240	bsu01200	Carbon metabolism
+BSU18560	bsu01200	Carbon metabolism
+BSU19360	bsu01200	Carbon metabolism
+BSU19370	bsu01200	Carbon metabolism
+BSU21770	bsu01200	Carbon metabolism
+BSU22100	bsu01200	Carbon metabolism
+BSU22110	bsu01200	Carbon metabolism
+BSU23070	bsu01200	Carbon metabolism
+BSU23550	bsu01200	Carbon metabolism
+BSU23850	bsu01200	Carbon metabolism
+BSU23860	bsu01200	Carbon metabolism
+BSU23920	bsu01200	Carbon metabolism
+BSU23930	bsu01200	Carbon metabolism
+BSU24060	bsu01200	Carbon metabolism
+BSU24140	bsu01200	Carbon metabolism
+BSU24160	bsu01200	Carbon metabolism
+BSU24170	bsu01200	Carbon metabolism
+BSU24310	bsu01200	Carbon metabolism
+BSU24340	bsu01200	Carbon metabolism
+BSU24350	bsu01200	Carbon metabolism
+BSU24550	bsu01200	Carbon metabolism
+BSU24560	bsu01200	Carbon metabolism
+BSU24570	bsu01200	Carbon metabolism
+BSU24850	bsu01200	Carbon metabolism
+BSU25730	bsu01200	Carbon metabolism
+BSU26970	bsu01200	Carbon metabolism
+BSU27220	bsu01200	Carbon metabolism
+BSU28430	bsu01200	Carbon metabolism
+BSU28440	bsu01200	Carbon metabolism
+BSU28450	bsu01200	Carbon metabolism
+BSU28940	bsu01200	Carbon metabolism
+BSU29020	bsu01200	Carbon metabolism
+BSU29120	bsu01200	Carbon metabolism
+BSU29130	bsu01200	Carbon metabolism
+BSU29140	bsu01200	Carbon metabolism
+BSU29180	bsu01200	Carbon metabolism
+BSU29190	bsu01200	Carbon metabolism
+BSU29200	bsu01200	Carbon metabolism
+BSU29210	bsu01200	Carbon metabolism
+BSU29220	bsu01200	Carbon metabolism
+BSU29470	bsu01200	Carbon metabolism
+BSU29560	bsu01200	Carbon metabolism
+BSU29680	bsu01200	Carbon metabolism
+BSU29880	bsu01200	Carbon metabolism
+BSU29970	bsu01200	Carbon metabolism
+BSU30560	bsu01200	Carbon metabolism
+BSU31350	bsu01200	Carbon metabolism
+BSU32800	bsu01200	Carbon metabolism
+BSU32840	bsu01200	Carbon metabolism
+BSU33040	bsu01200	Carbon metabolism
+BSU33900	bsu01200	Carbon metabolism
+BSU33910	bsu01200	Carbon metabolism
+BSU33920	bsu01200	Carbon metabolism
+BSU33930	bsu01200	Carbon metabolism
+BSU33940	bsu01200	Carbon metabolism
+BSU36900	bsu01200	Carbon metabolism
+BSU36920	bsu01200	Carbon metabolism
+BSU37050	bsu01200	Carbon metabolism
+BSU37090	bsu01200	Carbon metabolism
+BSU37110	bsu01200	Carbon metabolism
+BSU37120	bsu01200	Carbon metabolism
+BSU37170	bsu01200	Carbon metabolism
+BSU37660	bsu01200	Carbon metabolism
+BSU38630	bsu01200	Carbon metabolism
+BSU39050	bsu01200	Carbon metabolism
+BSU39760	bsu01200	Carbon metabolism
+BSU40060	bsu01200	Carbon metabolism
+BSU40080	bsu01200	Carbon metabolism
+BSU40250	bsu01200	Carbon metabolism
+BSU02390	bsu01210	2-Oxocarboxylic acid metabolism
+BSU03790	bsu01210	2-Oxocarboxylic acid metabolism
+BSU08080	bsu01210	2-Oxocarboxylic acid metabolism
+BSU08090	bsu01210	2-Oxocarboxylic acid metabolism
+BSU09440	bsu01210	2-Oxocarboxylic acid metabolism
+BSU09570	bsu01210	2-Oxocarboxylic acid metabolism
+BSU11190	bsu01210	2-Oxocarboxylic acid metabolism
+BSU11200	bsu01210	2-Oxocarboxylic acid metabolism
+BSU11210	bsu01210	2-Oxocarboxylic acid metabolism
+BSU11220	bsu01210	2-Oxocarboxylic acid metabolism
+BSU14580	bsu01210	2-Oxocarboxylic acid metabolism
+BSU14590	bsu01210	2-Oxocarboxylic acid metabolism
+BSU14600	bsu01210	2-Oxocarboxylic acid metabolism
+BSU14610	bsu01210	2-Oxocarboxylic acid metabolism
+BSU16750	bsu01210	2-Oxocarboxylic acid metabolism
+BSU16760	bsu01210	2-Oxocarboxylic acid metabolism
+BSU18000	bsu01210	2-Oxocarboxylic acid metabolism
+BSU19360	bsu01210	2-Oxocarboxylic acid metabolism
+BSU19370	bsu01210	2-Oxocarboxylic acid metabolism
+BSU19710	bsu01210	2-Oxocarboxylic acid metabolism
+BSU21870	bsu01210	2-Oxocarboxylic acid metabolism
+BSU22370	bsu01210	2-Oxocarboxylic acid metabolism
+BSU24030	bsu01210	2-Oxocarboxylic acid metabolism
+BSU24040	bsu01210	2-Oxocarboxylic acid metabolism
+BSU24050	bsu01210	2-Oxocarboxylic acid metabolism
+BSU24060	bsu01210	2-Oxocarboxylic acid metabolism
+BSU24140	bsu01210	2-Oxocarboxylic acid metabolism
+BSU28250	bsu01210	2-Oxocarboxylic acid metabolism
+BSU28260	bsu01210	2-Oxocarboxylic acid metabolism
+BSU28270	bsu01210	2-Oxocarboxylic acid metabolism
+BSU28280	bsu01210	2-Oxocarboxylic acid metabolism
+BSU28290	bsu01210	2-Oxocarboxylic acid metabolism
+BSU28300	bsu01210	2-Oxocarboxylic acid metabolism
+BSU28310	bsu01210	2-Oxocarboxylic acid metabolism
+BSU28470	bsu01210	2-Oxocarboxylic acid metabolism
+BSU29130	bsu01210	2-Oxocarboxylic acid metabolism
+BSU29140	bsu01210	2-Oxocarboxylic acid metabolism
+BSU36000	bsu01210	2-Oxocarboxylic acid metabolism
+BSU36010	bsu01210	2-Oxocarboxylic acid metabolism
+BSU38550	bsu01210	2-Oxocarboxylic acid metabolism
+BSU08650	bsu01212	Fatty acid metabolism
+BSU10170	bsu01212	Fatty acid metabolism
+BSU10270	bsu01212	Fatty acid metabolism
+BSU10350	bsu01212	Fatty acid metabolism
+BSU11330	bsu01212	Fatty acid metabolism
+BSU11340	bsu01212	Fatty acid metabolism
+BSU11720	bsu01212	Fatty acid metabolism
+BSU15900	bsu01212	Fatty acid metabolism
+BSU15910	bsu01212	Fatty acid metabolism
+BSU16870	bsu01212	Fatty acid metabolism
+BSU18240	bsu01212	Fatty acid metabolism
+BSU24170	bsu01212	Fatty acid metabolism
+BSU24340	bsu01212	Fatty acid metabolism
+BSU24350	bsu01212	Fatty acid metabolism
+BSU28540	bsu01212	Fatty acid metabolism
+BSU28560	bsu01212	Fatty acid metabolism
+BSU29200	bsu01212	Fatty acid metabolism
+BSU29210	bsu01212	Fatty acid metabolism
+BSU29420	bsu01212	Fatty acid metabolism
+BSU32830	bsu01212	Fatty acid metabolism
+BSU32840	bsu01212	Fatty acid metabolism
+BSU36370	bsu01212	Fatty acid metabolism
+BSU37170	bsu01212	Fatty acid metabolism
+BSU03630	bsu01220	Degradation of aromatic compounds
+BSU03640	bsu01220	Degradation of aromatic compounds
+BSU03651	bsu01220	Degradation of aromatic compounds
+BSU08240	bsu01220	Degradation of aromatic compounds
+BSU18620	bsu01220	Degradation of aromatic compounds
+BSU26970	bsu01220	Degradation of aromatic compounds
+BSU37540	bsu01220	Degradation of aromatic compounds
+BSU00510	bsu01230	Biosynthesis of amino acids
+BSU00730	bsu01230	Biosynthesis of amino acids
+BSU00930	bsu01230	Biosynthesis of amino acids
+BSU02390	bsu01230	Biosynthesis of amino acids
+BSU03150	bsu01230	Biosynthesis of amino acids
+BSU03450	bsu01230	Biosynthesis of amino acids
+BSU03460	bsu01230	Biosynthesis of amino acids
+BSU03790	bsu01230	Biosynthesis of amino acids
+BSU09440	bsu01230	Biosynthesis of amino acids
+BSU09570	bsu01230	Biosynthesis of amino acids
+BSU10020	bsu01230	Biosynthesis of amino acids
+BSU10790	bsu01230	Biosynthesis of amino acids
+BSU11010	bsu01230	Biosynthesis of amino acids
+BSU11190	bsu01230	Biosynthesis of amino acids
+BSU11200	bsu01230	Biosynthesis of amino acids
+BSU11210	bsu01230	Biosynthesis of amino acids
+BSU11220	bsu01230	Biosynthesis of amino acids
+BSU11250	bsu01230	Biosynthesis of amino acids
+BSU11870	bsu01230	Biosynthesis of amino acids
+BSU11880	bsu01230	Biosynthesis of amino acids
+BSU12910	bsu01230	Biosynthesis of amino acids
+BSU13120	bsu01230	Biosynthesis of amino acids
+BSU13130	bsu01230	Biosynthesis of amino acids
+BSU13180	bsu01230	Biosynthesis of amino acids
+BSU14000	bsu01230	Biosynthesis of amino acids
+BSU14180	bsu01230	Biosynthesis of amino acids
+BSU14190	bsu01230	Biosynthesis of amino acids
+BSU14860	bsu01230	Biosynthesis of amino acids
+BSU15790	bsu01230	Biosynthesis of amino acids
+BSU15850	bsu01230	Biosynthesis of amino acids
+BSU15860	bsu01230	Biosynthesis of amino acids
+BSU16750	bsu01230	Biosynthesis of amino acids
+BSU16760	bsu01230	Biosynthesis of amino acids
+BSU16770	bsu01230	Biosynthesis of amino acids
+BSU17460	bsu01230	Biosynthesis of amino acids
+BSU17890	bsu01230	Biosynthesis of amino acids
+BSU18000	bsu01230	Biosynthesis of amino acids
+BSU18440	bsu01230	Biosynthesis of amino acids
+BSU18450	bsu01230	Biosynthesis of amino acids
+BSU18470	bsu01230	Biosynthesis of amino acids
+BSU18480	bsu01230	Biosynthesis of amino acids
+BSU18560	bsu01230	Biosynthesis of amino acids
+BSU19710	bsu01230	Biosynthesis of amino acids
+BSU21770	bsu01230	Biosynthesis of amino acids
+BSU21870	bsu01230	Biosynthesis of amino acids
+BSU21910	bsu01230	Biosynthesis of amino acids
+BSU22370	bsu01230	Biosynthesis of amino acids
+BSU22490	bsu01230	Biosynthesis of amino acids
+BSU22600	bsu01230	Biosynthesis of amino acids
+BSU22610	bsu01230	Biosynthesis of amino acids
+BSU22620	bsu01230	Biosynthesis of amino acids
+BSU22630	bsu01230	Biosynthesis of amino acids
+BSU22640	bsu01230	Biosynthesis of amino acids
+BSU22650	bsu01230	Biosynthesis of amino acids
+BSU22660	bsu01230	Biosynthesis of amino acids
+BSU22670	bsu01230	Biosynthesis of amino acids
+BSU22680	bsu01230	Biosynthesis of amino acids
+BSU22690	bsu01230	Biosynthesis of amino acids
+BSU22700	bsu01230	Biosynthesis of amino acids
+BSU22710	bsu01230	Biosynthesis of amino acids
+BSU23070	bsu01230	Biosynthesis of amino acids
+BSU23080	bsu01230	Biosynthesis of amino acids
+BSU23380	bsu01230	Biosynthesis of amino acids
+BSU23800	bsu01230	Biosynthesis of amino acids
+BSU24140	bsu01230	Biosynthesis of amino acids
+BSU24470	bsu01230	Biosynthesis of amino acids
+BSU25660	bsu01230	Biosynthesis of amino acids
+BSU27250	bsu01230	Biosynthesis of amino acids
+BSU27260	bsu01230	Biosynthesis of amino acids
+BSU27270	bsu01230	Biosynthesis of amino acids
+BSU27280	bsu01230	Biosynthesis of amino acids
+BSU27900	bsu01230	Biosynthesis of amino acids
+BSU27910	bsu01230	Biosynthesis of amino acids
+BSU28250	bsu01230	Biosynthesis of amino acids
+BSU28260	bsu01230	Biosynthesis of amino acids
+BSU28270	bsu01230	Biosynthesis of amino acids
+BSU28280	bsu01230	Biosynthesis of amino acids
+BSU28290	bsu01230	Biosynthesis of amino acids
+BSU28300	bsu01230	Biosynthesis of amino acids
+BSU28310	bsu01230	Biosynthesis of amino acids
+BSU28470	bsu01230	Biosynthesis of amino acids
+BSU28940	bsu01230	Biosynthesis of amino acids
+BSU29020	bsu01230	Biosynthesis of amino acids
+BSU29130	bsu01230	Biosynthesis of amino acids
+BSU29140	bsu01230	Biosynthesis of amino acids
+BSU29180	bsu01230	Biosynthesis of amino acids
+BSU29190	bsu01230	Biosynthesis of amino acids
+BSU29440	bsu01230	Biosynthesis of amino acids
+BSU29450	bsu01230	Biosynthesis of amino acids
+BSU29620	bsu01230	Biosynthesis of amino acids
+BSU29750	bsu01230	Biosynthesis of amino acids
+BSU29970	bsu01230	Biosynthesis of amino acids
+BSU29980	bsu01230	Biosynthesis of amino acids
+BSU30540	bsu01230	Biosynthesis of amino acids
+BSU30550	bsu01230	Biosynthesis of amino acids
+BSU30670	bsu01230	Biosynthesis of amino acids
+BSU31440	bsu01230	Biosynthesis of amino acids
+BSU32170	bsu01230	Biosynthesis of amino acids
+BSU32240	bsu01230	Biosynthesis of amino acids
+BSU32250	bsu01230	Biosynthesis of amino acids
+BSU32260	bsu01230	Biosynthesis of amino acids
+BSU33900	bsu01230	Biosynthesis of amino acids
+BSU33910	bsu01230	Biosynthesis of amino acids
+BSU33920	bsu01230	Biosynthesis of amino acids
+BSU33930	bsu01230	Biosynthesis of amino acids
+BSU33940	bsu01230	Biosynthesis of amino acids
+BSU34860	bsu01230	Biosynthesis of amino acids
+BSU34870	bsu01230	Biosynthesis of amino acids
+BSU34880	bsu01230	Biosynthesis of amino acids
+BSU34890	bsu01230	Biosynthesis of amino acids
+BSU34900	bsu01230	Biosynthesis of amino acids
+BSU34910	bsu01230	Biosynthesis of amino acids
+BSU34920	bsu01230	Biosynthesis of amino acids
+BSU34930	bsu01230	Biosynthesis of amino acids
+BSU36010	bsu01230	Biosynthesis of amino acids
+BSU36900	bsu01230	Biosynthesis of amino acids
+BSU36920	bsu01230	Biosynthesis of amino acids
+BSU37110	bsu01230	Biosynthesis of amino acids
+BSU37120	bsu01230	Biosynthesis of amino acids
+BSU38550	bsu01230	Biosynthesis of amino acids
+BSU39920	bsu01230	Biosynthesis of amino acids
+BSU40320	bsu01230	Biosynthesis of amino acids
+BSU00090	bsu01232	Nucleotide metabolism
+BSU00140	bsu01232	Nucleotide metabolism
+BSU00150	bsu01232	Nucleotide metabolism
+BSU00280	bsu01232	Nucleotide metabolism
+BSU00680	bsu01232	Nucleotide metabolism
+BSU01370	bsu01232	Nucleotide metabolism
+BSU06360	bsu01232	Nucleotide metabolism
+BSU06440	bsu01232	Nucleotide metabolism
+BSU06560	bsu01232	Nucleotide metabolism
+BSU07840	bsu01232	Nucleotide metabolism
+BSU13170	bsu01232	Nucleotide metabolism
+BSU14520	bsu01232	Nucleotide metabolism
+BSU15370	bsu01232	Nucleotide metabolism
+BSU15470	bsu01232	Nucleotide metabolism
+BSU15680	bsu01232	Nucleotide metabolism
+BSU16510	bsu01232	Nucleotide metabolism
+BSU17380	bsu01232	Nucleotide metabolism
+BSU17390	bsu01232	Nucleotide metabolism
+BSU17660	bsu01232	Nucleotide metabolism
+BSU17680	bsu01232	Nucleotide metabolism
+BSU19630	bsu01232	Nucleotide metabolism
+BSU20020	bsu01232	Nucleotide metabolism
+BSU20040	bsu01232	Nucleotide metabolism
+BSU20060	bsu01232	Nucleotide metabolism
+BSU21820	bsu01232	Nucleotide metabolism
+BSU22070	bsu01232	Nucleotide metabolism
+BSU22730	bsu01232	Nucleotide metabolism
+BSU22890	bsu01232	Nucleotide metabolism
+BSU23490	bsu01232	Nucleotide metabolism
+BSU25300	bsu01232	Nucleotide metabolism
+BSU25580	bsu01232	Nucleotide metabolism
+BSU27330	bsu01232	Nucleotide metabolism
+BSU27610	bsu01232	Nucleotide metabolism
+BSU28050	bsu01232	Nucleotide metabolism
+BSU28360	bsu01232	Nucleotide metabolism
+BSU32130	bsu01232	Nucleotide metabolism
+BSU32470	bsu01232	Nucleotide metabolism
+BSU32480	bsu01232	Nucleotide metabolism
+BSU32490	bsu01232	Nucleotide metabolism
+BSU32510	bsu01232	Nucleotide metabolism
+BSU36890	bsu01232	Nucleotide metabolism
+BSU37060	bsu01232	Nucleotide metabolism
+BSU37150	bsu01232	Nucleotide metabolism
+BSU39400	bsu01232	Nucleotide metabolism
+BSU40420	bsu01232	Nucleotide metabolism
+BSU00110	bsu01240	Biosynthesis of cofactors
+BSU00120	bsu01240	Biosynthesis of cofactors
+BSU00700	bsu01240	Biosynthesis of cofactors
+BSU00760	bsu01240	Biosynthesis of cofactors
+BSU00770	bsu01240	Biosynthesis of cofactors
+BSU00780	bsu01240	Biosynthesis of cofactors
+BSU00790	bsu01240	Biosynthesis of cofactors
+BSU00920	bsu01240	Biosynthesis of cofactors
+BSU01370	bsu01240	Biosynthesis of cofactors
+BSU02390	bsu01240	Biosynthesis of cofactors
+BSU02620	bsu01240	Biosynthesis of cofactors
+BSU03130	bsu01240	Biosynthesis of cofactors
+BSU03280	bsu01240	Biosynthesis of cofactors
+BSU03340	bsu01240	Biosynthesis of cofactors
+BSU03630	bsu01240	Biosynthesis of cofactors
+BSU04040	bsu01240	Biosynthesis of cofactors
+BSU05740	bsu01240	Biosynthesis of cofactors
+BSU05870	bsu01240	Biosynthesis of cofactors
+BSU05900	bsu01240	Biosynthesis of cofactors
+BSU05960	bsu01240	Biosynthesis of cofactors
+BSU06440	bsu01240	Biosynthesis of cofactors
+BSU08090	bsu01240	Biosynthesis of cofactors
+BSU08710	bsu01240	Biosynthesis of cofactors
+BSU08790	bsu01240	Biosynthesis of cofactors
+BSU09020	bsu01240	Biosynthesis of cofactors
+BSU09410	bsu01240	Biosynthesis of cofactors
+BSU09840	bsu01240	Biosynthesis of cofactors
+BSU10020	bsu01240	Biosynthesis of cofactors
+BSU10120	bsu01240	Biosynthesis of cofactors
+BSU10130	bsu01240	Biosynthesis of cofactors
+BSU10140	bsu01240	Biosynthesis of cofactors
+BSU10250	bsu01240	Biosynthesis of cofactors
+BSU10940	bsu01240	Biosynthesis of cofactors
+BSU10950	bsu01240	Biosynthesis of cofactors
+BSU11140	bsu01240	Biosynthesis of cofactors
+BSU11230	bsu01240	Biosynthesis of cofactors
+BSU11240	bsu01240	Biosynthesis of cofactors
+BSU11340	bsu01240	Biosynthesis of cofactors
+BSU11610	bsu01240	Biosynthesis of cofactors
+BSU11650	bsu01240	Biosynthesis of cofactors
+BSU11660	bsu01240	Biosynthesis of cofactors
+BSU11670	bsu01240	Biosynthesis of cofactors
+BSU11690	bsu01240	Biosynthesis of cofactors
+BSU11700	bsu01240	Biosynthesis of cofactors
+BSU11710	bsu01240	Biosynthesis of cofactors
+BSU11720	bsu01240	Biosynthesis of cofactors
+BSU12020	bsu01240	Biosynthesis of cofactors
+BSU12080	bsu01240	Biosynthesis of cofactors
+BSU12230	bsu01240	Biosynthesis of cofactors
+BSU13730	bsu01240	Biosynthesis of cofactors
+BSU14280	bsu01240	Biosynthesis of cofactors
+BSU14300	bsu01240	Biosynthesis of cofactors
+BSU14440	bsu01240	Biosynthesis of cofactors
+BSU14610	bsu01240	Biosynthesis of cofactors
+BSU14870	bsu01240	Biosynthesis of cofactors
+BSU14880	bsu01240	Biosynthesis of cofactors
+BSU15020	bsu01240	Biosynthesis of cofactors
+BSU15110	bsu01240	Biosynthesis of cofactors
+BSU15490	bsu01240	Biosynthesis of cofactors
+BSU15500	bsu01240	Biosynthesis of cofactors
+BSU15510	bsu01240	Biosynthesis of cofactors
+BSU15520	bsu01240	Biosynthesis of cofactors
+BSU15530	bsu01240	Biosynthesis of cofactors
+BSU15540	bsu01240	Biosynthesis of cofactors
+BSU15550	bsu01240	Biosynthesis of cofactors
+BSU15560	bsu01240	Biosynthesis of cofactors
+BSU15610	bsu01240	Biosynthesis of cofactors
+BSU15620	bsu01240	Biosynthesis of cofactors
+BSU15630	bsu01240	Biosynthesis of cofactors
+BSU15700	bsu01240	Biosynthesis of cofactors
+BSU15800	bsu01240	Biosynthesis of cofactors
+BSU15910	bsu01240	Biosynthesis of cofactors
+BSU16510	bsu01240	Biosynthesis of cofactors
+BSU16670	bsu01240	Biosynthesis of cofactors
+BSU16870	bsu01240	Biosynthesis of cofactors
+BSU18180	bsu01240	Biosynthesis of cofactors
+BSU19310	bsu01240	Biosynthesis of cofactors
+BSU21810	bsu01240	Biosynthesis of cofactors
+BSU22410	bsu01240	Biosynthesis of cofactors
+BSU22420	bsu01240	Biosynthesis of cofactors
+BSU22430	bsu01240	Biosynthesis of cofactors
+BSU22730	bsu01240	Biosynthesis of cofactors
+BSU22750	bsu01240	Biosynthesis of cofactors
+BSU22780	bsu01240	Biosynthesis of cofactors
+BSU23250	bsu01240	Biosynthesis of cofactors
+BSU23260	bsu01240	Biosynthesis of cofactors
+BSU23270	bsu01240	Biosynthesis of cofactors
+BSU23280	bsu01240	Biosynthesis of cofactors
+BSU23760	bsu01240	Biosynthesis of cofactors
+BSU24060	bsu01240	Biosynthesis of cofactors
+BSU24310	bsu01240	Biosynthesis of cofactors
+BSU24530	bsu01240	Biosynthesis of cofactors
+BSU25500	bsu01240	Biosynthesis of cofactors
+BSU25640	bsu01240	Biosynthesis of cofactors
+BSU27510	bsu01240	Biosynthesis of cofactors
+BSU27850	bsu01240	Biosynthesis of cofactors
+BSU27860	bsu01240	Biosynthesis of cofactors
+BSU27870	bsu01240	Biosynthesis of cofactors
+BSU27880	bsu01240	Biosynthesis of cofactors
+BSU28080	bsu01240	Biosynthesis of cofactors
+BSU28120	bsu01240	Biosynthesis of cofactors
+BSU28130	bsu01240	Biosynthesis of cofactors
+BSU28140	bsu01240	Biosynthesis of cofactors
+BSU28150	bsu01240	Biosynthesis of cofactors
+BSU28170	bsu01240	Biosynthesis of cofactors
+BSU29060	bsu01240	Biosynthesis of cofactors
+BSU29300	bsu01240	Biosynthesis of cofactors
+BSU29420	bsu01240	Biosynthesis of cofactors
+BSU29460	bsu01240	Biosynthesis of cofactors
+BSU29540	bsu01240	Biosynthesis of cofactors
+BSU29580	bsu01240	Biosynthesis of cofactors
+BSU29590	bsu01240	Biosynthesis of cofactors
+BSU30190	bsu01240	Biosynthesis of cofactors
+BSU30200	bsu01240	Biosynthesis of cofactors
+BSU30210	bsu01240	Biosynthesis of cofactors
+BSU30220	bsu01240	Biosynthesis of cofactors
+BSU30230	bsu01240	Biosynthesis of cofactors
+BSU30240	bsu01240	Biosynthesis of cofactors
+BSU30550	bsu01240	Biosynthesis of cofactors
+BSU30780	bsu01240	Biosynthesis of cofactors
+BSU30790	bsu01240	Biosynthesis of cofactors
+BSU30800	bsu01240	Biosynthesis of cofactors
+BSU30810	bsu01240	Biosynthesis of cofactors
+BSU30820	bsu01240	Biosynthesis of cofactors
+BSU30830	bsu01240	Biosynthesis of cofactors
+BSU30850	bsu01240	Biosynthesis of cofactors
+BSU30860	bsu01240	Biosynthesis of cofactors
+BSU31670	bsu01240	Biosynthesis of cofactors
+BSU31750	bsu01240	Biosynthesis of cofactors
+BSU32330	bsu01240	Biosynthesis of cofactors
+BSU33150	bsu01240	Biosynthesis of cofactors
+BSU35580	bsu01240	Biosynthesis of cofactors
+BSU35670	bsu01240	Biosynthesis of cofactors
+BSU35790	bsu01240	Biosynthesis of cofactors
+BSU35850	bsu01240	Biosynthesis of cofactors
+BSU36230	bsu01240	Biosynthesis of cofactors
+BSU36370	bsu01240	Biosynthesis of cofactors
+BSU36700	bsu01240	Biosynthesis of cofactors
+BSU36900	bsu01240	Biosynthesis of cofactors
+BSU37150	bsu01240	Biosynthesis of cofactors
+BSU37640	bsu01240	Biosynthesis of cofactors
+BSU37670	bsu01240	Biosynthesis of cofactors
+BSU37960	bsu01240	Biosynthesis of cofactors
+BSU38020	bsu01240	Biosynthesis of cofactors
+BSU38290	bsu01240	Biosynthesis of cofactors
+BSU38300	bsu01240	Biosynthesis of cofactors
+BSU38490	bsu01240	Biosynthesis of cofactors
+BSU38550	bsu01240	Biosynthesis of cofactors
+BSU38830	bsu01240	Biosynthesis of cofactors
+BSU39860	bsu01240	Biosynthesis of cofactors
+BSU40420	bsu01240	Biosynthesis of cofactors
+BSU00500	bsu01250	Biosynthesis of nucleotide sugars
+BSU01770	bsu01250	Biosynthesis of nucleotide sugars
+BSU01780	bsu01250	Biosynthesis of nucleotide sugars
+BSU01900	bsu01250	Biosynthesis of nucleotide sugars
+BSU05860	bsu01250	Biosynthesis of nucleotide sugars
+BSU05870	bsu01250	Biosynthesis of nucleotide sugars
+BSU06170	bsu01250	Biosynthesis of nucleotide sugars
+BSU07270	bsu01250	Biosynthesis of nucleotide sugars
+BSU09310	bsu01250	Biosynthesis of nucleotide sugars
+BSU12020	bsu01250	Biosynthesis of nucleotide sugars
+BSU15230	bsu01250	Biosynthesis of nucleotide sugars
+BSU18180	bsu01250	Biosynthesis of nucleotide sugars
+BSU24850	bsu01250	Biosynthesis of nucleotide sugars
+BSU30850	bsu01250	Biosynthesis of nucleotide sugars
+BSU30860	bsu01250	Biosynthesis of nucleotide sugars
+BSU30960	bsu01250	Biosynthesis of nucleotide sugars
+BSU30970	bsu01250	Biosynthesis of nucleotide sugars
+BSU31350	bsu01250	Biosynthesis of nucleotide sugars
+BSU35580	bsu01250	Biosynthesis of nucleotide sugars
+BSU35660	bsu01250	Biosynthesis of nucleotide sugars
+BSU35670	bsu01250	Biosynthesis of nucleotide sugars
+BSU35790	bsu01250	Biosynthesis of nucleotide sugars
+BSU36230	bsu01250	Biosynthesis of nucleotide sugars
+BSU36760	bsu01250	Biosynthesis of nucleotide sugars
+BSU37100	bsu01250	Biosynthesis of nucleotide sugars
+BSU37810	bsu01250	Biosynthesis of nucleotide sugars
+BSU37820	bsu01250	Biosynthesis of nucleotide sugars
+BSU37830	bsu01250	Biosynthesis of nucleotide sugars
+BSU37840	bsu01250	Biosynthesis of nucleotide sugars
+BSU38190	bsu01250	Biosynthesis of nucleotide sugars
+BSU38200	bsu01250	Biosynthesis of nucleotide sugars
+BSU38860	bsu01250	Biosynthesis of nucleotide sugars
+BSU01660	bsu01501	beta-Lactam resistance
+BSU02090	bsu01501	beta-Lactam resistance
+BSU10110	bsu01501	beta-Lactam resistance
+BSU11430	bsu01501	beta-Lactam resistance
+BSU11440	bsu01501	beta-Lactam resistance
+BSU11450	bsu01501	beta-Lactam resistance
+BSU11460	bsu01501	beta-Lactam resistance
+BSU11470	bsu01501	beta-Lactam resistance
+BSU18800	bsu01501	beta-Lactam resistance
+BSU22320	bsu01501	beta-Lactam resistance
+BSU34820	bsu01501	beta-Lactam resistance
+BSU04560	bsu01502	Vancomycin resistance
+BSU04570	bsu01502	Vancomycin resistance
+BSU04640	bsu01502	Vancomycin resistance
+BSU15190	bsu01502	Vancomycin resistance
+BSU15220	bsu01502	Vancomycin resistance
+BSU17640	bsu01502	Vancomycin resistance
+BSU19620	bsu01502	Vancomycin resistance
+BSU01530	bsu01503	Cationic antimicrobial peptide (CAMP) resistance
+BSU08425	bsu01503	Cationic antimicrobial peptide (CAMP) resistance
+BSU12900	bsu01503	Cationic antimicrobial peptide (CAMP) resistance
+BSU17410	bsu01503	Cationic antimicrobial peptide (CAMP) resistance
+BSU24190	bsu01503	Cationic antimicrobial peptide (CAMP) resistance
+BSU27580	bsu01503	Cationic antimicrobial peptide (CAMP) resistance
+BSU33000	bsu01503	Cationic antimicrobial peptide (CAMP) resistance
+BSU35620	bsu01503	Cationic antimicrobial peptide (CAMP) resistance
+BSU38500	bsu01503	Cationic antimicrobial peptide (CAMP) resistance
+BSU38510	bsu01503	Cationic antimicrobial peptide (CAMP) resistance
+BSU38520	bsu01503	Cationic antimicrobial peptide (CAMP) resistance
+BSU38530	bsu01503	Cationic antimicrobial peptide (CAMP) resistance
+BSU01450	bsu02010	ABC transporters
+BSU01460	bsu02010	ABC transporters
+BSU01470	bsu02010	ABC transporters
+BSU02750	bsu02010	ABC transporters
+BSU02760	bsu02010	ABC transporters
+BSU02850	bsu02010	ABC transporters
+BSU02860	bsu02010	ABC transporters
+BSU02870	bsu02010	ABC transporters
+BSU02980	bsu02010	ABC transporters
+BSU02990	bsu02010	ABC transporters
+BSU03000	bsu02010	ABC transporters
+BSU03370	bsu02010	ABC transporters
+BSU03380	bsu02010	ABC transporters
+BSU03590	bsu02010	ABC transporters
+BSU03600	bsu02010	ABC transporters
+BSU03610	bsu02010	ABC transporters
+BSU05610	bsu02010	ABC transporters
+BSU07100	bsu02010	ABC transporters
+BSU07110	bsu02010	ABC transporters
+BSU07120	bsu02010	ABC transporters
+BSU07490	bsu02010	ABC transporters
+BSU07500	bsu02010	ABC transporters
+BSU07510	bsu02010	ABC transporters
+BSU07520	bsu02010	ABC transporters
+BSU08210	bsu02010	ABC transporters
+BSU08220	bsu02010	ABC transporters
+BSU08830	bsu02010	ABC transporters
+BSU08840	bsu02010	ABC transporters
+BSU08850	bsu02010	ABC transporters
+BSU09110	bsu02010	ABC transporters
+BSU09710	bsu02010	ABC transporters
+BSU09720	bsu02010	ABC transporters
+BSU10370	bsu02010	ABC transporters
+BSU11430	bsu02010	ABC transporters
+BSU11440	bsu02010	ABC transporters
+BSU11450	bsu02010	ABC transporters
+BSU11460	bsu02010	ABC transporters
+BSU11470	bsu02010	ABC transporters
+BSU12930	bsu02010	ABC transporters
+BSU12940	bsu02010	ABC transporters
+BSU12950	bsu02010	ABC transporters
+BSU12960	bsu02010	ABC transporters
+BSU13210	bsu02010	ABC transporters
+BSU14320	bsu02010	ABC transporters
+BSU14330	bsu02010	ABC transporters
+BSU21470	bsu02010	ABC transporters
+BSU23960	bsu02010	ABC transporters
+BSU23970	bsu02010	ABC transporters
+BSU23980	bsu02010	ABC transporters
+BSU24950	bsu02010	ABC transporters
+BSU24960	bsu02010	ABC transporters
+BSU24970	bsu02010	ABC transporters
+BSU24980	bsu02010	ABC transporters
+BSU24990	bsu02010	ABC transporters
+BSU26830	bsu02010	ABC transporters
+BSU27430	bsu02010	ABC transporters
+BSU27440	bsu02010	ABC transporters
+BSU27450	bsu02010	ABC transporters
+BSU27460	bsu02010	ABC transporters
+BSU28730	bsu02010	ABC transporters
+BSU28740	bsu02010	ABC transporters
+BSU28750	bsu02010	ABC transporters
+BSU29340	bsu02010	ABC transporters
+BSU29350	bsu02010	ABC transporters
+BSU29360	bsu02010	ABC transporters
+BSU29370	bsu02010	ABC transporters
+BSU29380	bsu02010	ABC transporters
+BSU30270	bsu02010	ABC transporters
+BSU30280	bsu02010	ABC transporters
+BSU30290	bsu02010	ABC transporters
+BSU30370	bsu02010	ABC transporters
+BSU30380	bsu02010	ABC transporters
+BSU30410	bsu02010	ABC transporters
+BSU30420	bsu02010	ABC transporters
+BSU30430	bsu02010	ABC transporters
+BSU30440	bsu02010	ABC transporters
+BSU30450	bsu02010	ABC transporters
+BSU30740	bsu02010	ABC transporters
+BSU30750	bsu02010	ABC transporters
+BSU30760	bsu02010	ABC transporters
+BSU30770	bsu02010	ABC transporters
+BSU31540	bsu02010	ABC transporters
+BSU31550	bsu02010	ABC transporters
+BSU31560	bsu02010	ABC transporters
+BSU31570	bsu02010	ABC transporters
+BSU32030	bsu02010	ABC transporters
+BSU32550	bsu02010	ABC transporters
+BSU32580	bsu02010	ABC transporters
+BSU32590	bsu02010	ABC transporters
+BSU32600	bsu02010	ABC transporters
+BSU32730	bsu02010	ABC transporters
+BSU32740	bsu02010	ABC transporters
+BSU32750	bsu02010	ABC transporters
+BSU33380	bsu02010	ABC transporters
+BSU33390	bsu02010	ABC transporters
+BSU33700	bsu02010	ABC transporters
+BSU33710	bsu02010	ABC transporters
+BSU33720	bsu02010	ABC transporters
+BSU33730	bsu02010	ABC transporters
+BSU33800	bsu02010	ABC transporters
+BSU33810	bsu02010	ABC transporters
+BSU33820	bsu02010	ABC transporters
+BSU33830	bsu02010	ABC transporters
+BSU34140	bsu02010	ABC transporters
+BSU34150	bsu02010	ABC transporters
+BSU34160	bsu02010	ABC transporters
+BSU34590	bsu02010	ABC transporters
+BSU34600	bsu02010	ABC transporters
+BSU34610	bsu02010	ABC transporters
+BSU34820	bsu02010	ABC transporters
+BSU35250	bsu02010	ABC transporters
+BSU35260	bsu02010	ABC transporters
+BSU35700	bsu02010	ABC transporters
+BSU35710	bsu02010	ABC transporters
+BSU35930	bsu02010	ABC transporters
+BSU35940	bsu02010	ABC transporters
+BSU35950	bsu02010	ABC transporters
+BSU35960	bsu02010	ABC transporters
+BSU38730	bsu02010	ABC transporters
+BSU38740	bsu02010	ABC transporters
+BSU38810	bsu02010	ABC transporters
+BSU39480	bsu02010	ABC transporters
+BSU39490	bsu02010	ABC transporters
+BSU39500	bsu02010	ABC transporters
+BSU40140	bsu02010	ABC transporters
+BSU40150	bsu02010	ABC transporters
+BSU00010	bsu02020	Two-component system
+BSU02420	bsu02020	Two-component system
+BSU02430	bsu02020	Two-component system
+BSU02440	bsu02020	Two-component system
+BSU02450	bsu02020	Two-component system
+BSU02620	bsu02020	Two-component system
+BSU02730	bsu02020	Two-component system
+BSU02740	bsu02020	Two-component system
+BSU02750	bsu02020	Two-component system
+BSU02760	bsu02020	Two-component system
+BSU03440	bsu02020	Two-component system
+BSU03500	bsu02020	Two-component system
+BSU04450	bsu02020	Two-component system
+BSU04460	bsu02020	Two-component system
+BSU04470	bsu02020	Two-component system
+BSU05410	bsu02020	Two-component system
+BSU05420	bsu02020	Two-component system
+BSU05430	bsu02020	Two-component system
+BSU05740	bsu02020	Two-component system
+BSU06950	bsu02020	Two-component system
+BSU06960	bsu02020	Two-component system
+BSU07580	bsu02020	Two-component system
+BSU07590	bsu02020	Two-component system
+BSU07610	bsu02020	Two-component system
+BSU07880	bsu02020	Two-component system
+BSU08425	bsu02020	Two-component system
+BSU09410	bsu02020	Two-component system
+BSU10350	bsu02020	Two-component system
+BSU12900	bsu02020	Two-component system
+BSU13250	bsu02020	Two-component system
+BSU13260	bsu02020	Two-component system
+BSU13530	bsu02020	Two-component system
+BSU13660	bsu02020	Two-component system
+BSU13690	bsu02020	Two-component system
+BSU13950	bsu02020	Two-component system
+BSU13990	bsu02020	Two-component system
+BSU14010	bsu02020	Two-component system
+BSU14490	bsu02020	Two-component system
+BSU14830	bsu02020	Two-component system
+BSU14870	bsu02020	Two-component system
+BSU16330	bsu02020	Two-component system
+BSU16420	bsu02020	Two-component system
+BSU16430	bsu02020	Two-component system
+BSU16440	bsu02020	Two-component system
+BSU16470	bsu02020	Two-component system
+BSU17460	bsu02020	Two-component system
+BSU17940	bsu02020	Two-component system
+BSU18130	bsu02020	Two-component system
+BSU19180	bsu02020	Two-component system
+BSU19190	bsu02020	Two-component system
+BSU19200	bsu02020	Two-component system
+BSU19620	bsu02020	Two-component system
+BSU22720	bsu02020	Two-component system
+BSU23110	bsu02020	Two-component system
+BSU23120	bsu02020	Two-component system
+BSU23550	bsu02020	Two-component system
+BSU24170	bsu02020	Two-component system
+BSU24220	bsu02020	Two-component system
+BSU24990	bsu02020	Two-component system
+BSU27930	bsu02020	Two-component system
+BSU28900	bsu02020	Two-component system
+BSU28910	bsu02020	Two-component system
+BSU28920	bsu02020	Two-component system
+BSU28930	bsu02020	Two-component system
+BSU29100	bsu02020	Two-component system
+BSU29110	bsu02020	Two-component system
+BSU29220	bsu02020	Two-component system
+BSU29730	bsu02020	Two-component system
+BSU29880	bsu02020	Two-component system
+BSU30370	bsu02020	Two-component system
+BSU30380	bsu02020	Two-component system
+BSU30390	bsu02020	Two-component system
+BSU30400	bsu02020	Two-component system
+BSU30710	bsu02020	Two-component system
+BSU30720	bsu02020	Two-component system
+BSU31230	bsu02020	Two-component system
+BSU31240	bsu02020	Two-component system
+BSU31250	bsu02020	Two-component system
+BSU31260	bsu02020	Two-component system
+BSU31450	bsu02020	Two-component system
+BSU31460	bsu02020	Two-component system
+BSU31520	bsu02020	Two-component system
+BSU31530	bsu02020	Two-component system
+BSU31580	bsu02020	Two-component system
+BSU31680	bsu02020	Two-component system
+BSU31690	bsu02020	Two-component system
+BSU31700	bsu02020	Two-component system
+BSU33000	bsu02020	Two-component system
+BSU33010	bsu02020	Two-component system
+BSU33020	bsu02020	Two-component system
+BSU33080	bsu02020	Two-component system
+BSU33090	bsu02020	Two-component system
+BSU33100	bsu02020	Two-component system
+BSU33110	bsu02020	Two-component system
+BSU33120	bsu02020	Two-component system
+BSU33130	bsu02020	Two-component system
+BSU33690	bsu02020	Two-component system
+BSU34070	bsu02020	Two-component system
+BSU34200	bsu02020	Two-component system
+BSU34450	bsu02020	Two-component system
+BSU35360	bsu02020	Two-component system
+BSU35370	bsu02020	Two-component system
+BSU35430	bsu02020	Two-component system
+BSU35490	bsu02020	Two-component system
+BSU35500	bsu02020	Two-component system
+BSU35660	bsu02020	Two-component system
+BSU36520	bsu02020	Two-component system
+BSU37050	bsu02020	Two-component system
+BSU37130	bsu02020	Two-component system
+BSU37250	bsu02020	Two-component system
+BSU37260	bsu02020	Two-component system
+BSU37270	bsu02020	Two-component system
+BSU37280	bsu02020	Two-component system
+BSU38500	bsu02020	Two-component system
+BSU38510	bsu02020	Two-component system
+BSU38520	bsu02020	Two-component system
+BSU38530	bsu02020	Two-component system
+BSU38750	bsu02020	Two-component system
+BSU38760	bsu02020	Two-component system
+BSU38770	bsu02020	Two-component system
+BSU39630	bsu02020	Two-component system
+BSU39640	bsu02020	Two-component system
+BSU39650	bsu02020	Two-component system
+BSU39660	bsu02020	Two-component system
+BSU40400	bsu02020	Two-component system
+BSU40410	bsu02020	Two-component system
+BSU01000	bsu02024	Quorum sensing
+BSU01360	bsu02024	Quorum sensing
+BSU02240	bsu02024	Quorum sensing
+BSU03480	bsu02024	Quorum sensing
+BSU03490	bsu02024	Quorum sensing
+BSU03500	bsu02024	Quorum sensing
+BSU03510	bsu02024	Quorum sensing
+BSU03520	bsu02024	Quorum sensing
+BSU03770	bsu02024	Quorum sensing
+BSU03780	bsu02024	Quorum sensing
+BSU05880	bsu02024	Quorum sensing
+BSU06830	bsu02024	Quorum sensing
+BSU06839	bsu02024	Quorum sensing
+BSU07560	bsu02024	Quorum sensing
+BSU10270	bsu02024	Quorum sensing
+BSU10420	bsu02024	Quorum sensing
+BSU11100	bsu02024	Quorum sensing
+BSU11360	bsu02024	Quorum sensing
+BSU11370	bsu02024	Quorum sensing
+BSU11390	bsu02024	Quorum sensing
+BSU11400	bsu02024	Quorum sensing
+BSU11430	bsu02024	Quorum sensing
+BSU11440	bsu02024	Quorum sensing
+BSU11450	bsu02024	Quorum sensing
+BSU11460	bsu02024	Quorum sensing
+BSU11470	bsu02024	Quorum sensing
+BSU12430	bsu02024	Quorum sensing
+BSU12440	bsu02024	Quorum sensing
+BSU13000	bsu02024	Quorum sensing
+BSU15950	bsu02024	Quorum sensing
+BSU15980	bsu02024	Quorum sensing
+BSU17340	bsu02024	Quorum sensing
+BSU18910	bsu02024	Quorum sensing
+BSU18920	bsu02024	Quorum sensing
+BSU21470	bsu02024	Quorum sensing
+BSU22680	bsu02024	Quorum sensing
+BSU23280	bsu02024	Quorum sensing
+BSU23890	bsu02024	Quorum sensing
+BSU24220	bsu02024	Quorum sensing
+BSU25830	bsu02024	Quorum sensing
+BSU25840	bsu02024	Quorum sensing
+BSU27650	bsu02024	Quorum sensing
+BSU27700	bsu02024	Quorum sensing
+BSU27930	bsu02024	Quorum sensing
+BSU28560	bsu02024	Quorum sensing
+BSU30670	bsu02024	Quorum sensing
+BSU31680	bsu02024	Quorum sensing
+BSU31690	bsu02024	Quorum sensing
+BSU31700	bsu02024	Quorum sensing
+BSU31710	bsu02024	Quorum sensing
+BSU33630	bsu02024	Quorum sensing
+BSU35300	bsu02024	Quorum sensing
+BSU35490	bsu02024	Quorum sensing
+BSU36690	bsu02024	Quorum sensing
+BSU37130	bsu02024	Quorum sensing
+BSU37460	bsu02024	Quorum sensing
+BSU37470	bsu02024	Quorum sensing
+BSU40300	bsu02024	Quorum sensing
+BSU40310	bsu02024	Quorum sensing
+BSU41040	bsu02024	Quorum sensing
+BSU03440	bsu02030	Bacterial chemotaxis
+BSU13680	bsu02030	Bacterial chemotaxis
+BSU13690	bsu02030	Bacterial chemotaxis
+BSU13950	bsu02030	Bacterial chemotaxis
+BSU14010	bsu02030	Bacterial chemotaxis
+BSU16220	bsu02030	Bacterial chemotaxis
+BSU16310	bsu02030	Bacterial chemotaxis
+BSU16320	bsu02030	Bacterial chemotaxis
+BSU16330	bsu02030	Bacterial chemotaxis
+BSU16420	bsu02030	Bacterial chemotaxis
+BSU16430	bsu02030	Bacterial chemotaxis
+BSU16440	bsu02030	Bacterial chemotaxis
+BSU16450	bsu02030	Bacterial chemotaxis
+BSU16460	bsu02030	Bacterial chemotaxis
+BSU17940	bsu02030	Bacterial chemotaxis
+BSU22720	bsu02030	Bacterial chemotaxis
+BSU29720	bsu02030	Bacterial chemotaxis
+BSU29730	bsu02030	Bacterial chemotaxis
+BSU31230	bsu02030	Bacterial chemotaxis
+BSU31240	bsu02030	Bacterial chemotaxis
+BSU31250	bsu02030	Bacterial chemotaxis
+BSU31260	bsu02030	Bacterial chemotaxis
+BSU33690	bsu02030	Bacterial chemotaxis
+BSU35960	bsu02030	Bacterial chemotaxis
+BSU03380	bsu02040	Flagellar assembly
+BSU03610	bsu02040	Flagellar assembly
+BSU13680	bsu02040	Flagellar assembly
+BSU13690	bsu02040	Flagellar assembly
+BSU16180	bsu02040	Flagellar assembly
+BSU16190	bsu02040	Flagellar assembly
+BSU16200	bsu02040	Flagellar assembly
+BSU16210	bsu02040	Flagellar assembly
+BSU16220	bsu02040	Flagellar assembly
+BSU16230	bsu02040	Flagellar assembly
+BSU16240	bsu02040	Flagellar assembly
+BSU16250	bsu02040	Flagellar assembly
+BSU16270	bsu02040	Flagellar assembly
+BSU16280	bsu02040	Flagellar assembly
+BSU16290	bsu02040	Flagellar assembly
+BSU16300	bsu02040	Flagellar assembly
+BSU16310	bsu02040	Flagellar assembly
+BSU16320	bsu02040	Flagellar assembly
+BSU16340	bsu02040	Flagellar assembly
+BSU16350	bsu02040	Flagellar assembly
+BSU16360	bsu02040	Flagellar assembly
+BSU16370	bsu02040	Flagellar assembly
+BSU16380	bsu02040	Flagellar assembly
+BSU16390	bsu02040	Flagellar assembly
+BSU16470	bsu02040	Flagellar assembly
+BSU25200	bsu02040	Flagellar assembly
+BSU29720	bsu02040	Flagellar assembly
+BSU29730	bsu02040	Flagellar assembly
+BSU34200	bsu02040	Flagellar assembly
+BSU35320	bsu02040	Flagellar assembly
+BSU35330	bsu02040	Flagellar assembly
+BSU35340	bsu02040	Flagellar assembly
+BSU35360	bsu02040	Flagellar assembly
+BSU35400	bsu02040	Flagellar assembly
+BSU35410	bsu02040	Flagellar assembly
+BSU35430	bsu02040	Flagellar assembly
+BSU36390	bsu02040	Flagellar assembly
+BSU36400	bsu02040	Flagellar assembly
+BSU01680	bsu02060	Phosphotransferase system (PTS)
+BSU02350	bsu02060	Phosphotransferase system (PTS)
+BSU03981	bsu02060	Phosphotransferase system (PTS)
+BSU03982	bsu02060	Phosphotransferase system (PTS)
+BSU05810	bsu02060	Phosphotransferase system (PTS)
+BSU05820	bsu02060	Phosphotransferase system (PTS)
+BSU05830	bsu02060	Phosphotransferase system (PTS)
+BSU07700	bsu02060	Phosphotransferase system (PTS)
+BSU07800	bsu02060	Phosphotransferase system (PTS)
+BSU08200	bsu02060	Phosphotransferase system (PTS)
+BSU12010	bsu02060	Phosphotransferase system (PTS)
+BSU13890	bsu02060	Phosphotransferase system (PTS)
+BSU13900	bsu02060	Phosphotransferase system (PTS)
+BSU13910	bsu02060	Phosphotransferase system (PTS)
+BSU14390	bsu02060	Phosphotransferase system (PTS)
+BSU14400	bsu02060	Phosphotransferase system (PTS)
+BSU22230	bsu02060	Phosphotransferase system (PTS)
+BSU27040	bsu02060	Phosphotransferase system (PTS)
+BSU27050	bsu02060	Phosphotransferase system (PTS)
+BSU27060	bsu02060	Phosphotransferase system (PTS)
+BSU27070	bsu02060	Phosphotransferase system (PTS)
+BSU38050	bsu02060	Phosphotransferase system (PTS)
+BSU38390	bsu02060	Phosphotransferase system (PTS)
+BSU38410	bsu02060	Phosphotransferase system (PTS)
+BSU38570	bsu02060	Phosphotransferase system (PTS)
+BSU38580	bsu02060	Phosphotransferase system (PTS)
+BSU38590	bsu02060	Phosphotransferase system (PTS)
+BSU39270	bsu02060	Phosphotransferase system (PTS)
+BSU40120	bsu02060	Phosphotransferase system (PTS)
+BSU00520	bsu03010	Ribosome
+BSU00990	bsu03010	Ribosome
+BSU01020	bsu03010	Ribosome
+BSU01030	bsu03010	Ribosome
+BSU01040	bsu03010	Ribosome
+BSU01050	bsu03010	Ribosome
+BSU01090	bsu03010	Ribosome
+BSU01100	bsu03010	Ribosome
+BSU01110	bsu03010	Ribosome
+BSU01150	bsu03010	Ribosome
+BSU01160	bsu03010	Ribosome
+BSU01170	bsu03010	Ribosome
+BSU01180	bsu03010	Ribosome
+BSU01190	bsu03010	Ribosome
+BSU01200	bsu03010	Ribosome
+BSU01210	bsu03010	Ribosome
+BSU01220	bsu03010	Ribosome
+BSU01230	bsu03010	Ribosome
+BSU01240	bsu03010	Ribosome
+BSU01250	bsu03010	Ribosome
+BSU01260	bsu03010	Ribosome
+BSU01270	bsu03010	Ribosome
+BSU01280	bsu03010	Ribosome
+BSU01290	bsu03010	Ribosome
+BSU01300	bsu03010	Ribosome
+BSU01310	bsu03010	Ribosome
+BSU01320	bsu03010	Ribosome
+BSU01330	bsu03010	Ribosome
+BSU01340	bsu03010	Ribosome
+BSU01350	bsu03010	Ribosome
+BSU01400	bsu03010	Ribosome
+BSU01410	bsu03010	Ribosome
+BSU01420	bsu03010	Ribosome
+BSU01440	bsu03010	Ribosome
+BSU01490	bsu03010	Ribosome
+BSU01500	bsu03010	Ribosome
+BSU08880	bsu03010	Ribosome
+BSU15080	bsu03010	Ribosome
+BSU15820	bsu03010	Ribosome
+BSU15990	bsu03010	Ribosome
+BSU16040	bsu03010	Ribosome
+BSU16490	bsu03010	Ribosome
+BSU16680	bsu03010	Ribosome
+BSU22880	bsu03010	Ribosome
+BSU24900	bsu03010	Ribosome
+BSU25410	bsu03010	Ribosome
+BSU25550	bsu03010	Ribosome
+BSU27940	bsu03010	Ribosome
+BSU27960	bsu03010	Ribosome
+BSU28850	bsu03010	Ribosome
+BSU28860	bsu03010	Ribosome
+BSU29660	bsu03010	Ribosome
+BSU30700	bsu03010	Ribosome
+BSU37070	bsu03010	Ribosome
+BSU40500	bsu03010	Ribosome
+BSU40890	bsu03010	Ribosome
+BSU40910	bsu03010	Ribosome
+BSU41060	bsu03010	Ribosome
+BSU_rRNA_1	bsu03010	Ribosome
+BSU_rRNA_10	bsu03010	Ribosome
+BSU_rRNA_11	bsu03010	Ribosome
+BSU_rRNA_12	bsu03010	Ribosome
+BSU_rRNA_13	bsu03010	Ribosome
+BSU_rRNA_14	bsu03010	Ribosome
+BSU_rRNA_15	bsu03010	Ribosome
+BSU_rRNA_16	bsu03010	Ribosome
+BSU_rRNA_17	bsu03010	Ribosome
+BSU_rRNA_18	bsu03010	Ribosome
+BSU_rRNA_19	bsu03010	Ribosome
+BSU_rRNA_2	bsu03010	Ribosome
+BSU_rRNA_20	bsu03010	Ribosome
+BSU_rRNA_21	bsu03010	Ribosome
+BSU_rRNA_22	bsu03010	Ribosome
+BSU_rRNA_23	bsu03010	Ribosome
+BSU_rRNA_24	bsu03010	Ribosome
+BSU_rRNA_25	bsu03010	Ribosome
+BSU_rRNA_26	bsu03010	Ribosome
+BSU_rRNA_27	bsu03010	Ribosome
+BSU_rRNA_28	bsu03010	Ribosome
+BSU_rRNA_29	bsu03010	Ribosome
+BSU_rRNA_3	bsu03010	Ribosome
+BSU_rRNA_30	bsu03010	Ribosome
+BSU_rRNA_4	bsu03010	Ribosome
+BSU_rRNA_5	bsu03010	Ribosome
+BSU_rRNA_6	bsu03010	Ribosome
+BSU_rRNA_7	bsu03010	Ribosome
+BSU_rRNA_8	bsu03010	Ribosome
+BSU_rRNA_9	bsu03010	Ribosome
+BSU04580	bsu03018	RNA degradation
+BSU06030	bsu03018	RNA degradation
+BSU14530	bsu03018	RNA degradation
+BSU16690	bsu03018	RNA degradation
+BSU16780	bsu03018	RNA degradation
+BSU16960	bsu03018	RNA degradation
+BSU17340	bsu03018	RNA degradation
+BSU19220	bsu03018	RNA degradation
+BSU23020	bsu03018	RNA degradation
+BSU25470	bsu03018	RNA degradation
+BSU29190	bsu03018	RNA degradation
+BSU33610	bsu03018	RNA degradation
+BSU33900	bsu03018	RNA degradation
+BSU37080	bsu03018	RNA degradation
+BSU39110	bsu03018	RNA degradation
+BSU01070	bsu03020	RNA polymerase
+BSU01080	bsu03020	RNA polymerase
+BSU01430	bsu03020	RNA polymerase
+BSU15690	bsu03020	RNA polymerase
+BSU37160	bsu03020	RNA polymerase
+BSU00020	bsu03030	DNA replication
+BSU00190	bsu03030	DNA replication
+BSU00310	bsu03030	DNA replication
+BSU06620	bsu03030	DNA replication
+BSU16060	bsu03030	DNA replication
+BSU16580	bsu03030	DNA replication
+BSU20340	bsu03030	DNA replication
+BSU21970	bsu03030	DNA replication
+BSU21990	bsu03030	DNA replication
+BSU25210	bsu03030	DNA replication
+BSU25560	bsu03030	DNA replication
+BSU28620	bsu03030	DNA replication
+BSU29090	bsu03030	DNA replication
+BSU29230	bsu03030	DNA replication
+BSU40440	bsu03030	DNA replication
+BSU40900	bsu03030	DNA replication
+BSU01000	bsu03060	Protein export
+BSU01360	bsu03060	Protein export
+BSU02630	bsu03060	Protein export
+BSU02640	bsu03060	Protein export
+BSU04010	bsu03060	Protein export
+BSU05980	bsu03060	Protein export
+BSU05990	bsu03060	Protein export
+BSU10490	bsu03060	Protein export
+BSU14410	bsu03060	Protein export
+BSU15450	bsu03060	Protein export
+BSU15950	bsu03060	Protein export
+BSU15980	bsu03060	Protein export
+BSU17710	bsu03060	Protein export
+BSU23310	bsu03060	Protein export
+BSU23890	bsu03060	Protein export
+BSU24630	bsu03060	Protein export
+BSU27650	bsu03060	Protein export
+BSU27700	bsu03060	Protein export
+BSU33630	bsu03060	Protein export
+BSU35300	bsu03060	Protein export
+BSU41040	bsu03060	Protein export
+BSU_misc_RNA_2	bsu03060	Protein export
+BSU01000	bsu03070	Bacterial secretion system
+BSU01360	bsu03070	Bacterial secretion system
+BSU02630	bsu03070	Bacterial secretion system
+BSU02640	bsu03070	Bacterial secretion system
+BSU05980	bsu03070	Bacterial secretion system
+BSU05990	bsu03070	Bacterial secretion system
+BSU15950	bsu03070	Bacterial secretion system
+BSU15980	bsu03070	Bacterial secretion system
+BSU17710	bsu03070	Bacterial secretion system
+BSU23890	bsu03070	Bacterial secretion system
+BSU27650	bsu03070	Bacterial secretion system
+BSU27700	bsu03070	Bacterial secretion system
+BSU33630	bsu03070	Bacterial secretion system
+BSU35300	bsu03070	Bacterial secretion system
+BSU41040	bsu03070	Bacterial secretion system
+BSU01800	bsu03410	Base excision repair
+BSU06620	bsu03410	Base excision repair
+BSU08010	bsu03410	Base excision repair
+BSU08630	bsu03410	Base excision repair
+BSU20350	bsu03410	Base excision repair
+BSU22340	bsu03410	Base excision repair
+BSU25130	bsu03410	Base excision repair
+BSU27620	bsu03410	Base excision repair
+BSU29080	bsu03410	Base excision repair
+BSU29090	bsu03410	Base excision repair
+BSU37970	bsu03410	Base excision repair
+BSU38620	bsu03410	Base excision repair
+BSU40880	bsu03410	Base excision repair
+BSU00550	bsu03420	Nucleotide excision repair
+BSU06610	bsu03420	Nucleotide excision repair
+BSU06620	bsu03420	Nucleotide excision repair
+BSU11820	bsu03420	Nucleotide excision repair
+BSU28490	bsu03420	Nucleotide excision repair
+BSU29090	bsu03420	Nucleotide excision repair
+BSU33450	bsu03420	Nucleotide excision repair
+BSU35160	bsu03420	Nucleotide excision repair
+BSU35170	bsu03420	Nucleotide excision repair
+BSU00020	bsu03430	Mismatch repair
+BSU00190	bsu03430	Mismatch repair
+BSU00310	bsu03430	Mismatch repair
+BSU06610	bsu03430	Mismatch repair
+BSU06620	bsu03430	Mismatch repair
+BSU11820	bsu03430	Mismatch repair
+BSU16580	bsu03430	Mismatch repair
+BSU17040	bsu03430	Mismatch repair
+BSU17050	bsu03430	Mismatch repair
+BSU20340	bsu03430	Mismatch repair
+BSU20350	bsu03430	Mismatch repair
+BSU24290	bsu03430	Mismatch repair
+BSU24300	bsu03430	Mismatch repair
+BSU25560	bsu03430	Mismatch repair
+BSU27620	bsu03430	Mismatch repair
+BSU28580	bsu03430	Mismatch repair
+BSU29230	bsu03430	Mismatch repair
+BSU33450	bsu03430	Mismatch repair
+BSU40900	bsu03430	Mismatch repair
+BSU00020	bsu03440	Homologous recombination
+BSU00040	bsu03440	Homologous recombination
+BSU00190	bsu03440	Homologous recombination
+BSU00210	bsu03440	Homologous recombination
+BSU00310	bsu03440	Homologous recombination
+BSU15710	bsu03440	Homologous recombination
+BSU15870	bsu03440	Homologous recombination
+BSU16580	bsu03440	Homologous recombination
+BSU16940	bsu03440	Homologous recombination
+BSU20340	bsu03440	Homologous recombination
+BSU20350	bsu03440	Homologous recombination
+BSU25280	bsu03440	Homologous recombination
+BSU25560	bsu03440	Homologous recombination
+BSU27480	bsu03440	Homologous recombination
+BSU27620	bsu03440	Homologous recombination
+BSU27730	bsu03440	Homologous recombination
+BSU27740	bsu03440	Homologous recombination
+BSU29090	bsu03440	Homologous recombination
+BSU29230	bsu03440	Homologous recombination
+BSU40900	bsu03440	Homologous recombination
+BSU13400	bsu03450	Non-homologous end-joining
+BSU13410	bsu03450	Non-homologous end-joining
+BSU05960	bsu04122	Sulfur relay system
+BSU11680	bsu04122	Sulfur relay system
+BSU11700	bsu04122	Sulfur relay system
+BSU14270	bsu04122	Sulfur relay system
+BSU14300	bsu04122	Sulfur relay system
+BSU14310	bsu04122	Sulfur relay system
+BSU26500	bsu04122	Sulfur relay system
+BSU27500	bsu04122	Sulfur relay system
+BSU27510	bsu04122	Sulfur relay system
+BSU27880	bsu04122	Sulfur relay system
+BSU29460	bsu04122	Sulfur relay system
+BSU29580	bsu04122	Sulfur relay system
+BSU29590	bsu04122	Sulfur relay system
+BSU36700	bsu04122	Sulfur relay system

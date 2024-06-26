@@ -18,6 +18,7 @@ format_uniprot <- function(df) {
       localization,
       "SUBCELLULAR LOCATION: | \\{ECO:.*\\}") %>% tolower()
     ) %>%
+    mutate(kegg = str_remove_all(kegg, "\\;.*")) %>%
     mutate(
       localization = case_when(
         .default = "unknown",

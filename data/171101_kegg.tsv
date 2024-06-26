@@ -1,0 +1,2137 @@
+locus_tag	kegg_pathway_id	kegg_pathway
+spr0065	spr00010	Glycolysis / Gluconeogenesis
+spr0244	spr00010	Glycolysis / Gluconeogenesis
+spr0262	spr00010	Glycolysis / Gluconeogenesis
+spr0276	spr00010	Glycolysis / Gluconeogenesis
+spr0441	spr00010	Glycolysis / Gluconeogenesis
+spr0506	spr00010	Glycolysis / Gluconeogenesis
+spr0530	spr00010	Glycolysis / Gluconeogenesis
+spr0584	spr00010	Glycolysis / Gluconeogenesis
+spr0796	spr00010	Glycolysis / Gluconeogenesis
+spr0797	spr00010	Glycolysis / Gluconeogenesis
+spr1028	spr00010	Glycolysis / Gluconeogenesis
+spr1036	spr00010	Glycolysis / Gluconeogenesis
+spr1048	spr00010	Glycolysis / Gluconeogenesis
+spr1049	spr00010	Glycolysis / Gluconeogenesis
+spr1050	spr00010	Glycolysis / Gluconeogenesis
+spr1051	spr00010	Glycolysis / Gluconeogenesis
+spr1100	spr00010	Glycolysis / Gluconeogenesis
+spr1351	spr00010	Glycolysis / Gluconeogenesis
+spr1432	spr00010	Glycolysis / Gluconeogenesis
+spr1499	spr00010	Glycolysis / Gluconeogenesis
+spr1528	spr00010	Glycolysis / Gluconeogenesis
+spr1825	spr00010	Glycolysis / Gluconeogenesis
+spr1837	spr00010	Glycolysis / Gluconeogenesis
+spr1882	spr00010	Glycolysis / Gluconeogenesis
+spr1048	spr00020	Citrate cycle (TCA cycle)
+spr1049	spr00020	Citrate cycle (TCA cycle)
+spr1050	spr00020	Citrate cycle (TCA cycle)
+spr1051	spr00020	Citrate cycle (TCA cycle)
+spr0028	spr00030	Pentose phosphate pathway
+spr0287	spr00030	Pentose phosphate pathway
+spr0288	spr00030	Pentose phosphate pathway
+spr0335	spr00030	Pentose phosphate pathway
+spr0530	spr00030	Pentose phosphate pathway
+spr0731	spr00030	Pentose phosphate pathway
+spr0732	spr00030	Pentose phosphate pathway
+spr0745	spr00030	Pentose phosphate pathway
+spr0796	spr00030	Pentose phosphate pathway
+spr1002	spr00030	Pentose phosphate pathway
+spr1028	spr00030	Pentose phosphate pathway
+spr1122	spr00030	Pentose phosphate pathway
+spr1351	spr00030	Pentose phosphate pathway
+spr1358	spr00030	Pentose phosphate pathway
+spr1797	spr00030	Pentose phosphate pathway
+spr1841	spr00030	Pentose phosphate pathway
+spr1882	spr00030	Pentose phosphate pathway
+spr1936	spr00030	Pentose phosphate pathway
+spr1937	spr00030	Pentose phosphate pathway
+spr0139	spr00040	Pentose and glucuronate interconversions
+spr0318	spr00040	Pentose and glucuronate interconversions
+spr1148	spr00040	Pentose and glucuronate interconversions
+spr1149	spr00040	Pentose and glucuronate interconversions
+spr1797	spr00040	Pentose and glucuronate interconversions
+spr1844	spr00040	Pentose and glucuronate interconversions
+spr1845	spr00040	Pentose and glucuronate interconversions
+spr1846	spr00040	Pentose and glucuronate interconversions
+spr1903	spr00040	Pentose and glucuronate interconversions
+spr1964	spr00040	Pentose and glucuronate interconversions
+spr1972	spr00040	Pentose and glucuronate interconversions
+spr1973	spr00040	Pentose and glucuronate interconversions
+spr0061	spr00051	Fructose and mannose metabolism
+spr0062	spr00051	Fructose and mannose metabolism
+spr0063	spr00051	Fructose and mannose metabolism
+spr0259	spr00051	Fructose and mannose metabolism
+spr0260	spr00051	Fructose and mannose metabolism
+spr0261	spr00051	Fructose and mannose metabolism
+spr0356	spr00051	Fructose and mannose metabolism
+spr0358	spr00051	Fructose and mannose metabolism
+spr0359	spr00051	Fructose and mannose metabolism
+spr0530	spr00051	Fructose and mannose metabolism
+spr0647	spr00051	Fructose and mannose metabolism
+spr0779	spr00051	Fructose and mannose metabolism
+spr0780	spr00051	Fructose and mannose metabolism
+spr0796	spr00051	Fructose and mannose metabolism
+spr1432	spr00051	Fructose and mannose metabolism
+spr1565	spr00051	Fructose and mannose metabolism
+spr1964	spr00051	Fructose and mannose metabolism
+spr1967	spr00051	Fructose and mannose metabolism
+spr1968	spr00051	Fructose and mannose metabolism
+spr1970	spr00051	Fructose and mannose metabolism
+spr1972	spr00051	Fructose and mannose metabolism
+spr1973	spr00051	Fructose and mannose metabolism
+spr0059	spr00052	Galactose metabolism
+spr0064	spr00052	Galactose metabolism
+spr0065	spr00052	Galactose metabolism
+spr0291	spr00052	Galactose metabolism
+spr0293	spr00052	Galactose metabolism
+spr0294	spr00052	Galactose metabolism
+spr0295	spr00052	Galactose metabolism
+spr0319	spr00052	Galactose metabolism
+spr0423	spr00052	Galactose metabolism
+spr0424	spr00052	Galactose metabolism
+spr0425	spr00052	Galactose metabolism
+spr0565	spr00052	Galactose metabolism
+spr0584	spr00052	Galactose metabolism
+spr0796	spr00052	Galactose metabolism
+spr1069	spr00052	Galactose metabolism
+spr1070	spr00052	Galactose metabolism
+spr1071	spr00052	Galactose metabolism
+spr1073	spr00052	Galactose metabolism
+spr1074	spr00052	Galactose metabolism
+spr1075	spr00052	Galactose metabolism
+spr1076	spr00052	Galactose metabolism
+spr1351	spr00052	Galactose metabolism
+spr1460	spr00052	Galactose metabolism
+spr1568	spr00052	Galactose metabolism
+spr1617	spr00052	Galactose metabolism
+spr1647	spr00052	Galactose metabolism
+spr1648	spr00052	Galactose metabolism
+spr1667	spr00052	Galactose metabolism
+spr1668	spr00052	Galactose metabolism
+spr1683	spr00052	Galactose metabolism
+spr1713	spr00052	Galactose metabolism
+spr1903	spr00052	Galactose metabolism
+spr0139	spr00053	Ascorbate and aldarate metabolism
+spr0318	spr00053	Ascorbate and aldarate metabolism
+spr1842	spr00053	Ascorbate and aldarate metabolism
+spr1844	spr00053	Ascorbate and aldarate metabolism
+spr1845	spr00053	Ascorbate and aldarate metabolism
+spr1846	spr00053	Ascorbate and aldarate metabolism
+spr1847	spr00053	Ascorbate and aldarate metabolism
+spr1848	spr00053	Ascorbate and aldarate metabolism
+spr1849	spr00053	Ascorbate and aldarate metabolism
+spr1938	spr00053	Ascorbate and aldarate metabolism
+spr1939	spr00053	Ascorbate and aldarate metabolism
+spr0375	spr00061	Fatty acid biosynthesis
+spr0377	spr00061	Fatty acid biosynthesis
+spr0379	spr00061	Fatty acid biosynthesis
+spr0380	spr00061	Fatty acid biosynthesis
+spr0381	spr00061	Fatty acid biosynthesis
+spr0382	spr00061	Fatty acid biosynthesis
+spr0383	spr00061	Fatty acid biosynthesis
+spr0384	spr00061	Fatty acid biosynthesis
+spr0385	spr00061	Fatty acid biosynthesis
+spr0386	spr00061	Fatty acid biosynthesis
+spr0387	spr00061	Fatty acid biosynthesis
+spr0701	spr00061	Fatty acid biosynthesis
+spr0966	spr00061	Fatty acid biosynthesis
+spr0262	spr00071	Fatty acid degradation
+spr0966	spr00071	Fatty acid degradation
+spr1837	spr00071	Fatty acid degradation
+spr1359	spr00190	Oxidative phosphorylation
+spr1360	spr00190	Oxidative phosphorylation
+spr1361	spr00190	Oxidative phosphorylation
+spr1362	spr00190	Oxidative phosphorylation
+spr1363	spr00190	Oxidative phosphorylation
+spr1364	spr00190	Oxidative phosphorylation
+spr1365	spr00190	Oxidative phosphorylation
+spr1366	spr00190	Oxidative phosphorylation
+spr1389	spr00190	Oxidative phosphorylation
+spr0102	spr00220	Arginine biosynthesis
+spr0103	spr00220	Arginine biosynthesis
+spr0444	spr00220	Arginine biosynthesis
+spr1153	spr00220	Arginine biosynthesis
+spr1154	spr00220	Arginine biosynthesis
+spr1181	spr00220	Arginine biosynthesis
+spr1808	spr00220	Arginine biosynthesis
+spr1957	spr00220	Arginine biosynthesis
+spr1958	spr00220	Arginine biosynthesis
+spr0011	spr00230	Purine metabolism
+spr0021	spr00230	Purine metabolism
+spr0028	spr00230	Purine metabolism
+spr0045	spr00230	Purine metabolism
+spr0046	spr00230	Purine metabolism
+spr0047	spr00230	Purine metabolism
+spr0048	spr00230	Purine metabolism
+spr0049	spr00230	Purine metabolism
+spr0051	spr00230	Purine metabolism
+spr0052	spr00230	Purine metabolism
+spr0053	spr00230	Purine metabolism
+spr0054	spr00230	Purine metabolism
+spr0056	spr00230	Purine metabolism
+spr0183	spr00230	Purine metabolism
+spr0210	spr00230	Purine metabolism
+spr0732	spr00230	Purine metabolism
+spr0734	spr00230	Purine metabolism
+spr0738	spr00230	Purine metabolism
+spr0892	spr00230	Purine metabolism
+spr1002	spr00230	Purine metabolism
+spr1004	spr00230	Purine metabolism
+spr1065	spr00230	Purine metabolism
+spr1066	spr00230	Purine metabolism
+spr1128	spr00230	Purine metabolism
+spr1300	spr00230	Purine metabolism
+spr1351	spr00230	Purine metabolism
+spr1435	spr00230	Purine metabolism
+spr1487	spr00230	Purine metabolism
+spr1583	spr00230	Purine metabolism
+spr1662	spr00230	Purine metabolism
+spr1695	spr00230	Purine metabolism
+spr1775	spr00230	Purine metabolism
+spr1958	spr00230	Purine metabolism
+spr2033	spr00230	Purine metabolism
+spr0023	spr00240	Pyrimidine metabolism
+spr0183	spr00240	Pyrimidine metabolism
+spr0186	spr00240	Pyrimidine metabolism
+spr0438	spr00240	Pyrimidine metabolism
+spr0585	spr00240	Pyrimidine metabolism
+spr0613	spr00240	Pyrimidine metabolism
+spr0614	spr00240	Pyrimidine metabolism
+spr0654	spr00240	Pyrimidine metabolism
+spr0655	spr00240	Pyrimidine metabolism
+spr0672	spr00240	Pyrimidine metabolism
+spr0744	spr00240	Pyrimidine metabolism
+spr0746	spr00240	Pyrimidine metabolism
+spr0835	spr00240	Pyrimidine metabolism
+spr0845	spr00240	Pyrimidine metabolism
+spr0865	spr00240	Pyrimidine metabolism
+spr0866	spr00240	Pyrimidine metabolism
+spr0922	spr00240	Pyrimidine metabolism
+spr1053	spr00240	Pyrimidine metabolism
+spr1057	spr00240	Pyrimidine metabolism
+spr1065	spr00240	Pyrimidine metabolism
+spr1066	spr00240	Pyrimidine metabolism
+spr1090	spr00240	Pyrimidine metabolism
+spr1153	spr00240	Pyrimidine metabolism
+spr1154	spr00240	Pyrimidine metabolism
+spr1155	spr00240	Pyrimidine metabolism
+spr1156	spr00240	Pyrimidine metabolism
+spr1188	spr00240	Pyrimidine metabolism
+spr1456	spr00240	Pyrimidine metabolism
+spr1725	spr00240	Pyrimidine metabolism
+spr1775	spr00240	Pyrimidine metabolism
+spr0021	spr00250	Alanine, aspartate and glutamate metabolism
+spr0047	spr00250	Alanine, aspartate and glutamate metabolism
+spr0056	spr00250	Alanine, aspartate and glutamate metabolism
+spr0102	spr00250	Alanine, aspartate and glutamate metabolism
+spr0103	spr00250	Alanine, aspartate and glutamate metabolism
+spr0245	spr00250	Alanine, aspartate and glutamate metabolism
+spr0444	spr00250	Alanine, aspartate and glutamate metabolism
+spr1153	spr00250	Alanine, aspartate and glutamate metabolism
+spr1154	spr00250	Alanine, aspartate and glutamate metabolism
+spr1155	spr00250	Alanine, aspartate and glutamate metabolism
+spr1181	spr00250	Alanine, aspartate and glutamate metabolism
+spr1399	spr00250	Alanine, aspartate and glutamate metabolism
+spr1785	spr00250	Alanine, aspartate and glutamate metabolism
+spr1808	spr00250	Alanine, aspartate and glutamate metabolism
+spr1812	spr00250	Alanine, aspartate and glutamate metabolism
+spr0094	spr00260	Glycine, serine and threonine metabolism
+spr0095	spr00260	Glycine, serine and threonine metabolism
+spr0374	spr00260	Glycine, serine and threonine metabolism
+spr0406	spr00260	Glycine, serine and threonine metabolism
+spr0918	spr00260	Glycine, serine and threonine metabolism
+spr0928	spr00260	Glycine, serine and threonine metabolism
+spr1034	spr00260	Glycine, serine and threonine metabolism
+spr1048	spr00260	Glycine, serine and threonine metabolism
+spr1218	spr00260	Glycine, serine and threonine metabolism
+spr1219	spr00260	Glycine, serine and threonine metabolism
+spr1499	spr00260	Glycine, serine and threonine metabolism
+spr1631	spr00260	Glycine, serine and threonine metabolism
+spr1632	spr00260	Glycine, serine and threonine metabolism
+spr1725	spr00260	Glycine, serine and threonine metabolism
+spr1878	spr00260	Glycine, serine and threonine metabolism
+spr0374	spr00261	Monobactam biosynthesis
+spr0918	spr00261	Monobactam biosynthesis
+spr0919	spr00261	Monobactam biosynthesis
+spr1414	spr00261	Monobactam biosynthesis
+spr0094	spr00270	Cysteine and methionine metabolism
+spr0095	spr00270	Cysteine and methionine metabolism
+spr0308	spr00270	Cysteine and methionine metabolism
+spr0374	spr00270	Cysteine and methionine metabolism
+spr0514	spr00270	Cysteine and methionine metabolism
+spr0517	spr00270	Cysteine and methionine metabolism
+spr0671	spr00270	Cysteine and methionine metabolism
+spr0758	spr00270	Cysteine and methionine metabolism
+spr0768	spr00270	Cysteine and methionine metabolism
+spr0819	spr00270	Cysteine and methionine metabolism
+spr0894	spr00270	Cysteine and methionine metabolism
+spr0918	spr00270	Cysteine and methionine metabolism
+spr1095	spr00270	Cysteine and methionine metabolism
+spr1100	spr00270	Cysteine and methionine metabolism
+spr1214	spr00270	Cysteine and methionine metabolism
+spr1219	spr00270	Cysteine and methionine metabolism
+spr1376	spr00270	Cysteine and methionine metabolism
+spr1377	spr00270	Cysteine and methionine metabolism
+spr1434	spr00270	Cysteine and methionine metabolism
+spr2015	spr00270	Cysteine and methionine metabolism
+spr0758	spr00280	Valine, leucine and isoleucine degradation
+spr1048	spr00280	Valine, leucine and isoleucine degradation
+spr1571	spr00280	Valine, leucine and isoleucine degradation
+spr0401	spr00290	Valine, leucine and isoleucine biosynthesis
+spr0402	spr00290	Valine, leucine and isoleucine biosynthesis
+spr0403	spr00290	Valine, leucine and isoleucine biosynthesis
+spr0406	spr00290	Valine, leucine and isoleucine biosynthesis
+spr0758	spr00290	Valine, leucine and isoleucine biosynthesis
+spr1133	spr00290	Valine, leucine and isoleucine biosynthesis
+spr1135	spr00290	Valine, leucine and isoleucine biosynthesis
+spr1808	spr00290	Valine, leucine and isoleucine biosynthesis
+spr1935	spr00290	Valine, leucine and isoleucine biosynthesis
+spr0035	spr00300	Lysine biosynthesis
+spr0148	spr00300	Lysine biosynthesis
+spr0374	spr00300	Lysine biosynthesis
+spr0918	spr00300	Lysine biosynthesis
+spr0919	spr00300	Lysine biosynthesis
+spr1219	spr00300	Lysine biosynthesis
+spr1414	spr00300	Lysine biosynthesis
+spr1514	spr00300	Lysine biosynthesis
+spr1792	spr00300	Lysine biosynthesis
+spr1906	spr00300	Lysine biosynthesis
+spr1907	spr00300	Lysine biosynthesis
+spr0816	spr00330	Arginine and proline metabolism
+spr0819	spr00330	Arginine and proline metabolism
+spr0820	spr00330	Arginine and proline metabolism
+spr0821	spr00330	Arginine and proline metabolism
+spr0822	spr00330	Arginine and proline metabolism
+spr0823	spr00330	Arginine and proline metabolism
+spr0832	spr00330	Arginine and proline metabolism
+spr0833	spr00330	Arginine and proline metabolism
+spr0834	spr00330	Arginine and proline metabolism
+spr0923	spr00330	Arginine and proline metabolism
+spr0832	spr00332	Carbapenem biosynthesis
+spr0833	spr00332	Carbapenem biosynthesis
+spr0066	spr00362	Benzoate degradation
+spr0921	spr00362	Benzoate degradation
+spr1174	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1227	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1228	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1229	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1231	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1232	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1233	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1235	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1542	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1543	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1631	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1632	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1633	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1634	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1635	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1636	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1637	spr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+spr1007	spr00430	Taurine and hypotaurine metabolism
+spr1854	spr00430	Taurine and hypotaurine metabolism
+spr0514	spr00450	Selenocompound metabolism
+spr0696	spr00450	Selenocompound metabolism
+spr0773	spr00450	Selenocompound metabolism
+spr1312	spr00450	Selenocompound metabolism
+spr1376	spr00450	Selenocompound metabolism
+spr1377	spr00450	Selenocompound metabolism
+spr0928	spr00460	Cyanoamino acid metabolism
+spr1785	spr00460	Cyanoamino acid metabolism
+spr1812	spr00460	Cyanoamino acid metabolism
+spr1833	spr00460	Cyanoamino acid metabolism
+spr0603	spr00470	D-Amino acid metabolism
+spr1515	spr00470	D-Amino acid metabolism
+spr1540	spr00470	D-Amino acid metabolism
+spr1696	spr00470	D-Amino acid metabolism
+spr1792	spr00470	D-Amino acid metabolism
+spr1980	spr00470	D-Amino acid metabolism
+spr1982	spr00470	D-Amino acid metabolism
+spr0285	spr00480	Glutathione metabolism
+spr0335	spr00480	Glutathione metabolism
+spr0692	spr00480	Glutathione metabolism
+spr0706	spr00480	Glutathione metabolism
+spr0819	spr00480	Glutathione metabolism
+spr1122	spr00480	Glutathione metabolism
+spr0229	spr00500	Starch and sucrose metabolism
+spr0230	spr00500	Starch and sucrose metabolism
+spr0231	spr00500	Starch and sucrose metabolism
+spr0244	spr00500	Starch and sucrose metabolism
+spr0276	spr00500	Starch and sucrose metabolism
+spr0278	spr00500	Starch and sucrose metabolism
+spr0280	spr00500	Starch and sucrose metabolism
+spr0282	spr00500	Starch and sucrose metabolism
+spr0421	spr00500	Starch and sucrose metabolism
+spr0506	spr00500	Starch and sucrose metabolism
+spr0584	spr00500	Starch and sucrose metabolism
+spr0668	spr00500	Starch and sucrose metabolism
+spr0669	spr00500	Starch and sucrose metabolism
+spr0948	spr00500	Starch and sucrose metabolism
+spr1025	spr00500	Starch and sucrose metabolism
+spr1029	spr00500	Starch and sucrose metabolism
+spr1030	spr00500	Starch and sucrose metabolism
+spr1031	spr00500	Starch and sucrose metabolism
+spr1032	spr00500	Starch and sucrose metabolism
+spr1239	spr00500	Starch and sucrose metabolism
+spr1351	spr00500	Starch and sucrose metabolism
+spr1565	spr00500	Starch and sucrose metabolism
+spr1566	spr00500	Starch and sucrose metabolism
+spr1568	spr00500	Starch and sucrose metabolism
+spr1617	spr00500	Starch and sucrose metabolism
+spr1698	spr00500	Starch and sucrose metabolism
+spr1699	spr00500	Starch and sucrose metabolism
+spr1709	spr00500	Starch and sucrose metabolism
+spr1833	spr00500	Starch and sucrose metabolism
+spr1834	spr00500	Starch and sucrose metabolism
+spr1835	spr00500	Starch and sucrose metabolism
+spr1836	spr00500	Starch and sucrose metabolism
+spr1882	spr00500	Starch and sucrose metabolism
+spr1903	spr00500	Starch and sucrose metabolism
+spr1916	spr00500	Starch and sucrose metabolism
+spr1917	spr00500	Starch and sucrose metabolism
+spr0057	spr00511	Other glycan degradation
+spr0565	spr00511	Other glycan degradation
+spr0867	spr00511	Other glycan degradation
+spr1498	spr00511	Other glycan degradation
+spr1531	spr00511	Other glycan degradation
+spr1536	spr00511	Other glycan degradation
+spr1949	spr00511	Other glycan degradation
+spr1951	spr00511	Other glycan degradation
+spr1954	spr00511	Other glycan degradation
+spr1966	spr00511	Other glycan degradation
+spr0057	spr00520	Amino sugar and nucleotide sugar metabolism
+spr0061	spr00520	Amino sugar and nucleotide sugar metabolism
+spr0062	spr00520	Amino sugar and nucleotide sugar metabolism
+spr0063	spr00520	Amino sugar and nucleotide sugar metabolism
+spr0139	spr00520	Amino sugar and nucleotide sugar metabolism
+spr0245	spr00520	Amino sugar and nucleotide sugar metabolism
+spr0259	spr00520	Amino sugar and nucleotide sugar metabolism
+spr0260	spr00520	Amino sugar and nucleotide sugar metabolism
+spr0261	spr00520	Amino sugar and nucleotide sugar metabolism
+spr0318	spr00520	Amino sugar and nucleotide sugar metabolism
+spr0319	spr00520	Amino sugar and nucleotide sugar metabolism
+spr0584	spr00520	Amino sugar and nucleotide sugar metabolism
+spr0647	spr00520	Amino sugar and nucleotide sugar metabolism
+spr0891	spr00520	Amino sugar and nucleotide sugar metabolism
+spr0989	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1030	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1031	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1186	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1196	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1247	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1272	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1351	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1417	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1460	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1520	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1528	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1529	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1565	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1647	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1648	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1667	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1668	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1683	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1781	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1867	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1882	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1903	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1949	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1967	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1968	spr00520	Amino sugar and nucleotide sugar metabolism
+spr1970	spr00520	Amino sugar and nucleotide sugar metabolism
+spr0320	spr00521	Streptomycin biosynthesis
+spr0321	spr00521	Streptomycin biosynthesis
+spr0322	spr00521	Streptomycin biosynthesis
+spr0323	spr00521	Streptomycin biosynthesis
+spr0584	spr00521	Streptomycin biosynthesis
+spr1260	spr00521	Streptomycin biosynthesis
+spr1351	spr00521	Streptomycin biosynthesis
+spr0320	spr00523	Polyketide sugar unit biosynthesis
+spr0321	spr00523	Polyketide sugar unit biosynthesis
+spr0322	spr00523	Polyketide sugar unit biosynthesis
+spr0323	spr00523	Polyketide sugar unit biosynthesis
+spr0320	spr00525	Acarbose and validamycin biosynthesis
+spr0322	spr00525	Acarbose and validamycin biosynthesis
+spr0092	spr00541	O-Antigen nucleotide sugar biosynthesis
+spr0139	spr00541	O-Antigen nucleotide sugar biosynthesis
+spr0318	spr00541	O-Antigen nucleotide sugar biosynthesis
+spr0319	spr00541	O-Antigen nucleotide sugar biosynthesis
+spr0320	spr00541	O-Antigen nucleotide sugar biosynthesis
+spr0321	spr00541	O-Antigen nucleotide sugar biosynthesis
+spr0322	spr00541	O-Antigen nucleotide sugar biosynthesis
+spr0323	spr00541	O-Antigen nucleotide sugar biosynthesis
+spr0647	spr00541	O-Antigen nucleotide sugar biosynthesis
+spr0891	spr00541	O-Antigen nucleotide sugar biosynthesis
+spr1460	spr00541	O-Antigen nucleotide sugar biosynthesis
+spr1647	spr00541	O-Antigen nucleotide sugar biosynthesis
+spr1683	spr00541	O-Antigen nucleotide sugar biosynthesis
+spr1903	spr00541	O-Antigen nucleotide sugar biosynthesis
+spr0517	spr00543	Exopolysaccharide biosynthesis
+spr0240	spr00550	Peptidoglycan biosynthesis
+spr0304	spr00550	Peptidoglycan biosynthesis
+spr0305	spr00550	Peptidoglycan biosynthesis
+spr0329	spr00550	Peptidoglycan biosynthesis
+spr0413	spr00550	Peptidoglycan biosynthesis
+spr0434	spr00550	Peptidoglycan biosynthesis
+spr0540	spr00550	Peptidoglycan biosynthesis
+spr0541	spr00550	Peptidoglycan biosynthesis
+spr0554	spr00550	Peptidoglycan biosynthesis
+spr0603	spr00550	Peptidoglycan biosynthesis
+spr0604	spr00550	Peptidoglycan biosynthesis
+spr0776	spr00550	Peptidoglycan biosynthesis
+spr0870	spr00550	Peptidoglycan biosynthesis
+spr0989	spr00550	Peptidoglycan biosynthesis
+spr1247	spr00550	Peptidoglycan biosynthesis
+spr1373	spr00550	Peptidoglycan biosynthesis
+spr1384	spr00550	Peptidoglycan biosynthesis
+spr1443	spr00550	Peptidoglycan biosynthesis
+spr1444	spr00550	Peptidoglycan biosynthesis
+spr1514	spr00550	Peptidoglycan biosynthesis
+spr1515	spr00550	Peptidoglycan biosynthesis
+spr1517	spr00550	Peptidoglycan biosynthesis
+spr1781	spr00550	Peptidoglycan biosynthesis
+spr1823	spr00550	Peptidoglycan biosynthesis
+spr1909	spr00550	Peptidoglycan biosynthesis
+spr0091	spr00552	Teichoic acid biosynthesis
+spr0092	spr00552	Teichoic acid biosynthesis
+spr0413	spr00552	Teichoic acid biosynthesis
+spr0434	spr00552	Teichoic acid biosynthesis
+spr0981	spr00552	Teichoic acid biosynthesis
+spr0982	spr00552	Teichoic acid biosynthesis
+spr1145	spr00552	Teichoic acid biosynthesis
+spr1147	spr00552	Teichoic acid biosynthesis
+spr1151	spr00552	Teichoic acid biosynthesis
+spr1152	spr00552	Teichoic acid biosynthesis
+spr1222	spr00552	Teichoic acid biosynthesis
+spr1223	spr00552	Teichoic acid biosynthesis
+spr1224	spr00552	Teichoic acid biosynthesis
+spr1225	spr00552	Teichoic acid biosynthesis
+spr1226	spr00552	Teichoic acid biosynthesis
+spr1654	spr00552	Teichoic acid biosynthesis
+spr1655	spr00552	Teichoic acid biosynthesis
+spr1708	spr00552	Teichoic acid biosynthesis
+spr1759	spr00552	Teichoic acid biosynthesis
+spr1979	spr00552	Teichoic acid biosynthesis
+spr1980	spr00552	Teichoic acid biosynthesis
+spr1981	spr00552	Teichoic acid biosynthesis
+spr1982	spr00552	Teichoic acid biosynthesis
+spr0037	spr00561	Glycerolipid metabolism
+spr0234	spr00561	Glycerolipid metabolism
+spr0755	spr00561	Glycerolipid metabolism
+spr0982	spr00561	Glycerolipid metabolism
+spr1034	spr00561	Glycerolipid metabolism
+spr1465	spr00561	Glycerolipid metabolism
+spr1713	spr00561	Glycerolipid metabolism
+spr1991	spr00561	Glycerolipid metabolism
+spr1260	spr00562	Inositol phosphate metabolism
+spr1432	spr00562	Inositol phosphate metabolism
+spr0180	spr00564	Glycerophospholipid metabolism
+spr0241	spr00564	Glycerophospholipid metabolism
+spr0755	spr00564	Glycerophospholipid metabolism
+spr0897	spr00564	Glycerophospholipid metabolism
+spr1465	spr00564	Glycerophospholipid metabolism
+spr1902	spr00564	Glycerophospholipid metabolism
+spr1990	spr00564	Glycerophospholipid metabolism
+spr2027	spr00564	Glycerophospholipid metabolism
+spr0057	spr00600	Sphingolipid metabolism
+spr0565	spr00600	Sphingolipid metabolism
+spr1531	spr00600	Sphingolipid metabolism
+spr1536	spr00600	Sphingolipid metabolism
+spr1713	spr00600	Sphingolipid metabolism
+spr1949	spr00600	Sphingolipid metabolism
+spr0262	spr00620	Pyruvate metabolism
+spr0383	spr00620	Pyruvate metabolism
+spr0385	spr00620	Pyruvate metabolism
+spr0386	spr00620	Pyruvate metabolism
+spr0387	spr00620	Pyruvate metabolism
+spr0415	spr00620	Pyruvate metabolism
+spr0642	spr00620	Pyruvate metabolism
+spr0797	spr00620	Pyruvate metabolism
+spr0864	spr00620	Pyruvate metabolism
+spr0974	spr00620	Pyruvate metabolism
+spr1007	spr00620	Pyruvate metabolism
+spr1048	spr00620	Pyruvate metabolism
+spr1049	spr00620	Pyruvate metabolism
+spr1050	spr00620	Pyruvate metabolism
+spr1051	spr00620	Pyruvate metabolism
+spr1100	spr00620	Pyruvate metabolism
+spr1490	spr00620	Pyruvate metabolism
+spr1789	spr00620	Pyruvate metabolism
+spr1837	spr00620	Pyruvate metabolism
+spr1854	spr00620	Pyruvate metabolism
+spr0066	spr00622	Xylene degradation
+spr0921	spr00622	Xylene degradation
+spr0262	spr00625	Chloroalkane and chloroalkene degradation
+spr1837	spr00625	Chloroalkane and chloroalkene degradation
+spr0262	spr00626	Naphthalene degradation
+spr1837	spr00626	Naphthalene degradation
+spr0093	spr00630	Glyoxylate and dicarboxylate metabolism
+spr0287	spr00630	Glyoxylate and dicarboxylate metabolism
+spr0444	spr00630	Glyoxylate and dicarboxylate metabolism
+spr0928	spr00630	Glyoxylate and dicarboxylate metabolism
+spr1034	spr00630	Glyoxylate and dicarboxylate metabolism
+spr1048	spr00630	Glyoxylate and dicarboxylate metabolism
+spr0234	spr00640	Propanoate metabolism
+spr0383	spr00640	Propanoate metabolism
+spr0385	spr00640	Propanoate metabolism
+spr0386	spr00640	Propanoate metabolism
+spr0387	spr00640	Propanoate metabolism
+spr0415	spr00640	Propanoate metabolism
+spr1007	spr00640	Propanoate metabolism
+spr1048	spr00640	Propanoate metabolism
+spr1100	spr00640	Propanoate metabolism
+spr1854	spr00640	Propanoate metabolism
+spr0401	spr00650	Butanoate metabolism
+spr0402	spr00650	Butanoate metabolism
+spr0415	spr00650	Butanoate metabolism
+spr1249	spr00650	Butanoate metabolism
+spr1571	spr00650	Butanoate metabolism
+spr1837	spr00650	Butanoate metabolism
+spr1866	spr00650	Butanoate metabolism
+spr0401	spr00660	C5-Branched dibasic acid metabolism
+spr0402	spr00660	C5-Branched dibasic acid metabolism
+spr1133	spr00660	C5-Branched dibasic acid metabolism
+spr1135	spr00660	C5-Branched dibasic acid metabolism
+spr1249	spr00660	C5-Branched dibasic acid metabolism
+spr0049	spr00670	One carbon pool by folate
+spr0051	spr00670	One carbon pool by folate
+spr0515	spr00670	One carbon pool by folate
+spr0585	spr00670	One carbon pool by folate
+spr0729	spr00670	One carbon pool by folate
+spr0928	spr00670	One carbon pool by folate
+spr1109	spr00670	One carbon pool by folate
+spr1429	spr00670	One carbon pool by folate
+spr1580	spr00670	One carbon pool by folate
+spr1905	spr00670	One carbon pool by folate
+spr0530	spr00680	Methane metabolism
+spr0796	spr00680	Methane metabolism
+spr0928	spr00680	Methane metabolism
+spr0974	spr00680	Methane metabolism
+spr1007	spr00680	Methane metabolism
+spr1036	spr00680	Methane metabolism
+spr1499	spr00680	Methane metabolism
+spr1854	spr00680	Methane metabolism
+spr0441	spr00710	Carbon fixation by Calvin cycle
+spr0530	spr00710	Carbon fixation by Calvin cycle
+spr0731	spr00710	Carbon fixation by Calvin cycle
+spr0974	spr00710	Carbon fixation by Calvin cycle
+spr1432	spr00710	Carbon fixation by Calvin cycle
+spr1797	spr00710	Carbon fixation by Calvin cycle
+spr1825	spr00710	Carbon fixation by Calvin cycle
+spr1841	spr00710	Carbon fixation by Calvin cycle
+spr1936	spr00710	Carbon fixation by Calvin cycle
+spr1937	spr00710	Carbon fixation by Calvin cycle
+spr0383	spr00720	Other carbon fixation pathways
+spr0385	spr00720	Other carbon fixation pathways
+spr0386	spr00720	Other carbon fixation pathways
+spr0387	spr00720	Other carbon fixation pathways
+spr0515	spr00720	Other carbon fixation pathways
+spr0729	spr00720	Other carbon fixation pathways
+spr0974	spr00720	Other carbon fixation pathways
+spr1007	spr00720	Other carbon fixation pathways
+spr1109	spr00720	Other carbon fixation pathways
+spr1854	spr00720	Other carbon fixation pathways
+spr0210	spr00730	Thiamine metabolism
+spr0628	spr00730	Thiamine metabolism
+spr0629	spr00730	Thiamine metabolism
+spr0630	spr00730	Thiamine metabolism
+spr0634	spr00730	Thiamine metabolism
+spr0636	spr00730	Thiamine metabolism
+spr0637	spr00730	Thiamine metabolism
+spr0638	spr00730	Thiamine metabolism
+spr0783	spr00730	Thiamine metabolism
+spr0784	spr00730	Thiamine metabolism
+spr1001	spr00730	Thiamine metabolism
+spr1796	spr00730	Thiamine metabolism
+spr1798	spr00730	Thiamine metabolism
+spr0161	spr00740	Riboflavin metabolism
+spr0162	spr00740	Riboflavin metabolism
+spr0163	spr00740	Riboflavin metabolism
+spr0164	spr00740	Riboflavin metabolism
+spr0263	spr00740	Riboflavin metabolism
+spr0629	spr00740	Riboflavin metabolism
+spr0636	spr00740	Riboflavin metabolism
+spr0892	spr00740	Riboflavin metabolism
+spr1017	spr00740	Riboflavin metabolism
+spr1321	spr00750	Vitamin B6 metabolism
+spr1322	spr00750	Vitamin B6 metabolism
+spr1450	spr00750	Vitamin B6 metabolism
+spr1878	spr00750	Vitamin B6 metabolism
+spr0734	spr00760	Nicotinate and nicotinamide metabolism
+spr0738	spr00760	Nicotinate and nicotinamide metabolism
+spr1005	spr00760	Nicotinate and nicotinamide metabolism
+spr1276	spr00760	Nicotinate and nicotinamide metabolism
+spr1277	spr00760	Nicotinate and nicotinamide metabolism
+spr1592	spr00760	Nicotinate and nicotinamide metabolism
+spr1829	spr00760	Nicotinate and nicotinamide metabolism
+spr0401	spr00770	Pantothenate and CoA biosynthesis
+spr0402	spr00770	Pantothenate and CoA biosynthesis
+spr0403	spr00770	Pantothenate and CoA biosynthesis
+spr0741	spr00770	Pantothenate and CoA biosynthesis
+spr0758	spr00770	Pantothenate and CoA biosynthesis
+spr0873	spr00770	Pantothenate and CoA biosynthesis
+spr1110	spr00770	Pantothenate and CoA biosynthesis
+spr1111	spr00770	Pantothenate and CoA biosynthesis
+spr1541	spr00770	Pantothenate and CoA biosynthesis
+spr1783	spr00770	Pantothenate and CoA biosynthesis
+spr1935	spr00770	Pantothenate and CoA biosynthesis
+spr0381	spr00780	Biotin metabolism
+spr0382	spr00780	Biotin metabolism
+spr0384	spr00780	Biotin metabolism
+spr0701	spr00780	Biotin metabolism
+spr1715	spr00780	Biotin metabolism
+spr1047	spr00785	Lipoic acid metabolism
+spr1048	spr00785	Lipoic acid metabolism
+spr1049	spr00785	Lipoic acid metabolism
+spr1050	spr00785	Lipoic acid metabolism
+spr1051	spr00785	Lipoic acid metabolism
+spr0162	spr00790	Folate biosynthesis
+spr0178	spr00790	Folate biosynthesis
+spr0266	spr00790	Folate biosynthesis
+spr0267	spr00790	Folate biosynthesis
+spr0268	spr00790	Folate biosynthesis
+spr0269	spr00790	Folate biosynthesis
+spr0582	spr00790	Folate biosynthesis
+spr1429	spr00790	Folate biosynthesis
+spr1603	spr00790	Folate biosynthesis
+spr0914	spr00860	Porphyrin metabolism
+spr0240	spr00900	Terpenoid backbone biosynthesis
+spr0338	spr00900	Terpenoid backbone biosynthesis
+spr0339	spr00900	Terpenoid backbone biosynthesis
+spr0340	spr00900	Terpenoid backbone biosynthesis
+spr0341	spr00900	Terpenoid backbone biosynthesis
+spr1087	spr00900	Terpenoid backbone biosynthesis
+spr1570	spr00900	Terpenoid backbone biosynthesis
+spr1571	spr00900	Terpenoid backbone biosynthesis
+spr0026	spr00910	Nitrogen metabolism
+spr0444	spr00910	Nitrogen metabolism
+spr1181	spr00910	Nitrogen metabolism
+spr1958	spr00910	Nitrogen metabolism
+spr0517	spr00920	Sulfur metabolism
+spr1176	spr00920	Sulfur metabolism
+spr1377	spr00920	Sulfur metabolism
+spr1434	spr00920	Sulfur metabolism
+spr2015	spr00920	Sulfur metabolism
+spr1833	spr00946	Degradation of flavonoids
+spr0235	spr00970	Aminoacyl-tRNA biosynthesis
+spr0243	spr00970	Aminoacyl-tRNA biosynthesis
+spr0372	spr00970	Aminoacyl-tRNA biosynthesis
+spr0393	spr00970	Aminoacyl-tRNA biosynthesis
+spr0394	spr00970	Aminoacyl-tRNA biosynthesis
+spr0395	spr00970	Aminoacyl-tRNA biosynthesis
+spr0492	spr00970	Aminoacyl-tRNA biosynthesis
+spr0507	spr00970	Aminoacyl-tRNA biosynthesis
+spr0509	spr00970	Aminoacyl-tRNA biosynthesis
+spr0519	spr00970	Aminoacyl-tRNA biosynthesis
+spr0626	spr00970	Aminoacyl-tRNA biosynthesis
+spr0696	spr00970	Aminoacyl-tRNA biosynthesis
+spr1240	spr00970	Aminoacyl-tRNA biosynthesis
+spr1328	spr00970	Aminoacyl-tRNA biosynthesis
+spr1329	spr00970	Aminoacyl-tRNA biosynthesis
+spr1397	spr00970	Aminoacyl-tRNA biosynthesis
+spr1472	spr00970	Aminoacyl-tRNA biosynthesis
+spr1502	spr00970	Aminoacyl-tRNA biosynthesis
+spr1580	spr00970	Aminoacyl-tRNA biosynthesis
+spr1881	spr00970	Aminoacyl-tRNA biosynthesis
+spr1890	spr00970	Aminoacyl-tRNA biosynthesis
+spr1910	spr00970	Aminoacyl-tRNA biosynthesis
+spr1924	spr00970	Aminoacyl-tRNA biosynthesis
+spr1931	spr00970	Aminoacyl-tRNA biosynthesis
+spr2034	spr00970	Aminoacyl-tRNA biosynthesis
+sprt01	spr00970	Aminoacyl-tRNA biosynthesis
+sprt02	spr00970	Aminoacyl-tRNA biosynthesis
+sprt03	spr00970	Aminoacyl-tRNA biosynthesis
+sprt04	spr00970	Aminoacyl-tRNA biosynthesis
+sprt05	spr00970	Aminoacyl-tRNA biosynthesis
+sprt06	spr00970	Aminoacyl-tRNA biosynthesis
+sprt07	spr00970	Aminoacyl-tRNA biosynthesis
+sprt08	spr00970	Aminoacyl-tRNA biosynthesis
+sprt09	spr00970	Aminoacyl-tRNA biosynthesis
+sprt10	spr00970	Aminoacyl-tRNA biosynthesis
+sprt11	spr00970	Aminoacyl-tRNA biosynthesis
+sprt12	spr00970	Aminoacyl-tRNA biosynthesis
+sprt13	spr00970	Aminoacyl-tRNA biosynthesis
+sprt14	spr00970	Aminoacyl-tRNA biosynthesis
+sprt15	spr00970	Aminoacyl-tRNA biosynthesis
+sprt16	spr00970	Aminoacyl-tRNA biosynthesis
+sprt17	spr00970	Aminoacyl-tRNA biosynthesis
+sprt18	spr00970	Aminoacyl-tRNA biosynthesis
+sprt19	spr00970	Aminoacyl-tRNA biosynthesis
+sprt20	spr00970	Aminoacyl-tRNA biosynthesis
+sprt21	spr00970	Aminoacyl-tRNA biosynthesis
+sprt22	spr00970	Aminoacyl-tRNA biosynthesis
+sprt23	spr00970	Aminoacyl-tRNA biosynthesis
+sprt24	spr00970	Aminoacyl-tRNA biosynthesis
+sprt25	spr00970	Aminoacyl-tRNA biosynthesis
+sprt26	spr00970	Aminoacyl-tRNA biosynthesis
+sprt27	spr00970	Aminoacyl-tRNA biosynthesis
+sprt28	spr00970	Aminoacyl-tRNA biosynthesis
+sprt29	spr00970	Aminoacyl-tRNA biosynthesis
+sprt30	spr00970	Aminoacyl-tRNA biosynthesis
+sprt31	spr00970	Aminoacyl-tRNA biosynthesis
+sprt32	spr00970	Aminoacyl-tRNA biosynthesis
+sprt33	spr00970	Aminoacyl-tRNA biosynthesis
+sprt34	spr00970	Aminoacyl-tRNA biosynthesis
+sprt35	spr00970	Aminoacyl-tRNA biosynthesis
+sprt36	spr00970	Aminoacyl-tRNA biosynthesis
+sprt37	spr00970	Aminoacyl-tRNA biosynthesis
+sprt38	spr00970	Aminoacyl-tRNA biosynthesis
+sprt39	spr00970	Aminoacyl-tRNA biosynthesis
+sprt40	spr00970	Aminoacyl-tRNA biosynthesis
+sprt41	spr00970	Aminoacyl-tRNA biosynthesis
+sprt42	spr00970	Aminoacyl-tRNA biosynthesis
+sprt43	spr00970	Aminoacyl-tRNA biosynthesis
+sprt44	spr00970	Aminoacyl-tRNA biosynthesis
+sprt45	spr00970	Aminoacyl-tRNA biosynthesis
+sprt46	spr00970	Aminoacyl-tRNA biosynthesis
+sprt47	spr00970	Aminoacyl-tRNA biosynthesis
+sprt48	spr00970	Aminoacyl-tRNA biosynthesis
+sprt49	spr00970	Aminoacyl-tRNA biosynthesis
+sprt50	spr00970	Aminoacyl-tRNA biosynthesis
+sprt51	spr00970	Aminoacyl-tRNA biosynthesis
+sprt52	spr00970	Aminoacyl-tRNA biosynthesis
+sprt53	spr00970	Aminoacyl-tRNA biosynthesis
+sprt54	spr00970	Aminoacyl-tRNA biosynthesis
+sprt55	spr00970	Aminoacyl-tRNA biosynthesis
+sprt56	spr00970	Aminoacyl-tRNA biosynthesis
+sprt57	spr00970	Aminoacyl-tRNA biosynthesis
+sprt58	spr00970	Aminoacyl-tRNA biosynthesis
+spr0671	spr00999	Biosynthesis of various plant secondary metabolites
+spr1833	spr00999	Biosynthesis of various plant secondary metabolites
+spr0011	spr01100	Metabolic pathways
+spr0021	spr01100	Metabolic pathways
+spr0023	spr01100	Metabolic pathways
+spr0026	spr01100	Metabolic pathways
+spr0028	spr01100	Metabolic pathways
+spr0035	spr01100	Metabolic pathways
+spr0037	spr01100	Metabolic pathways
+spr0038	spr01100	Metabolic pathways
+spr0045	spr01100	Metabolic pathways
+spr0046	spr01100	Metabolic pathways
+spr0047	spr01100	Metabolic pathways
+spr0048	spr01100	Metabolic pathways
+spr0049	spr01100	Metabolic pathways
+spr0051	spr01100	Metabolic pathways
+spr0052	spr01100	Metabolic pathways
+spr0053	spr01100	Metabolic pathways
+spr0054	spr01100	Metabolic pathways
+spr0056	spr01100	Metabolic pathways
+spr0057	spr01100	Metabolic pathways
+spr0061	spr01100	Metabolic pathways
+spr0062	spr01100	Metabolic pathways
+spr0063	spr01100	Metabolic pathways
+spr0064	spr01100	Metabolic pathways
+spr0065	spr01100	Metabolic pathways
+spr0066	spr01100	Metabolic pathways
+spr0092	spr01100	Metabolic pathways
+spr0093	spr01100	Metabolic pathways
+spr0094	spr01100	Metabolic pathways
+spr0095	spr01100	Metabolic pathways
+spr0102	spr01100	Metabolic pathways
+spr0103	spr01100	Metabolic pathways
+spr0139	spr01100	Metabolic pathways
+spr0148	spr01100	Metabolic pathways
+spr0161	spr01100	Metabolic pathways
+spr0162	spr01100	Metabolic pathways
+spr0163	spr01100	Metabolic pathways
+spr0164	spr01100	Metabolic pathways
+spr0178	spr01100	Metabolic pathways
+spr0180	spr01100	Metabolic pathways
+spr0183	spr01100	Metabolic pathways
+spr0186	spr01100	Metabolic pathways
+spr0210	spr01100	Metabolic pathways
+spr0234	spr01100	Metabolic pathways
+spr0241	spr01100	Metabolic pathways
+spr0245	spr01100	Metabolic pathways
+spr0259	spr01100	Metabolic pathways
+spr0260	spr01100	Metabolic pathways
+spr0261	spr01100	Metabolic pathways
+spr0262	spr01100	Metabolic pathways
+spr0263	spr01100	Metabolic pathways
+spr0266	spr01100	Metabolic pathways
+spr0267	spr01100	Metabolic pathways
+spr0268	spr01100	Metabolic pathways
+spr0269	spr01100	Metabolic pathways
+spr0285	spr01100	Metabolic pathways
+spr0287	spr01100	Metabolic pathways
+spr0288	spr01100	Metabolic pathways
+spr0291	spr01100	Metabolic pathways
+spr0293	spr01100	Metabolic pathways
+spr0294	spr01100	Metabolic pathways
+spr0295	spr01100	Metabolic pathways
+spr0304	spr01100	Metabolic pathways
+spr0305	spr01100	Metabolic pathways
+spr0308	spr01100	Metabolic pathways
+spr0318	spr01100	Metabolic pathways
+spr0319	spr01100	Metabolic pathways
+spr0320	spr01100	Metabolic pathways
+spr0321	spr01100	Metabolic pathways
+spr0322	spr01100	Metabolic pathways
+spr0323	spr01100	Metabolic pathways
+spr0329	spr01100	Metabolic pathways
+spr0335	spr01100	Metabolic pathways
+spr0338	spr01100	Metabolic pathways
+spr0339	spr01100	Metabolic pathways
+spr0340	spr01100	Metabolic pathways
+spr0341	spr01100	Metabolic pathways
+spr0356	spr01100	Metabolic pathways
+spr0358	spr01100	Metabolic pathways
+spr0359	spr01100	Metabolic pathways
+spr0374	spr01100	Metabolic pathways
+spr0377	spr01100	Metabolic pathways
+spr0378	spr01100	Metabolic pathways
+spr0379	spr01100	Metabolic pathways
+spr0380	spr01100	Metabolic pathways
+spr0381	spr01100	Metabolic pathways
+spr0382	spr01100	Metabolic pathways
+spr0383	spr01100	Metabolic pathways
+spr0384	spr01100	Metabolic pathways
+spr0385	spr01100	Metabolic pathways
+spr0386	spr01100	Metabolic pathways
+spr0387	spr01100	Metabolic pathways
+spr0393	spr01100	Metabolic pathways
+spr0394	spr01100	Metabolic pathways
+spr0395	spr01100	Metabolic pathways
+spr0401	spr01100	Metabolic pathways
+spr0402	spr01100	Metabolic pathways
+spr0403	spr01100	Metabolic pathways
+spr0406	spr01100	Metabolic pathways
+spr0415	spr01100	Metabolic pathways
+spr0423	spr01100	Metabolic pathways
+spr0424	spr01100	Metabolic pathways
+spr0425	spr01100	Metabolic pathways
+spr0438	spr01100	Metabolic pathways
+spr0441	spr01100	Metabolic pathways
+spr0444	spr01100	Metabolic pathways
+spr0514	spr01100	Metabolic pathways
+spr0515	spr01100	Metabolic pathways
+spr0517	spr01100	Metabolic pathways
+spr0530	spr01100	Metabolic pathways
+spr0540	spr01100	Metabolic pathways
+spr0541	spr01100	Metabolic pathways
+spr0554	spr01100	Metabolic pathways
+spr0565	spr01100	Metabolic pathways
+spr0584	spr01100	Metabolic pathways
+spr0585	spr01100	Metabolic pathways
+spr0588	spr01100	Metabolic pathways
+spr0603	spr01100	Metabolic pathways
+spr0604	spr01100	Metabolic pathways
+spr0613	spr01100	Metabolic pathways
+spr0614	spr01100	Metabolic pathways
+spr0628	spr01100	Metabolic pathways
+spr0629	spr01100	Metabolic pathways
+spr0630	spr01100	Metabolic pathways
+spr0634	spr01100	Metabolic pathways
+spr0636	spr01100	Metabolic pathways
+spr0637	spr01100	Metabolic pathways
+spr0638	spr01100	Metabolic pathways
+spr0642	spr01100	Metabolic pathways
+spr0647	spr01100	Metabolic pathways
+spr0654	spr01100	Metabolic pathways
+spr0655	spr01100	Metabolic pathways
+spr0669	spr01100	Metabolic pathways
+spr0671	spr01100	Metabolic pathways
+spr0672	spr01100	Metabolic pathways
+spr0692	spr01100	Metabolic pathways
+spr0696	spr01100	Metabolic pathways
+spr0701	spr01100	Metabolic pathways
+spr0706	spr01100	Metabolic pathways
+spr0729	spr01100	Metabolic pathways
+spr0731	spr01100	Metabolic pathways
+spr0732	spr01100	Metabolic pathways
+spr0734	spr01100	Metabolic pathways
+spr0738	spr01100	Metabolic pathways
+spr0741	spr01100	Metabolic pathways
+spr0744	spr01100	Metabolic pathways
+spr0745	spr01100	Metabolic pathways
+spr0746	spr01100	Metabolic pathways
+spr0755	spr01100	Metabolic pathways
+spr0758	spr01100	Metabolic pathways
+spr0768	spr01100	Metabolic pathways
+spr0773	spr01100	Metabolic pathways
+spr0776	spr01100	Metabolic pathways
+spr0779	spr01100	Metabolic pathways
+spr0780	spr01100	Metabolic pathways
+spr0783	spr01100	Metabolic pathways
+spr0784	spr01100	Metabolic pathways
+spr0796	spr01100	Metabolic pathways
+spr0797	spr01100	Metabolic pathways
+spr0816	spr01100	Metabolic pathways
+spr0819	spr01100	Metabolic pathways
+spr0822	spr01100	Metabolic pathways
+spr0823	spr01100	Metabolic pathways
+spr0832	spr01100	Metabolic pathways
+spr0833	spr01100	Metabolic pathways
+spr0834	spr01100	Metabolic pathways
+spr0835	spr01100	Metabolic pathways
+spr0845	spr01100	Metabolic pathways
+spr0864	spr01100	Metabolic pathways
+spr0865	spr01100	Metabolic pathways
+spr0866	spr01100	Metabolic pathways
+spr0873	spr01100	Metabolic pathways
+spr0891	spr01100	Metabolic pathways
+spr0892	spr01100	Metabolic pathways
+spr0894	spr01100	Metabolic pathways
+spr0914	spr01100	Metabolic pathways
+spr0918	spr01100	Metabolic pathways
+spr0919	spr01100	Metabolic pathways
+spr0921	spr01100	Metabolic pathways
+spr0922	spr01100	Metabolic pathways
+spr0923	spr01100	Metabolic pathways
+spr0928	spr01100	Metabolic pathways
+spr0948	spr01100	Metabolic pathways
+spr0966	spr01100	Metabolic pathways
+spr0974	spr01100	Metabolic pathways
+spr0982	spr01100	Metabolic pathways
+spr0989	spr01100	Metabolic pathways
+spr1001	spr01100	Metabolic pathways
+spr1002	spr01100	Metabolic pathways
+spr1004	spr01100	Metabolic pathways
+spr1005	spr01100	Metabolic pathways
+spr1007	spr01100	Metabolic pathways
+spr1017	spr01100	Metabolic pathways
+spr1025	spr01100	Metabolic pathways
+spr1028	spr01100	Metabolic pathways
+spr1029	spr01100	Metabolic pathways
+spr1030	spr01100	Metabolic pathways
+spr1031	spr01100	Metabolic pathways
+spr1032	spr01100	Metabolic pathways
+spr1034	spr01100	Metabolic pathways
+spr1036	spr01100	Metabolic pathways
+spr1047	spr01100	Metabolic pathways
+spr1048	spr01100	Metabolic pathways
+spr1049	spr01100	Metabolic pathways
+spr1050	spr01100	Metabolic pathways
+spr1051	spr01100	Metabolic pathways
+spr1053	spr01100	Metabolic pathways
+spr1057	spr01100	Metabolic pathways
+spr1065	spr01100	Metabolic pathways
+spr1066	spr01100	Metabolic pathways
+spr1069	spr01100	Metabolic pathways
+spr1070	spr01100	Metabolic pathways
+spr1071	spr01100	Metabolic pathways
+spr1073	spr01100	Metabolic pathways
+spr1074	spr01100	Metabolic pathways
+spr1075	spr01100	Metabolic pathways
+spr1076	spr01100	Metabolic pathways
+spr1087	spr01100	Metabolic pathways
+spr1090	spr01100	Metabolic pathways
+spr1095	spr01100	Metabolic pathways
+spr1100	spr01100	Metabolic pathways
+spr1109	spr01100	Metabolic pathways
+spr1111	spr01100	Metabolic pathways
+spr1122	spr01100	Metabolic pathways
+spr1128	spr01100	Metabolic pathways
+spr1133	spr01100	Metabolic pathways
+spr1135	spr01100	Metabolic pathways
+spr1148	spr01100	Metabolic pathways
+spr1149	spr01100	Metabolic pathways
+spr1153	spr01100	Metabolic pathways
+spr1154	spr01100	Metabolic pathways
+spr1155	spr01100	Metabolic pathways
+spr1156	spr01100	Metabolic pathways
+spr1174	spr01100	Metabolic pathways
+spr1176	spr01100	Metabolic pathways
+spr1181	spr01100	Metabolic pathways
+spr1186	spr01100	Metabolic pathways
+spr1188	spr01100	Metabolic pathways
+spr1196	spr01100	Metabolic pathways
+spr1214	spr01100	Metabolic pathways
+spr1218	spr01100	Metabolic pathways
+spr1219	spr01100	Metabolic pathways
+spr1227	spr01100	Metabolic pathways
+spr1228	spr01100	Metabolic pathways
+spr1229	spr01100	Metabolic pathways
+spr1231	spr01100	Metabolic pathways
+spr1232	spr01100	Metabolic pathways
+spr1233	spr01100	Metabolic pathways
+spr1235	spr01100	Metabolic pathways
+spr1239	spr01100	Metabolic pathways
+spr1247	spr01100	Metabolic pathways
+spr1260	spr01100	Metabolic pathways
+spr1272	spr01100	Metabolic pathways
+spr1276	spr01100	Metabolic pathways
+spr1277	spr01100	Metabolic pathways
+spr1300	spr01100	Metabolic pathways
+spr1321	spr01100	Metabolic pathways
+spr1322	spr01100	Metabolic pathways
+spr1351	spr01100	Metabolic pathways
+spr1358	spr01100	Metabolic pathways
+spr1359	spr01100	Metabolic pathways
+spr1360	spr01100	Metabolic pathways
+spr1361	spr01100	Metabolic pathways
+spr1362	spr01100	Metabolic pathways
+spr1363	spr01100	Metabolic pathways
+spr1364	spr01100	Metabolic pathways
+spr1365	spr01100	Metabolic pathways
+spr1366	spr01100	Metabolic pathways
+spr1373	spr01100	Metabolic pathways
+spr1376	spr01100	Metabolic pathways
+spr1377	spr01100	Metabolic pathways
+spr1384	spr01100	Metabolic pathways
+spr1399	spr01100	Metabolic pathways
+spr1414	spr01100	Metabolic pathways
+spr1417	spr01100	Metabolic pathways
+spr1429	spr01100	Metabolic pathways
+spr1432	spr01100	Metabolic pathways
+spr1434	spr01100	Metabolic pathways
+spr1435	spr01100	Metabolic pathways
+spr1443	spr01100	Metabolic pathways
+spr1444	spr01100	Metabolic pathways
+spr1450	spr01100	Metabolic pathways
+spr1456	spr01100	Metabolic pathways
+spr1460	spr01100	Metabolic pathways
+spr1465	spr01100	Metabolic pathways
+spr1487	spr01100	Metabolic pathways
+spr1490	spr01100	Metabolic pathways
+spr1499	spr01100	Metabolic pathways
+spr1514	spr01100	Metabolic pathways
+spr1515	spr01100	Metabolic pathways
+spr1517	spr01100	Metabolic pathways
+spr1520	spr01100	Metabolic pathways
+spr1528	spr01100	Metabolic pathways
+spr1529	spr01100	Metabolic pathways
+spr1531	spr01100	Metabolic pathways
+spr1536	spr01100	Metabolic pathways
+spr1540	spr01100	Metabolic pathways
+spr1541	spr01100	Metabolic pathways
+spr1542	spr01100	Metabolic pathways
+spr1543	spr01100	Metabolic pathways
+spr1565	spr01100	Metabolic pathways
+spr1568	spr01100	Metabolic pathways
+spr1571	spr01100	Metabolic pathways
+spr1580	spr01100	Metabolic pathways
+spr1583	spr01100	Metabolic pathways
+spr1592	spr01100	Metabolic pathways
+spr1603	spr01100	Metabolic pathways
+spr1617	spr01100	Metabolic pathways
+spr1631	spr01100	Metabolic pathways
+spr1632	spr01100	Metabolic pathways
+spr1633	spr01100	Metabolic pathways
+spr1634	spr01100	Metabolic pathways
+spr1635	spr01100	Metabolic pathways
+spr1636	spr01100	Metabolic pathways
+spr1637	spr01100	Metabolic pathways
+spr1647	spr01100	Metabolic pathways
+spr1648	spr01100	Metabolic pathways
+spr1662	spr01100	Metabolic pathways
+spr1667	spr01100	Metabolic pathways
+spr1668	spr01100	Metabolic pathways
+spr1683	spr01100	Metabolic pathways
+spr1695	spr01100	Metabolic pathways
+spr1696	spr01100	Metabolic pathways
+spr1698	spr01100	Metabolic pathways
+spr1709	spr01100	Metabolic pathways
+spr1713	spr01100	Metabolic pathways
+spr1715	spr01100	Metabolic pathways
+spr1725	spr01100	Metabolic pathways
+spr1775	spr01100	Metabolic pathways
+spr1781	spr01100	Metabolic pathways
+spr1783	spr01100	Metabolic pathways
+spr1785	spr01100	Metabolic pathways
+spr1789	spr01100	Metabolic pathways
+spr1792	spr01100	Metabolic pathways
+spr1796	spr01100	Metabolic pathways
+spr1797	spr01100	Metabolic pathways
+spr1798	spr01100	Metabolic pathways
+spr1808	spr01100	Metabolic pathways
+spr1812	spr01100	Metabolic pathways
+spr1823	spr01100	Metabolic pathways
+spr1825	spr01100	Metabolic pathways
+spr1829	spr01100	Metabolic pathways
+spr1833	spr01100	Metabolic pathways
+spr1837	spr01100	Metabolic pathways
+spr1841	spr01100	Metabolic pathways
+spr1842	spr01100	Metabolic pathways
+spr1844	spr01100	Metabolic pathways
+spr1845	spr01100	Metabolic pathways
+spr1846	spr01100	Metabolic pathways
+spr1847	spr01100	Metabolic pathways
+spr1848	spr01100	Metabolic pathways
+spr1849	spr01100	Metabolic pathways
+spr1854	spr01100	Metabolic pathways
+spr1866	spr01100	Metabolic pathways
+spr1867	spr01100	Metabolic pathways
+spr1878	spr01100	Metabolic pathways
+spr1881	spr01100	Metabolic pathways
+spr1882	spr01100	Metabolic pathways
+spr1903	spr01100	Metabolic pathways
+spr1905	spr01100	Metabolic pathways
+spr1906	spr01100	Metabolic pathways
+spr1907	spr01100	Metabolic pathways
+spr1909	spr01100	Metabolic pathways
+spr1916	spr01100	Metabolic pathways
+spr1917	spr01100	Metabolic pathways
+spr1935	spr01100	Metabolic pathways
+spr1936	spr01100	Metabolic pathways
+spr1937	spr01100	Metabolic pathways
+spr1938	spr01100	Metabolic pathways
+spr1939	spr01100	Metabolic pathways
+spr1949	spr01100	Metabolic pathways
+spr1957	spr01100	Metabolic pathways
+spr1958	spr01100	Metabolic pathways
+spr1964	spr01100	Metabolic pathways
+spr1967	spr01100	Metabolic pathways
+spr1968	spr01100	Metabolic pathways
+spr1970	spr01100	Metabolic pathways
+spr1972	spr01100	Metabolic pathways
+spr1973	spr01100	Metabolic pathways
+spr1980	spr01100	Metabolic pathways
+spr1982	spr01100	Metabolic pathways
+spr1991	spr01100	Metabolic pathways
+spr2015	spr01100	Metabolic pathways
+spr2027	spr01100	Metabolic pathways
+spr2033	spr01100	Metabolic pathways
+spr0011	spr01110	Biosynthesis of secondary metabolites
+spr0028	spr01110	Biosynthesis of secondary metabolites
+spr0035	spr01110	Biosynthesis of secondary metabolites
+spr0037	spr01110	Biosynthesis of secondary metabolites
+spr0038	spr01110	Biosynthesis of secondary metabolites
+spr0045	spr01110	Biosynthesis of secondary metabolites
+spr0046	spr01110	Biosynthesis of secondary metabolites
+spr0047	spr01110	Biosynthesis of secondary metabolites
+spr0048	spr01110	Biosynthesis of secondary metabolites
+spr0049	spr01110	Biosynthesis of secondary metabolites
+spr0051	spr01110	Biosynthesis of secondary metabolites
+spr0052	spr01110	Biosynthesis of secondary metabolites
+spr0053	spr01110	Biosynthesis of secondary metabolites
+spr0054	spr01110	Biosynthesis of secondary metabolites
+spr0056	spr01110	Biosynthesis of secondary metabolites
+spr0065	spr01110	Biosynthesis of secondary metabolites
+spr0093	spr01110	Biosynthesis of secondary metabolites
+spr0094	spr01110	Biosynthesis of secondary metabolites
+spr0095	spr01110	Biosynthesis of secondary metabolites
+spr0102	spr01110	Biosynthesis of secondary metabolites
+spr0103	spr01110	Biosynthesis of secondary metabolites
+spr0161	spr01110	Biosynthesis of secondary metabolites
+spr0162	spr01110	Biosynthesis of secondary metabolites
+spr0163	spr01110	Biosynthesis of secondary metabolites
+spr0164	spr01110	Biosynthesis of secondary metabolites
+spr0210	spr01110	Biosynthesis of secondary metabolites
+spr0240	spr01110	Biosynthesis of secondary metabolites
+spr0241	spr01110	Biosynthesis of secondary metabolites
+spr0262	spr01110	Biosynthesis of secondary metabolites
+spr0263	spr01110	Biosynthesis of secondary metabolites
+spr0320	spr01110	Biosynthesis of secondary metabolites
+spr0321	spr01110	Biosynthesis of secondary metabolites
+spr0322	spr01110	Biosynthesis of secondary metabolites
+spr0323	spr01110	Biosynthesis of secondary metabolites
+spr0335	spr01110	Biosynthesis of secondary metabolites
+spr0338	spr01110	Biosynthesis of secondary metabolites
+spr0339	spr01110	Biosynthesis of secondary metabolites
+spr0340	spr01110	Biosynthesis of secondary metabolites
+spr0341	spr01110	Biosynthesis of secondary metabolites
+spr0374	spr01110	Biosynthesis of secondary metabolites
+spr0378	spr01110	Biosynthesis of secondary metabolites
+spr0380	spr01110	Biosynthesis of secondary metabolites
+spr0381	spr01110	Biosynthesis of secondary metabolites
+spr0383	spr01110	Biosynthesis of secondary metabolites
+spr0385	spr01110	Biosynthesis of secondary metabolites
+spr0386	spr01110	Biosynthesis of secondary metabolites
+spr0387	spr01110	Biosynthesis of secondary metabolites
+spr0401	spr01110	Biosynthesis of secondary metabolites
+spr0402	spr01110	Biosynthesis of secondary metabolites
+spr0403	spr01110	Biosynthesis of secondary metabolites
+spr0406	spr01110	Biosynthesis of secondary metabolites
+spr0441	spr01110	Biosynthesis of secondary metabolites
+spr0514	spr01110	Biosynthesis of secondary metabolites
+spr0517	spr01110	Biosynthesis of secondary metabolites
+spr0530	spr01110	Biosynthesis of secondary metabolites
+spr0584	spr01110	Biosynthesis of secondary metabolites
+spr0588	spr01110	Biosynthesis of secondary metabolites
+spr0647	spr01110	Biosynthesis of secondary metabolites
+spr0671	spr01110	Biosynthesis of secondary metabolites
+spr0701	spr01110	Biosynthesis of secondary metabolites
+spr0731	spr01110	Biosynthesis of secondary metabolites
+spr0734	spr01110	Biosynthesis of secondary metabolites
+spr0738	spr01110	Biosynthesis of secondary metabolites
+spr0755	spr01110	Biosynthesis of secondary metabolites
+spr0758	spr01110	Biosynthesis of secondary metabolites
+spr0796	spr01110	Biosynthesis of secondary metabolites
+spr0797	spr01110	Biosynthesis of secondary metabolites
+spr0816	spr01110	Biosynthesis of secondary metabolites
+spr0832	spr01110	Biosynthesis of secondary metabolites
+spr0833	spr01110	Biosynthesis of secondary metabolites
+spr0834	spr01110	Biosynthesis of secondary metabolites
+spr0867	spr01110	Biosynthesis of secondary metabolites
+spr0914	spr01110	Biosynthesis of secondary metabolites
+spr0918	spr01110	Biosynthesis of secondary metabolites
+spr0919	spr01110	Biosynthesis of secondary metabolites
+spr0928	spr01110	Biosynthesis of secondary metabolites
+spr0948	spr01110	Biosynthesis of secondary metabolites
+spr1002	spr01110	Biosynthesis of secondary metabolites
+spr1017	spr01110	Biosynthesis of secondary metabolites
+spr1025	spr01110	Biosynthesis of secondary metabolites
+spr1029	spr01110	Biosynthesis of secondary metabolites
+spr1030	spr01110	Biosynthesis of secondary metabolites
+spr1031	spr01110	Biosynthesis of secondary metabolites
+spr1032	spr01110	Biosynthesis of secondary metabolites
+spr1034	spr01110	Biosynthesis of secondary metabolites
+spr1036	spr01110	Biosynthesis of secondary metabolites
+spr1048	spr01110	Biosynthesis of secondary metabolites
+spr1049	spr01110	Biosynthesis of secondary metabolites
+spr1050	spr01110	Biosynthesis of secondary metabolites
+spr1051	spr01110	Biosynthesis of secondary metabolites
+spr1087	spr01110	Biosynthesis of secondary metabolites
+spr1100	spr01110	Biosynthesis of secondary metabolites
+spr1122	spr01110	Biosynthesis of secondary metabolites
+spr1133	spr01110	Biosynthesis of secondary metabolites
+spr1135	spr01110	Biosynthesis of secondary metabolites
+spr1174	spr01110	Biosynthesis of secondary metabolites
+spr1218	spr01110	Biosynthesis of secondary metabolites
+spr1219	spr01110	Biosynthesis of secondary metabolites
+spr1227	spr01110	Biosynthesis of secondary metabolites
+spr1228	spr01110	Biosynthesis of secondary metabolites
+spr1229	spr01110	Biosynthesis of secondary metabolites
+spr1231	spr01110	Biosynthesis of secondary metabolites
+spr1232	spr01110	Biosynthesis of secondary metabolites
+spr1233	spr01110	Biosynthesis of secondary metabolites
+spr1235	spr01110	Biosynthesis of secondary metabolites
+spr1239	spr01110	Biosynthesis of secondary metabolites
+spr1249	spr01110	Biosynthesis of secondary metabolites
+spr1260	spr01110	Biosynthesis of secondary metabolites
+spr1351	spr01110	Biosynthesis of secondary metabolites
+spr1358	spr01110	Biosynthesis of secondary metabolites
+spr1376	spr01110	Biosynthesis of secondary metabolites
+spr1377	spr01110	Biosynthesis of secondary metabolites
+spr1414	spr01110	Biosynthesis of secondary metabolites
+spr1432	spr01110	Biosynthesis of secondary metabolites
+spr1434	spr01110	Biosynthesis of secondary metabolites
+spr1465	spr01110	Biosynthesis of secondary metabolites
+spr1499	spr01110	Biosynthesis of secondary metabolites
+spr1538	spr01110	Biosynthesis of secondary metabolites
+spr1542	spr01110	Biosynthesis of secondary metabolites
+spr1543	spr01110	Biosynthesis of secondary metabolites
+spr1565	spr01110	Biosynthesis of secondary metabolites
+spr1568	spr01110	Biosynthesis of secondary metabolites
+spr1570	spr01110	Biosynthesis of secondary metabolites
+spr1571	spr01110	Biosynthesis of secondary metabolites
+spr1617	spr01110	Biosynthesis of secondary metabolites
+spr1631	spr01110	Biosynthesis of secondary metabolites
+spr1632	spr01110	Biosynthesis of secondary metabolites
+spr1633	spr01110	Biosynthesis of secondary metabolites
+spr1634	spr01110	Biosynthesis of secondary metabolites
+spr1635	spr01110	Biosynthesis of secondary metabolites
+spr1636	spr01110	Biosynthesis of secondary metabolites
+spr1637	spr01110	Biosynthesis of secondary metabolites
+spr1662	spr01110	Biosynthesis of secondary metabolites
+spr1775	spr01110	Biosynthesis of secondary metabolites
+spr1785	spr01110	Biosynthesis of secondary metabolites
+spr1792	spr01110	Biosynthesis of secondary metabolites
+spr1797	spr01110	Biosynthesis of secondary metabolites
+spr1808	spr01110	Biosynthesis of secondary metabolites
+spr1812	spr01110	Biosynthesis of secondary metabolites
+spr1825	spr01110	Biosynthesis of secondary metabolites
+spr1833	spr01110	Biosynthesis of secondary metabolites
+spr1837	spr01110	Biosynthesis of secondary metabolites
+spr1841	spr01110	Biosynthesis of secondary metabolites
+spr1878	spr01110	Biosynthesis of secondary metabolites
+spr1882	spr01110	Biosynthesis of secondary metabolites
+spr1902	spr01110	Biosynthesis of secondary metabolites
+spr1903	spr01110	Biosynthesis of secondary metabolites
+spr1906	spr01110	Biosynthesis of secondary metabolites
+spr1916	spr01110	Biosynthesis of secondary metabolites
+spr1917	spr01110	Biosynthesis of secondary metabolites
+spr1935	spr01110	Biosynthesis of secondary metabolites
+spr1936	spr01110	Biosynthesis of secondary metabolites
+spr1937	spr01110	Biosynthesis of secondary metabolites
+spr1957	spr01110	Biosynthesis of secondary metabolites
+spr1990	spr01110	Biosynthesis of secondary metabolites
+spr2015	spr01110	Biosynthesis of secondary metabolites
+spr2033	spr01110	Biosynthesis of secondary metabolites
+spr0028	spr01120	Microbial metabolism in diverse environments
+spr0065	spr01120	Microbial metabolism in diverse environments
+spr0066	spr01120	Microbial metabolism in diverse environments
+spr0148	spr01120	Microbial metabolism in diverse environments
+spr0262	spr01120	Microbial metabolism in diverse environments
+spr0287	spr01120	Microbial metabolism in diverse environments
+spr0288	spr01120	Microbial metabolism in diverse environments
+spr0335	spr01120	Microbial metabolism in diverse environments
+spr0374	spr01120	Microbial metabolism in diverse environments
+spr0383	spr01120	Microbial metabolism in diverse environments
+spr0385	spr01120	Microbial metabolism in diverse environments
+spr0386	spr01120	Microbial metabolism in diverse environments
+spr0387	spr01120	Microbial metabolism in diverse environments
+spr0415	spr01120	Microbial metabolism in diverse environments
+spr0441	spr01120	Microbial metabolism in diverse environments
+spr0444	spr01120	Microbial metabolism in diverse environments
+spr0515	spr01120	Microbial metabolism in diverse environments
+spr0517	spr01120	Microbial metabolism in diverse environments
+spr0530	spr01120	Microbial metabolism in diverse environments
+spr0584	spr01120	Microbial metabolism in diverse environments
+spr0729	spr01120	Microbial metabolism in diverse environments
+spr0731	spr01120	Microbial metabolism in diverse environments
+spr0780	spr01120	Microbial metabolism in diverse environments
+spr0796	spr01120	Microbial metabolism in diverse environments
+spr0797	spr01120	Microbial metabolism in diverse environments
+spr0918	spr01120	Microbial metabolism in diverse environments
+spr0919	spr01120	Microbial metabolism in diverse environments
+spr0921	spr01120	Microbial metabolism in diverse environments
+spr0928	spr01120	Microbial metabolism in diverse environments
+spr0974	spr01120	Microbial metabolism in diverse environments
+spr1002	spr01120	Microbial metabolism in diverse environments
+spr1007	spr01120	Microbial metabolism in diverse environments
+spr1028	spr01120	Microbial metabolism in diverse environments
+spr1034	spr01120	Microbial metabolism in diverse environments
+spr1036	spr01120	Microbial metabolism in diverse environments
+spr1048	spr01120	Microbial metabolism in diverse environments
+spr1049	spr01120	Microbial metabolism in diverse environments
+spr1050	spr01120	Microbial metabolism in diverse environments
+spr1051	spr01120	Microbial metabolism in diverse environments
+spr1100	spr01120	Microbial metabolism in diverse environments
+spr1109	spr01120	Microbial metabolism in diverse environments
+spr1122	spr01120	Microbial metabolism in diverse environments
+spr1176	spr01120	Microbial metabolism in diverse environments
+spr1181	spr01120	Microbial metabolism in diverse environments
+spr1218	spr01120	Microbial metabolism in diverse environments
+spr1219	spr01120	Microbial metabolism in diverse environments
+spr1351	spr01120	Microbial metabolism in diverse environments
+spr1358	spr01120	Microbial metabolism in diverse environments
+spr1414	spr01120	Microbial metabolism in diverse environments
+spr1432	spr01120	Microbial metabolism in diverse environments
+spr1499	spr01120	Microbial metabolism in diverse environments
+spr1789	spr01120	Microbial metabolism in diverse environments
+spr1792	spr01120	Microbial metabolism in diverse environments
+spr1797	spr01120	Microbial metabolism in diverse environments
+spr1825	spr01120	Microbial metabolism in diverse environments
+spr1837	spr01120	Microbial metabolism in diverse environments
+spr1841	spr01120	Microbial metabolism in diverse environments
+spr1842	spr01120	Microbial metabolism in diverse environments
+spr1844	spr01120	Microbial metabolism in diverse environments
+spr1845	spr01120	Microbial metabolism in diverse environments
+spr1846	spr01120	Microbial metabolism in diverse environments
+spr1847	spr01120	Microbial metabolism in diverse environments
+spr1848	spr01120	Microbial metabolism in diverse environments
+spr1849	spr01120	Microbial metabolism in diverse environments
+spr1854	spr01120	Microbial metabolism in diverse environments
+spr1878	spr01120	Microbial metabolism in diverse environments
+spr1882	spr01120	Microbial metabolism in diverse environments
+spr1907	spr01120	Microbial metabolism in diverse environments
+spr1936	spr01120	Microbial metabolism in diverse environments
+spr1937	spr01120	Microbial metabolism in diverse environments
+spr1938	spr01120	Microbial metabolism in diverse environments
+spr1939	spr01120	Microbial metabolism in diverse environments
+spr1958	spr01120	Microbial metabolism in diverse environments
+spr1964	spr01120	Microbial metabolism in diverse environments
+spr1972	spr01120	Microbial metabolism in diverse environments
+spr1973	spr01120	Microbial metabolism in diverse environments
+spr2015	spr01120	Microbial metabolism in diverse environments
+spr0028	spr01200	Carbon metabolism
+spr0094	spr01200	Carbon metabolism
+spr0095	spr01200	Carbon metabolism
+spr0287	spr01200	Carbon metabolism
+spr0288	spr01200	Carbon metabolism
+spr0335	spr01200	Carbon metabolism
+spr0383	spr01200	Carbon metabolism
+spr0385	spr01200	Carbon metabolism
+spr0386	spr01200	Carbon metabolism
+spr0387	spr01200	Carbon metabolism
+spr0406	spr01200	Carbon metabolism
+spr0441	spr01200	Carbon metabolism
+spr0515	spr01200	Carbon metabolism
+spr0517	spr01200	Carbon metabolism
+spr0530	spr01200	Carbon metabolism
+spr0584	spr01200	Carbon metabolism
+spr0729	spr01200	Carbon metabolism
+spr0731	spr01200	Carbon metabolism
+spr0796	spr01200	Carbon metabolism
+spr0797	spr01200	Carbon metabolism
+spr0928	spr01200	Carbon metabolism
+spr0974	spr01200	Carbon metabolism
+spr1002	spr01200	Carbon metabolism
+spr1007	spr01200	Carbon metabolism
+spr1028	spr01200	Carbon metabolism
+spr1036	spr01200	Carbon metabolism
+spr1048	spr01200	Carbon metabolism
+spr1049	spr01200	Carbon metabolism
+spr1050	spr01200	Carbon metabolism
+spr1051	spr01200	Carbon metabolism
+spr1109	spr01200	Carbon metabolism
+spr1122	spr01200	Carbon metabolism
+spr1358	spr01200	Carbon metabolism
+spr1432	spr01200	Carbon metabolism
+spr1499	spr01200	Carbon metabolism
+spr1797	spr01200	Carbon metabolism
+spr1825	spr01200	Carbon metabolism
+spr1841	spr01200	Carbon metabolism
+spr1854	spr01200	Carbon metabolism
+spr1882	spr01200	Carbon metabolism
+spr1936	spr01200	Carbon metabolism
+spr1937	spr01200	Carbon metabolism
+spr1958	spr01200	Carbon metabolism
+spr2015	spr01200	Carbon metabolism
+spr0374	spr01210	2-Oxocarboxylic acid metabolism
+spr0401	spr01210	2-Oxocarboxylic acid metabolism
+spr0402	spr01210	2-Oxocarboxylic acid metabolism
+spr0403	spr01210	2-Oxocarboxylic acid metabolism
+spr0758	spr01210	2-Oxocarboxylic acid metabolism
+spr0918	spr01210	2-Oxocarboxylic acid metabolism
+spr1048	spr01210	2-Oxocarboxylic acid metabolism
+spr1049	spr01210	2-Oxocarboxylic acid metabolism
+spr1050	spr01210	2-Oxocarboxylic acid metabolism
+spr1051	spr01210	2-Oxocarboxylic acid metabolism
+spr1133	spr01210	2-Oxocarboxylic acid metabolism
+spr1135	spr01210	2-Oxocarboxylic acid metabolism
+spr1249	spr01210	2-Oxocarboxylic acid metabolism
+spr1808	spr01210	2-Oxocarboxylic acid metabolism
+spr1935	spr01210	2-Oxocarboxylic acid metabolism
+spr0377	spr01212	Fatty acid metabolism
+spr0379	spr01212	Fatty acid metabolism
+spr0380	spr01212	Fatty acid metabolism
+spr0381	spr01212	Fatty acid metabolism
+spr0382	spr01212	Fatty acid metabolism
+spr0383	spr01212	Fatty acid metabolism
+spr0384	spr01212	Fatty acid metabolism
+spr0385	spr01212	Fatty acid metabolism
+spr0386	spr01212	Fatty acid metabolism
+spr0387	spr01212	Fatty acid metabolism
+spr0701	spr01212	Fatty acid metabolism
+spr0966	spr01212	Fatty acid metabolism
+spr0066	spr01220	Degradation of aromatic compounds
+spr0262	spr01220	Degradation of aromatic compounds
+spr0921	spr01220	Degradation of aromatic compounds
+spr1837	spr01220	Degradation of aromatic compounds
+spr0028	spr01230	Biosynthesis of amino acids
+spr0035	spr01230	Biosynthesis of amino acids
+spr0094	spr01230	Biosynthesis of amino acids
+spr0095	spr01230	Biosynthesis of amino acids
+spr0102	spr01230	Biosynthesis of amino acids
+spr0103	spr01230	Biosynthesis of amino acids
+spr0148	spr01230	Biosynthesis of amino acids
+spr0308	spr01230	Biosynthesis of amino acids
+spr0374	spr01230	Biosynthesis of amino acids
+spr0401	spr01230	Biosynthesis of amino acids
+spr0402	spr01230	Biosynthesis of amino acids
+spr0403	spr01230	Biosynthesis of amino acids
+spr0406	spr01230	Biosynthesis of amino acids
+spr0441	spr01230	Biosynthesis of amino acids
+spr0444	spr01230	Biosynthesis of amino acids
+spr0514	spr01230	Biosynthesis of amino acids
+spr0517	spr01230	Biosynthesis of amino acids
+spr0530	spr01230	Biosynthesis of amino acids
+spr0671	spr01230	Biosynthesis of amino acids
+spr0731	spr01230	Biosynthesis of amino acids
+spr0758	spr01230	Biosynthesis of amino acids
+spr0796	spr01230	Biosynthesis of amino acids
+spr0797	spr01230	Biosynthesis of amino acids
+spr0832	spr01230	Biosynthesis of amino acids
+spr0833	spr01230	Biosynthesis of amino acids
+spr0834	spr01230	Biosynthesis of amino acids
+spr0894	spr01230	Biosynthesis of amino acids
+spr0918	spr01230	Biosynthesis of amino acids
+spr0919	spr01230	Biosynthesis of amino acids
+spr0928	spr01230	Biosynthesis of amino acids
+spr1002	spr01230	Biosynthesis of amino acids
+spr1036	spr01230	Biosynthesis of amino acids
+spr1133	spr01230	Biosynthesis of amino acids
+spr1135	spr01230	Biosynthesis of amino acids
+spr1174	spr01230	Biosynthesis of amino acids
+spr1218	spr01230	Biosynthesis of amino acids
+spr1219	spr01230	Biosynthesis of amino acids
+spr1227	spr01230	Biosynthesis of amino acids
+spr1228	spr01230	Biosynthesis of amino acids
+spr1229	spr01230	Biosynthesis of amino acids
+spr1231	spr01230	Biosynthesis of amino acids
+spr1232	spr01230	Biosynthesis of amino acids
+spr1233	spr01230	Biosynthesis of amino acids
+spr1235	spr01230	Biosynthesis of amino acids
+spr1376	spr01230	Biosynthesis of amino acids
+spr1377	spr01230	Biosynthesis of amino acids
+spr1414	spr01230	Biosynthesis of amino acids
+spr1432	spr01230	Biosynthesis of amino acids
+spr1434	spr01230	Biosynthesis of amino acids
+spr1499	spr01230	Biosynthesis of amino acids
+spr1542	spr01230	Biosynthesis of amino acids
+spr1543	spr01230	Biosynthesis of amino acids
+spr1631	spr01230	Biosynthesis of amino acids
+spr1632	spr01230	Biosynthesis of amino acids
+spr1633	spr01230	Biosynthesis of amino acids
+spr1634	spr01230	Biosynthesis of amino acids
+spr1635	spr01230	Biosynthesis of amino acids
+spr1636	spr01230	Biosynthesis of amino acids
+spr1637	spr01230	Biosynthesis of amino acids
+spr1785	spr01230	Biosynthesis of amino acids
+spr1792	spr01230	Biosynthesis of amino acids
+spr1797	spr01230	Biosynthesis of amino acids
+spr1808	spr01230	Biosynthesis of amino acids
+spr1825	spr01230	Biosynthesis of amino acids
+spr1841	spr01230	Biosynthesis of amino acids
+spr1878	spr01230	Biosynthesis of amino acids
+spr1906	spr01230	Biosynthesis of amino acids
+spr1907	spr01230	Biosynthesis of amino acids
+spr1935	spr01230	Biosynthesis of amino acids
+spr1936	spr01230	Biosynthesis of amino acids
+spr1937	spr01230	Biosynthesis of amino acids
+spr1957	spr01230	Biosynthesis of amino acids
+spr2015	spr01230	Biosynthesis of amino acids
+spr0011	spr01232	Nucleotide metabolism
+spr0021	spr01232	Nucleotide metabolism
+spr0023	spr01232	Nucleotide metabolism
+spr0056	spr01232	Nucleotide metabolism
+spr0183	spr01232	Nucleotide metabolism
+spr0186	spr01232	Nucleotide metabolism
+spr0210	spr01232	Nucleotide metabolism
+spr0438	spr01232	Nucleotide metabolism
+spr0585	spr01232	Nucleotide metabolism
+spr0654	spr01232	Nucleotide metabolism
+spr0655	spr01232	Nucleotide metabolism
+spr0734	spr01232	Nucleotide metabolism
+spr0738	spr01232	Nucleotide metabolism
+spr0744	spr01232	Nucleotide metabolism
+spr0746	spr01232	Nucleotide metabolism
+spr0835	spr01232	Nucleotide metabolism
+spr0845	spr01232	Nucleotide metabolism
+spr0922	spr01232	Nucleotide metabolism
+spr1057	spr01232	Nucleotide metabolism
+spr1065	spr01232	Nucleotide metabolism
+spr1066	spr01232	Nucleotide metabolism
+spr1090	spr01232	Nucleotide metabolism
+spr1128	spr01232	Nucleotide metabolism
+spr1156	spr01232	Nucleotide metabolism
+spr1188	spr01232	Nucleotide metabolism
+spr1300	spr01232	Nucleotide metabolism
+spr1435	spr01232	Nucleotide metabolism
+spr1456	spr01232	Nucleotide metabolism
+spr1583	spr01232	Nucleotide metabolism
+spr1662	spr01232	Nucleotide metabolism
+spr1695	spr01232	Nucleotide metabolism
+spr1775	spr01232	Nucleotide metabolism
+spr2033	spr01232	Nucleotide metabolism
+spr0021	spr01240	Biosynthesis of cofactors
+spr0056	spr01240	Biosynthesis of cofactors
+spr0139	spr01240	Biosynthesis of cofactors
+spr0161	spr01240	Biosynthesis of cofactors
+spr0162	spr01240	Biosynthesis of cofactors
+spr0163	spr01240	Biosynthesis of cofactors
+spr0164	spr01240	Biosynthesis of cofactors
+spr0178	spr01240	Biosynthesis of cofactors
+spr0210	spr01240	Biosynthesis of cofactors
+spr0263	spr01240	Biosynthesis of cofactors
+spr0266	spr01240	Biosynthesis of cofactors
+spr0267	spr01240	Biosynthesis of cofactors
+spr0268	spr01240	Biosynthesis of cofactors
+spr0269	spr01240	Biosynthesis of cofactors
+spr0318	spr01240	Biosynthesis of cofactors
+spr0381	spr01240	Biosynthesis of cofactors
+spr0382	spr01240	Biosynthesis of cofactors
+spr0384	spr01240	Biosynthesis of cofactors
+spr0438	spr01240	Biosynthesis of cofactors
+spr0582	spr01240	Biosynthesis of cofactors
+spr0613	spr01240	Biosynthesis of cofactors
+spr0614	spr01240	Biosynthesis of cofactors
+spr0628	spr01240	Biosynthesis of cofactors
+spr0629	spr01240	Biosynthesis of cofactors
+spr0630	spr01240	Biosynthesis of cofactors
+spr0634	spr01240	Biosynthesis of cofactors
+spr0636	spr01240	Biosynthesis of cofactors
+spr0637	spr01240	Biosynthesis of cofactors
+spr0638	spr01240	Biosynthesis of cofactors
+spr0647	spr01240	Biosynthesis of cofactors
+spr0671	spr01240	Biosynthesis of cofactors
+spr0672	spr01240	Biosynthesis of cofactors
+spr0701	spr01240	Biosynthesis of cofactors
+spr0729	spr01240	Biosynthesis of cofactors
+spr0741	spr01240	Biosynthesis of cofactors
+spr0758	spr01240	Biosynthesis of cofactors
+spr0783	spr01240	Biosynthesis of cofactors
+spr0784	spr01240	Biosynthesis of cofactors
+spr0845	spr01240	Biosynthesis of cofactors
+spr0865	spr01240	Biosynthesis of cofactors
+spr0866	spr01240	Biosynthesis of cofactors
+spr0873	spr01240	Biosynthesis of cofactors
+spr0914	spr01240	Biosynthesis of cofactors
+spr0928	spr01240	Biosynthesis of cofactors
+spr1001	spr01240	Biosynthesis of cofactors
+spr1005	spr01240	Biosynthesis of cofactors
+spr1017	spr01240	Biosynthesis of cofactors
+spr1047	spr01240	Biosynthesis of cofactors
+spr1048	spr01240	Biosynthesis of cofactors
+spr1053	spr01240	Biosynthesis of cofactors
+spr1109	spr01240	Biosynthesis of cofactors
+spr1110	spr01240	Biosynthesis of cofactors
+spr1111	spr01240	Biosynthesis of cofactors
+spr1153	spr01240	Biosynthesis of cofactors
+spr1154	spr01240	Biosynthesis of cofactors
+spr1155	spr01240	Biosynthesis of cofactors
+spr1276	spr01240	Biosynthesis of cofactors
+spr1277	spr01240	Biosynthesis of cofactors
+spr1321	spr01240	Biosynthesis of cofactors
+spr1322	spr01240	Biosynthesis of cofactors
+spr1429	spr01240	Biosynthesis of cofactors
+spr1450	spr01240	Biosynthesis of cofactors
+spr1592	spr01240	Biosynthesis of cofactors
+spr1775	spr01240	Biosynthesis of cofactors
+spr1783	spr01240	Biosynthesis of cofactors
+spr1796	spr01240	Biosynthesis of cofactors
+spr1829	spr01240	Biosynthesis of cofactors
+spr1881	spr01240	Biosynthesis of cofactors
+spr1903	spr01240	Biosynthesis of cofactors
+spr0092	spr01250	Biosynthesis of nucleotide sugars
+spr0139	spr01250	Biosynthesis of nucleotide sugars
+spr0245	spr01250	Biosynthesis of nucleotide sugars
+spr0318	spr01250	Biosynthesis of nucleotide sugars
+spr0319	spr01250	Biosynthesis of nucleotide sugars
+spr0320	spr01250	Biosynthesis of nucleotide sugars
+spr0321	spr01250	Biosynthesis of nucleotide sugars
+spr0322	spr01250	Biosynthesis of nucleotide sugars
+spr0323	spr01250	Biosynthesis of nucleotide sugars
+spr0584	spr01250	Biosynthesis of nucleotide sugars
+spr0647	spr01250	Biosynthesis of nucleotide sugars
+spr0891	spr01250	Biosynthesis of nucleotide sugars
+spr0989	spr01250	Biosynthesis of nucleotide sugars
+spr1030	spr01250	Biosynthesis of nucleotide sugars
+spr1031	spr01250	Biosynthesis of nucleotide sugars
+spr1247	spr01250	Biosynthesis of nucleotide sugars
+spr1351	spr01250	Biosynthesis of nucleotide sugars
+spr1417	spr01250	Biosynthesis of nucleotide sugars
+spr1460	spr01250	Biosynthesis of nucleotide sugars
+spr1565	spr01250	Biosynthesis of nucleotide sugars
+spr1647	spr01250	Biosynthesis of nucleotide sugars
+spr1648	spr01250	Biosynthesis of nucleotide sugars
+spr1667	spr01250	Biosynthesis of nucleotide sugars
+spr1668	spr01250	Biosynthesis of nucleotide sugars
+spr1683	spr01250	Biosynthesis of nucleotide sugars
+spr1781	spr01250	Biosynthesis of nucleotide sugars
+spr1882	spr01250	Biosynthesis of nucleotide sugars
+spr1903	spr01250	Biosynthesis of nucleotide sugars
+spr0009	spr01501	beta-Lactam resistance
+spr0304	spr01501	beta-Lactam resistance
+spr0329	spr01501	beta-Lactam resistance
+spr1382	spr01501	beta-Lactam resistance
+spr1517	spr01501	beta-Lactam resistance
+spr1703	spr01501	beta-Lactam resistance
+spr1704	spr01501	beta-Lactam resistance
+spr1705	spr01501	beta-Lactam resistance
+spr1706	spr01501	beta-Lactam resistance
+spr1707	spr01501	beta-Lactam resistance
+spr1823	spr01501	beta-Lactam resistance
+spr1909	spr01501	beta-Lactam resistance
+spr0305	spr01502	Vancomycin resistance
+spr0554	spr01502	Vancomycin resistance
+spr0604	spr01502	Vancomycin resistance
+spr1514	spr01502	Vancomycin resistance
+spr1515	spr01502	Vancomycin resistance
+spr1540	spr01502	Vancomycin resistance
+spr0679	spr01503	Cationic antimicrobial peptide (CAMP) resistance
+spr1979	spr01503	Cationic antimicrobial peptide (CAMP) resistance
+spr1980	spr01503	Cationic antimicrobial peptide (CAMP) resistance
+spr1981	spr01503	Cationic antimicrobial peptide (CAMP) resistance
+spr1982	spr01503	Cationic antimicrobial peptide (CAMP) resistance
+spr2045	spr01503	Cationic antimicrobial peptide (CAMP) resistance
+spr0043	spr02010	ABC transporters
+spr0081	spr02010	ABC transporters
+spr0082	spr02010	ABC transporters
+spr0083	spr02010	ABC transporters
+spr0106	spr02010	ABC transporters
+spr0146	spr02010	ABC transporters
+spr0147	spr02010	ABC transporters
+spr0149	spr02010	ABC transporters
+spr0150	spr02010	ABC transporters
+spr0220	spr02010	ABC transporters
+spr0221	spr02010	ABC transporters
+spr0222	spr02010	ABC transporters
+spr0408	spr02010	ABC transporters
+spr0409	spr02010	ABC transporters
+spr0431	spr02010	ABC transporters
+spr0532	spr02010	ABC transporters
+spr0533	spr02010	ABC transporters
+spr0534	spr02010	ABC transporters
+spr0633	spr02010	ABC transporters
+spr0659	spr02010	ABC transporters
+spr0660	spr02010	ABC transporters
+spr0661	spr02010	ABC transporters
+spr0662	spr02010	ABC transporters
+spr0663	spr02010	ABC transporters
+spr0666	spr02010	ABC transporters
+spr0667	spr02010	ABC transporters
+spr0691	spr02010	ABC transporters
+spr0727	spr02010	ABC transporters
+spr0728	spr02010	ABC transporters
+spr0747	spr02010	ABC transporters
+spr0748	spr02010	ABC transporters
+spr0749	spr02010	ABC transporters
+spr0750	spr02010	ABC transporters
+spr0812	spr02010	ABC transporters
+spr0813	spr02010	ABC transporters
+spr0906	spr02010	ABC transporters
+spr0934	spr02010	ABC transporters
+spr0935	spr02010	ABC transporters
+spr0936	spr02010	ABC transporters
+spr0938	spr02010	ABC transporters
+spr1120	spr02010	ABC transporters
+spr1121	spr02010	ABC transporters
+spr1215	spr02010	ABC transporters
+spr1216	spr02010	ABC transporters
+spr1243	spr02010	ABC transporters
+spr1244	spr02010	ABC transporters
+spr1245	spr02010	ABC transporters
+spr1246	spr02010	ABC transporters
+spr1251	spr02010	ABC transporters
+spr1253	spr02010	ABC transporters
+spr1254	spr02010	ABC transporters
+spr1255	spr02010	ABC transporters
+spr1256	spr02010	ABC transporters
+spr1257	spr02010	ABC transporters
+spr1289	spr02010	ABC transporters
+spr1290	spr02010	ABC transporters
+spr1292	spr02010	ABC transporters
+spr1314	spr02010	ABC transporters
+spr1315	spr02010	ABC transporters
+spr1382	spr02010	ABC transporters
+spr1437	spr02010	ABC transporters
+spr1492	spr02010	ABC transporters
+spr1493	spr02010	ABC transporters
+spr1494	spr02010	ABC transporters
+spr1643	spr02010	ABC transporters
+spr1644	spr02010	ABC transporters
+spr1645	spr02010	ABC transporters
+spr1656	spr02010	ABC transporters
+spr1657	spr02010	ABC transporters
+spr1677	spr02010	ABC transporters
+spr1678	spr02010	ABC transporters
+spr1703	spr02010	ABC transporters
+spr1704	spr02010	ABC transporters
+spr1705	spr02010	ABC transporters
+spr1706	spr02010	ABC transporters
+spr1707	spr02010	ABC transporters
+spr1710	spr02010	ABC transporters
+spr1711	spr02010	ABC transporters
+spr1712	spr02010	ABC transporters
+spr1885	spr02010	ABC transporters
+spr1887	spr02010	ABC transporters
+spr1895	spr02010	ABC transporters
+spr1896	spr02010	ABC transporters
+spr1897	spr02010	ABC transporters
+spr1898	spr02010	ABC transporters
+spr1918	spr02010	ABC transporters
+spr1919	spr02010	ABC transporters
+spr1920	spr02010	ABC transporters
+spr1975	spr02010	ABC transporters
+spr1976	spr02010	ABC transporters
+spr1977	spr02010	ABC transporters
+spr2024	spr02010	ABC transporters
+spr2025	spr02010	ABC transporters
+spr2026	spr02010	ABC transporters
+spr0001	spr02020	Two-component system
+spr0009	spr02020	Two-component system
+spr0013	spr02020	Two-component system
+spr0043	spr02020	Two-component system
+spr0044	spr02020	Two-component system
+spr0076	spr02020	Two-component system
+spr0077	spr02020	Two-component system
+spr0153	spr02020	Two-component system
+spr0154	spr02020	Two-component system
+spr0343	spr02020	Two-component system
+spr0344	spr02020	Two-component system
+spr0444	spr02020	Two-component system
+spr0463	spr02020	Two-component system
+spr0464	spr02020	Two-component system
+spr0554	spr02020	Two-component system
+spr0579	spr02020	Two-component system
+spr0707	spr02020	Two-component system
+spr0708	spr02020	Two-component system
+spr0812	spr02020	Two-component system
+spr0813	spr02020	Two-component system
+spr1106	spr02020	Two-component system
+spr1107	spr02020	Two-component system
+spr1257	spr02020	Two-component system
+spr1473	spr02020	Two-component system
+spr1474	spr02020	Two-component system
+spr1771	spr02020	Two-component system
+spr1814	spr02020	Two-component system
+spr1815	spr02020	Two-component system
+spr1819	spr02020	Two-component system
+spr1839	spr02020	Two-component system
+spr1893	spr02020	Two-component system
+spr1894	spr02020	Two-component system
+spr1895	spr02020	Two-component system
+spr1979	spr02020	Two-component system
+spr1980	spr02020	Two-component system
+spr1981	spr02020	Two-component system
+spr1982	spr02020	Two-component system
+spr2041	spr02020	Two-component system
+spr2042	spr02020	Two-component system
+spr2043	spr02020	Two-component system
+spr2045	spr02020	Two-component system
+spr0013	spr02024	Quorum sensing
+spr0043	spr02024	Quorum sensing
+spr0044	spr02024	Quorum sensing
+spr0106	spr02024	Quorum sensing
+spr0108	spr02024	Quorum sensing
+spr0164	spr02024	Quorum sensing
+spr0209	spr02024	Quorum sensing
+spr0296	spr02024	Quorum sensing
+spr0308	spr02024	Quorum sensing
+spr0327	spr02024	Quorum sensing
+spr0463	spr02024	Quorum sensing
+spr0464	spr02024	Quorum sensing
+spr0465	spr02024	Quorum sensing
+spr0659	spr02024	Quorum sensing
+spr0660	spr02024	Quorum sensing
+spr0661	spr02024	Quorum sensing
+spr0662	spr02024	Quorum sensing
+spr0663	spr02024	Quorum sensing
+spr0707	spr02024	Quorum sensing
+spr0708	spr02024	Quorum sensing
+spr0877	spr02024	Quorum sensing
+spr0960	spr02024	Quorum sensing
+spr0966	spr02024	Quorum sensing
+spr1073	spr02024	Quorum sensing
+spr1123	spr02024	Quorum sensing
+spr1166	spr02024	Quorum sensing
+spr1191	spr02024	Quorum sensing
+spr1192	spr02024	Quorum sensing
+spr1193	spr02024	Quorum sensing
+spr1194	spr02024	Quorum sensing
+spr1382	spr02024	Quorum sensing
+spr1542	spr02024	Quorum sensing
+spr1543	spr02024	Quorum sensing
+spr1544	spr02024	Quorum sensing
+spr1636	spr02024	Quorum sensing
+spr1637	spr02024	Quorum sensing
+spr1703	spr02024	Quorum sensing
+spr1704	spr02024	Quorum sensing
+spr1705	spr02024	Quorum sensing
+spr1706	spr02024	Quorum sensing
+spr1707	spr02024	Quorum sensing
+spr1739	spr02024	Quorum sensing
+spr1771	spr02024	Quorum sensing
+spr1790	spr02024	Quorum sensing
+spr1803	spr02024	Quorum sensing
+spr1819	spr02024	Quorum sensing
+spr1821	spr02024	Quorum sensing
+spr1840	spr02024	Quorum sensing
+spr1852	spr02024	Quorum sensing
+spr2041	spr02024	Quorum sensing
+spr2042	spr02024	Quorum sensing
+spr2043	spr02024	Quorum sensing
+spr0146	spr02040	Flagellar assembly
+spr0979	spr02040	Flagellar assembly
+spr0061	spr02060	Phosphotransferase system (PTS)
+spr0062	spr02060	Phosphotransferase system (PTS)
+spr0063	spr02060	Phosphotransferase system (PTS)
+spr0229	spr02060	Phosphotransferase system (PTS)
+spr0230	spr02060	Phosphotransferase system (PTS)
+spr0231	spr02060	Phosphotransferase system (PTS)
+spr0259	spr02060	Phosphotransferase system (PTS)
+spr0260	spr02060	Phosphotransferase system (PTS)
+spr0261	spr02060	Phosphotransferase system (PTS)
+spr0278	spr02060	Phosphotransferase system (PTS)
+spr0280	spr02060	Phosphotransferase system (PTS)
+spr0282	spr02060	Phosphotransferase system (PTS)
+spr0291	spr02060	Phosphotransferase system (PTS)
+spr0293	spr02060	Phosphotransferase system (PTS)
+spr0294	spr02060	Phosphotransferase system (PTS)
+spr0295	spr02060	Phosphotransferase system (PTS)
+spr0356	spr02060	Phosphotransferase system (PTS)
+spr0358	spr02060	Phosphotransferase system (PTS)
+spr0421	spr02060	Phosphotransferase system (PTS)
+spr0423	spr02060	Phosphotransferase system (PTS)
+spr0425	spr02060	Phosphotransferase system (PTS)
+spr0505	spr02060	Phosphotransferase system (PTS)
+spr0562	spr02060	Phosphotransferase system (PTS)
+spr0563	spr02060	Phosphotransferase system (PTS)
+spr0564	spr02060	Phosphotransferase system (PTS)
+spr0668	spr02060	Phosphotransferase system (PTS)
+spr0779	spr02060	Phosphotransferase system (PTS)
+spr0780	spr02060	Phosphotransferase system (PTS)
+spr1062	spr02060	Phosphotransferase system (PTS)
+spr1063	spr02060	Phosphotransferase system (PTS)
+spr1070	spr02060	Phosphotransferase system (PTS)
+spr1071	spr02060	Phosphotransferase system (PTS)
+spr1080	spr02060	Phosphotransferase system (PTS)
+spr1081	spr02060	Phosphotransferase system (PTS)
+spr1528	spr02060	Phosphotransferase system (PTS)
+spr1566	spr02060	Phosphotransferase system (PTS)
+spr1699	spr02060	Phosphotransferase system (PTS)
+spr1834	spr02060	Phosphotransferase system (PTS)
+spr1835	spr02060	Phosphotransferase system (PTS)
+spr1836	spr02060	Phosphotransferase system (PTS)
+spr1847	spr02060	Phosphotransferase system (PTS)
+spr1848	spr02060	Phosphotransferase system (PTS)
+spr1849	spr02060	Phosphotransferase system (PTS)
+spr1938	spr02060	Phosphotransferase system (PTS)
+spr1939	spr02060	Phosphotransferase system (PTS)
+spr1967	spr02060	Phosphotransferase system (PTS)
+spr1968	spr02060	Phosphotransferase system (PTS)
+spr1970	spr02060	Phosphotransferase system (PTS)
+spr0078	spr03010	Ribosome
+spr0187	spr03010	Ribosome
+spr0188	spr03010	Ribosome
+spr0189	spr03010	Ribosome
+spr0190	spr03010	Ribosome
+spr0191	spr03010	Ribosome
+spr0192	spr03010	Ribosome
+spr0194	spr03010	Ribosome
+spr0195	spr03010	Ribosome
+spr0196	spr03010	Ribosome
+spr0197	spr03010	Ribosome
+spr0198	spr03010	Ribosome
+spr0199	spr03010	Ribosome
+spr0200	spr03010	Ribosome
+spr0201	spr03010	Ribosome
+spr0202	spr03010	Ribosome
+spr0203	spr03010	Ribosome
+spr0204	spr03010	Ribosome
+spr0205	spr03010	Ribosome
+spr0206	spr03010	Ribosome
+spr0207	spr03010	Ribosome
+spr0208	spr03010	Ribosome
+spr0212	spr03010	Ribosome
+spr0213	spr03010	Ribosome
+spr0214	spr03010	Ribosome
+spr0216	spr03010	Ribosome
+spr0248	spr03010	Ribosome
+spr0249	spr03010	Ribosome
+spr0271	spr03010	Ribosome
+spr0272	spr03010	Ribosome
+spr0398	spr03010	Ribosome
+spr0555	spr03010	Ribosome
+spr0556	spr03010	Ribosome
+spr0682	spr03010	Ribosome
+spr0740	spr03010	Ribosome
+spr0764	spr03010	Ribosome
+spr0862	spr03010	Ribosome
+spr0863	spr03010	Ribosome
+spr0876	spr03010	Ribosome
+spr1012	spr03010	Ribosome
+spr1014	spr03010	Ribosome
+spr1171	spr03010	Ribosome
+spr1177	spr03010	Ribosome
+spr1211	spr03010	Ribosome
+spr1212	spr03010	Ribosome
+spr1271	spr03010	Ribosome
+spr1394	spr03010	Ribosome
+spr1396	spr03010	Ribosome
+spr1467	spr03010	Ribosome
+spr1807	spr03010	Ribosome
+spr1822	spr03010	Ribosome
+spr1943	spr03010	Ribosome
+spr1944	spr03010	Ribosome
+spr2009	spr03010	Ribosome
+spr2020	spr03010	Ribosome
+sprr01	spr03010	Ribosome
+sprr02	spr03010	Ribosome
+sprr03	spr03010	Ribosome
+sprr04	spr03010	Ribosome
+sprr05	spr03010	Ribosome
+sprr06	spr03010	Ribosome
+sprr07	spr03010	Ribosome
+sprr08	spr03010	Ribosome
+sprr09	spr03010	Ribosome
+sprr10	spr03010	Ribosome
+sprr11	spr03010	Ribosome
+sprr12	spr03010	Ribosome
+spr0125	spr03018	RNA degradation
+spr0455	spr03018	RNA degradation
+spr0516	spr03018	RNA degradation
+spr0538	spr03018	RNA degradation
+spr0796	spr03018	RNA degradation
+spr0878	spr03018	RNA degradation
+spr1036	spr03018	RNA degradation
+spr1440	spr03018	RNA degradation
+spr1584	spr03018	RNA degradation
+spr1722	spr03018	RNA degradation
+spr0215	spr03020	RNA polymerase
+spr0437	spr03020	RNA polymerase
+spr1582	spr03020	RNA polymerase
+spr1776	spr03020	RNA polymerase
+spr1777	spr03020	RNA polymerase
+spr0002	spr03030	DNA replication
+spr0032	spr03030	DNA replication
+spr0251	spr03030	DNA replication
+spr0365	spr03030	DNA replication
+spr0673	spr03030	DNA replication
+spr0769	spr03030	DNA replication
+spr0795	spr03030	DNA replication
+spr0836	spr03030	DNA replication
+spr0896	spr03030	DNA replication
+spr0978	spr03030	DNA replication
+spr1024	spr03030	DNA replication
+spr1044	spr03030	DNA replication
+spr1395	spr03030	DNA replication
+spr1724	spr03030	DNA replication
+spr2008	spr03030	DNA replication
+spr0209	spr03060	Protein export
+spr0296	spr03060	Protein export
+spr0364	spr03060	Protein export
+spr0829	spr03060	Protein export
+spr0877	spr03060	Protein export
+spr1123	spr03060	Protein export
+spr1166	spr03060	Protein export
+spr1544	spr03060	Protein export
+spr1790	spr03060	Protein export
+spr1821	spr03060	Protein export
+spr1840	spr03060	Protein export
+spr1852	spr03060	Protein export
+sprs01	spr03060	Protein export
+spr0209	spr03070	Bacterial secretion system
+spr0296	spr03070	Bacterial secretion system
+spr0877	spr03070	Bacterial secretion system
+spr1123	spr03070	Bacterial secretion system
+spr1166	spr03070	Bacterial secretion system
+spr1544	spr03070	Bacterial secretion system
+spr1790	spr03070	Bacterial secretion system
+spr1821	spr03070	Bacterial secretion system
+spr1840	spr03070	Bacterial secretion system
+spr1852	spr03070	Bacterial secretion system
+spr0679	spr03250	Viral life cycle
+spr0032	spr03410	Base excision repair
+spr0166	spr03410	Base excision repair
+spr0537	spr03410	Base excision repair
+spr0872	spr03410	Base excision repair
+spr1024	spr03410	Base excision repair
+spr1055	spr03410	Base excision repair
+spr1108	spr03410	Base excision repair
+spr1157	spr03410	Base excision repair
+spr1660	spr03410	Base excision repair
+spr0006	spr03420	Nucleotide excision repair
+spr0032	spr03420	Nucleotide excision repair
+spr0171	spr03420	Nucleotide excision repair
+spr0543	spr03420	Nucleotide excision repair
+spr0995	spr03420	Nucleotide excision repair
+spr1024	spr03420	Nucleotide excision repair
+spr1118	spr03420	Nucleotide excision repair
+spr0002	spr03430	Mismatch repair
+spr0160	spr03430	Mismatch repair
+spr0251	spr03430	Mismatch repair
+spr0368	spr03430	Mismatch repair
+spr0537	spr03430	Mismatch repair
+spr0673	spr03430	Mismatch repair
+spr0769	spr03430	Mismatch repair
+spr0795	spr03430	Mismatch repair
+spr0836	spr03430	Mismatch repair
+spr0896	spr03430	Mismatch repair
+spr0995	spr03430	Mismatch repair
+spr1024	spr03430	Mismatch repair
+spr1088	spr03430	Mismatch repair
+spr1089	spr03430	Mismatch repair
+spr1395	spr03430	Mismatch repair
+spr1724	spr03430	Mismatch repair
+spr1888	spr03430	Mismatch repair
+spr0002	spr03440	Homologous recombination
+spr0032	spr03440	Homologous recombination
+spr0036	spr03440	Homologous recombination
+spr0165	spr03440	Homologous recombination
+spr0238	spr03440	Homologous recombination
+spr0251	spr03440	Homologous recombination
+spr0363	spr03440	Homologous recombination
+spr0537	spr03440	Homologous recombination
+spr0673	spr03440	Homologous recombination
+spr0769	spr03440	Homologous recombination
+spr0795	spr03440	Homologous recombination
+spr0836	spr03440	Homologous recombination
+spr0896	spr03440	Homologous recombination
+spr1395	spr03440	Homologous recombination
+spr1516	spr03440	Homologous recombination
+spr1539	spr03440	Homologous recombination
+spr1581	spr03440	Homologous recombination
+spr1724	spr03440	Homologous recombination
+spr1757	spr03440	Homologous recombination
+spr2032	spr03440	Homologous recombination
+spr0122	spr04122	Sulfur relay system
+spr0783	spr04122	Sulfur relay system
+spr0784	spr04122	Sulfur relay system
+spr1001	spr04122	Sulfur relay system

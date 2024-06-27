@@ -24,5 +24,9 @@ get_kegg_pathways <- function(id) {
       kegg_pathway_id = str_remove(kegg_pathway_id, "path:"),
       kegg_pathway = str_remove(kegg_pathway, " - .*$")
     )
-  return(df)
+  if (nrow(df)) {
+    return(df)
+  } else {
+    return(NULL)
+  }
 }

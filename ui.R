@@ -83,7 +83,7 @@ ui <- navbarPage(
         ),
         fluidRow(
           column(
-            width = 6,
+            width = 4,
             sliderInput(
               "UserMaxLength",
               "Max length in aa",
@@ -94,7 +94,18 @@ ui <- navbarPage(
             )
           ),
           column(
-            width = 6,
+            width = 4,
+            sliderInput(
+              "UserTopPathways",
+              "Top pathways",
+              min = 0,
+              max = 30,
+              value = 20,
+              step = 1
+            )
+          ),
+          column(
+            width = 4,
             sliderInput(
               "UserTopBioProcess",
               "Top GO terms",
@@ -102,6 +113,26 @@ ui <- navbarPage(
               max = 30,
               value = 20,
               step = 1
+            )
+          )
+        ),
+        fluidRow(
+          column(
+            width = 4,
+            selectInput(
+              "UserFrequency",
+              "Frequency",
+              choices = c("relative", "absolute"),
+              selected = "relative"
+            )
+          ),
+          column(
+            width = 4,
+            selectInput(
+              "UserPlotType",
+              "Plot type",
+              choices = c("piechart", "barchart"),
+              selected = "piechart"
             )
           )
         ),
@@ -146,8 +177,17 @@ ui <- navbarPage(
             fluidRow(
               column(
                 width = 12,
-                h4("BIOLOGICAL PROCESSES"),
-                uiOutput("pathways.ui")
+                h4("KEGG PATHWAYS"),
+                uiOutput("kegg.ui")
+              )
+            )
+          ),
+          wellPanel(
+            fluidRow(
+              column(
+                width = 12,
+                h4("GENE ONTOLOGY - BIOLOGICAL FUNCTION"),
+                uiOutput("goterms.ui")
               )
             )
           ),

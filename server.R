@@ -72,6 +72,9 @@ server <- function(input, output, session) {
       df <- get_uniprot(taxid)
       df <- format_uniprot(df)
       df_summary <- get_ncbi_genome(taxid)
+      kegg_org_id <- na.omit(unique(str_extract(df$kegg, "^[a-z]{3}")))
+      df_kegg <- get_kegg_pathways(id = kegg_org_id[1])
+      df_kegg$organism <- df$organism[1]
     })
     if (!(is.null(df) | nrow(df) < 1)) {
       write_tsv(df, paste0("data/", taxid, ".tsv"))
@@ -89,6 +92,9 @@ server <- function(input, output, session) {
     }
     if (!(is.null(df_summary) | nrow(df_summary) < 1)) {
       write_tsv(df_summary, paste0("data/", taxid, "_summary.tsv"))
+    }
+    if (!(is.null(df_kegg) | nrow(df_kegg) < 1)) {
+      write_tsv(df_kegg, paste0("data/", taxid, "_kegg.tsv"))
     }
   })
 
@@ -128,6 +134,20 @@ server <- function(input, output, session) {
     return(df)
   })
 
+  # reactive function to import kegg pathways
+  df_kegg <- reactive({
+    list_df <- lapply(input$UserDataChoice, function(id) {
+      df_file <- paste0(data_dir, unname(list_data[[id]]), "_kegg.tsv")
+      if (file.access(df_file) == 0) {
+        df <- read_tsv(df_file, show_col_types = FALSE)
+      } else {
+        df <- NULL
+      }
+    })
+    df <- bind_rows(list_df, .id = "genome")
+    return(df)
+  })
+
   # display status for newly added data
   output$AddStatus <- renderText(
     if (input$UserSearchGenome == 0) {
@@ -151,6 +171,21 @@ server <- function(input, output, session) {
       `ggplot bw` = theme_bw()
     )
   })
+
+  # choice of aggregation function
+  aggregation <- function(x) {
+    if (input$UserFrequency == "relative") x/sum(x)
+    else if (input$UserFrequency == "absolute") x
+    else stop()
+  }
+
+  # apply log or lin transformation to orig data
+  logfun <- function(x) {
+    if (input$UserLogY == "linear") x
+    else if (input$UserLogY == "log 2") log2(x)
+    else if (input$UserLogY == "log 10") log10(x)
+    else log(x)
+  }
 
   # reactive value for color palettes
   current_palette <- reactive({
@@ -241,37 +276,21 @@ server <- function(input, output, session) {
   })
 
 
-  # OUTPUT 3: BARCHART WITH LOCALIZATION
+  # OUTPUT 3: LOCALIZATION
   output$localization.ui <- renderUI({
     plotOutput("localization", height = "450px", width = "100%")
   })
 
   output$localization <- renderPlot(res = 96, {
-    plot <- df_selected_genomes() %>%
+    df <- df_selected_genomes() %>%
       mutate(organism = substr(organism, 1, 25)) %>%
       group_by(organism) %>%
       count(localization) %>%
       arrange(desc(n)) %>%
-      mutate(
-        fraction = n/sum(n),
-        ymax = cumsum(fraction),
-        ymin = c(0, head(ymax, n = -1))
-      ) %>%
-      ggplot(aes(xmin = 3, xmax = 4, ymin = ymin, ymax = ymax, fill = localization)) +
-      geom_rect(color = "white") +
-      coord_polar(theta = "y") +
-      lims(x = c(0, 4)) +
-      facet_wrap( ~ organism, nrow = 2) +
-      labs(x = "", y = "") +
-      current_theme() +
-      theme(
-        axis.text.x = element_blank(),
-        axis.text.y = element_blank(),
-        axis.ticks = element_blank(),
-        legend.position = "bottom",
-        legend.key.size = unit(0.4, "cm")
-      ) +
-      scale_fill_manual(values = current_palette())
+      rename(vars = localization)
+    plot <- do.call(
+      input$UserPlotType, list(df, input, aggregation, current_theme(),
+      current_palette(), 7, "", 2))
     print(plot)
   })
 
@@ -296,13 +315,39 @@ server <- function(input, output, session) {
     print(plot)
   })
 
-  # OUTPUT 5: PATHWAYS
-  output$pathways.ui <- renderUI({
-    plotOutput("pathways", height = "450px", width = "100%")
+  # OUTPUT 5: KEGG PATHWAYS
+  output$kegg.ui <- renderUI({
+    plotOutput("kegg", height = "450px", width = "100%")
   })
 
-  output$pathways <- renderPlot(res = 96, {
-    plot <- df_selected_genomes() %>%
+  output$kegg <- renderPlot(res = 96, {
+    df <- df_kegg() %>%
+      mutate(organism = substr(organism, 1, 25)) %>%
+      mutate(top = kegg_pathway %in% names(sort(table(kegg_pathway), decreasing = TRUE))[1:(input$UserTopPathways - 1)]) %>%
+      mutate(kegg_pathway = ifelse(top, kegg_pathway, "other")) %>%
+      group_by(organism) %>%
+      count(kegg_pathway) %>%
+      ungroup() %>%
+      group_by(kegg_pathway) %>%
+      mutate(total_count = sum(n)) %>%
+      arrange(desc(total_count)) %>%
+      group_by(organism) %>%
+      rename(vars = kegg_pathway)
+    plot <- plot <- do.call(
+      input$UserPlotType, list(df, input, aggregation, current_theme(),
+      current_palette(), input$UserTopPathways,
+      "Top 20 KEGG pathways by number of proteins", 1)
+    )
+    print(plot)
+  })
+
+  # OUTPUT 6: GO TERMS
+  output$goterms.ui <- renderUI({
+    plotOutput("goterms", height = "450px", width = "100%")
+  })
+
+  output$goterms <- renderPlot(res = 96, {
+    df <- df_selected_genomes() %>%
       select(organism, go_bp) %>%
       mutate(
         organism = substr(organism, 1, 25),
@@ -316,32 +361,16 @@ server <- function(input, output, session) {
       group_by(organism) %>%
       count(go_bp) %>%
       filter(!is.na(go_bp), go_bp != "other") %>%
-      mutate(
-        go_bp = fct_inorder(substr(go_bp, 1, 20)),
-        fraction = n/sum(n),
-        ymax = cumsum(fraction),
-        ymin = c(0, head(ymax, n = -1))
-      ) %>%
-      ggplot(aes(xmin = 3, xmax = 4, ymin = ymin, ymax = ymax, fill = go_bp)) +
-      geom_rect(color = "white") +
-      coord_polar(theta = "y") +
-      lims(x = c(0, 4)) +
-      facet_wrap( ~ organism, nrow = 1) +
-      labs(x = "", y = "", subtitle = "Top 20 GO-BP terms by number of proteins") +
-      current_theme() +
-      theme(
-        axis.text.x = element_blank(),
-        axis.text.y = element_blank(),
-        axis.ticks = element_blank(),
-        legend.position = "bottom",
-        legend.key.size = unit(0.4, "cm")
-      ) +
-      scale_fill_manual(values = colorRampPalette(current_palette())(
-        input$UserTopBioProcess))
+      rename(vars = go_bp)
+    plot <- do.call(
+      input$UserPlotType, list(df, input, aggregation, current_theme(),
+      current_palette(), input$UserTopBioProcess,
+      "Top 20 GO-BP terms by number of proteins", 1)
+    )
     print(plot)
   })
 
-  # OUTPUT 6: BARCHART WITH GENOME INFO
+  # OUTPUT 7: GENOME STATS
   output$genome_info.ui <- renderUI({
     plotOutput("genome_info", height = "250px", width = "100%")
   })
@@ -362,7 +391,7 @@ server <- function(input, output, session) {
         size = 2.5, nudge_x = max(df_genome_summary()$length)/10^7.2
       ) +
       facet_wrap( ~ organism, nrow = 1, scales = "free_y") +
-      labs(x = "", y = "", subtitle = "Chromosomes and plasmids, Mbases") +
+      labs(x = "", y = "", subtitle = "Chromosomes and plasmids [Mbases]") +
       current_theme() +
       theme(
         legend.position = "bottom",

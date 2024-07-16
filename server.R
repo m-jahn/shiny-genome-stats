@@ -239,39 +239,26 @@ server <- function(input, output, session) {
     df <- df_selected_genomes() %>%
       mutate(organism = substr(organism, 1, 25)) %>%
       group_by(organism) %>%
-      summarize(
-        `all` = n(),
-        reviewed = sum(reviewed == "reviewed"),
-        `hypothetical` = sum(
-          str_detect(protein, "[Uu]nknown|[Hh]ypothetical|[Uu]ncharacteri")
-        ),
-        `putative` = sum(str_detect(protein, "[Pp]utative")),
-        transport = sum(str_detect(protein, "[TT]ransporter")),
-        .groups = "drop"
-      ) %>%
-      pivot_longer(
-        cols = !matches("organism"),
-        names_to = "proteins",
-        values_to = "count"
-      ) %>%
-      mutate(proteins = forcats::fct_inorder(proteins))
-    plot <- df %>%
-      ggplot(aes(x = proteins, y = count, fill = proteins)) +
-      geom_col(color = "white") +
-      geom_text(
-        aes(label = count, color = proteins),
-        size = 2.5, nudge_y = max(df$count) * 0.03
-      ) +
-      facet_wrap( ~ organism, nrow = 1) +
-      labs(x = "", y = "") +
-      current_theme() +
-      theme(
-        axis.text.x = element_blank(),
-        legend.position = "bottom",
-        legend.key.size = unit(0.4, "cm")
-      ) +
-      scale_fill_manual(values = current_palette()) +
-      scale_color_manual(values = current_palette())
+      mutate(category = case_when(
+        str_detect(protein, "[Uu]nknown|[Hh]ypothetical|[Uu]ncharacteri") ~ "unknown",
+        str_detect(protein, "[Pp]utative") ~ "putative",
+        str_detect(protein, "[Rr]egulator") ~ "regulation",
+        str_detect(protein, "[Tt]ransport") ~ "transport",
+        reviewed == "reviewed" ~ "reviewed function",
+        TRUE ~ "other function"
+      )) %>%
+      count(category) %>%
+      mutate(vars = factor(
+        category,
+        c("reviewed function", "other function", "regulation", "transport", "putative", "unknown")
+      )) %>%
+      arrange(as.numeric(vars))
+    plot <- do.call(
+      input$UserTypeAnno, list(
+        df, input, aggregation, current_theme(),
+        current_palette(), "vars", "", 1
+      )
+    )
     print(plot)
   })
 
@@ -282,7 +269,6 @@ server <- function(input, output, session) {
   })
 
   output$localization <- renderPlot(res = 96, {
-    df_selected_genomes() %>% pull(localization) %>% unique %>% print
     df <- df_selected_genomes() %>%
       mutate(organism = substr(organism, 1, 25)) %>%
       group_by(organism) %>%
@@ -291,11 +277,14 @@ server <- function(input, output, session) {
         localization,
         c("cytoplasm", "periplasm", "inner membrane", "outer membrane",
           "flagellum", "secreted", "unknown"))) %>%
-      mutate(localization = fct_inorder(localization)) %>%
+      arrange(as.numeric(localization)) %>%
       rename(vars = localization)
     plot <- do.call(
-      input$UserPlotType, list(df, input, aggregation, current_theme(),
-      current_palette(), 7, "", 2))
+      input$UserTypeLocal, list(
+        df, input, aggregation, current_theme(),
+        current_palette(), "vars", "", 2
+      )
+    )
     print(plot)
   })
 
@@ -332,16 +321,17 @@ server <- function(input, output, session) {
       mutate(kegg_pathway = ifelse(top, kegg_pathway, "other")) %>%
       group_by(organism) %>%
       count(kegg_pathway) %>%
-      ungroup() %>%
       group_by(kegg_pathway) %>%
       mutate(total_count = sum(n)) %>%
       arrange(desc(total_count)) %>%
       group_by(organism) %>%
-      rename(vars = kegg_pathway)
+      rename(vars = kegg_pathway) %>%
+      mutate(vars = fct_inorder(substr(vars, 1, 20)))
     plot <- plot <- do.call(
-      input$UserPlotType, list(df, input, aggregation, current_theme(),
-      current_palette(), input$UserTopPathways,
-      "Top 20 KEGG pathways by number of proteins", 1)
+      input$UserTypeKegg, list(
+        df, input, aggregation, current_theme(),
+        current_palette(), "vars", "Top 20 KEGG pathways by number of proteins", 1
+      )
     )
     print(plot)
   })
@@ -365,12 +355,18 @@ server <- function(input, output, session) {
       mutate(go_bp = ifelse(top, go_bp, "other")) %>%
       group_by(organism) %>%
       count(go_bp) %>%
+      group_by(go_bp) %>%
+      mutate(total_count = sum(n)) %>%
+      arrange(desc(total_count)) %>%
+      group_by(organism) %>%
       filter(!is.na(go_bp), go_bp != "other") %>%
-      rename(vars = go_bp)
+      rename(vars = go_bp) %>%
+      mutate(vars = fct_inorder(substr(vars, 1, 20)))
     plot <- do.call(
-      input$UserPlotType, list(df, input, aggregation, current_theme(),
-      current_palette(), input$UserTopBioProcess,
-      "Top 20 GO-BP terms by number of proteins", 1)
+      input$UserTypeGO, list(
+        df, input, aggregation, current_theme(),
+        current_palette(), "vars", "Top 20 GO-BP terms by number of proteins", 1
+      )
     )
     print(plot)
   })
@@ -381,29 +377,45 @@ server <- function(input, output, session) {
   })
 
   output$genome_info <- renderPlot(res = 96, {
-    plot <- df_genome_summary() %>%
+    df <- df_genome_summary() %>%
       mutate(organism = substr(organism, 1, 25)) %>%
       group_by(organism) %>%
-      arrange(length) %>%
+      arrange(desc(length)) %>%
       mutate(
-        locus = fct_inorder(locus),
-        topology = factor(topology, c("circular", "linear"))
+        n = length/10^6,
+        topology = factor(topology, c("circular", "linear")),
+        rank = as.factor(seq_along(n))
       ) %>%
-      ggplot(aes(x = length/10^6, y = locus, fill = topology)) +
-      geom_col(color = "white") +
-      geom_text(
-        aes(label = round(length/10^6, 1), color = topology),
-        size = 2.5, nudge_x = max(df_genome_summary()$length)/10^7.2
+      arrange(length) %>%
+      mutate(vars = fct_inorder(locus))
+    if (input$UserTypeGenome == "barchart") {
+      plot <- do.call(
+        input$UserTypeGenome,
+        list(
+          df, input, aggregation, current_theme(),
+          current_palette(), "rank", "Chromosomes and plasmids [Mbases]", 1
+        )
       ) +
-      facet_wrap( ~ organism, nrow = 1, scales = "free_y") +
-      labs(x = "", y = "", subtitle = "Chromosomes and plasmids [Mbases]") +
-      current_theme() +
-      theme(
-        legend.position = "bottom",
-        legend.key.size = unit(0.4, "cm")
+        coord_flip() +
+        geom_text(
+          aes(label = round(length / 10 ^ 6, 1), color = rank),
+          size = 2.5,
+          nudge_y = max(df_genome_summary()$length) / 10^7.2
+        ) +
+        scale_color_manual(values = colorRampPalette(current_palette())(max(as.numeric(df$rank)))) +
+        facet_wrap( ~ organism, nrow = 1, scales = "free_y") +
+        theme(axis.text.x = element_text(), legend.position = "none")
+    }
+    if (input$UserTypeGenome == "piechart") {
+      plot <- do.call(
+        input$UserTypeGenome,
+        list(
+          df, input, aggregation, current_theme(),
+          current_palette(), "rank", "Chromosomes and plasmids [Mbases]", 1
+        )
       ) +
-      scale_fill_manual(values = current_palette()) +
-      scale_color_manual(values = current_palette())
+        theme(legend.position = "none")
+    }
     print(plot)
   })
 

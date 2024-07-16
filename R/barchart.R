@@ -1,12 +1,16 @@
 barchart <- function(
-  df, input, aggregation, current_theme,
-  current_palette, ncolors, subtitle, rows) {
+  df,
+  input,
+  aggregation,
+  current_theme,
+  current_palette,
+  fill,
+  subtitle,
+  rows) {
+  ncols <- length(unique(df[[fill]]))
   df %>%
-    mutate(
-      vars = fct_inorder(substr(vars, 1, 20)),
-      n = aggregation(n)
-    ) %>%
-    ggplot(aes(x = vars, y = n, fill = vars)) +
+    mutate(n = aggregation(n)) %>%
+    ggplot(aes(x = vars, y = n, fill = .data[[fill]])) +
     geom_col(color = "white") +
     facet_wrap( ~ organism, nrow = rows) +
     labs(x = "", y = "", subtitle = subtitle) +
@@ -16,5 +20,5 @@ barchart <- function(
       legend.position = "bottom",
       legend.key.size = unit(0.4, "cm")
     ) +
-    scale_fill_manual(values = colorRampPalette(current_palette)(ncolors))
+    scale_fill_manual(values = colorRampPalette(current_palette)(ncols))
 }

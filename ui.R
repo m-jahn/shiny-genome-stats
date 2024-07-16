@@ -123,14 +123,52 @@ ui <- navbarPage(
               "UserFrequency",
               "Frequency",
               choices = c("relative", "absolute"),
-              selected = "relative"
+              selected = "absolute"
             )
           ),
           column(
             width = 4,
             selectInput(
-              "UserPlotType",
-              "Plot type",
+              "UserTypeGenome",
+              "Genome",
+              choices = c("piechart", "barchart"),
+              selected = "barchart"
+            )
+          ),
+          column(
+            width = 4,
+            selectInput(
+              "UserTypeLocal",
+              "Localization",
+              choices = c("piechart", "barchart"),
+              selected = "piechart"
+            )
+          )
+        ),
+        fluidRow(
+          column(
+            width = 4,
+            selectInput(
+              "UserTypeAnno",
+              "Annotated",
+              choices = c("piechart", "barchart"),
+              selected = "barchart"
+            )
+          ),
+          column(
+            width = 4,
+            selectInput(
+              "UserTypeKegg",
+              "Kegg Pathways",
+              choices = c("piechart", "barchart"),
+              selected = "piechart"
+            )
+          ),
+          column(
+            width = 4,
+            selectInput(
+              "UserTypeGO",
+              "Gene Ontology",
               choices = c("piechart", "barchart"),
               selected = "piechart"
             )
@@ -156,49 +194,34 @@ ui <- navbarPage(
         column(
           width = 12,
           wellPanel(
-            h4("ANNOTATED PROTEINS"),
-            uiOutput("categories.ui")
+            h4("GENOMIC ORGANISATION"),
+            uiOutput("genome_info.ui")
           ),
           wellPanel(
             fluidRow(
               column(
                 width = 6,
-                h4("LOCALIZATION"),
+                h4("PROTEIN LOCALIZATION"),
                 uiOutput("localization.ui")
               ),
               column(
                 width = 6,
-                h4("LENGTH (AA)"),
+                h4("PROTEIN LENGTH (AA)"),
                 uiOutput("protein_length.ui")
               )
             )
           ),
           wellPanel(
-            fluidRow(
-              column(
-                width = 12,
-                h4("KEGG PATHWAYS"),
-                uiOutput("kegg.ui")
-              )
-            )
+            h4("ANNOTATED PROTEINS (Uniprot)"),
+            uiOutput("categories.ui")
           ),
           wellPanel(
-            fluidRow(
-              column(
-                width = 12,
-                h4("GENE ONTOLOGY - BIOLOGICAL FUNCTION"),
-                uiOutput("goterms.ui")
-              )
-            )
+            h4("KEGG PATHWAYS"),
+            uiOutput("kegg.ui")
           ),
           wellPanel(
-            fluidRow(
-              column(
-                width = 12,
-                h4("GENOMIC FEATURES"),
-                uiOutput("genome_info.ui")
-              )
-            )
+            h4("GENE ONTOLOGY - BIOLOGICAL FUNCTION"),
+            uiOutput("goterms.ui")
           )
         )
       )

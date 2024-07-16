@@ -1,7 +1,15 @@
-piechart <- function(df, input, aggregation, current_theme, current_palette, ncolors, subtitle, rows) {
+piechart <- function(
+  df,
+  input,
+  aggregation,
+  current_theme,
+  current_palette,
+  fill,
+  subtitle,
+  rows) {
+  ncols <- length(unique(df[[fill]]))
   df %>%
     mutate(
-      vars = fct_inorder(substr(vars, 1, 20)),
       fraction = aggregation(n),
       ymax = cumsum(fraction),
       ymin = c(0, head(ymax, n = -1))
@@ -11,7 +19,7 @@ piechart <- function(df, input, aggregation, current_theme, current_palette, nco
       xmax = 4,
       ymin = ymin,
       ymax = ymax,
-      fill = vars
+      fill = .data[[fill]]
     )) +
     geom_rect(color = "white") +
     coord_polar(theta = "y") +
@@ -26,5 +34,5 @@ piechart <- function(df, input, aggregation, current_theme, current_palette, nco
       legend.position = "bottom",
       legend.key.size = unit(0.4, "cm")
     ) +
-    scale_fill_manual(values = colorRampPalette(current_palette)(ncolors))
+    scale_fill_manual(values = colorRampPalette(current_palette)(ncols))
 }

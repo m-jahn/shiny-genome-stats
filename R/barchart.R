@@ -8,7 +8,7 @@ barchart <- function(
   subtitle,
   rows) {
   ncols <- length(unique(df[[fill]]))
-  df %>%
+  plot <- df %>%
     mutate(n = aggregation(n)) %>%
     ggplot(aes(x = vars, y = n, fill = .data[[fill]])) +
     geom_col(color = "white") +
@@ -21,4 +21,14 @@ barchart <- function(
       legend.key.size = unit(0.4, "cm")
     ) +
     scale_fill_manual(values = colorRampPalette(current_palette)(ncols))
+  if (ncols <= 10) {
+    plot <- plot +
+      geom_text(
+        aes(label = round(n, 1), color = .data[[fill]]),
+        size = 2.5,
+        nudge_y = max(df$n) * 0.06
+      ) +
+      scale_color_manual(values = colorRampPalette(current_palette)(ncols))
+  }
+  return(plot)
 }

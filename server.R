@@ -12,7 +12,7 @@ server <- function(input, output, session) {
   }
 
   list_data_selected <- reactiveValues()
-  for (genome in names(list_genomes)[1:4]) {
+  for (genome in names(list_genomes)[c(1:4, 6)]) {
     list_data_selected[[genome]] <- list_genomes[genome]
   }
 
@@ -223,9 +223,9 @@ server <- function(input, output, session) {
         group_by(.data[[input$UserGrouping]]) %>%
         summarize(
           all = n(),
-          hypothetical = sum(str_detect(protein, "[Uu]nknown|[Hh]ypothetical|[Uu]ncharacteri"))
+          unknown = sum(str_detect(protein, "[Uu]nknown|[Hh]ypothetical|[Uu]ncharacteri"))
         ) %>%
-        mutate(`%` = round(hypothetical/all*100))
+        mutate(`%` = round(unknown/all*100))
       datatable(df_summary, options = list(dom = 't'))
     }
   })
@@ -250,7 +250,8 @@ server <- function(input, output, session) {
       count(category) %>%
       mutate(vars = factor(
         category,
-        c("reviewed function", "other function", "regulation", "transport", "putative", "unknown")
+        c("reviewed function", "other function", "regulation", "transport",
+          "putative", "unknown")
       )) %>%
       arrange(as.numeric(vars))
     plot <- do.call(
@@ -397,12 +398,6 @@ server <- function(input, output, session) {
         )
       ) +
         coord_flip() +
-        geom_text(
-          aes(label = round(length / 10 ^ 6, 1), color = rank),
-          size = 2.5,
-          nudge_y = max(df_genome_summary()$length) / 10^7.2
-        ) +
-        scale_color_manual(values = colorRampPalette(current_palette())(max(as.numeric(df$rank)))) +
         facet_wrap( ~ organism, nrow = 1, scales = "free_y") +
         theme(axis.text.x = element_text(), legend.position = "none")
     }

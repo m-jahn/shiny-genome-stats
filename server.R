@@ -282,11 +282,16 @@ server <- function(input, output, session) {
   })
 
   output$localization <- renderPlot(res = 96, {
+    df_selected_genomes() %>% pull(localization) %>% unique %>% print
     df <- df_selected_genomes() %>%
       mutate(organism = substr(organism, 1, 25)) %>%
       group_by(organism) %>%
       count(localization) %>%
-      arrange(desc(n)) %>%
+      mutate(localization = factor(
+        localization,
+        c("cytoplasm", "periplasm", "inner membrane", "outer membrane",
+          "flagellum", "secreted", "unknown"))) %>%
+      mutate(localization = fct_inorder(localization)) %>%
       rename(vars = localization)
     plot <- do.call(
       input$UserPlotType, list(df, input, aggregation, current_theme(),

@@ -17,26 +17,34 @@ R Shiny app to show basic statistics and features of microbial genomes.
 
 ### Getting started
 
-**Run the app at https://m-jahn.shinyapps.io/shiny-genome-stats/!**
+**Use the app at https://m-jahn.shinyapps.io/shiny-genome-stats/!**
 
-If you want to run this app *locally*, you need to have R > 4.0.0 (optionally also Rstudio) and these libraries installed:
+#### Running Locally
 
-- `shiny`
-- `httr`
-- `jsonlite`
-- `DT`
-- `shinyWidgets`
-- `tidyr`
-- `dplyr`
-- `readr`
-- `ggplot2`
-- `shinythemes`
-- `shinyTree`
-- `configr`
-- `stringr`
-- `colorspace`
-- `forcats`
-- `rentrez`
+If you want to run or develop this app *locally*, you need to have R > 4.0.0 and several packages installed.
+
+This project is managed through [pixi](https://pixi.prefix.dev/latest/) environments and tasks (get pixi [here](https://pixi.prefix.dev/latest/installation/)).
+
+The required R packages are listed in the `pixi.toml` file. In order to activate the `shiny` environment, run:
+
+```bash
+pixi shell -e shiny
+```
+
+And then run the app using:
+
+```bash
+R -e "shiny::runApp('.')"
+```
+
+There are predefined tasks in the `pixi.toml` file, so you might as well run the app with:
+
+```bash
+pixi run test
+```
+
+
+#### Alternative using Rstudio
 
 Open `global.R`, `server.R` or `ui.R` in RStudio and push the `Run App` button in Rstudio, done!
 You can also run the app from R console, just call `runApp("path-to-ShinyApp")`.

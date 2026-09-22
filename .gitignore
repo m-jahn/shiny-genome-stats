@@ -3,3 +3,6 @@ rsconnect/*
 *.Rhistory
 .Rproj.user
 *.Rproj
+# pixi environments
+.pixi/*
+!.pixi/config.toml

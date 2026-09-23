@@ -6,21 +6,31 @@ platforms = ["linux-64"]
 version = "0.1.0"
 
 [tasks]
+fetch = { cmd = "Rscript -e 'source(\"scripts/prefetch_genomes.R\")' --limit 100", default-environment = "ncbi" }
 test = { cmd = "R -e \"shiny::runApp('.')\"", default-environment = "shiny" }
+clean = { cmd = "rm -rf data/ncbi/* && rm data/genome_*", default-environment = "ncbi" }
 
 [environments]
-shiny = ["rbase"]
+shiny = ["rbase", "rshiny"]
+ncbi = ["rbase", "ncbi"]
 
 [feature.rbase.dependencies]
 r-tidyverse = ">=2.0.0,<3"
+r-argparse = ">=2.3.1,<3"
+
+[feature.rshiny.dependencies]
 r-shiny = ">=1.14.0,<2"
 r-httr = ">=1.4.9,<2"
-r-jsonlite = ">=2.0.0,<3"
 r-dt = ">=0.34.0,<0.35"
 r-shinywidgets = ">=0.9.1,<0.10"
 r-shinythemes = ">=1.2.0,<2"
 r-shinytree = ">=0.3.1,<0.4"
 r-configr = ">=0.3.5,<0.4"
+
+[feature.ncbi.dependencies]
+ncbi-datasets-cli = ">=18.37.0,<19"
+r-jsonlite = ">=2.0.0,<3"
 r-rentrez = ">=1.2.4,<2"
 bioconductor-keggrest = ">=1.50.0,<2"
-
+bioconductor-biostrings = ">=2.78.0,<3"
+bioconductor-rtracklayer = ">=1.70.1,<2"

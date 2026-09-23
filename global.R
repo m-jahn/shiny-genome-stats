@@ -3,7 +3,6 @@
 # ***********************************************
 library(shiny)
 library(httr)
-library(jsonlite)
 library(DT)
 library(shinyWidgets)
 library(tibble)
@@ -17,9 +16,6 @@ library(configr)
 library(stringr)
 library(colorspace)
 library(forcats)
-library(rentrez)
-library(KEGGREST)
-
 
 # LOADING EXTERNAL FUNCTIONS AND DATA
 # ***********************************************

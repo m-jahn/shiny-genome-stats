@@ -29,29 +29,8 @@ ui <- navbarPage(
 
         fluidRow(
           column(
-            width = 6,
+            width = 12,
             uiOutput("DataChoice")
-          ),
-          column(
-            width = 6,
-            uiOutput("DataSearch"),
-            actionButton(
-              "UserSearchGenome",
-              "Search",
-              class = "btn-success"
-            ),
-            br(),
-            br(),
-            uiOutput("DataSelection"),
-            actionButton(
-              "UserAddGenome",
-              " Add ",
-              class = "btn-success"
-            ),
-            br(),
-            br(),
-            p(strong('Status')),
-            uiOutput("AddStatus"),
           )
         ),
 

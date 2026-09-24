@@ -7,7 +7,7 @@ version = "0.1.0"
 
 [tasks]
 fetch = { cmd = "Rscript -e 'source(\"scripts/prefetch_genomes.R\")' --limit 100", default-environment = "ncbi" }
-test = { cmd = "R -e \"shiny::runApp('.')\"", default-environment = "shiny" }
+test = { cmd = "R -e \"shiny::runApp('.', port = 5000)\"", default-environment = "shiny" }
 clean = { cmd = "rm -rf data/ncbi/* && rm data/genome_*", default-environment = "ncbi" }
 
 [environments]

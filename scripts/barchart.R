@@ -6,13 +6,14 @@ barchart <- function(
   current_palette,
   fill,
   subtitle,
-  rows) {
+  rows
+) {
   ncols <- length(unique(df[[fill]]))
   plot <- df %>%
     mutate(n = aggregation(n)) %>%
     ggplot(aes(x = vars, y = n, fill = .data[[fill]])) +
     geom_col(color = "white") +
-    facet_wrap( ~ organism, nrow = rows) +
+    facet_wrap(~organism, nrow = rows) +
     labs(x = "", y = "", subtitle = subtitle) +
     current_theme +
     theme(

@@ -108,19 +108,19 @@ ui <- navbarPage(
           column(
             width = 4,
             selectInput(
-              "UserTypeGenome",
-              "Genome",
+              "UserTypeGenomeRegions",
+              "Genome Regions",
               choices = c("piechart", "barchart"),
-              selected = "barchart"
+              selected = "piechart"
             )
           ),
           column(
             width = 4,
             selectInput(
-              "UserTypeLocal",
-              "Localization",
+              "UserTypeGenomeFeatures",
+              "Genome Features",
               choices = c("piechart", "barchart"),
-              selected = "piechart"
+              selected = "barchart"
             )
           )
         ),
@@ -173,35 +173,41 @@ ui <- navbarPage(
         column(
           width = 12,
           wellPanel(
-            h4("GENOMIC ORGANISATION"),
+            h4("GENOME ORGANIZATION"),
             uiOutput("genome_info.ui")
           ),
           wellPanel(
-            fluidRow(
-              column(
-                width = 6,
-                h4("PROTEIN LOCALIZATION"),
-                uiOutput("localization.ui")
-              ),
-              column(
-                width = 6,
-                h4("PROTEIN LENGTH (AA)"),
-                uiOutput("protein_length.ui")
-              )
-            )
-          ),
-          wellPanel(
-            h4("ANNOTATED PROTEINS (Uniprot)"),
-            uiOutput("categories.ui")
-          ),
-          wellPanel(
-            h4("KEGG PATHWAYS"),
-            uiOutput("kegg.ui")
-          ),
-          wellPanel(
-            h4("GENE ONTOLOGY - BIOLOGICAL FUNCTION"),
-            uiOutput("goterms.ui")
-          )
+            h4("GENOME REGIONS"),
+            uiOutput("genome_regions.ui"),
+            h4("GENOME FEATURES"),
+            uiOutput("genome_features.ui")
+          )#,
+          # wellPanel(
+          #   fluidRow(
+          #     column(
+          #       width = 6,
+          #       h4("PROTEIN LOCALIZATION"),
+          #       uiOutput("localization.ui")
+          #     ),
+          #     column(
+          #       width = 6,
+          #       h4("PROTEIN LENGTH (AA)"),
+          #       uiOutput("protein_length.ui")
+          #     )
+          #   )
+          # ),
+          # wellPanel(
+          #   h4("ANNOTATED PROTEINS (Uniprot)"),
+          #   uiOutput("categories.ui")
+          # ),
+          # wellPanel(
+          #   h4("KEGG PATHWAYS"),
+          #   uiOutput("kegg.ui")
+          # ),
+          # wellPanel(
+          #   h4("GENE ONTOLOGY - BIOLOGICAL FUNCTION"),
+          #   uiOutput("goterms.ui")
+          # )
         )
       )
     )

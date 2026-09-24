@@ -61,8 +61,7 @@ summarise_fasta <- function(fasta_file) {
   DNAStringSet <- Biostrings::readDNAStringSet(fasta_file)
   df_fasta <- tibble(
     seq_count = length(DNAStringSet),
-    seq_lengths = list(Biostrings::width(DNAStringSet)),
-    seq_names = list(names(DNAStringSet)),
+    seq_lengths_top10 = list(sort(Biostrings::width(DNAStringSet), decreasing = TRUE)[1:min(10, length(DNAStringSet))]),
     total_length = sum(Biostrings::width(DNAStringSet), na.rm = TRUE),
     gc_content = letterFrequency(DNAStringSet, letters = c("G", "C"), as.prob = TRUE) %>%
       rowSums() %>% mean(na.rm = TRUE),
@@ -185,10 +184,28 @@ main <- function() {
     }
 
     # import and summarise the downloaded fasta and gff3 files
-    df_fasta <- bind_rows(df_fasta, summarise_fasta(ncbi_result$fasta_file) %>% mutate(accession = accession))
-    df_gff <- bind_rows(df_gff, summarise_gff(ncbi_result$gff_file) %>% mutate(accession = accession))
-    df_assembly <- bind_rows(df_assembly, read_tsv_consistent(ncbi_result$assembly_report))
+    df_fasta <- bind_rows(df_fasta, summarise_fasta(ncbi_result$fasta_file) %>%
+      mutate(across(matches("^seq_lengths"), ~ paste(.x, collapse = ","))) %>%
+      mutate(accession = accession))
+
+    df_gff <- bind_rows(df_gff, summarise_gff(ncbi_result$gff_file) %>%
+      mutate(accession = accession))
+
+    df_assembly <- read_tsv_consistent(ncbi_result$assembly_report) %>%
+      bind_rows(df_assembly, .)
   }
+
+  # add organism.organism_name column to the other tables
+  df_assembly <- df_assembly %>%
+    mutate(organism = as.character(organism.organism_name))
+
+  df_fasta <- df_fasta %>%
+    left_join(df_assembly %>% dplyr::select(accession, organism), by = "accession") %>%
+    dplyr::select(accession, organism, everything())
+
+  df_gff <- df_gff %>%
+    left_join(df_assembly %>% dplyr::select(accession, organism), by = "accession") %>%
+    dplyr::select(accession, organism, everything())
 
   # export the summary tables to the output directory
   write_tsv(df_assembly, file.path(opts$output_dir, "genome_summary.tsv"))

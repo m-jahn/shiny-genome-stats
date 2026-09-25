@@ -2,17 +2,10 @@ helpbox <- function(width = 12) {
   column(width = width,
     h4('INFO & HELP'),
     wellPanel(
-      h4('HOW TO'),
-      p('Pre-fetched genome/proteome annotation can be selected with the "Select Microbial Genome" field.'),
-      p('Data was fetched from Uniprot using the REST API. Users can try to fetch data for other organisms using the "Find Microbial Genome" search field. Select your desired strain and then click "Add".'),
       h4('DATA AND REFERENCES'),
-      p('Data is obtained from ',
-        a(href = 'https://www.uniprot.org', target = '_blank', 'Uniprot.org'), ' and ',
-        a(href = 'https://www.ncbi.nlm.nih.gov/datasets/genome/', target = '_blank', 'NCBI'), '.'
-      ),
-      p('Details about how to fetch data using Uniprots REST API can be found at',
-        a(href = 'https://www.uniprot.org/help/api_queries', target = '_blank', 'www.uniprot.org/help/api_queries'), '.'
-      ),
+      p('Pre-fetched genome/proteome annotation can be selected with the "Select Microbial Genome" field.'),
+      p('Data was fetched from ', a(href = 'https://www.ncbi.nlm.nih.gov/datasets/genome/', target = '_blank', 'NCBI'),
+      ' and the list of organisms was obtained from the ', a(href = 'https://fast.genomics.lbl.gov/cgi/search.cgi', target = '_blank', 'fast.genomics'), 'web server.'),
       h4('CONTACT'),
       p('For questions or reporting issues, contact Michael Jahn, Max Planck Unit for the science
         of pathogens (MPUSP), Berlin',
@@ -55,25 +48,13 @@ methbox <- function(width = 12) {
     wellPanel(
       h4('Data Filtering'),
       p('
-        In order to present genome annotation data visually, some simplifications
-        need to be made.
-        Tables that are downloaded from Uniprot are slightly filtered before
-        display. Prefetched tables have been checked for the correct number
-        of genes per genome. NA values for protein length or biological processes
-        are filtered out. All NA values for localization however are included
-        but transformed to <Unknown>.
-      '),
-      h4('Localization'),
-      p('
-        Protein localization information from Uniprot is very incomplete. Other
-        tools for localization prediction can label almost all proteins with
-        sufficient accuracy. Therefore protein localization information is
-        to be taken with care, as long as the source is not updated.
+        In order to present genome annotation data, prefetched tables have been checked
+        for NA values or other problematic items which are are filtered out.
       '),
       h4('Pathway annotation'),
       p('
         Currently there is no visual for an overview about pathway membership
-        of proteins. This data is again very limited on Uniprot. However here
+        of proteins. This type of data is very limited. However here
         the Gene Ontology (GO) terms for Biological Process are used as a proxy
         of how many proteins belong to functional categories.
         GO terms are a hierarchically organized structured language. They start

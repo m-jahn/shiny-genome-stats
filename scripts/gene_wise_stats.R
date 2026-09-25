@@ -120,26 +120,22 @@ summarize_width_distribution <- function(codon_lengths, bins, max_codons) {
     include.lowest = TRUE,
     right = TRUE
   )
-  overflow_label <- paste0(">", max_codons)
-  bin_label <- ifelse(is.na(main_bins), overflow_label, as.character(main_bins))
-
-  base_bins <- tibble(
-    bin = c(levels(main_bins), overflow_label)
-  )
-
-  tibble(bin = bin_label) %>%
+  tibble(bin = main_bins) %>%
     count(bin, name = "count") %>%
-    right_join(base_bins, by = "bin") %>%
-    mutate(count = replace_na(count, 0L)) %>%
+    filter(!is.na(bin)) %>%
     mutate(
+      count = replace_na(count, 0L),
       proportion = {
         total <- sum(count)
         if (total > 0) count / total else rep(0, n())
       },
-      bin = factor(bin, levels = base_bins$bin)
+      bin_center = as.character(bin) %>%
+        str_extract("[0-9]+,[0-9]+(e\\+[0-9]+)?") %>%
+        str_split_fixed(",", 2) %>%
+        apply(2, as.numeric) %>%
+        rowMeans()
     ) %>%
-    arrange(bin) %>%
-    mutate(bin = as.character(bin))
+    arrange(bin_center)
 }
 
 summarize_codon_bias <- function(internal_codons) {

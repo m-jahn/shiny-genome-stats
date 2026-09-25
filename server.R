@@ -64,17 +64,17 @@ server <- function(input, output, session) {
   })
 
   # select start codon frequency data
-  df_start_codons_selected <- reactive({
-    df_start_codons_selected <- df_start_codons %>%
+  df_startcodons_selected <- reactive({
+    df_startcodons_selected <- df_start_codons %>%
       dplyr::filter(accession %in% list_genomes[input$UserDataChoice])
-    return(df_start_codons_selected)
+    return(df_startcodons_selected)
   })
 
   # select stop codon frequency data
-  df_stop_codons_selected <- reactive({
-    df_stop_codons_selected <- df_stop_codons %>%
+  df_stopcodons_selected <- reactive({
+    df_stopcodons_selected <- df_stop_codons %>%
       dplyr::filter(accession %in% list_genomes[input$UserDataChoice])
-    return(df_stop_codons_selected)
+    return(df_stopcodons_selected)
   })
 
   # PLOTTING OPTIONS
@@ -94,7 +94,7 @@ server <- function(input, output, session) {
   # choice of aggregation function
   aggregation <- function(x) {
     if (input$UserFrequency == "relative") {
-      x / sum(x)
+      x / sum(x, na.rm = TRUE)
     } else if (input$UserFrequency == "absolute") {
       x
     } else {
@@ -133,11 +133,6 @@ server <- function(input, output, session) {
   # reactive value for color palettes
   current_palette <- reactive({
     palettes(pal = input$UserColorPalette)
-  })
-
-  # reactive value for number rows determined from selected genomes
-  plot_nrows <- reactive({
-    ceiling(length(input$UserDataChoice) / 8)
   })
 
   # dynamic user inputs
@@ -238,11 +233,12 @@ server <- function(input, output, session) {
     plot <- do.call(
       input$UserTypeGenomeRegions, list(
         df, input, aggregation, current_theme(),
-        current_palette(), "vars", "Chromosomes (contigs)", plot_nrows()
+        current_palette(), "vars", "Chromosomes (contigs)", input$UserNRows, input$UserNCols
       )
     )
     print(plot + theme(legend.position = "none"))
   })
+
 
   # OUTPUT 4: GENOME FEATURES
   output$genome_features.ui <- renderUI({
@@ -275,30 +271,69 @@ server <- function(input, output, session) {
     plot <- do.call(
       input$UserTypeGenomeFeatures, list(
         df, input, aggregation, current_theme(),
-        current_palette(), "vars", "Genome feature counts", plot_nrows()
+        current_palette(), "vars", "Genome feature counts", input$UserNRows, input$UserNCols
       )
     )
     print(plot)
   })
 
-  # OUTPUT 5: HISTOGRAM WITH PROTEIN LENGTHS
-  # output$protein_length.ui <- renderUI({
-  #   plotOutput("protein_length", height = "420px", width = "100%")
-  # })
 
-  # output$protein_length <- renderPlot(res = 96, {
-  #   plot <- #df_cds_width_selected() %>%
-  #     df_cds_width %>%
-  #     ggplot(aes(x = length)) +
-  #     geom_col(
-  #       fill = current_palette()[1],
-  #       color = "white",
-  #       bins = 25
-  #     ) +
-  #     lims(x = c(0, input$UserMaxLength)) +
-  #     facet_wrap(~organism, nrow = 2) +
-  #     labs(x = "", y = "") +
-  #     current_theme()
-  #   print(plot)
-  # })
+  # OUTPUT 5: HISTOGRAM WITH PROTEIN LENGTHS
+  output$protein_length.ui <- renderUI({
+    plotOutput("protein_length", height = "420px", width = "100%")
+  })
+
+  output$protein_length <- renderPlot(res = 96, {
+    df <- df_cds_width_selected() %>%
+      mutate(vars = as.factor(bin_center), n = count)
+
+    plot <- do.call(
+      input$UserTypeGenes, list(
+        df, input, aggregation, current_theme(),
+        current_palette(), "vars", "Protein length (0-1,000 aa)", input$UserNRows, input$UserNCols
+      )
+    ) +
+      theme(legend.position = "none")
+    print(plot)
+  })
+
+
+  # OUTPUT 6: START CODON FREQUENCY
+  output$startcodons.ui <- renderUI({
+    plotOutput("startcodons", height = "420px", width = "100%")
+  })
+
+  output$startcodons <- renderPlot(res = 96, {
+    df <- df_startcodons_selected() %>%
+      filter(codon %in% names(sort(table(codon), decreasing = TRUE)[1:5])) %>%
+      mutate(vars = fct_reorder(codon, count, .desc = TRUE), n = count)
+
+    plot <- do.call(
+      input$UserTypeStartcodons, list(
+        df, input, aggregation, current_theme(),
+        current_palette(), "vars", "", input$UserNRows, input$UserNCols
+      )
+    )
+    print(plot)
+  })
+
+
+  # OUTPUT 7: STOP CODON FREQUENCY
+  output$stopcodons.ui <- renderUI({
+    plotOutput("stopcodons", height = "420px", width = "100%")
+  })
+
+  output$stopcodons <- renderPlot(res = 96, {
+    df <- df_stopcodons_selected() %>%
+      filter(codon %in% names(sort(table(codon), decreasing = TRUE)[1:5])) %>%
+      mutate(vars = fct_reorder(codon, count, .desc = TRUE), n = count)
+
+    plot <- do.call(
+      input$UserTypeStopcodons, list(
+        df, input, aggregation, current_theme(),
+        current_palette(), "vars", "", input$UserNRows, input$UserNCols
+      )
+    )
+    print(plot)
+  })
 }

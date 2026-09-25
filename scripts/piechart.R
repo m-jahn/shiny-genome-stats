@@ -6,15 +6,22 @@ piechart <- function(
   current_palette,
   fill,
   subtitle,
-  rows) {
-  ncols <- length(unique(df[[fill]]))
-  df %>%
+  rows,
+  cols
+) {
+  ncolors <- length(unique(df[[fill]]))
+  nfacets <- length(unique(df[["organism"]]))
+  if (rows * cols < nfacets) {
+    rows <- ceiling(nfacets / cols)
+  }
+  df <- df %>%
+    group_by(organism) %>%
     mutate(
       fraction = aggregation(n),
       ymax = cumsum(fraction),
       ymin = c(0, head(ymax, n = -1))
-    ) %>%
-    ggplot(aes(
+    )
+  plot <- ggplot(df, aes(
       xmin = 3,
       xmax = 4,
       ymin = ymin,
@@ -24,7 +31,7 @@ piechart <- function(
     geom_rect(color = "white") +
     coord_polar(theta = "y") +
     lims(x = c(0, 4)) +
-    facet_wrap(~ organism, nrow = rows) +
+    facet_wrap(~ organism, nrow = rows, ncol = cols) +
     labs(x = "", y = "", subtitle = subtitle) +
     current_theme +
     theme(
@@ -34,5 +41,6 @@ piechart <- function(
       legend.position = "bottom",
       legend.key.size = unit(0.4, "cm")
     ) +
-    scale_fill_manual(values = colorRampPalette(current_palette)(ncols))
+    scale_fill_manual(values = colorRampPalette(current_palette)(ncolors))
+  return(plot)
 }

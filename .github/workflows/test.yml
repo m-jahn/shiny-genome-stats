@@ -1,0 +1,56 @@
+name: Test deployment
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  fetch-and-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Pixi
+        uses: prefix-dev/setup-pixi@v0
+        with:
+          cache: true
+
+      - name: Syntax check
+        run: |
+          pixi run -e shiny Rscript --vanilla -e "parse(file='global.R'); parse(file='ui.R'); parse(file='server.R')"
+
+      - name: Fetch test genomes
+        run: |
+          pixi run fetch
+
+      - name: Run gene-wise stats
+        run: |
+          pixi run stats
+
+      - name: Run shiny app
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          pixi run -e shiny Rscript --vanilla -e "shiny::runApp('.', host='127.0.0.1', port=5000, launch.browser=FALSE)" &
+          APP_PID=$!
+          trap "kill $APP_PID || true" EXIT
+
+          for i in {1..20}; do
+            if curl -fsS http://127.0.0.1:5000 > /dev/null; then
+              echo "Shiny app responded successfully."
+              exit 0
+            fi
+            sleep 1
+          done
+
+          echo "Shiny app did not respond in time."
+          exit 1
+
+      - name: Clean up
+        run: |
+          pixi run clean

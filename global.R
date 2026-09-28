@@ -23,6 +23,13 @@ for (Rfile in setdiff(list.files("scripts", full.names = TRUE), excludes)) {
   source(Rfile)
 }
 
+downloadButton <- function(id, label) {
+  div(
+    style = "text-align: right;",
+    shiny::downloadButton(id, label)
+  )
+}
+
 # import genome/proteome data
 data_dir <- "data/"
 df_summary <- read_tsv(file.path(data_dir, "genome_summary.tsv"), col_types = cols())

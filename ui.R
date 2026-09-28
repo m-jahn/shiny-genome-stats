@@ -4,7 +4,7 @@
 # Define user interface for application
 ui <- navbarPage(
   # Title on NavBar Header
-  title = "Shiny Genome Stats - comparative statistics about bacterial genomes",
+  title = "Shiny Genome Stats  |  Comparative statistics for bacterial genomes",
 
   # Use one of different shiny themes
   theme = shinytheme("cosmo"),
@@ -145,7 +145,7 @@ ui <- navbarPage(
         # SUMMARY TABLE
         # -------------------
         hr(),
-        h4("SUMMARY TABLE"),
+        h4("SUMMARY TABLE (TOP 10)"),
         DTOutput("genomeSummary"),
 
         # HELP BOX
@@ -158,25 +158,33 @@ ui <- navbarPage(
 
       # MAIN PLOT AREA
       mainPanel(
-        column(
-          width = 12,
-          wellPanel(
-            h4("GENOME ORGANIZATION"),
-            uiOutput("genome_info.ui")
-          ),
-          wellPanel(
-            h4("GENOME REGIONS"),
-            uiOutput("genome_regions.ui"),
-            h4("GENOME FEATURES"),
-            uiOutput("genome_features.ui")
-          ),
-          wellPanel(
-            h4("GENES"),
-            uiOutput("protein_length.ui"),
-            h4("START CODONS"),
-            uiOutput("startcodons.ui"),
-            h4("STOP CODONS"),
-            uiOutput("stopcodons.ui")
+        wellPanel(
+          tabsetPanel(
+            tabPanel(
+              "GENOME SUMMARY",
+              uiOutput("genome_info.ui"),
+              # move download button to right side
+              downloadButton("UserDownloadGenomeInfo", "Download SVG")
+            ),
+            tabPanel(
+              "GENOME REGIONS",
+              uiOutput("genome_regions.ui"),
+              downloadButton("UserDownloadGenomeRegions", "Download SVG")
+            ),
+            tabPanel(
+              "GENOME FEATURES",
+              uiOutput("genome_features.ui"),
+              downloadButton("UserDownloadGenomeFeatures", "Download SVG"),
+              uiOutput("protein_length.ui"),
+              downloadButton("UserDownloadProteinLength", "Download SVG")
+            ),
+            tabPanel(
+              "START & STOP CODONS",
+              uiOutput("startcodons.ui"),
+              downloadButton("UserDownloadStartCodons", "Download SVG"),
+              uiOutput("stopcodons.ui"),
+              downloadButton("UserDownloadStopCodons", "Download SVG")
+            )
           )
         )
       )

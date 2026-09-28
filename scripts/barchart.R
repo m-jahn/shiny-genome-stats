@@ -31,7 +31,7 @@ barchart <- function(
   if (ncolors <= 10) {
     plot <- plot +
       geom_text(
-        aes(label = round(n, 1), color = .data[[fill]]),
+        aes(label = round(n, 2), color = .data[[fill]]),
         size = 2.5,
         nudge_y = max(df$n) * 0.06
       ) +

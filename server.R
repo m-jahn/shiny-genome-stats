@@ -154,6 +154,23 @@ server <- function(input, output, session) {
     )
   })
 
+  # generic download handler for all download buttons
+  getDownload <- function(filename, plot) {
+    downloadHandler(
+      filename = filename,
+      content = function(file) {
+        svg(file,
+          width = 7.5,
+          height = 4.5
+        )
+        print(plot)
+        dev.off()
+      },
+      contentType = "image/svg"
+    )
+  }
+
+
   # DATA OUTPUT AND PLOTTING
   # ---------------------------------------------
   #
@@ -171,7 +188,7 @@ server <- function(input, output, session) {
 
   # OUTPUT 2: GENOME STATS
   output$genome_info.ui <- renderUI({
-    plotOutput("genome_info", height = "420px", width = "100%")
+    plotOutput("genome_info", height = "600px", width = "100%")
   })
 
   output$genome_info <- renderPlot(res = 96, {
@@ -203,6 +220,7 @@ server <- function(input, output, session) {
 
     plot <- ggplot(df, aes(x = organism, y = value)) +
       geom_col(fill = current_palette()[1], color = "white") +
+      geom_text(aes(label = round(value, 2)), size = 2.5, vjust = -0.5, color = current_palette()[1]) +
       facet_wrap(~metric, scales = "free_y", nrow = 2) +
       labs(x = "", y = "") +
       current_theme() +
@@ -213,12 +231,14 @@ server <- function(input, output, session) {
       )
 
     print(plot)
+    # download function
+    output$UserDownloadGenomeInfo <- getDownload(filename = "plot.svg", plot = plot)
   })
 
 
   # OUTPUT 3: GENOME REGIONS
   output$genome_regions.ui <- renderUI({
-    plotOutput("genome_regions", height = "420px", width = "100%")
+    plotOutput("genome_regions", height = "600px", width = "100%")
   })
 
   output$genome_regions <- renderPlot(res = 96, {
@@ -227,22 +247,25 @@ server <- function(input, output, session) {
       mutate(organism = abbreviate_org(organism)) %>%
       unnest(cols = seq_lengths_top10) %>%
       rename(n = seq_lengths_top10) %>%
+      mutate(n =  n / 10^6) %>%
       group_by(organism) %>%
       mutate(vars = factor(seq_along(n)))
 
     plot <- do.call(
       input$UserTypeGenomeRegions, list(
         df, input, aggregation, current_theme(),
-        current_palette(), "vars", "Chromosomes (contigs)", input$UserNRows, input$UserNCols
+        current_palette(), "vars", "Chromosomes (or contigs, if not complete)", input$UserNRows, input$UserNCols
       )
     )
     print(plot + theme(legend.position = "none"))
+    # download function
+    output$UserDownloadGenomeRegions <- getDownload(filename = "plot.svg", plot = plot)
   })
 
 
   # OUTPUT 4: GENOME FEATURES
   output$genome_features.ui <- renderUI({
-    plotOutput("genome_features", height = "420px", width = "100%")
+    plotOutput("genome_features", height = "600px", width = "100%")
   })
 
   output$genome_features <- renderPlot(res = 96, {
@@ -275,12 +298,14 @@ server <- function(input, output, session) {
       )
     )
     print(plot)
+    # download function
+    output$UserDownloadGenomeFeatures <- getDownload(filename = "plot.svg", plot = plot)
   })
 
 
   # OUTPUT 5: HISTOGRAM WITH PROTEIN LENGTHS
   output$protein_length.ui <- renderUI({
-    plotOutput("protein_length", height = "420px", width = "100%")
+    plotOutput("protein_length", height = "600px", width = "100%")
   })
 
   output$protein_length <- renderPlot(res = 96, {
@@ -295,12 +320,14 @@ server <- function(input, output, session) {
     ) +
       theme(legend.position = "none")
     print(plot)
+    # download function
+    output$UserDownloadProteinLength <- getDownload(filename = "plot.svg", plot = plot)
   })
 
 
   # OUTPUT 6: START CODON FREQUENCY
   output$startcodons.ui <- renderUI({
-    plotOutput("startcodons", height = "420px", width = "100%")
+    plotOutput("startcodons", height = "600px", width = "100%")
   })
 
   output$startcodons <- renderPlot(res = 96, {
@@ -315,12 +342,14 @@ server <- function(input, output, session) {
       )
     )
     print(plot)
+    # download function
+    output$UserDownloadStartCodons <- getDownload(filename = "plot.svg", plot = plot)
   })
 
 
   # OUTPUT 7: STOP CODON FREQUENCY
   output$stopcodons.ui <- renderUI({
-    plotOutput("stopcodons", height = "420px", width = "100%")
+    plotOutput("stopcodons", height = "600px", width = "100%")
   })
 
   output$stopcodons <- renderPlot(res = 96, {
@@ -335,5 +364,7 @@ server <- function(input, output, session) {
       )
     )
     print(plot)
+    # download function
+    output$UserDownloadStopCodons <- getDownload(filename = "plot.svg", plot = plot)
   })
 }

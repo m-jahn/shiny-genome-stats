@@ -163,8 +163,19 @@ ui <- navbarPage(
             tabPanel(
               "GENOME SUMMARY",
               uiOutput("genome_info.ui"),
-              # move download button to right side
-              downloadButton("UserDownloadGenomeInfo", "Download SVG")
+              downloadButton("UserDownloadGenomeInfo", "Download SVG"),
+              fluidRow(
+                column(
+                  width = 6,
+                  uiOutput("assembly_info.ui"),
+                  downloadButton("UserDownloadAssemblyInfo", "Download SVG")
+                ),
+                column(
+                  width = 6,
+                  uiOutput("assembly_completeness.ui"),
+                  downloadButton("UserDownloadAssemblyCompleteness", "Download SVG")
+                )
+              )
             ),
             tabPanel(
               "GENOME REGIONS",

@@ -2,7 +2,6 @@
 custom_theme <- function(base_size = 12, base_line_size = 1.0, base_rect_size = 1.0, ...) {
   theme_light(base_size = base_size, base_line_size = base_line_size, base_rect_size = base_rect_size) + theme(
     title = element_text(colour = grey(0.4), size = 10),
-    plot.margin = unit(c(12, 12, 12, 12), "points"),
     axis.ticks.length = unit(0.2, "cm"),
     axis.ticks = element_line(colour = grey(0.4), linetype = "solid", lineend = "round"),
     axis.text.x = element_text(colour = grey(0.4), size = 10),

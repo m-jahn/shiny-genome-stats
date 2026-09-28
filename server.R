@@ -235,6 +235,92 @@ server <- function(input, output, session) {
     output$UserDownloadGenomeInfo <- getDownload(filename = "plot.svg", plot = plot)
   })
 
+  # ASSEMBLY INFOS
+  output$assembly_info.ui <- renderUI({
+    plotOutput("assembly_info", height = "600px", width = "100%")
+  })
+
+  output$assembly_info <- renderPlot(res = 96, {
+    df <- df_summary_selected() %>%
+      dplyr::select(organism, assembly_info.biosample.submission_date, annotation_info.release_date) %>%
+      rename(
+        `Sample submission date` = assembly_info.biosample.submission_date,
+        `Assembly release date` = annotation_info.release_date
+      ) %>%
+      mutate(organism = abbreviate_org(organism)) %>%
+      distinct() %>%
+      pivot_longer(
+        cols = c(`Sample submission date`, `Assembly release date`),
+        names_to = "metric",
+        values_to = "value"
+      )
+
+    if (is.null(df) || nrow(df) == 0) {
+      return()
+    }
+
+    plot <- ggplot(df, aes(x = organism, y = value)) +
+      geom_segment(aes(x = organism, xend = organism, y = min(value), yend = value, group = organism), color = current_palette()[1]) +
+      geom_point(color = current_palette()[1]) +
+      geom_text(aes(label = round(value, 2)), angle = 90, size = 2.5, hjust = -0.3, color = current_palette()[1]) +
+      facet_wrap(~metric, nrow = 2) +
+      labs(x = "", y = "") +
+      coord_cartesian(ylim = c(min(df$value, na.rm = TRUE), as.Date("2035-12-31"))) +
+      current_theme() +
+      theme(
+        legend.position = "none",
+        axis.text.x = element_text(angle = 35, hjust = 1, vjust = 1),
+        strip.text = element_text(face = "bold")
+      )
+
+    print(plot)
+    # download function
+    output$UserDownloadAssemblyInfo <- getDownload(filename = "plot.svg", plot = plot)
+  })
+
+  # ASSEMBLY COMPLETENESS
+  output$assembly_completeness.ui <- renderUI({
+    plotOutput("assembly_completeness", height = "600px", width = "100%")
+  })
+
+  output$assembly_completeness <- renderPlot(res = 96, {
+    df <- df_summary_selected() %>%
+      dplyr::select(organism, assembly_info.assembly_level, checkm_info.completeness) %>%
+      rename(
+        `Assembly level` = assembly_info.assembly_level,
+        `Completeness` = checkm_info.completeness
+      ) %>%
+      mutate(
+        organism = abbreviate_org(organism),
+        `Assembly level` = str_split_i(`Assembly level`, pattern = " ", i = 1) %>%
+          fct_infreq() %>% fct_rev()
+      )
+
+    if (is.null(df) || nrow(df) == 0) {
+      return()
+    }
+
+    plot <- ggplot(df, aes(x = organism, y = `Assembly level`, fill = `Completeness`)) +
+      geom_tile() +
+      geom_text(aes(label = round(`Completeness`, 2)), angle = 90, size = 3.0, color = grey(0.9)) +
+      facet_wrap(~ "Assembly level  |  Completeness") +
+      labs(x = "", y = "") +
+      current_theme() +
+      theme(
+        legend.position = "left",
+        axis.text.x = element_text(angle = 35, hjust = 1, vjust = 1),
+        axis.text.y = element_text(angle = 90, hjust = 0.5, vjust = 1),
+        strip.text = element_text(face = "bold")
+      ) +
+      scale_fill_gradientn(colors = rev(current_palette()), na.value = grey(0.9)) +
+      # adjust legend size
+      guides(fill = guide_colorbar(barwidth = 0.2, barheight = 10))
+    
+    print(plot)
+    # download function
+    output$UserDownloadAssemblyCompleteness <- getDownload(filename = "plot.svg", plot = plot)
+  })
+
 
   # OUTPUT 3: GENOME REGIONS
   output$genome_regions.ui <- renderUI({
@@ -247,7 +333,7 @@ server <- function(input, output, session) {
       mutate(organism = abbreviate_org(organism)) %>%
       unnest(cols = seq_lengths_top10) %>%
       rename(n = seq_lengths_top10) %>%
-      mutate(n =  n / 10^6) %>%
+      mutate(n = n / 10^6) %>%
       group_by(organism) %>%
       mutate(vars = factor(seq_along(n)))
 

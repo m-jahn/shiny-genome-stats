@@ -16,6 +16,10 @@ jobs:
 
       - name: Setup Pixi
         uses: prefix-dev/setup-pixi@v0
+        with:
+          environments: >-
+            ncbi
+            shiny
 
       - name: Syntax check
         run: |

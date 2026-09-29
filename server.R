@@ -77,6 +77,14 @@ server <- function(input, output, session) {
     return(df_stopcodons_selected)
   })
 
+  # select codon bias data
+  df_codon_bias_selected <- reactive({
+    df_codon_bias_selected <- df_codon_bias %>%
+      dplyr::filter(accession %in% list_genomes[input$UserDataChoice])
+    return(df_codon_bias_selected)
+  })
+
+
   # PLOTTING OPTIONS
   # ---------------------------------------------
   #
@@ -231,7 +239,6 @@ server <- function(input, output, session) {
       )
 
     print(plot)
-    # download function
     output$UserDownloadGenomeInfo <- getDownload(filename = "plot.svg", plot = plot)
   })
 
@@ -274,7 +281,6 @@ server <- function(input, output, session) {
       )
 
     print(plot)
-    # download function
     output$UserDownloadAssemblyInfo <- getDownload(filename = "plot.svg", plot = plot)
   })
 
@@ -303,7 +309,7 @@ server <- function(input, output, session) {
     plot <- ggplot(df, aes(x = organism, y = `Assembly level`, fill = `Completeness`)) +
       geom_tile() +
       geom_text(aes(label = round(`Completeness`, 2)), angle = 90, size = 3.0, color = grey(0.9)) +
-      facet_wrap(~ "Assembly level  |  Completeness") +
+      facet_wrap(~"Assembly level  |  Completeness") +
       labs(x = "", y = "") +
       current_theme() +
       theme(
@@ -313,11 +319,9 @@ server <- function(input, output, session) {
         strip.text = element_text(face = "bold")
       ) +
       scale_fill_gradientn(colors = rev(current_palette()), na.value = grey(0.9)) +
-      # adjust legend size
       guides(fill = guide_colorbar(barwidth = 0.2, barheight = 10))
-    
+
     print(plot)
-    # download function
     output$UserDownloadAssemblyCompleteness <- getDownload(filename = "plot.svg", plot = plot)
   })
 
@@ -344,7 +348,6 @@ server <- function(input, output, session) {
       )
     )
     print(plot + theme(legend.position = "none"))
-    # download function
     output$UserDownloadGenomeRegions <- getDownload(filename = "plot.svg", plot = plot)
   })
 
@@ -384,7 +387,6 @@ server <- function(input, output, session) {
       )
     )
     print(plot)
-    # download function
     output$UserDownloadGenomeFeatures <- getDownload(filename = "plot.svg", plot = plot)
   })
 
@@ -406,7 +408,6 @@ server <- function(input, output, session) {
     ) +
       theme(legend.position = "none")
     print(plot)
-    # download function
     output$UserDownloadProteinLength <- getDownload(filename = "plot.svg", plot = plot)
   })
 
@@ -428,7 +429,6 @@ server <- function(input, output, session) {
       )
     )
     print(plot)
-    # download function
     output$UserDownloadStartCodons <- getDownload(filename = "plot.svg", plot = plot)
   })
 
@@ -450,7 +450,82 @@ server <- function(input, output, session) {
       )
     )
     print(plot)
-    # download function
     output$UserDownloadStopCodons <- getDownload(filename = "plot.svg", plot = plot)
+  })
+
+  # OUTPUT 8: CODON BIAS
+  output$codonbias.ui <- renderUI({
+    plotOutput("codonbias", height = "900px", width = "100%")
+  })
+
+  output$codonbias <- renderPlot(res = 96, {
+    df <- df_codon_bias_selected() %>%
+      mutate(organism = recode_values(
+        organism,
+        from = unique(organism),
+        to = abbreviate_org(unique(organism))
+      )) %>%
+      arrange(accession, aa)
+
+    # design is a matrix of continuous numbers encoding the tiles/facets they occupy
+    design <- df %>%
+      filter(accession == accession[1]) %>%
+      mutate(aa = as.numeric(factor(aa))) %>%
+      pull(aa)
+
+    plot <- ggplot(df, aes(x = organism, y = codon, fill = rscu)) +
+      geom_tile() +
+      scale_fill_gradientn(colors = rev(current_palette()), na.value = grey(0.5, 0.5)) +
+      current_theme() +
+      ggh4x::facet_manual(vars(factor(aa)), design = matrix(design, ncol = 1), scales = "free_y", strip.position = "right") +
+      theme(
+        legend.position = "left",
+        axis.text.x = element_text(angle = 35, hjust = 1, vjust = 1),
+        strip.text = element_text(face = "bold"),
+        strip.placement = "outside"
+      ) +
+      guides(fill = guide_colorbar(barwidth = 0.2, barheight = 10)) +
+      labs(x = "", y = "", fill = "RSCU", subtitle = "Codon Bias: RCSU (relative synonymous codon usage, 1 = balanced)")
+
+    print(plot)
+    output$UserDownloadCodonBias <- getDownload(filename = "plot.svg", plot = plot)
+  })
+
+  # CODON BIAS BAR CHARTS
+  output$codonbiasbars.ui <- renderUI({
+    plotOutput("codonbiasbars", height = "600px", width = "100%")
+  })
+
+  output$codonbiasbars <- renderPlot(res = 96, {
+    df <- df_codon_bias_selected() %>%
+      mutate(organism = recode_values(
+        organism,
+        from = unique(organism),
+        to = abbreviate_org(unique(organism))
+      )) %>%
+      arrange(accession, aa)
+
+    plot <- ggplot(df, aes(x = organism, y = rscu, color = aa)) +
+      geom_boxplot(show.legend = FALSE) +
+      geom_point(
+        mapping = aes(group = aa, shape = rscu >= 2),
+        position = position_dodge(width = 0.75)
+      ) +
+      ggrepel::geom_text_repel(
+        aes(label = ifelse(rscu >= 2, codon, "")),
+        show.legend = FALSE,
+        size = 3.0
+      ) +
+      scale_color_manual(values = colorRampPalette(current_palette())(length(unique(df$aa)))) +
+      scale_shape_manual(values = c(NA, 16)) +
+      current_theme() +
+      theme(
+        legend.position = "left",
+        axis.text.x = element_text(angle = 35, hjust = 1, vjust = 1)
+      ) +
+      labs(x = "", y = "RSCU", subtitle = "Codon Bias: RCSU (relative synonymous codon usage, 1 = balanced)")
+
+    print(plot)
+    output$UserDownloadCodonBiasBars <- getDownload(filename = "plot.svg", plot = plot)
   })
 }

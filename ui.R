@@ -195,6 +195,13 @@ ui <- navbarPage(
               downloadButton("UserDownloadStartCodons", "Download SVG"),
               uiOutput("stopcodons.ui"),
               downloadButton("UserDownloadStopCodons", "Download SVG")
+            ),
+            tabPanel(
+              "CODON BIAS",
+              uiOutput("codonbias.ui"),
+              downloadButton("UserDownloadCodonBias", "Download SVG"),
+              uiOutput("codonbiasbars.ui"),
+              downloadButton("UserDownloadCodonBiasBars", "Download SVG")
             )
           )
         )

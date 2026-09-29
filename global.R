@@ -15,6 +15,9 @@ library(configr)
 library(stringr)
 library(colorspace)
 library(forcats)
+library(ggh4x)
+library(ggrepel)
+
 
 # LOADING EXTERNAL FUNCTIONS AND DATA
 # ***********************************************

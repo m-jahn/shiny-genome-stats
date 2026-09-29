@@ -183,6 +183,14 @@ main <- function() {
       )
     }
 
+    if (is.na(ncbi_result$fasta_file) || is.na(ncbi_result$gff_file)) {
+      message(
+        "Failed to fetch FASTA or GFF for accession: ",
+        accession,
+        "\nSkipping this genome.")
+      next
+    }
+
     # import and summarise the downloaded fasta and gff3 files
     df_fasta <- bind_rows(df_fasta, summarise_fasta(ncbi_result$fasta_file) %>%
       mutate(across(matches("^seq_lengths"), ~ paste(.x, collapse = ","))) %>%

@@ -8,12 +8,11 @@ R Shiny app to show basic statistics and features of microbial genomes.
 
 ### Features
 
-- shows **number of proteins** broken down by categories such as 'reviewed', 'hypothetical', etc.
-- shows presumed **localization** of proteins
-- shows **length**/size distribution of proteins
-- summarized biological processes: top 20 GO terms by number of proteins annotated for the respective term
-- genomic features: currently number, name and length of the different chromosomes/plasmids per strain
-- if you like to see **more features, please request by posting a [github issue](https://github.com/m-jahn/shiny-genome-stats/issues)**
+- shows a **genome summary** in terms of number of chromosomes or contigs, length, GC content and skew
+- shows an **assembly summary** with sample submission and release, date, assmembly type and checkM completeness
+- shows **genome features** such as CDS, rRNA, and tRNA counts, and CDS length distribution
+- shows **start and stop codon** distribution
+- if you like to see **more features, please create an [issue on GitHub](https://github.com/m-jahn/shiny-genome-stats/issues)**
 
 ### Getting started
 
@@ -66,6 +65,12 @@ The following summary tables are stored in `data/` after the fetching step compl
 - `genome_summary.tsv` for assembly-level metrics such as chromosome count, GC content, GC skew, gene/CDS counts, and rRNA/tRNA counts
 - `genome_sequences.tsv` for per-chromosome or per-plasmid sequence length and GC metrics
 - `genome_features.tsv` for feature counts and feature lengths by annotation type
+
+In order to collect codon statistics etc, run:
+
+```bash
+pixi run stats
+```
 
 In order to clean the download dir, run:
 

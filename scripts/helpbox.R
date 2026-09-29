@@ -11,8 +11,8 @@ helpbox <- function(width = 12) {
         of pathogens (MPUSP), Berlin',
         a(href ='mailto:jahn@mpusp.mpg.de', target = '_blank', 'jahn@mpusp.mpg.de')
       ),
-      h4('DISCLAIMER'),
-      p('This software is licensed under:'),
+      h4('LICENSE'),
+      p('This software is licensed under the:'),
       p('GNU GENERAL PUBLIC LICENSE'),
       p('This software can be used freely as long as it is not used
         for commercial purposes, resold, or redistributed with other licenses.
@@ -24,7 +24,10 @@ helpbox <- function(width = 12) {
         The entire risk as to the quality and performance of the program is with
         you. Should the program prove defective, you assume the cost of all
         necessary servicing, repair or correction."
-      ')
+      '),
+      p('Note: the table in data/genomes.tsv is representative list of genomes 
+        obtained from http://fast.genomics.lbl.gov/, which is also licensed under
+        the same terms (GNU GPL v3) as this project. Downloaded 07 Nov 2024.'),
     )
   )
 }

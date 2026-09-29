@@ -51,16 +51,36 @@ df_sequences <- df_sequences %>%
     str_split(", ") %>%
     sapply(as.numeric))
 
+# select and rename relevant summary columns
+df_summary <- df_summary %>%
+  dplyr::select(
+    accession,
+    `organism` = organism.organism_name,
+    `Sample submission date` = assembly_info.biosample.submission_date,
+    `Assembly release date` = annotation_info.release_date,
+    `Assembly level` = assembly_info.assembly_level,
+    `Assembly method` = assembly_info.assembly_method,
+    `Completeness` = checkm_info.completeness,
+    `Geographic location` = assembly_info.biosample.geo_loc_name,
+    `Isolated from` = assembly_info.biosample.isolation_source,
+    `Number of contigs` = assembly_stats.number_of_contigs,
+    `Total sequence length` = assembly_stats.total_sequence_length
+  ) %>%
+  mutate(
+    `Total sequence length` = `Total sequence length` / 10^6
+  ) %>%
+  distinct()
+
 # load corresponding YAML configuration file
 config <- configr::read.config("config/config.yml")
 
 # list of all available genomes
 list_genomes <- df_summary %>%
-  dplyr::select(organism.organism_name, accession) %>%
+  dplyr::select(organism, accession) %>%
   deframe()
 
 # list of preselected genomes (from config file)
 list_selected <- df_summary %>%
   dplyr::filter(accession %in% unlist(config$data$accession)) %>%
-  dplyr::select(organism.organism_name, accession) %>%
+  dplyr::select(organism, accession) %>%
   deframe()

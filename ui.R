@@ -146,7 +146,7 @@ ui <- navbarPage(
         # -------------------
         hr(),
         h4("SUMMARY TABLE (TOP 10)"),
-        DTOutput("genomeSummary"),
+        DT::DTOutput("genomeSummary"),
 
         # HELP BOX
         # -------------------
@@ -180,7 +180,9 @@ ui <- navbarPage(
             tabPanel(
               "GENOME REGIONS",
               uiOutput("genome_regions.ui"),
-              downloadButton("UserDownloadGenomeRegions", "Download SVG")
+              downloadButton("UserDownloadGenomeRegions", "Download SVG"),
+              h4("SUMMARY TABLE"),
+              DT::DTOutput("genomeSummaryLarge"),
             ),
             tabPanel(
               "GENOME FEATURES",

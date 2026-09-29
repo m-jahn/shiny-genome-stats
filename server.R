@@ -194,6 +194,21 @@ server <- function(input, output, session) {
     }
   })
 
+  output$genomeSummaryLarge <- DT::renderDataTable({
+    df <- df_summary_selected() %>%
+      dplyr::select(
+        organism, accession, `Assembly release date`,
+        `Assembly method`, `Completeness`, `Geographic location`,
+        `Number of contigs`, `Total sequence length`
+      ) %>%
+      mutate(organism = abbreviate_org(organism))
+    if (is.null(df) || nrow(df) == 0) {
+      return()
+    } else {
+      datatable(df, options = list(dom = "t", pageLength = 40))
+    }
+  })
+
   # OUTPUT 2: GENOME STATS
   output$genome_info.ui <- renderUI({
     plotOutput("genome_info", height = "600px", width = "100%")
@@ -249,12 +264,8 @@ server <- function(input, output, session) {
 
   output$assembly_info <- renderPlot(res = 96, {
     df <- df_summary_selected() %>%
-      dplyr::select(organism, assembly_info.biosample.submission_date, annotation_info.release_date) %>%
-      rename(
-        `Sample submission date` = assembly_info.biosample.submission_date,
-        `Assembly release date` = annotation_info.release_date
-      ) %>%
       mutate(organism = abbreviate_org(organism)) %>%
+      dplyr::select(organism, `Sample submission date`, `Assembly release date`) %>%
       distinct() %>%
       pivot_longer(
         cols = c(`Sample submission date`, `Assembly release date`),
@@ -291,11 +302,7 @@ server <- function(input, output, session) {
 
   output$assembly_completeness <- renderPlot(res = 96, {
     df <- df_summary_selected() %>%
-      dplyr::select(organism, assembly_info.assembly_level, checkm_info.completeness) %>%
-      rename(
-        `Assembly level` = assembly_info.assembly_level,
-        `Completeness` = checkm_info.completeness
-      ) %>%
+      dplyr::select(organism, `Assembly level`, `Completeness`) %>%
       mutate(
         organism = abbreviate_org(organism),
         `Assembly level` = str_split_i(`Assembly level`, pattern = " ", i = 1) %>%

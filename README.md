@@ -58,7 +58,8 @@ pixi run fetch
 ```
 
 This step will attempt to download genome sequence, annotation and metadata for each genome from a list of ~6000 representative reference strains compiled by the [fast.genomics web service](https://fast.genomics.lbl.gov/cgi/search.cgi).
-The data will be downloaded using `scripts/prefetch_genomes.R` script and stored in `data/ncbi/`.
+The list of representative genomes in `data/genomes.tsv` was obtained from http://fast.genomics.lbl.gov/, which is also licensed under the same terms (GNU GPL v3) as this project, and was downloaded 07 Nov 2024.
+Data from NCBI will be downloaded using `scripts/prefetch_genomes.R` script and stored in `data/ncbi/`.
 
 The following summary tables are stored in `data/` after the fetching step completes:
 

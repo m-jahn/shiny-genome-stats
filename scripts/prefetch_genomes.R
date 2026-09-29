@@ -128,6 +128,8 @@ fetch_ncbi_genome <- function(accession, temp_dir, datasets_bin = "datasets") {
       warning("Failed to fetch genome summary in JSON format.")
       return(NULL)
     }
+  } else {
+    data_item <- 1
   }
 
   # if yes, we proceed to parse the JSON content

@@ -4,7 +4,7 @@ R Shiny app to show basic statistics and features of microbial genomes.
 
 **Available on [Shinyapps.io](https://m-jahn.shinyapps.io/shiny-genome-stats/)!**
 
-<img src="example.png" width="800px" style="display: block; margin: auto;" />
+<img src="example.png" width="100%" style="display: block; margin: auto;" />
 
 ### Features
 

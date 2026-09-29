@@ -4,7 +4,7 @@
 # Define user interface for application
 ui <- navbarPage(
   # Title on NavBar Header
-  title = "Shiny Genome Stats - comparative statistics about bacterial genomes",
+  title = "Shiny Genome Stats  |  Comparative statistics for bacterial genomes",
 
   # Use one of different shiny themes
   theme = shinytheme("cosmo"),
@@ -17,7 +17,6 @@ ui <- navbarPage(
     sidebarLayout(
       position = c("left", "right"),
       fluid = TRUE,
-
       sidebarPanel(
         position = "left",
         width = 4,
@@ -26,32 +25,10 @@ ui <- navbarPage(
         # -------------------
         # select data file
         h4("DATA OPTIONS"),
-
         fluidRow(
           column(
-            width = 6,
+            width = 12,
             uiOutput("DataChoice")
-          ),
-          column(
-            width = 6,
-            uiOutput("DataSearch"),
-            actionButton(
-              "UserSearchGenome",
-              "Search",
-              class = "btn-success"
-            ),
-            br(),
-            br(),
-            uiOutput("DataSelection"),
-            actionButton(
-              "UserAddGenome",
-              " Add ",
-              class = "btn-success"
-            ),
-            br(),
-            br(),
-            p(strong('Status')),
-            uiOutput("AddStatus"),
           )
         ),
 
@@ -69,9 +46,10 @@ ui <- navbarPage(
             selectInput(
               "UserColorPalette",
               "Palette",
-              choices = c("ggplot", "rainbow", "hawaii", "sunset", "batlow", "terrain",
-                          "dark_mint", "viridis", "plasma", "purple_yellow", "yellow_green",
-                          "yellow_red", "pink_yellow"
+              choices = c(
+                "ggplot", "rainbow", "hawaii", "sunset", "batlow", "terrain",
+                "dark_mint", "viridis", "plasma", "purple_yellow", "yellow_green",
+                "yellow_red", "pink_yellow"
               ),
               selected = "hawaii"
             )
@@ -79,41 +57,6 @@ ui <- navbarPage(
           column(
             width = 4,
             uiOutput("UserGrouping")
-          )
-        ),
-        fluidRow(
-          column(
-            width = 4,
-            sliderInput(
-              "UserMaxLength",
-              "Max length in aa",
-              min = 0,
-              max = 2000,
-              value = 1000,
-              step = 100
-            )
-          ),
-          column(
-            width = 4,
-            sliderInput(
-              "UserTopPathways",
-              "Top pathways",
-              min = 0,
-              max = 30,
-              value = 20,
-              step = 1
-            )
-          ),
-          column(
-            width = 4,
-            sliderInput(
-              "UserTopBioProcess",
-              "Top GO terms",
-              min = 0,
-              max = 30,
-              value = 20,
-              step = 1
-            )
           )
         ),
         fluidRow(
@@ -129,19 +72,19 @@ ui <- navbarPage(
           column(
             width = 4,
             selectInput(
-              "UserTypeGenome",
-              "Genome",
+              "UserTypeGenomeRegions",
+              "Genome Regions",
               choices = c("piechart", "barchart"),
-              selected = "barchart"
+              selected = "piechart"
             )
           ),
           column(
             width = 4,
             selectInput(
-              "UserTypeLocal",
-              "Localization",
+              "UserTypeGenomeFeatures",
+              "Genome Features",
               choices = c("piechart", "barchart"),
-              selected = "piechart"
+              selected = "barchart"
             )
           )
         ),
@@ -149,8 +92,8 @@ ui <- navbarPage(
           column(
             width = 4,
             selectInput(
-              "UserTypeAnno",
-              "Annotated",
+              "UserTypeGenes",
+              "Genes",
               choices = c("piechart", "barchart"),
               selected = "barchart"
             )
@@ -158,19 +101,43 @@ ui <- navbarPage(
           column(
             width = 4,
             selectInput(
-              "UserTypeKegg",
-              "Kegg Pathways",
+              "UserTypeStartcodons",
+              "Start Codons",
               choices = c("piechart", "barchart"),
-              selected = "piechart"
+              selected = "barchart"
             )
           ),
           column(
             width = 4,
             selectInput(
-              "UserTypeGO",
-              "Gene Ontology",
+              "UserTypeStopcodons",
+              "Stop Codons",
               choices = c("piechart", "barchart"),
-              selected = "piechart"
+              selected = "barchart"
+            )
+          )
+        ),
+        fluidRow(
+          column(
+            width = 6,
+            sliderInput(
+              "UserNRows",
+              "Number of rows",
+              min = 0,
+              max = 20,
+              value = 2,
+              step = 1
+            )
+          ),
+          column(
+            width = 6,
+            sliderInput(
+              "UserNCols",
+              "Number of columns",
+              min = 0,
+              max = 20,
+              value = 5,
+              step = 1
             )
           )
         ),
@@ -178,8 +145,8 @@ ui <- navbarPage(
         # SUMMARY TABLE
         # -------------------
         hr(),
-        h4("SUMMARY TABLE"),
-        DTOutput("genomeSummary"),
+        h4("SUMMARY TABLE (TOP 10)"),
+        DT::DTOutput("genomeSummary"),
 
         # HELP BOX
         # -------------------
@@ -191,37 +158,53 @@ ui <- navbarPage(
 
       # MAIN PLOT AREA
       mainPanel(
-        column(
-          width = 12,
-          wellPanel(
-            h4("GENOMIC ORGANISATION"),
-            uiOutput("genome_info.ui")
-          ),
-          wellPanel(
-            fluidRow(
-              column(
-                width = 6,
-                h4("PROTEIN LOCALIZATION"),
-                uiOutput("localization.ui")
-              ),
-              column(
-                width = 6,
-                h4("PROTEIN LENGTH (AA)"),
-                uiOutput("protein_length.ui")
+        wellPanel(
+          tabsetPanel(
+            tabPanel(
+              "GENOME SUMMARY",
+              uiOutput("genome_info.ui"),
+              downloadButton("UserDownloadGenomeInfo", "Download SVG"),
+              fluidRow(
+                column(
+                  width = 6,
+                  uiOutput("assembly_info.ui"),
+                  downloadButton("UserDownloadAssemblyInfo", "Download SVG")
+                ),
+                column(
+                  width = 6,
+                  uiOutput("assembly_completeness.ui"),
+                  downloadButton("UserDownloadAssemblyCompleteness", "Download SVG")
+                )
               )
+            ),
+            tabPanel(
+              "GENOME REGIONS",
+              uiOutput("genome_regions.ui"),
+              downloadButton("UserDownloadGenomeRegions", "Download SVG"),
+              h4("SUMMARY TABLE"),
+              DT::DTOutput("genomeSummaryLarge"),
+            ),
+            tabPanel(
+              "GENOME FEATURES",
+              uiOutput("genome_features.ui"),
+              downloadButton("UserDownloadGenomeFeatures", "Download SVG"),
+              uiOutput("protein_length.ui"),
+              downloadButton("UserDownloadProteinLength", "Download SVG")
+            ),
+            tabPanel(
+              "START & STOP CODONS",
+              uiOutput("startcodons.ui"),
+              downloadButton("UserDownloadStartCodons", "Download SVG"),
+              uiOutput("stopcodons.ui"),
+              downloadButton("UserDownloadStopCodons", "Download SVG")
+            ),
+            tabPanel(
+              "CODON BIAS",
+              uiOutput("codonbias.ui"),
+              downloadButton("UserDownloadCodonBias", "Download SVG"),
+              uiOutput("codonbiasbars.ui"),
+              downloadButton("UserDownloadCodonBiasBars", "Download SVG")
             )
-          ),
-          wellPanel(
-            h4("ANNOTATED PROTEINS (Uniprot)"),
-            uiOutput("categories.ui")
-          ),
-          wellPanel(
-            h4("KEGG PATHWAYS"),
-            uiOutput("kegg.ui")
-          ),
-          wellPanel(
-            h4("GENE ONTOLOGY - BIOLOGICAL FUNCTION"),
-            uiOutput("goterms.ui")
           )
         )
       )

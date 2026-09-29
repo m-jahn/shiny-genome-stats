@@ -1,5 +1,10 @@
 data/*
 rsconnect/*
+scripts/get_*
+scripts/download_*
 *.Rhistory
 .Rproj.user
 *.Rproj
+# pixi environments
+.pixi/*
+!.pixi/config.toml

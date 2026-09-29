@@ -9,22 +9,14 @@ plot:
     - organism
 
 data:
-  genomes:
-    Bacillus subtilis 168:
-      - 224308
-    Cupriavidus necator H16:
-      - 381666
-    Escherichia coli BL21:
-      - 469008
-    Pseudomonas aeruginosa PAO1:
-      - 208964
-    Pseudomonas putida KT2440:
-      - 160488
-    Streptococcus pneumoniae R6:
-      - 171101
-    Streptococcus pyogenes serotype M1 GAS:
-      - 301447
-    Streptomyces coelicolor ATCC BAA-471:
-      - 100226
-    Salmonella typhimurium LT2:
-      - 99287
+  accession:
+    - GCF_000008665.1
+    - GCF_000385565.1
+    - GCF_000025285.1
+    - GCF_000376445.1
+    - GCF_000196895.1
+    - GCF_009184545.1
+    - GCF_000026045.1
+    - GCF_025231485.1
+    - GCF_009831455.1
+    - GCF_001011115.1

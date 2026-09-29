@@ -11,7 +11,7 @@ suppressPackageStartupMessages({
 
 parse_args <- function() {
   parser <- ArgumentParser()
-  parser$add_argument("--input", default = file.path("data", "ncbi"))
+  parser$add_argument("--input", default = file.path("data", "genomes.tsv"))
   parser$add_argument("--output_dir", default = "data")
   parser$add_argument("--bins", type = "integer", default = 25)
   parser$add_argument("--max_codons", type = "integer", default = 1000)
@@ -164,17 +164,30 @@ summarize_codon_bias <- function(internal_codons) {
 
 main <- function() {
   args <- parse_args()
-  dir.create(args$output_dir, showWarnings = FALSE, recursive = TRUE)
+  if (!dir.exists(args$output_dir)) {
+    dir.create(args$output_dir, showWarnings = FALSE, recursive = TRUE)
+  }
 
-  accessions <- list_accessions(args$input, args$accession_pattern)
+  # import list of representative bacterial genomes (source: fastgenomics server)
+  df_genomes <- read_tsv(args$input, show_col_types = FALSE)
+
+  if (!is.na(args$limit) && args$limit > 0) {
+    df_genomes <- df_genomes %>% dplyr::slice(1:args$limit)
+  }
+
+  if (!nrow(df_genomes)) {
+    stop("No genomes to process after applying the current filters.")
+  }
+
+  accessions <- list_accessions(file.path(args$output_dir, "ncbi"), args$accession_pattern)
   if (!length(accessions)) {
-    stop("No accession directories found under: ", args$input)
+    stop("No accession directories found under: ", file.path(args$output_dir, "ncbi"))
   }
 
-  if (args$limit > 0) {
-    accessions <- head(accessions, args$limit)
+  accessions <- intersect(accessions, df_genomes$assemblyId)
+  if (!all(df_genomes$assemblyId %in% accessions)) {
+    warning("Some accessions from the genome table are not found in the NCBI directory.")
   }
-
   organism_lookup <- read_organism_lookup(args$output_dir)
 
   width_out <- vector("list", length(accessions))
@@ -184,7 +197,7 @@ main <- function() {
 
   for (i in seq_along(accessions)) {
     accession <- accessions[[i]]
-    files <- build_file_index(args$input, accession)
+    files <- build_file_index(file.path(args$output_dir, "ncbi"), accession)
 
     if (!file.exists(files$gff) || is.na(files$fna) || !file.exists(files$fna)) {
       message("[", i, "/", length(accessions), "] skipped ", accession, " (missing gff/fna)")

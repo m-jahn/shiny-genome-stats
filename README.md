@@ -18,13 +18,14 @@ R Shiny app to show basic statistics and features of microbial genomes.
 
 **Use the app at https://m-jahn.shinyapps.io/shiny-genome-stats/!**
 
-#### Running Locally
+### Test and development
 
 If you want to run or develop this app *locally*, you need to have R > 4.0.0 and some additional packages installed.
 
 This project is managed through [pixi](https://pixi.prefix.dev/latest/) environments and tasks (get pixi [here](https://pixi.prefix.dev/latest/installation/)).
 
-The required R packages are listed in the `pixi.toml` file. In order to activate the `shiny` environment, run:
+The required R packages are listed in the `pixi.toml` file.
+In order to activate e.g. the `shiny` environment, run:
 
 ```bash
 pixi shell -e shiny
@@ -36,18 +37,9 @@ And then run the app using:
 R -e "shiny::runApp('.')"
 ```
 
-There are predefined tasks in the `pixi.toml` file, so you might as well run the app with:
+There are predefined tasks in the `pixi.toml` file, and it is recommended to use them.
 
-```bash
-pixi run test
-```
-
-#### Alternative using Rstudio
-
-Open `global.R`, `server.R` or `ui.R` in RStudio and push the `Run App` button in Rstudio, done!
-You can also run the app from R console, just call `runApp("path-to-ShinyApp")`.
-
-### Input data
+#### Input data
 
 `shiny-genome-stats` uses prefetched data from NCBI obtained through the [datasets CLI](https://www.ncbi.nlm.nih.gov/datasets/genome/). The prefetch step downloads genome packages and caches the relevant metadata locally.
 
@@ -73,19 +65,31 @@ In order to collect codon statistics etc, run:
 pixi run stats
 ```
 
-In order to clean the download dir, run:
+After that, you can run the app using:
+
+```bash
+pixi run test
+```
+
+To deploy the app on [ShinyApps.io](https://www.shinyapps.io/), run:
+
+```bash
+pixi run deploy
+```
+
+Finally, in order to clean the download dir, run:
 
 ```bash
 pixi run clean
 ```
 
-### Shiny App
+### Shiny App structure
 
-This app consists of a set of R scripts that determine the functionality.
+This app consists of a set of R scripts that determine its functionality.
 
 - `global.R` loads packages, data sets, and `.yml` configuration files
 - `server.R` contains the main body of functions. The server obtains input parameters from the GUI and adjusts the graphical output accordingly (changes charts on the fly)
-- `ui.R` The GUI contains the interactive modules such as sliders and check boxes
+- `ui.R` contains the GUI, which includes the interactive modules such as sliders and check boxes
 - `scripts/<helper_functions>.R` - additional functions loaded when necessary, for example for data formatting and plotting
 
 ### Author(s)

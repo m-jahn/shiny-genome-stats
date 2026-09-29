@@ -49,7 +49,8 @@ df_stop_codons <- read_tsv(file.path(data_dir, "gene_wise_stop_codon_frequency.t
 df_sequences <- df_sequences %>%
   mutate(seq_lengths_top10 = str_remove_all(seq_lengths_top10, "c\\(|\\)") %>%
     str_split(", ") %>%
-    sapply(as.numeric))
+    lapply(as.numeric)
+  )
 
 # select and rename relevant summary columns
 df_summary <- df_summary %>%

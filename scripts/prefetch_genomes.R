@@ -120,7 +120,18 @@ fetch_ncbi_genome <- function(accession, temp_dir, datasets_bin = "datasets") {
 
   # if fetching of data succeeded, we also fetch genome reports in JSON format
   args <- c("summary", "genome", "accession", accession, "--report", "genome", "--as-json-lines")
-  system2(datasets_bin, args, stdout = TRUE, stderr = TRUE) %>%
+  json_raw <- system2(datasets_bin, args, stdout = TRUE, stderr = TRUE)
+  # test if the JSON output contains the expected accession information
+  if (length(json_raw) >= 2) {
+    data_item <- which(sapply(json_raw, function(x) str_detect(x, "\\{\"accession\":")))
+    if (length(data_item) == 0) {
+      warning("Failed to fetch genome summary in JSON format.")
+      return(NULL)
+    }
+  }
+
+  # if yes, we proceed to parse the JSON content
+  json_raw[data_item[1]] %>%
     jsonlite::fromJSON(simplifyVector = TRUE, flatten = TRUE) %>%
     unlist() %>%
     enframe(name = "name", value = "value") %>%
@@ -144,16 +155,16 @@ fetch_ncbi_genome <- function(accession, temp_dir, datasets_bin = "datasets") {
 # Main function to orchestrate the genome fetching and summarisation process
 main <- function() {
   # parse arguments
-  opts <- parse_args()
-  if (!dir.exists(opts$output_dir)) {
-    dir.create(opts$output_dir, recursive = TRUE, showWarnings = FALSE)
+  args <- parse_args()
+  if (!dir.exists(file.path(args$output_dir, "ncbi"))) {
+    dir.create(file.path(args$output_dir, "ncbi"), recursive = TRUE, showWarnings = FALSE)
   }
 
   # import list of representative bacterial genomes (source: fastgenomics server)
-  df_genomes <- read_tsv(opts$input, show_col_types = FALSE)
+  df_genomes <- read_tsv(args$input, show_col_types = FALSE)
 
-  if (!is.na(opts$limit)) {
-    df_genomes <- df_genomes %>% dplyr::slice(1:opts$limit)
+  if (!is.na(args$limit) && args$limit > 0) {
+    df_genomes <- df_genomes %>% dplyr::slice(1:args$limit)
   }
 
   if (!nrow(df_genomes)) {
@@ -172,9 +183,9 @@ main <- function() {
     message("[", i, "/", nrow(df_genomes), "] fetching ", accession)
 
     # create a temp dir and download the genome data
-    temp_dir <- file.path(opts$output_dir, "ncbi")
+    temp_dir <- file.path(args$output_dir, "ncbi")
     if (!dir.exists(file.path(temp_dir, accession))) {
-      ncbi_result <- fetch_ncbi_genome(accession, temp_dir, opts$datasets_bin)
+      ncbi_result <- fetch_ncbi_genome(accession, temp_dir, args$datasets_bin)
     } else {
       ncbi_result <- list(
         fasta_file = list.files(file.path(temp_dir, accession, "ncbi_dataset", "data", accession), pattern = "\\.fna$", full.names = TRUE)[1],
@@ -187,7 +198,8 @@ main <- function() {
       message(
         "Failed to fetch FASTA or GFF for accession: ",
         accession,
-        "\nSkipping this genome.")
+        "\nSkipping this genome."
+      )
       next
     }
 
@@ -216,11 +228,11 @@ main <- function() {
     dplyr::select(accession, organism, everything())
 
   # export the summary tables to the output directory
-  write_tsv(df_assembly, file.path(opts$output_dir, "genome_summary.tsv"))
-  write_tsv(df_fasta, file.path(opts$output_dir, "genome_sequences.tsv"))
-  write_tsv(df_gff, file.path(opts$output_dir, "genome_features.tsv"))
+  write_tsv(df_assembly, file.path(args$output_dir, "genome_summary.tsv"))
+  write_tsv(df_fasta, file.path(args$output_dir, "genome_sequences.tsv"))
+  write_tsv(df_gff, file.path(args$output_dir, "genome_features.tsv"))
 
-  message("Wrote genome summary tables to: ", opts$output_dir)
+  message("Wrote genome summary tables to: ", args$output_dir)
   message("- FASTA summary: genome_sequences.tsv")
   message("- GFF3 summary: genome_features.tsv")
   message("- ASSEMBLY summary: genome_summary.tsv")

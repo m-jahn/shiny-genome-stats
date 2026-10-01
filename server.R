@@ -186,7 +186,8 @@ server <- function(input, output, session) {
   output$genomeSummary <- renderDataTable({
     df <- df_features_selected() %>%
       dplyr::select(organism, region, gene, CDS) %>%
-      mutate(organism = abbreviate_org(organism))
+      mutate(organism = abbreviate_org(organism)) %>%
+      arrange(organism)
     if (is.null(df) || nrow(df) == 0) {
       return()
     } else {
@@ -201,7 +202,8 @@ server <- function(input, output, session) {
         `Assembly method`, `Completeness`, `Geographic location`,
         `Number of contigs`, `Total sequence length`
       ) %>%
-      mutate(organism = abbreviate_org(organism))
+      mutate(organism = abbreviate_org(organism)) %>%
+      arrange(organism)
     if (is.null(df) || nrow(df) == 0) {
       return()
     } else {

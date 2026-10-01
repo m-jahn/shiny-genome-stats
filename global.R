@@ -49,8 +49,7 @@ df_stop_codons <- read_tsv(file.path(data_dir, "gene_wise_stop_codon_frequency.t
 df_sequences <- df_sequences %>%
   mutate(seq_lengths_top10 = str_remove_all(seq_lengths_top10, "c\\(|\\)") %>%
     str_split(", ") %>%
-    lapply(as.numeric)
-  )
+    lapply(as.numeric))
 
 # select and rename relevant summary columns
 df_summary <- df_summary %>%
@@ -68,7 +67,8 @@ df_summary <- df_summary %>%
     `Total sequence length` = assembly_stats.total_sequence_length
   ) %>%
   mutate(
-    `Total sequence length` = `Total sequence length` / 10^6
+    `Total sequence length` = `Total sequence length` / 10^6,
+    across(matches("date"), ~ as.Date(.x))
   ) %>%
   distinct()
 
@@ -78,10 +78,12 @@ config <- configr::read.config("config/config.yml")
 # list of all available genomes
 list_genomes <- df_summary %>%
   dplyr::select(organism, accession) %>%
+  arrange(organism) %>%
   deframe()
 
 # list of preselected genomes (from config file)
 list_selected <- df_summary %>%
   dplyr::filter(accession %in% unlist(config$data$accession)) %>%
   dplyr::select(organism, accession) %>%
+  arrange(organism) %>%
   deframe()

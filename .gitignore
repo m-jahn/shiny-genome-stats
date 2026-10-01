@@ -6,5 +6,6 @@ scripts/download_*
 .Rproj.user
 *.Rproj
 # pixi environments
+pixi.lock
 .pixi/*
 !.pixi/config.toml
